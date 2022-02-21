@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>просмотр вкладки документов и возможность добавления новых</description>
+   <name>Менеджер Документы</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2177b188-5115-45d7-9da7-1ffd31541434</testCaseGuid>
+</TestCaseEntity>

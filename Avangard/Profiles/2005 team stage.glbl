@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>2005 team stage</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Калачёв</description>
+      <initValue>'TestAdmin@test.ru'</initValue>
+      <name>admin_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TestAdmin@test.ru'</initValue>
+      <name>admin_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Тренер</description>
+      <initValue>'levashev.ps@hc-avangard.com'</initValue>
+      <name>coach_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Darden41087'</initValue>
+      <name>coach_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Игрок для тестов</description>
+      <initValue>'dima.vlasenko18@mail.ru'</initValue>
+      <name>player_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'dima.vlasenko18'</initValue>
+      <name>player_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Тест доктор</description>
+      <initValue>'TestDoctor@mail.ru'</initValue>
+      <name>doktor_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TestDoctor@mail.ru'</initValue>
+      <name>doktor_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Еронко</description>
+      <initValue>'eronko.i@hc-avangard.com'</initValue>
+      <name>manager_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eronko.i'</initValue>
+      <name>manager_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stars-stage.hawk.ru:8080'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Власенко Дмитрий'</initValue>
+      <name>player_for_test</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Авангард-2005'</initValue>
+      <name>school</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Власенко'</initValue>
+      <name>player_for_test_1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'автотест - Авангард-2005'</initValue>
+      <name>event</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Авангард'</initValue>
+      <name>school_1</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

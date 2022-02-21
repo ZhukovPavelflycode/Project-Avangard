@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_  _sc-dVhcbM biUGMG TrainerGameEstima_2037e9</name>
+   <tag></tag>
+   <elementGuidId>4d31f52a-8304-4ec1-89d2-93fcb2dc1801</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.sc-dVhcbM.biUGMG.TrainerGameEstimationInput</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-dVhcbM biUGMG TrainerGameEstimationInput</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-cexcsO cFGwUF&quot;]/div[@class=&quot;sc-kjoXOD bOpiat ChessTemplate&quot;]/div[@class=&quot;sc-TOsTZ fYHaXZ Right&quot;]/div[@class=&quot;sc-erheUI kwiiJu&quot;]/div[@class=&quot;sc-gPEVay cQBXaj&quot;]/div[@class=&quot;sc-erheUI kwiiJu&quot;]/div[1]/div[@class=&quot;sc-bRyDhe ZzvQu&quot;]/div[@class=&quot;sc-hQrNYi eVQIGb&quot;]/div[@class=&quot;sc-hHRaiR ieeemK&quot;]/div[@class=&quot;sc-fsGQkc dOKSjN&quot;]/div[@class=&quot;sc-kQeHGI cLtcrR&quot;]/div[@class=&quot;sc-muxYx eOexJr&quot;]/input[@class=&quot;sc-dVhcbM biUGMG TrainerGameEstimationInput&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div[2]/div/div/div/div/div[2]/div[3]/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/input</value>
+   </webElementXpaths>
+</WebElementEntity>

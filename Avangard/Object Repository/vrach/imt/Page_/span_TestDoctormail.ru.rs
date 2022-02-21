@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_TestDoctormail.ru</name>
+   <tag></tag>
+   <elementGuidId>2512e6e0-9e0c-452d-aebc-ab94e25c0a57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-fjdhpX.bBZJDZ > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TestDoctor@mail.ru</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-keGeJD fILytY&quot;]/div[@class=&quot;sc-cHGsZl iheGMK BodyMassEstimationApp ChessTemplate&quot;]/div[@class=&quot;sc-TOsTZ fyiiKF Left&quot;]/div[@class=&quot;sc-kgoBCf gNWrkR&quot;]/div[@class=&quot;sc-eNQAEJ jDiYQq&quot;]/div[@class=&quot;sc-jKJlTe eOiHLv OptionsListContainer&quot;]/div[@class=&quot;sc-kGXeez eRlCLL&quot;]/div[@class=&quot;sc-hMqMXs sc-kkGfuU ccQQBa SidebarUserInfo&quot;]/div[@class=&quot;sc-ifAKCX dSelFF BottomUserPanel&quot;]/div[@class=&quot;sc-bZQynM bICKGP Right&quot;]/div[@class=&quot;sc-dnqmqq eDddns&quot;]/div[@class=&quot;sc-fjdhpX bBZJDZ&quot;]/span[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div[2]/div/div[2]/div/div/div[2]/div/div[2]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Врач Тест'])[1]/following::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Психофизиологический профиль'])[1]/following::span[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Врач'])[1]/preceding::span[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Выйти'])[1]/preceding::span[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='TestDoctor@mail.ru']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/span</value>
+   </webElementXpaths>
+</WebElementEntity>

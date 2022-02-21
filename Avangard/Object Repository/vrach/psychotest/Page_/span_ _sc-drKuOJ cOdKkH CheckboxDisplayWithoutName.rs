@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ _sc-drKuOJ cOdKkH CheckboxDisplayWithoutName</name>
+   <tag></tag>
+   <elementGuidId>d569fb25-2716-450b-8718-8a57720fa570</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CalendarBlock']/div/div[2]/div/div[2]/div/div/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.sc-drKuOJ.cOdKkH.CheckboxDisplayWithoutName</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-drKuOJ cOdKkH CheckboxDisplayWithoutName</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CalendarBlock&quot;)/div[@class=&quot;sc-dYzWWc sc-iLVFha ftHajq StudentDashboardCalendar&quot;]/div[@class=&quot;sc-jHXLhC hmxEWc&quot;]/div[@class=&quot;sc-aewfc bUecNl&quot;]/div[@class=&quot;sc-dvpmds fDaADk&quot;]/div[@class=&quot;sc-dwztqd uUVrr ChecklistItemTask&quot;]/div[@class=&quot;sc-fgrSAo kygVEX&quot;]/label[@class=&quot;sc-dyGzUR jsoyVx Checkbox&quot;]/span[@class=&quot;sc-drKuOJ cOdKkH CheckboxDisplayWithoutName&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CalendarBlock']/div/div[2]/div/div[2]/div/div/label/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span</value>
+   </webElementXpaths>
+</WebElementEntity>

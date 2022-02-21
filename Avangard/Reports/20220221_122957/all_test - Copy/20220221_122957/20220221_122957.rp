@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20220221_122957</name>
+   <tag></tag>
+   <displayName>20220221_122957</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220221_122957/Администратор/20220221_122958</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>omskie yastrebi STAGE (Ageev)</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 49,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220221_122957/Администратор/20220221_123000</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>2005 team stage</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 49,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220221_122957/Доктор/20220221_123002</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>omskie yastrebi STAGE (Ageev)</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 49,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220221_122957/Доктор/20220221_123004</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>2005 team stage</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 49,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220221_122957/Тренер/20220221_123006</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>omskie yastrebi STAGE (Ageev)</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 49,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220221_122957/Тренер/20220221_123008</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>2005 team stage</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 49,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220221_122957/Игрок/20220221_123010</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>omskie yastrebi STAGE (Ageev)</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 49,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220221_122957/Игрок/20220221_123012</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>2005 team stage</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 49,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/20220221_122957/Менеждер/20220221_123014</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <profileName>Manager</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 49,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </runConfigDescription>
+         <testCaseAmount>0</testCaseAmount>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+   <testSuiteCollectionId>Test Suites/all_test - Copy</testSuiteCollectionId>
+</ReportCollectionEntity>

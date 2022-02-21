@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>смоук + функциональное тестирование профиля администратора
+</description>
+   <name>Профиль Менеджера</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c919fb44-ff07-45fb-80df-97c8fbe76497</testCaseGuid>
+</TestCaseEntity>

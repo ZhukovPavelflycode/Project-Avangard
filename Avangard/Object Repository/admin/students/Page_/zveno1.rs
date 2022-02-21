@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>zveno1</name>
+   <tag></tag>
+   <elementGuidId>4adb8ab5-d275-46eb-a3c0-536ef5995806</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.LinesHistoryBlock__LinesAvailablePlayerContain-sc-1ejm1y0-0.hASgsL</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;simple-tabpanel-3&quot;]/div/div/div/div/div/div[1]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>LinesHistoryBlock__LinesAvailablePlayerContain-sc-1ejm1y0-0 hASgsL</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;simple-tabpanel-3&quot;)/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;personal-file-view-games__Wrapper-sc-1y3d9rw-0 kzcdGj&quot;]/div[@class=&quot;style__PersonalFilePreloaderContainer-sc-12qvwmx-11 frUNZD&quot;]/div[@class=&quot;style__PersonalFileTab-sc-12qvwmx-0 style__PersonalFileTabWithoutMargins-sc-12qvwmx-1 bxXYcJ&quot;]/div[@class=&quot;personal-file-view-games__Games-sc-1y3d9rw-1 bqgMFW&quot;]/div[@class=&quot;personal-file-view-games__GamesPart-sc-1y3d9rw-2 hagnFz&quot;]/div[@class=&quot;sticky&quot;]/div[@class=&quot;LinesHistoryBlock__BasketPartItem-sc-1ejm1y0-4 cwHRdl  active&quot;]/div[@class=&quot;LinesHistoryBlock__LinesAvailablePlayerContain-sc-1ejm1y0-0 hASgsL&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='simple-tabpanel-3']/div/div/div/div/div/div/div[2]/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div/div/div/div[2]/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

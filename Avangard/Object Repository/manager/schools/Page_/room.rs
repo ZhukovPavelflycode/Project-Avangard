@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>room</name>
+   <tag></tag>
+   <elementGuidId>52d60bfd-5037-49d6-a27d-c4828997f386</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-bCMXmc iQIXQu</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Сауна</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-eweNpc gEfBNK&quot;]/div[@class=&quot;sc-caSCKo hoPXgy ChessTemplate&quot;]/div[@class=&quot;sc-kjoXOD eUxBJX Right&quot;]/div[@class=&quot;sc-kxYOAa bfLdqn&quot;]/div[@class=&quot;sc-kGsDXJ fXhrBb&quot;]/div[@class=&quot;sc-rBLzX dfQkHP Wrapper&quot;]/div[@class=&quot;sc-hGoxap kaGTgg ContentPlaceholder&quot;]/div[@class=&quot;sc-Kgodr buHXaq&quot;]/div[@class=&quot;sc-fAMDQA boPGXH&quot;]/div[@class=&quot;sc-eerKOB fSGywt TableDefaultContainer&quot;]/div[@class=&quot;sc-emmjRN bTNvq container&quot;]/div[@class=&quot;sc-gJWqzi jQYIDl TableBody&quot;]/div[@class=&quot;sc-kxLnmX widMB&quot;]/div[@class=&quot;sc-lgsldV gzWVDJ&quot;]/div[@class=&quot;sc-ugnQR QnPg PaginatorWrapper&quot;]/div[@class=&quot;sc-keVrkP ftPEsN&quot;]/div[@class=&quot;sc-OqFzE gFtmbH&quot;]/div[@class=&quot;sc-cRULEh fOFmFk RoomItem&quot;]/div[@class=&quot;sc-bCMXmc iQIXQu&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Зал теоретической подготовки'])[1]/following::div[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Список всех помещений (10)'])[1]/following::div[11]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Игровой зал'])[1]/preceding::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Кардио'])[1]/preceding::div[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Сауна']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]/div/div/div/div/div/div[2]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>02857d26-a43f-4f24-89b6-d27afd9cf2a9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-dkBjDj.ddZBqx > svg > g > path</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>clip-rule</name>
+      <type>Main</type>
+      <value>evenodd</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M12.9333 3.60007C12.9333 3.23168 12.6358 2.93334 12.2699 2.93334C12.2667 3.30158 11.9708 3.6 11.6 3.6C11.2318 3.6 10.9333 3.30419 10.9333 2.93347L9.60001 2.93334C9.60001 3.30158 9.3041 3.6 8.93334 3.6C8.56515 3.6 8.26668 3.30419 8.26668 2.93347L6.93334 2.93334C6.93334 3.30158 6.63743 3.6 6.26668 3.6C5.89849 3.6 5.60001 3.30419 5.60001 2.93347L4.26668 2.93334C4.26668 3.30158 3.97077 3.6 3.60001 3.6C3.23182 3.6 2.93334 3.30419 2.93334 2.93347C2.56383 2.93334 2.26667 3.2313 2.26667 3.60007V4.93334H12.9333V3.60007ZM2.26667 6.26666V12.2666C2.26667 12.635 2.56421 12.9333 2.93007 12.9333H12.2699C12.6362 12.9333 12.9333 12.6354 12.9333 12.2666V6.26666H2.26667ZM14.2667 3.60007V12.2666C14.2667 13.3709 13.3734 14.2667 12.27 14.2667H2.93008C1.82703 14.2667 0.93335 13.3706 0.93335 12.2666V3.60007C0.93335 2.49572 1.82664 1.6 2.93008 1.6L2.93335 0.933201C2.93335 0.565082 3.22926 0.266663 3.60002 0.266663C3.96821 0.266663 4.26668 0.562474 4.26668 0.933201V1.6H5.60002V0.933201C5.60002 0.565082 5.89593 0.266663 6.26668 0.266663C6.63487 0.266663 6.93335 0.562474 6.93335 0.933201V1.6H8.26668V0.933201C8.26668 0.565082 8.56259 0.266663 8.93335 0.266663C9.30154 0.266663 9.60002 0.562474 9.60002 0.933201V1.6H10.9333V0.933201C10.9333 0.565082 11.2293 0.266663 11.6 0.266663C11.9682 0.266663 12.2667 0.562474 12.2667 0.933201V1.6C13.373 1.6 14.2667 2.49609 14.2667 3.60007Z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#C4C4C4</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-gUlDuu gaDAMP&quot;]/div[@class=&quot;sc-caSCKo hoPXgy undefined ChessTemplate&quot;]/div[@class=&quot;sc-kjoXOD eUxBJX Right&quot;]/div[@class=&quot;sc-fRQyQf gGKbKB&quot;]/div[@class=&quot;sc-juLlUl gCdRvN SkillAssessmentFilter&quot;]/div[@class=&quot;sc-bmlaxJ dcZUpE&quot;]/div[@class=&quot;popup-container popup-container_theme_alfa-on-white sidebar sidebar_visible sidebar_theme_alfa-on-white AddComment Sidebar&quot;]/div[@class=&quot;sidebar__inner&quot;]/div[@class=&quot;sidebar__content&quot;]/div[1]/div[@class=&quot;sc-TFwJa hNMqal Wrapper&quot;]/div[@class=&quot;Tab&quot;]/div[@class=&quot;sc-itybZL gaUzku ContentPlaceholder&quot;]/div[@class=&quot;sc-daECXU fNktXG&quot;]/div[@class=&quot;sc-gSzlYX gHYYoy&quot;]/div[@class=&quot;sc-hicclO hNgimo&quot;]/div[@class=&quot;sc-ejrmfU jqvAcc&quot;]/div[@class=&quot;sc-kNMmgt jMBCJk&quot;]/div[@class=&quot;sc-dkBjDj ddZBqx&quot;]/svg[1]/g[1]/path[1]</value>
+   </webElementProperties>
+</WebElementEntity>

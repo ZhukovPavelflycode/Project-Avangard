@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>77bdf667-9b19-424c-a9fa-2a6193e4f6d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M11.792 7.78235H9.15842V5.14874C9.15842 4.7853 8.86411 4.49033 8.5 4.49033C8.1359 4.49033 7.84158 4.7853 7.84158 5.14874V7.78235H5.20798C4.84387 7.78235 4.54956 8.07733 4.54956 8.44077C4.54956 8.80421 4.84387 9.09918 5.20798 9.09918H7.84158V11.7328C7.84158 12.0962 8.1359 12.3912 8.5 12.3912C8.86411 12.3912 9.15842 12.0962 9.15842 11.7328V9.09918H11.792C12.1561 9.09918 12.4504 8.80421 12.4504 8.44077C12.4504 8.07733 12.1561 7.78235 11.792 7.78235Z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#2C2C2C</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-kidJrC cQwxTT&quot;]/div[@class=&quot;sc-cHGsZl iheGMK ChessTemplate&quot;]/div[@class=&quot;sc-kgAjT gLMBNJ Right&quot;]/div[@class=&quot;sc-duqfIc gjnzkX&quot;]/div[@class=&quot;sc-fjmCvl kCgmGD Wrapper&quot;]/div[@class=&quot;Tab&quot;]/div[@class=&quot;sc-dTdPqK iIYbYs ContentPlaceholder&quot;]/div[1]/div[@class=&quot;sc-jsqJB hZiEaW&quot;]/div[@class=&quot;sc-dQRrkI jnTVbq&quot;]/div[@class=&quot;sc-gleUXh dNNBiM&quot;]/div[@class=&quot;popup-container popup-container_theme_alfa-on-white sidebar sidebar_visible sidebar_theme_alfa-on-white BodyMassIndexEstimationModal BodyMassIndexEstimationModal_create Sidebar&quot;]/div[@class=&quot;sidebar__inner&quot;]/div[@class=&quot;sidebar__content&quot;]/div[1]/div[@class=&quot;sc-kJhCQv lkpcTU&quot;]/div[@class=&quot;sc-fjmCvl kCgmGD Wrapper&quot;]/div[@class=&quot;Tab&quot;]/div[@class=&quot;sc-dTdPqK iIYbYs ContentPlaceholder&quot;]/div[@class=&quot;sc-kNEibC fHFdTU&quot;]/div[@class=&quot;sc-bFNFop iGIPTz&quot;]/div[@class=&quot;sc-kAEDjP dtuFnC&quot;]/div[@class=&quot;sc-fSCxDp jOxvLj&quot;]/div[@class=&quot;sc-hGqLPS ejmVGh&quot;]/div[@class=&quot;sc-ifzvzx kXrxNN&quot;]/div[@class=&quot;sc-NGAnU jiZYsd&quot;]/button[@class=&quot;sc-jlyJG cgafQz&quot;]/svg[1]/g[1]/path[2]</value>
+   </webElementProperties>
+</WebElementEntity>

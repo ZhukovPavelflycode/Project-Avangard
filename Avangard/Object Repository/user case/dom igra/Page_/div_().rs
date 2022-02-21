@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_()</name>
+   <tag></tag>
+   <elementGuidId>57d0190c-e570-4b83-b6ef-b55e4ab69f83</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.sidebar__inner</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/form/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sidebar__inner</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Добавить мероприятиеТип мероприятияИгра команды (домашняя)Дата началаВремя началаДата окончанияВремя окончанияШколаАкадемия &quot;Авангард&quot;  г. ОмскКомандаОмские ЯстребыКоманда соперникаИгрокиАликов АльбертАликов АртурАнаньин ЕгорБережной СтаниславГанин ДанилаГригорьев НикитаГуляев МихаилДемидов ИгорьКазачек АнтонКоцюбайло ИльяЛеука ПавелМалов ВячеславМалов ДенисМуханов ТимурНагибин АртёмПерфильев АндрейПодлягин НикитаРейнгардт ИльяРодионов ЕгорРомакер МатвейСвищев АртемСыслов ДанилФесенко ДаниилФигурин АлександрФилатьев АлександрХворов НиколайХлопиков ДмитрийХолодилин НикитаЯдыкин ЕгорВласенко ДмитрийМесто проведенияБольшая аренаРаздевалкаВыбратьСсылка на игруЗакрытьДобавить</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-jlVMsS jLlfjT LayoutContainer&quot;]/div[@class=&quot;sc-gisBJw hJYoUY ChessTemplate&quot;]/div[@class=&quot;sc-cHGsZl gkMolC Right&quot;]/div[@class=&quot;sc-dPrnFZ jTyxkg&quot;]/div[@class=&quot;sc-drlKqa fqYcTA mainCalendar&quot;]/form[@class=&quot;sc-gldTML gUBlFI&quot;]/div[@class=&quot;sc-eLdqWK jYrdnE&quot;]/div[@class=&quot;popup-container popup-container_theme_alfa-on-white sidebar sidebar_visible sidebar_theme_alfa-on-white EventModal EventModal_create Sidebar&quot;]/div[@class=&quot;sidebar__inner&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/form/div/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Зал кардиоподготовки'])[1]/following::div[39]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Омские Ястребы;'])[1]/following::div[39]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

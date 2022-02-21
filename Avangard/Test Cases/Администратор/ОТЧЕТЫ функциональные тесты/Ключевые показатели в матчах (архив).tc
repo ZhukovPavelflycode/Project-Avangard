@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>функциональный тест</description>
+   <name>Ключевые показатели в матчах (архив)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dd60b047-3eec-49c1-ae4b-c8f4e49747d7</testCaseGuid>
+</TestCaseEntity>

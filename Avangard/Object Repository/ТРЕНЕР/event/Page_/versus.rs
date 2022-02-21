@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>versus</name>
+   <tag></tag>
+   <elementGuidId>dc24208e-2e03-441a-a7b4-9795b4a11345</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;rival&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='rival']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Введите название команды соперника</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>rival</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-kGeDwz bEMsXZ</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-dKJIhD dqogtp LayoutContainer&quot;]/div[@class=&quot;sc-dVhcbM hiidKm ChessTemplate&quot;]/div[@class=&quot;sc-fAjcbJ eVflEW Right&quot;]/div[@class=&quot;sc-fbkmYA eQIjeO&quot;]/div[@class=&quot;sc-gjcKCj gQuQcP&quot;]/div[@class=&quot;sc-gNmWso gcvQqP&quot;]/div[@class=&quot;sc-eYTUqP gnyNQV&quot;]/div[@class=&quot;sc-bhVptL indiPA&quot;]/div[@class=&quot;sc-bnXvFD iFtDPs Wrapper&quot;]/div[@class=&quot;sc-gJWqzi bTffPK ContentPlaceholder&quot;]/div[@class=&quot;sc-goBNrf hLyLPw&quot;]/div[@class=&quot;sc-gxbSSY laTmnl SchoolLessonsPanel SchoolLessonsPanel_teacher&quot;]/div[1]/div[@class=&quot;sc-klSiHT fQiyMl mainCalendar&quot;]/div[@class=&quot;mainCalendar__preloaderWrapper&quot;]/form[@class=&quot;sc-csSMhA jJOIcF&quot;]/div[@class=&quot;sc-hcmgZB jkUxoD&quot;]/div[@class=&quot;popup-container popup-container_theme_alfa-on-white sidebar sidebar_visible sidebar_theme_alfa-on-white EventModal EventModal_create Sidebar&quot;]/div[@class=&quot;sidebar__inner&quot;]/div[@class=&quot;sidebar__content&quot;]/div[1]/form[@class=&quot;sc-csSMhA jJOIcF&quot;]/div[@class=&quot;sc-bscRGj kwiFFg&quot;]/div[@class=&quot;sc-hlELIx iNzYnU&quot;]/div[@class=&quot;sc-erOsFi sc-cIwbeI hRJWxy&quot;]/input[@class=&quot;sc-kGeDwz bEMsXZ&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='rival']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]/form/div/div/div[2]/div/div/form/div/div[4]/div[3]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/input</value>
+   </webElementXpaths>
+</WebElementEntity>

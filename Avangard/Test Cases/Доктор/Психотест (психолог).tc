@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Психотест (психолог)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>89c40c10-fef2-4c2c-ab0b-3c9f04b7ce27</testCaseGuid>
+   <variable>
+      <defaultValue>'тестовый план автотест '</defaultValue>
+      <description></description>
+      <id>cbc2173c-98a0-4035-8981-d115a66b3747</id>
+      <masked>false</masked>
+      <name>plan</name>
+   </variable>
+   <variable>
+      <defaultValue>'тестовая задача автотест'</defaultValue>
+      <description></description>
+      <id>969ba22d-0212-46b6-ad27-224dfca13b8d</id>
+      <masked>false</masked>
+      <name>zadacha</name>
+   </variable>
+</TestCaseEntity>

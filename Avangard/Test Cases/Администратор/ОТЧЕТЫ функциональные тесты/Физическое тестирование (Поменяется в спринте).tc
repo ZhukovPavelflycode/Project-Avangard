@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>функцуиональное тестирование</description>
+   <name>Физическое тестирование (Поменяется в спринте)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a528d1ca-253b-4c5f-8bbe-cbbdc34665e7</testCaseGuid>
+</TestCaseEntity>

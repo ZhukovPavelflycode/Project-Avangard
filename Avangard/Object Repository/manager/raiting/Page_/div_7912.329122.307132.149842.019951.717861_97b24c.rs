@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_7912.329122.307132.149842.019951.717861_97b24c</name>
+   <tag></tag>
+   <elementGuidId>39c388e2-8791-4ec2-8a04-b5300fa025f3</elementGuidId>
+   <imagePath>Screenshots/Targets/Object Repository/manager/raiting/Page_/div_7912.329122.307132.149842.019951.717861_97b24c.png</imagePath>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-jvJfuv.eCjsaQ</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value>Screenshots/Targets/Object Repository/manager/raiting/Page_/div_7912.329122.307132.149842.019951.717861_97b24c.png</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-jvJfuv eCjsaQ</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>НападающиеЗащитникиВратариИгрокРейтингБаллыИгрокРейтингБаллыИгрокРейтингБаллы79МашковВладимир1место2.3291АсташевскийСемен2место2.3071ТрикозовГлеб3место2.1498ГазизовРуслан42.0199СавченкоНикита51.7178ЛеукаПавел61.0997ХолодилинНикита71.0983ЧерниковИлья80.9442МигурАндрей90.8555ДудинДанила100.7945СвищевАртем110.5826ГанинДанила120.5175ДавыдовТимофей1место2.8634МурылевАртем2место2.4639ТетеринОлег3место2.3076КазачекАнтон42.2133ФигуринАлександр52.1168ФоменкоДанила61.93</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-cseMdb bhvxyO&quot;]/div[@class=&quot;sc-fAjcbJ eyFHvV undefined ChessTemplate&quot;]/div[@class=&quot;sc-gisBJw lBZmU Right&quot;]/div[@class=&quot;sc-iBlNuT jdneRm&quot;]/div[@class=&quot;sc-jvJfuv eCjsaQ&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Омские Ястребы'])[1]/following::div[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Команда'])[1]/following::div[11]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

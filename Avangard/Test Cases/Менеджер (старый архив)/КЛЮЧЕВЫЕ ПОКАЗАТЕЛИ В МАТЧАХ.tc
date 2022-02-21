@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>проверка наличия элементов в отчете</description>
+   <name>КЛЮЧЕВЫЕ ПОКАЗАТЕЛИ В МАТЧАХ</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cc6ea0ee-62b4-41bc-a588-c2a0f41dafcd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ _background-color-white react-datepi_9dfda8</name>
+   <tag></tag>
+   <elementGuidId>0489288a-74b6-4fca-bc19-9c114cd8b22e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.background-color-white.react-datepicker-ignore-onclickoutside</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value='13:15'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>background-color-white react-datepicker-ignore-onclickoutside</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>13:15</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-cexcsO cFGwUF&quot;]/div[@class=&quot;sc-kjoXOD bOpiat ChessTemplate&quot;]/div[@class=&quot;sc-TOsTZ fYHaXZ Right&quot;]/div[@class=&quot;sc-dDJTWM gQeNNa&quot;]/div[@class=&quot;sc-lfEzOC djMPBY&quot;]/div[@class=&quot;sc-CtfFt fXDaGy Wrapper&quot;]/div[@class=&quot;sc-TFwJa cmaiWo ContentPlaceholder&quot;]/div[@class=&quot;sc-fThejE iNlobT&quot;]/div[@class=&quot;sc-krDsej hUgqOt Wrapper&quot;]/div[@class=&quot;Tab&quot;]/div[@class=&quot;sc-fzsDOv ilrzWs ContentPlaceholder&quot;]/div[@class=&quot;sc-ctwKVn lhJNmv&quot;]/div[@class=&quot;popup-container popup-container_theme_alfa-on-white sidebar sidebar_visible sidebar_theme_alfa-on-white AddEventSidebar&quot;]/div[@class=&quot;sidebar__inner&quot;]/div[@class=&quot;sidebar__content&quot;]/div[1]/div[@class=&quot;sc-iWadT boLDIj AwayGameForm&quot;]/div[@class=&quot;sc-cAJUJo sc-cmUJln dswfmK&quot;]/div[@class=&quot;sc-ZUflv grUrrJ halfWidthField&quot;]/div[@class=&quot;react-datepicker-wrapper&quot;]/div[@class=&quot;react-datepicker__input-container&quot;]/input[@class=&quot;background-color-white react-datepicker-ignore-onclickoutside&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value='13:15'])[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[3]/div[2]/div/div/div[2]/div[5]/div[2]/div[2]/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div[2]/div/input</value>
+   </webElementXpaths>
+</WebElementEntity>

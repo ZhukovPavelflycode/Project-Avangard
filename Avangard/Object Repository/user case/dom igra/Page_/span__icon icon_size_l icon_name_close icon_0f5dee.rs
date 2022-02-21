@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span__icon icon_size_l icon_name_close icon_0f5dee</name>
+   <tag></tag>
+   <elementGuidId>cddd0c24-1660-4fa3-9744-8eeda0d40dce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.icon.icon_size_l.icon_name_close.icon_theme_alfa-on-white</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/form/div/div/div[2]/header/div/button/span/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon icon_size_l icon_name_close icon_theme_alfa-on-white</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-jlVMsS jLlfjT LayoutContainer&quot;]/div[@class=&quot;sc-gisBJw hJYoUY ChessTemplate&quot;]/div[@class=&quot;sc-cHGsZl gkMolC Right&quot;]/div[@class=&quot;sc-dPrnFZ jTyxkg&quot;]/div[@class=&quot;sc-drlKqa fqYcTA mainCalendar&quot;]/form[@class=&quot;sc-gldTML gUBlFI&quot;]/div[@class=&quot;sc-eLdqWK jYrdnE&quot;]/div[@class=&quot;popup-container popup-container_theme_alfa-on-white sidebar sidebar_visible sidebar_theme_alfa-on-white EventModal EventModal_create Sidebar&quot;]/div[@class=&quot;sidebar__inner&quot;]/header[@class=&quot;sidebar__header&quot;]/div[@class=&quot;sidebar__closer&quot;]/button[@class=&quot;icon-button icon-button_size_l icon-button_hovered icon-button_theme_alfa-on-white&quot;]/span[@class=&quot;icon-button__content&quot;]/span[@class=&quot;icon-button__text&quot;]/span[@class=&quot;icon icon_size_l icon_name_close icon_theme_alfa-on-white&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/form/div/div/div[2]/header/div/button/span/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span/span</value>
+   </webElementXpaths>
+</WebElementEntity>

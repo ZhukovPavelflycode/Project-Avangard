@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pos4</name>
+   <tag></tag>
+   <elementGuidId>f0a0a415-5eba-4047-be8a-b31201ec03e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-player-line-number = '1' and @data-player-position = 'лз']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-jWojfa.bewitZ.EmptyCard</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='printme']/div/div[4]/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-player-line-number</name>
+      <type>Main</type>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-player-position</name>
+      <type>Main</type>
+      <value>лз</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-jWojfa bewitZ EmptyCard</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>лзНазначить сюда</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;printme&quot;)/div[@class=&quot;sc-fJcSLO gToCqm LinesTab&quot;]/div[@class=&quot;sc-hMxnfS hgwggX LinesTabLines&quot;]/div[@class=&quot;sc-goaJZs jWAWJd LinesTabLineContainer&quot;]/div[@class=&quot;sc-ifCgiG ewabvG LinesTabLine&quot;]/div[@class=&quot;sc-iQUpkq sc-kHGQNE fbVpwU LinesTabLineColumnDefensemen&quot;]/div[@class=&quot;sc-gOaiZX bYeroe TeacherHockeyLinesPlayerCards&quot;]/div[@class=&quot;sc-jWojfa bewitZ EmptyCard&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='printme']/div/div[4]/div/div/div[2]/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Добавить в избранное'])[1]/following::div[29]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Очистить состав звеньев'])[1]/following::div[29]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Атакующая линия'])[2]/preceding::div[84]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Оборонительная линия'])[2]/preceding::div[86]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div[2]/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

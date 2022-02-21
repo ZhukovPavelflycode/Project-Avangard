@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__1zadacha</name>
+   <tag></tag>
+   <elementGuidId>3b55d6a6-1170-49d2-9870-02f2ca2b27d2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Задачи']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-kJhCQv.lkpcTU > div.sc-fjmCvl.kCgmGD.Wrapper > div.sc-TFwJa.eTFOrm.TabNamesItems.TabItemsBlock > div.sc-bHwgHz.cpygtu.TabName</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Задачи' or . = 'Задачи')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-bHwgHz cpygtu TabName</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Задачи</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-kidJrC cQwxTT&quot;]/div[@class=&quot;sc-cHGsZl iheGMK ChessTemplate&quot;]/div[@class=&quot;sc-kgAjT gLMBNJ Right&quot;]/div[@class=&quot;sc-duqfIc gjnzkX&quot;]/div[@class=&quot;sc-fjmCvl kCgmGD Wrapper&quot;]/div[@class=&quot;Tab&quot;]/div[@class=&quot;sc-dTdPqK iIYbYs ContentPlaceholder&quot;]/div[1]/div[@class=&quot;sc-jsqJB hZiEaW&quot;]/div[@class=&quot;sc-dQRrkI jnTVbq&quot;]/div[@class=&quot;sc-gleUXh dNNBiM&quot;]/div[@class=&quot;popup-container popup-container_theme_alfa-on-white sidebar sidebar_visible sidebar_theme_alfa-on-white BodyMassIndexEstimationModal BodyMassIndexEstimationModal_create Sidebar&quot;]/div[@class=&quot;sidebar__inner&quot;]/div[@class=&quot;sidebar__content&quot;]/div[1]/div[@class=&quot;sc-kJhCQv lkpcTU&quot;]/div[@class=&quot;sc-fjmCvl kCgmGD Wrapper&quot;]/div[@class=&quot;sc-TFwJa eTFOrm TabNamesItems TabItemsBlock&quot;]/div[@class=&quot;sc-bHwgHz cpygtu TabName&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[2]/div[3]/div/div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='План тренировок'])[1]/following::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paragraph'])[1]/following::div[20]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Название тренировки'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Помещение'])[1]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Задачи']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

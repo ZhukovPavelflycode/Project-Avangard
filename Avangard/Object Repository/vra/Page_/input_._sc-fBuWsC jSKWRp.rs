@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_._sc-fBuWsC jSKWRp</name>
+   <tag></tag>
+   <elementGuidId>90591436-2435-4def-9ba2-b4aa4e3d51f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.sc-fBuWsC.jSKWRp</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-fBuWsC jSKWRp</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-gUlDuu gaDAMP&quot;]/div[@class=&quot;sc-caSCKo hoPXgy undefined ChessTemplate&quot;]/div[@class=&quot;sc-kjoXOD eUxBJX Right&quot;]/div[@class=&quot;sc-fRQyQf gGKbKB&quot;]/div[@class=&quot;sc-juLlUl gCdRvN SkillAssessmentFilter&quot;]/div[@class=&quot;sc-bmlaxJ dcZUpE&quot;]/div[@class=&quot;popup-container popup-container_theme_alfa-on-white sidebar sidebar_visible sidebar_theme_alfa-on-white AddComment Sidebar&quot;]/div[@class=&quot;sidebar__inner&quot;]/div[@class=&quot;sidebar__content&quot;]/div[1]/div[@class=&quot;sc-TFwJa hNMqal Wrapper&quot;]/div[@class=&quot;Tab&quot;]/div[@class=&quot;sc-itybZL gaUzku ContentPlaceholder&quot;]/div[@class=&quot;sc-cNSHWK dxVyyK&quot;]/div[@class=&quot;sc-iOqSUu bcZWlw&quot;]/div[@class=&quot;sc-ierxZD hIjNZF&quot;]/div[@class=&quot;sc-kNfpjq defKTl&quot;]/input[@class=&quot;sc-fBuWsC jSKWRp&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/div[3]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/input</value>
+   </webElementXpaths>
+</WebElementEntity>

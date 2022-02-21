@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Avangard New/Object (Тренер)/add",
+      "brokenLocator": "/html/body/div[1]/div[1]/div/div[2]/div/div/div[2]/div/div/div[2]/form/div/div/div[2]/div/div/div[2]/div[3]/div/div[2]/div/div[1]/div/div/button",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Задачи\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220221_122957"
+    }
+  ]
+}

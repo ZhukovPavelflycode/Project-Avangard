@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_   -  _sc-kjKmiN bYciMH</name>
+   <tag></tag>
+   <elementGuidId>13d17896-c5b9-46d6-a095-976ec38b6b6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/div[9]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-kjKmiN.bYciMH</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.englishpatient.org/english-patient-files/b2f0983b-e676-40f5-b7c9-dc431bf50ca3.jpg</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-kjKmiN bYciMH</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-epYIkJ hAnxTb&quot;]/div[@class=&quot;sc-cHGsZl iheGMK ChessTemplate&quot;]/div[@class=&quot;sc-kgAjT gLMBNJ Right&quot;]/div[@class=&quot;sc-limVHe iIzKoo&quot;]/div[@class=&quot;sc-LbPHZ kDGDJG&quot;]/div[@class=&quot;sc-gsCAQV cLjofK&quot;]/div[@class=&quot;sc-gTwXSI hEvQCu&quot;]/div[@class=&quot;sc-kjKmiN bYciMH&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div[9]/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input__Search</name>
+   <tag></tag>
+   <elementGuidId>3b72cead-7ae5-4fa9-88aa-af2e67061603</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div[2]/div/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.Input-sc-rbewbw-0.duYQbr.Search</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Поиск</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Input-sc-rbewbw-0 duYQbr Search</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;RouterApp__Wrapper-sc-itp1b8-0 fGnCKq LayoutContainer&quot;]/div[@class=&quot;ChessTemplate__Wrapper-sc-o4z6mm-0 cMIiDp ChessTemplate&quot;]/div[@class=&quot;ChessTemplate__Right-sc-o4z6mm-2 evkQso Right&quot;]/div[@class=&quot;AllStudentsPanel__Wrapper-sc-kx7bpj-0 kGAWzT&quot;]/div[@class=&quot;TableDefault__Wrapper-sc-t4zu4e-0 gAtJor TableDefaultContainer players-table&quot;]/div[@class=&quot;TableDefault__Container-sc-t4zu4e-1 leYvCZ container&quot;]/div[@class=&quot;TableDefault__TableBody-sc-t4zu4e-8 hxVXxi TableBody&quot;]/div[@class=&quot;AllStudentsPanel__StudentsBlock-sc-kx7bpj-5 ctlgHG&quot;]/div[@class=&quot;AllStudentsPanel__TopSearchPlaceholder-sc-kx7bpj-10 kyAbMM&quot;]/input[@class=&quot;Input-sc-rbewbw-0 duYQbr Search&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div[2]/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Поиск']</value>
+   </webElementXpaths>
+</WebElementEntity>

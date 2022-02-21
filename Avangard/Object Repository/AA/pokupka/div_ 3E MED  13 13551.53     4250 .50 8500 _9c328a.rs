@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ 3E MED  13 13551.53     4250 .50 8500 _9c328a</name>
+   <tag></tag>
+   <elementGuidId>c6535d02-6856-4c23-821b-3a78bf74f011</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layout']/div[2]/div/div[2]/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div._-_-src-modules-Mlm-MlmPoints-___style__mlmSummary___2qtFI</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_-_-src-modules-Mlm-MlmPoints-___style__mlmSummary___2qtFI</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Покупка балловГлавная3E MEDПокупка балловОкоВсевидящее 13Мои баллы13551.53Сколько вы хотите купить?Выберите готовое предложение4 250 руб.50 баллов8 500 руб.100 баллов21 250 руб.250 балловУказать свою суммуКол-во балловСумма в руб.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layout&quot;)/div[@class=&quot;_-_-src-components-componentKit2-___layout__layoutInner___3qSRs _-_-src-___index2__layout__inner___Mts3C undefined&quot;]/div[@class=&quot;_-_-src-components-componentKit2-___layout__grid___3tN4B _-_-src-___index2__grid___2FOUr&quot;]/div[@class=&quot;_-_-src-components-componentKit2-___layout__gridCellLayoutContentPocket34___3K3vW _-_-src-components-componentKit2-___layout__width75___dUSvB _-_-src-___index2__grid__cell___3sCh5&quot;]/div[@class=&quot;_-_-src-components-componentKit2-___layout__layoutWrap___I17Wy _-_-src-components-componentKit2-___layout__layoutWrapSmm___Rc2mr&quot;]/div[1]/div[@class=&quot;_-_-src-modules-Mlm-MlmPoints-___style__mlmSummary___2qtFI&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layout']/div[2]/div/div[2]/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Вопросы и предложения'])[1]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Вопросы'])[1]/following::div[6]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

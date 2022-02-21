@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_0..0</name>
+   <tag></tag>
+   <elementGuidId>9347c597-5dec-45ae-9cad-eefb15e777bc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.react-daterange-picker__wrapper</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>react-daterange-picker__wrapper</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>.0.–.0.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-gUlDuu gaDAMP&quot;]/div[@class=&quot;sc-caSCKo hoPXgy undefined ChessTemplate&quot;]/div[@class=&quot;sc-kjoXOD eUxBJX Right&quot;]/div[@class=&quot;sc-fRQyQf gGKbKB&quot;]/div[@class=&quot;sc-juLlUl gCdRvN SkillAssessmentFilter&quot;]/div[@class=&quot;sc-bmlaxJ dcZUpE&quot;]/div[@class=&quot;popup-container popup-container_theme_alfa-on-white sidebar sidebar_visible sidebar_theme_alfa-on-white AddComment Sidebar&quot;]/div[@class=&quot;sidebar__inner&quot;]/div[@class=&quot;sidebar__content&quot;]/div[1]/div[@class=&quot;sc-TFwJa hNMqal Wrapper&quot;]/div[@class=&quot;Tab&quot;]/div[@class=&quot;sc-itybZL gaUzku ContentPlaceholder&quot;]/div[@class=&quot;sc-cNSHWK dxVyyK&quot;]/div[@class=&quot;sc-iOqSUu bcZWlw&quot;]/div[@class=&quot;sc-ierxZD hIjNZF&quot;]/div[@class=&quot;sc-kNfpjq defKTl&quot;]/div[@class=&quot;react-daterange-picker react-daterange-picker--closed react-daterange-picker--enabled RangePicker&quot;]/div[@class=&quot;react-daterange-picker__wrapper&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/div[2]/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='освобождение от тренировок'])[1]/following::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Питание'])[1]/following::div[19]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div/div[2]/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

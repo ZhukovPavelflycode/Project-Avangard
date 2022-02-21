@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_9</name>
+   <tag></tag>
+   <elementGuidId>632088cd-a53f-4a52-9c41-0654f86027d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;root&quot;]/div[1]/div/div[2]/form/div[1]/div/div[2]/table/tbody/tr[3]/td[2]/div/label[9]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-ezlEVz iCwsAt</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>9</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-fTKwPO kBEGMS LayoutContainer&quot;]/div[@class=&quot;sc-dVhcbM hiidKm ChessTemplate&quot;]/div[@class=&quot;sc-fAjcbJ eVflEW Right&quot;]/form[@class=&quot;sc-hzkpqV jUudtG&quot;]/div[@class=&quot;sc-cNQqM fXqMWl TableDefaultContainer&quot;]/div[@class=&quot;sc-clBsIJ jWahnY container&quot;]/div[@class=&quot;sc-cNnxps gqVsSl TableBody&quot;]/table[@class=&quot;sc-bGFvgJ RJFwR&quot;]/tbody[@class=&quot;sc-dhmstB jvivXh&quot;]/tr[@class=&quot;sc-bgxRrC jpqhA&quot;]/td[@class=&quot;sc-dpzcke jzZWvJ&quot;]/div[@class=&quot;RadioGroup&quot;]/label[@class=&quot;sc-eblWgb jyiqCI&quot;]/span[@class=&quot;sc-ezlEVz iCwsAt&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/form/div/div/div[2]/table/tbody/tr[3]/td[2]/div/label[9]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Шкала оценки'])[1]/following::span[19]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Параметр'])[1]/following::span[19]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Без оценки'])[2]/preceding::span[52]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Параметр'])[2]/preceding::span[53]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[2]/div/label[9]/span</value>
+   </webElementXpaths>
+</WebElementEntity>

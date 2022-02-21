@@ -1,0 +1,70 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Доктор,Linux - Chrome 97.0.4692.71,,,2022-02-21 12:30:26,2022-02-21 12:48:45,"18m - 19,357s",FAILED
+,,,,,,,
+Test Cases/Доктор/Проверка вкладки Питание,Linux - Chrome 97.0.4692.71,,,2022-02-21 12:30:27,2022-02-21 12:34:09,"3m - 42,059s",FAILED
+"callTestCase(findTestCase(""Доктор/Авторизация врач""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:30:32,2022-02-21 12:32:22,"1m - 49,666s",PASSED
+"click(findTestObject(""Object Repository/vrach/imt/Page_/IMT""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:32:22,2022-02-21 12:32:30,"8,069s",PASSED
+"click(findTestObject(""Object Repository/vrach/imt/Page_/school""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:32:30,2022-02-21 12:32:33,"3,241s",PASSED
+"click(findTestObject(""Object Repository/vrach/imt/Page_/div_ (2)""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:32:33,2022-02-21 12:32:35,"1,956s",PASSED
+"click(findTestObject(""Object Repository/vrach/imt/Page_/team""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:32:35,2022-02-21 12:32:37,"2,209s",PASSED
+"click(findTestObject(""Object Repository/vrach/imt/Page_/OYA""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:32:37,2022-02-21 12:32:40,"2,365s",PASSED
+"click(findTestObject(""Object Repository/vrach/imt/Page_/edit""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:32:40,2022-02-21 12:32:45,"5,109s",PASSED
+"scrollToElement(findTestObject(""Object Repository/vrach/imt/Page_/trikozov""), 0)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:32:45,2022-02-21 12:32:45,"0,001s",NOT_RUN
+"click(findTestObject(""Object Repository/vrach/imt/Page_/trikozov""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:32:45,2022-02-21 12:32:47,"2,547s",PASSED
+"click(findTestObject(""Object Repository/vrach/imt/Page_/recomend""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:32:47,2022-02-21 12:33:21,"33,491s",PASSED
+"click(findTestObject(""Object Repository/vrach/imt/Page_/tiprecomend""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:33:21,2022-02-21 12:33:23,"2,168s",PASSED
+"click(findTestObject(""Object Repository/vrach/imt/Page_/addtask""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:33:23,2022-02-21 12:33:25,"2,103s",PASSED
+"setText(findTestObject(""Object Repository/vrach/imt/Page_/input_ _sc-eqIVtm fYABJt""), ""автотест проверка ИМТ"")",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:33:25,2022-02-21 12:34:07,"41,820s",FAILED
+,,,,,,,
+Test Cases/Доктор/Просмотр профиля,Linux - Chrome 97.0.4692.71,,,2022-02-21 12:34:09,2022-02-21 12:37:09,"2m - 59,587s",PASSED
+"callTestCase(findTestCase(""Доктор/Авторизация врач""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:34:09,2022-02-21 12:36:53,"2m - 43,513s",PASSED
+"click(findTestObject(""Object Repository/vrach/profile/Page_/span_TestDoctormail.ru""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:36:53,2022-02-21 12:37:01,"8,365s",PASSED
+"click(findTestObject(""Object Repository/vrach/profile/Page_/save""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:37:01,2022-02-21 12:37:04,"2,744s",PASSED
+"verifyTextPresent(""Пользователь сохранен"", true)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:37:04,2022-02-21 12:37:06,"2,074s",PASSED
+"click(findTestObject(""Object Repository/vrach/profile/Page_/exit""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:37:06,2022-02-21 12:37:08,"2,012s",PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,,,2022-02-21 12:37:08,2022-02-21 12:37:09,"0,623s",PASSED
+,,,,,,,
+Test Cases/Доктор/Психотест (психолог),Linux - Chrome 97.0.4692.71,,,2022-02-21 12:37:09,2022-02-21 12:40:03,"2m - 54,517s",PASSED
+"openBrowser("""")",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:37:09,2022-02-21 12:39:00,"1m - 50,289s",PASSED
+maximizeWindow(),Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:00,2022-02-21 12:39:00,"0,602s",PASSED
+"navigateToUrl(""https://stars-stage.hawk.ru:8080/"")",Linux - Chrome 97.0.4692.71,адрес сайта ,,2022-02-21 12:39:00,2022-02-21 12:39:06,"6,048s",PASSED
+"setText(findTestObject(""Avangard New/Object (Психолог)/login (Логин Психолог)""), ""psychoTEST@mail.ru"")",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:06,2022-02-21 12:39:10,"4,292s",PASSED
+"setText(findTestObject(""Avangard New/Object (Психолог)/password (Пароль Психолог)""), ""psychoTEST@mail.ru"", STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:10,2022-02-21 12:39:15,"4,366s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/go""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:15,2022-02-21 12:39:17,"2,072s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/psychotest""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:17,2022-02-21 12:39:29,"11,641s",PASSED
+"verifyTextPresent(""Психологический профиль"", false)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:29,2022-02-21 12:39:31,"2,729s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/school""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:31,2022-02-21 12:39:34,"2,674s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/avanguard""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:34,2022-02-21 12:39:36,"1,921s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/team""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:36,2022-02-21 12:39:38,"2,137s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/varteam""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:38,2022-02-21 12:39:40,"1,950s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/player""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:40,2022-02-21 12:39:43,"3,121s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/varplayer""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:43,2022-02-21 12:39:45,"2,220s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/date""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:45,2022-02-21 12:39:50,"4,274s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/enter_date""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:50,2022-02-21 12:39:51,"1,917s",PASSED
+"verifyTextPresent(""Реакция на простой стимул"", false)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:51,2022-02-21 12:39:54,"2,442s",PASSED
+"scrollToElement(findTestObject(""Object Repository/vrach/psychotest/Page_/thinking""), 0)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:54,2022-02-21 12:39:57,"2,988s",PASSED
+"setText(findTestObject(""Object Repository/vrach/psychotest/Page_/thinking""), ""9"")",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:39:57,2022-02-21 12:40:01,"3,985s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/button_save""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:40:01,2022-02-21 12:40:03,"2,294s",PASSED
+,,,,,,,
+Test Cases/Доктор/создание карточки болезни,Linux - Chrome 97.0.4692.71,,,2022-02-21 12:40:03,2022-02-21 12:48:45,"8m - 41,830s",PASSED
+"callTestCase(findTestCase(""Доктор/Авторизация врач""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:40:03,2022-02-21 12:41:32,"1m - 28,232s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/button_add""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:41:32,2022-02-21 12:41:41,"8,983s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/school""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:41:41,2022-02-21 12:41:43,"2,240s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/avanguard""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:41:43,2022-02-21 12:41:45,"2,374s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/team""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:41:45,2022-02-21 12:41:47,"1,993s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/var_team""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:41:47,2022-02-21 12:41:49,"2,039s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/player""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:41:49,2022-02-21 12:41:51,"2,102s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/var_player""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:41:51,2022-02-21 12:41:54,"2,254s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/tip""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:41:54,2022-02-21 12:41:56,"1,868s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/travma""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:41:56,2022-02-21 12:41:58,"2,229s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/stady 1""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:41:58,2022-02-21 12:42:00,"2,111s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/choise_stady""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:00,2022-02-21 12:42:02,"2,016s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/tip travm""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:02,2022-02-21 12:42:04,"1,988s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/choise_travm""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:04,2022-02-21 12:42:06,"1,988s",PASSED
+"setText(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/dop opisanie""), ""автотестирование "")",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:06,2022-02-21 12:42:11,"4,687s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/button_save""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:11,2022-02-21 12:42:13,"2,517s",PASSED
+"verifyTextPresent(""Карточка успешно сохранена"", false)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:13,2022-02-21 12:42:17,"3,525s",PASSED
+"callTestCase(findTestCase(""Доктор/проверка в профиле статуса""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:17,2022-02-21 12:44:11,"1m - 54,763s",PASSED
+"callTestCase(findTestCase(""Доктор/вкладки удаление (переиспользуется)""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:44:11,2022-02-21 12:46:21,"2m - 9,886s",PASSED
+"callTestCase(findTestCase(""Доктор/проверка доступности игрока""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:46:21,2022-02-21 12:48:44,"2m - 23,199s",PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,,,2022-02-21 12:48:44,2022-02-21 12:48:45,"0,527s",PASSED

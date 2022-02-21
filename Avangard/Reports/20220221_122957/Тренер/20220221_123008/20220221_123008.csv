@@ -1,0 +1,74 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Тренер,Linux - Chrome 97.0.4692.71,,,2022-02-21 12:30:26,2022-02-21 12:48:12,"17m - 45,751s",FAILED
+,,,,,,,
+Test Cases/Тренер/Авторизация,Linux - Chrome 97.0.4692.71,,,2022-02-21 12:30:27,2022-02-21 12:31:25,"58,193s",PASSED
+"openBrowser("""")",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:30:31,2022-02-21 12:31:07,"36,671s",PASSED
+maximizeWindow(),Linux - Chrome 97.0.4692.71,,,2022-02-21 12:31:07,2022-02-21 12:31:08,"0,485s",PASSED
+navigateToUrl(url),Linux - Chrome 97.0.4692.71,,,2022-02-21 12:31:08,2022-02-21 12:31:15,"6,708s",PASSED
+"setText(findTestObject(""Object Repository/manager/Page_/input__sc-lnrBVv eqPACj""), coach_login)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:31:15,2022-02-21 12:31:19,"4,125s",PASSED
+"setText(findTestObject(""Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1""), coach_password)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:31:19,2022-02-21 12:31:23,"4,414s",PASSED
+"click(findTestObject(""manager/Page_/go""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:31:23,2022-02-21 12:31:25,"2,210s",PASSED
+,,,,,,,
+Test Cases/Тренер/Рекомендации по ОФП,Linux - Chrome 97.0.4692.71,,,2022-02-21 12:31:25,2022-02-21 12:35:06,"3m - 41,082s",FAILED
+"callTestCase(findTestCase(""Тренер/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:31:26,2022-02-21 12:34:06,"2m - 40,200s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/physical_testing_report""))",Linux - Chrome 97.0.4692.71,"Открытие вкладки физическое тестирование
+",,2022-02-21 12:34:06,2022-02-21 12:34:17,"11,140s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/div_31.07.2020""))",Linux - Chrome 97.0.4692.71,Нажимает на поле Дата поценки,,2022-02-21 12:34:17,2022-02-21 12:34:21,"3,827s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/div_31.10.2020""))",Linux - Chrome 97.0.4692.71,Выбирает дату,,2022-02-21 12:34:21,2022-02-21 12:34:23,"2,274s",PASSED
+"scrollToElement(findTestObject(""Object Repository/AA/gazizov""), 0)",Linux - Chrome 97.0.4692.71,Скроллит к Ганину,,2022-02-21 12:34:23,2022-02-21 12:34:26,"2,443s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/trikozov""))",Linux - Chrome 97.0.4692.71,Открывает  добавить рекомендацию Ганина,,2022-02-21 12:34:26,2022-02-21 12:34:28,"2,143s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/button exit""), STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,Нажимает кнопку закрыть на вкладке план тренеровок,,2022-02-21 12:34:28,2022-02-21 12:34:28,"0,001s",NOT_RUN
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/add""))",Linux - Chrome 97.0.4692.71,Нажимает добавить план тренировки,,2022-02-21 12:34:28,2022-02-21 12:35:04,"36,479s",FAILED
+,,,,,,,
+Test Cases/Тренер/Составы,Linux - Chrome 97.0.4692.71,,,2022-02-21 12:35:06,2022-02-21 12:38:39,"3m - 32,232s",FAILED
+"callTestCase(findTestCase(""Тренер/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:35:07,2022-02-21 12:37:21,"2m - 14,536s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/lines""))",Linux - Chrome 97.0.4692.71,Переход ан вкладку составы,,2022-02-21 12:37:21,2022-02-21 12:37:33,"11,358s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/clear""))",Linux - Chrome 97.0.4692.71,Очистить состав звеньев,,2022-02-21 12:37:33,2022-02-21 12:37:43,"10,239s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/button_yes""))",Linux - Chrome 97.0.4692.71,Очистить,,2022-02-21 12:37:43,2022-02-21 12:37:45,"2,491s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/choice_player""))",Linux - Chrome 97.0.4692.71,Выбор игрока,,2022-02-21 12:37:45,2022-02-21 12:37:49,"3,334s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/line_position""))",Linux - Chrome 97.0.4692.71,Первая позиция,,2022-02-21 12:37:49,2022-02-21 12:37:51,"2,086s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/player 1""))",Linux - Chrome 97.0.4692.71,Выбор первого игрока,,2022-02-21 12:37:51,2022-02-21 12:37:54,"2,872s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/pos2""))",Linux - Chrome 97.0.4692.71,Вторая позиция,,2022-02-21 12:37:54,2022-02-21 12:37:57,"2,908s",PASSED
+"scrollToElement(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/player3""), 0)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:37:57,2022-02-21 12:37:59,"2,944s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/player3""))",Linux - Chrome 97.0.4692.71,Выбор игрока,,2022-02-21 12:37:59,2022-02-21 12:38:02,"2,976s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/po3""))",Linux - Chrome 97.0.4692.71,Третья позиция,,2022-02-21 12:38:02,2022-02-21 12:38:05,"2,233s",PASSED
+"scrollToElement(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/player4""), 0)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:38:05,2022-02-21 12:38:07,"1,925s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/player4""))",Linux - Chrome 97.0.4692.71,Четверный игрок,,2022-02-21 12:38:07,2022-02-21 12:38:09,"2,588s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/pos4""))",Linux - Chrome 97.0.4692.71,Четвертая позиция,,2022-02-21 12:38:09,2022-02-21 12:38:11,"2,166s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Составы)/player5""))",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:38:11,2022-02-21 12:38:14,"2,934s",PASSED
+"verifyTextPresent(""Игрок недоступен для выбора"", false)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:38:14,2022-02-21 12:38:37,"22,340s",FAILED
+,,,,,,,
+Test Cases/Тренер/Профиль Тренера,Linux - Chrome 97.0.4692.71,,,2022-02-21 12:38:39,2022-02-21 12:40:12,"1m - 33,375s",PASSED
+"callTestCase(findTestCase(""Тренер/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:38:39,2022-02-21 12:39:51,"1m - 11,793s",PASSED
+"click(findTestObject(""Object Repository/ТРЕНЕР/reports/IMT/Page_/Page_/div_ (1)""))",Linux - Chrome 97.0.4692.71,"Открывает редактирование профиля
+",,2022-02-21 12:39:51,2022-02-21 12:40:03,"11,824s",PASSED
+"click(findTestObject(""Object Repository/ТРЕНЕР/reports/IMT/Page_/Page_/save""))",Linux - Chrome 97.0.4692.71,"Сохраняет
+",,2022-02-21 12:40:03,2022-02-21 12:40:06,"3,659s",PASSED
+"verifyTextPresent(""Пользователь сохранен"", false)",Linux - Chrome 97.0.4692.71,Проверка алерта,,2022-02-21 12:40:06,2022-02-21 12:40:09,"3,210s",PASSED
+"click(findTestObject(""Object Repository/ТРЕНЕР/reports/IMT/Page_/Page_/root""))",Linux - Chrome 97.0.4692.71,"Выход с модального окна
+",,2022-02-21 12:40:09,2022-02-21 12:40:12,"2,028s",PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,,,2022-02-21 12:40:12,2022-02-21 12:40:12,"0,540s",PASSED
+,,,,,,,
+Test Cases/Тренер/Статистика,Linux - Chrome 97.0.4692.71,,,2022-02-21 12:40:12,2022-02-21 12:42:32,"2m - 20,051s",PASSED
+"callTestCase(findTestCase(""Тренер/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:40:12,2022-02-21 12:42:03,"1m - 50,443s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Статистика)/report""))",Linux - Chrome 97.0.4692.71,Вкладка отчеты,,2022-02-21 12:42:03,2022-02-21 12:42:17,"13,906s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Статистика)/statsreport""))",Linux - Chrome 97.0.4692.71,Отчет игровая статистика,,2022-02-21 12:42:17,2022-02-21 12:42:19,"2,742s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Статистика)/team""))",Linux - Chrome 97.0.4692.71,Клик по полю ввода Команды,,2022-02-21 12:42:19,2022-02-21 12:42:22,"2,419s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Статистика)/oms""))",Linux - Chrome 97.0.4692.71,Выбор Омские ястребы,,2022-02-21 12:42:22,2022-02-21 12:42:24,"2,122s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Тренер)/Case (Статистика)/rank""), ""Ранг"")",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:24,2022-02-21 12:42:27,"3,496s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Тренер)/Case (Статистика)/match""), ""Матчи"")",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:27,2022-02-21 12:42:29,"1,966s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Тренер)/Case (Статистика)/game time""), ""Игр. время"")",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:29,2022-02-21 12:42:32,"2,190s",PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:32,2022-02-21 12:42:32,"0,531s",PASSED
+,,,,,,,
+Test Cases/Тренер/Оценка навыков,Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:32,2022-02-21 12:45:32,"2m - 59,716s",FAILED
+"callTestCase(findTestCase(""Тренер/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:42:32,2022-02-21 12:44:20,"1m - 47,450s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Оценка навыков)/span_home""))",Linux - Chrome 97.0.4692.71,Вкладка оценка навыков,,2022-02-21 12:44:20,2022-02-21 12:44:35,"15,029s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Оценка навыков)/edit home""))",Linux - Chrome 97.0.4692.71,Кнопка редактировать,,2022-02-21 12:44:35,2022-02-21 12:44:38,"2,789s",PASSED
+"scrollToElement(findTestObject(""Avangard New/Object (Тренер)/Case (Оценка навыков)/button_save_home""), 0)",Linux - Chrome 97.0.4692.71,Скрол к кнопке сохранить,,2022-02-21 12:44:38,2022-02-21 12:44:41,"3,395s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Оценка навыков)/button_save_home""))",Linux - Chrome 97.0.4692.71,Сохранить общая,,2022-02-21 12:44:41,2022-02-21 12:44:44,"3,105s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Тренер)/Case (Оценка навыков)/alert home add""), ""Добавьте от 1 до 7 навыков для развития."")",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:44:44,2022-02-21 12:45:30,"45,625s",FAILED
+,,,,,,,
+Test Cases/Тренер/Оценка по играм,Linux - Chrome 97.0.4692.71,,,2022-02-21 12:45:32,2022-02-21 12:48:12,"2m - 39,820s",FAILED
+"callTestCase(findTestCase(""Тренер/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-21 12:45:32,2022-02-21 12:46:50,"1m - 18,289s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Оценка по играм)/grade for game""))",Linux - Chrome 97.0.4692.71,Нажимаю вкладка  оценка по играм,,2022-02-21 12:46:50,2022-02-21 12:47:18,"27,260s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Оценка по играм)/edit""))",Linux - Chrome 97.0.4692.71,Кнопка Редактировать,,2022-02-21 12:47:18,2022-02-21 12:48:10,"51,918s",FAILED

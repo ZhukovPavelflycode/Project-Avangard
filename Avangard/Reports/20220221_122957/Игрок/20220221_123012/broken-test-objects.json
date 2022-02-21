@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/date 30.06.2021",
+      "brokenLocator": "//*/text()[normalize-space(.)\u003d\u002730.06.2021\u0027]/parent::*",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div/div[2]/div/div[4]/div/div/div[2]/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220221_122957/Игрок/20220221_123012/Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/date 30.06.2021_idRelative.png"
+    }
+  ]
+}

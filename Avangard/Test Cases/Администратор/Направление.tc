@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>просмотр вкладки направления и вкладок редактирования менеджера </description>
+   <name>Направление</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fecff7d6-a754-49bd-aaf2-6aa6491c4359</testCaseGuid>
+</TestCaseEntity>
