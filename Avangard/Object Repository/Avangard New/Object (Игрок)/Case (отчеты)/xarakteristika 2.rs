@@ -6,12 +6,11 @@
    <elementGuidId>5591c4ff-cde5-4125-b380-581f5c914900</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//p[(text() = 'Спонтанность' or . = 'Спонтанность')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

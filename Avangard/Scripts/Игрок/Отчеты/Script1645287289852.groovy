@@ -22,33 +22,55 @@ WebUI.callTestCase(findTestCase('Игрок/Авторизация'), [:], Failu
 'Вкладка отчеты'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/report'))
 
+'Психологический отчет'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/psixolog'))
 
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/button burger'))
+if (WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin'), 'Ганин Данила', 
+    FailureHandling.OPTIONAL) == true) {
+    'Дата отчета'
+    WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_burger date'))
 
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/date 30.06.2021'))
+    'Дата отчета 30.06'
+    WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_30.06.2021'))
+} else {
+    WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_date report'))
 
-WebUI.scrollToElement(findTestObject('Avangard New/Object (Игрок)/Case (отчеты)/reaction easy'), 0)
+    WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_26.08.2021'))
+}
 
-WebUI.verifyElementText(findTestObject('Avangard New/Object (Игрок)/Case (отчеты)/reaction easy'), 'Реакция на простой стимул')
+not_run: WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin'), 
+    'Ганин Данила')
 
-WebUI.verifyElementText(findTestObject('Avangard New/Object (Игрок)/Case (отчеты)/reaction hard'), 'Реакция на сложный стимул')
+WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction easy'), 0)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/button burg date'), 0)
+WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction easy'), 'Реакция на простой стимул')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction hard'), 'Реакция на сложный стимул')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/button burg date (1)'), 
+    0)
 
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/tab'))
 
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/button burg date'))
+if (WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin'), 'Ганин Данила', 
+    FailureHandling.OPTIONAL) == true) {
+    WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_sezon'))
 
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_21-22_1'))
+    WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_21-22'))
+} else {
+    WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_sezon'))
 
-WebUI.scrollToElement(findTestObject('Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika'), 0)
+    WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_20-21'))
+}
 
-WebUI.verifyElementText(findTestObject('Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika'), 'Экстраверсия')
+WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika'), 0)
 
-WebUI.verifyElementText(findTestObject('Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika 2'), 'Спонтанность')
+WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika'), 'Экстраверсия')
 
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/home g'))
+WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika 2'), 
+    'Спонтанность')
+
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/home g (1)'))
 
 WebUI.closeBrowser()
 

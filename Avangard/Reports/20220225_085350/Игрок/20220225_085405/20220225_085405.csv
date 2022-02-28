@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Игрок,Linux - Chrome 97.0.4692.71,,,2022-02-25 08:54:26,2022-02-25 09:01:20,"6m - 54,668s",FAILED
+,,,,,,,
+Test Cases/Игрок/Авторизация,Linux - Chrome 97.0.4692.71,,,2022-02-25 08:54:27,2022-02-25 08:57:11,"2m - 44,406s",PASSED
+"openBrowser("""")",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:54:32,2022-02-25 08:56:53,"2m - 20,892s",PASSED
+maximizeWindow(),Linux - Chrome 97.0.4692.71,,,2022-02-25 08:56:53,2022-02-25 08:56:54,"0,525s",PASSED
+navigateToUrl(url),Linux - Chrome 97.0.4692.71,,,2022-02-25 08:56:54,2022-02-25 08:57:01,"7,148s",PASSED
+"setText(findTestObject(""Object Repository/manager/Page_/input__sc-lnrBVv eqPACj""), player_login)",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:57:01,2022-02-25 08:57:05,"4,276s",PASSED
+"setText(findTestObject(""Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1""), player_password)",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:57:05,2022-02-25 08:57:09,"3,911s",PASSED
+"click(findTestObject(""manager/Page_/go""))",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:57:09,2022-02-25 08:57:11,"2,054s",PASSED
+,,,,,,,
+Test Cases/Игрок/Отчеты,Linux - Chrome 97.0.4692.71,,,2022-02-25 08:57:11,2022-02-25 09:01:20,"4m - 8,918s",FAILED
+"callTestCase(findTestCase(""Игрок/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:57:12,2022-02-25 08:59:23,"2m - 10,594s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/report""))",Linux - Chrome 97.0.4692.71,Вкладка отчеты,,2022-02-25 08:59:23,2022-02-25 08:59:33,"10,671s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/psixolog""))",Linux - Chrome 97.0.4692.71,Психологический отчет,,2022-02-25 08:59:33,2022-02-25 08:59:36,"2,191s",PASSED
+"if (verifyElementText(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin""), ""Ганин Данила"", OPTIONAL) == true)",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:59:36,2022-02-25 08:59:42,"6,313s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin""), ""Ганин Данила"")",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:59:42,2022-02-25 08:59:42,"0,004s",NOT_RUN
+"scrollToElement(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction easy""), 0)",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:59:42,2022-02-25 08:59:45,"2,605s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction easy""), ""Реакция на простой стимул"")",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:59:45,2022-02-25 08:59:46,"1,785s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction hard""), ""Реакция на сложный стимул"")",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:59:46,2022-02-25 08:59:48,"1,754s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/button burg date (1)""), 0)",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:59:48,2022-02-25 08:59:50,"1,734s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/tab""))",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:59:50,2022-02-25 08:59:52,"2,305s",PASSED
+"if (verifyElementText(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin""), ""Ганин Данила"", OPTIONAL) == true)",Linux - Chrome 97.0.4692.71,,,2022-02-25 08:59:52,2022-02-25 09:00:33,"40,713s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika""), 0)",Linux - Chrome 97.0.4692.71,,,2022-02-25 09:00:33,2022-02-25 09:01:18,"44,750s",FAILED

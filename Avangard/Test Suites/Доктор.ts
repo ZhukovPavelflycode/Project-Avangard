@@ -14,8 +14,8 @@
    <testCaseLink>
       <guid>2ac0ae48-a8e5-49ff-9418-26e30ac7aa9d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Доктор/дописать когда будет доступно Проверка вкладки Питание</testCaseId>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Доктор/дописать проверку на игрока Проверка вкладки Питание</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

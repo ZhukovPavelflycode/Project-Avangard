@@ -6,12 +6,12 @@
    <elementGuidId>655ff4da-249d-4d2d-ad14-6f41777c654e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.styles__SkillName-sc-8xsnvi-9.fxKVA</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Экстраверсия']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//p[(text() = 'Экстраверсия' or . = 'Экстраверсия')]</value>
+         <key>CSS</key>
+         <value>p.styles__SkillName-sc-8xsnvi-9.fxKVA</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

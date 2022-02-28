@@ -51,11 +51,11 @@ WebUI.click(findTestObject('Avangard New/Object (Доктор)/doctor case (со
 
 WebUI.verifyTextPresent('Карточка успешно сохранена', false)
 
-WebUI.callTestCase(findTestCase('Доктор/проверка в профиле статуса'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Доктор/проверка в профиле статуса (переиспользуется)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Доктор/вкладки удаление (переиспользуется)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Доктор/проверка доступности игрока'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Доктор/проверка доступности игрока (переиспользуется)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

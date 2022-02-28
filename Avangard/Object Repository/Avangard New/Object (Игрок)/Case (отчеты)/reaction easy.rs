@@ -6,12 +6,12 @@
    <elementGuidId>8b4687cc-24cb-4670-af45-f4f2457f90a0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>p.styles__SkillName-sc-8xsnvi-9.fxKVA</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//p[(text() = 'Реакция на простой стимул' or . = 'Реакция на простой стимул')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.styles__SkillName-sc-8xsnvi-9.fxKVA</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

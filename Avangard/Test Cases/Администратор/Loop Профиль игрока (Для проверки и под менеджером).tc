@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>просмотр списка игроков и профиля игрока со всеми вкладками</description>
+   <name>Loop Профиль игрока (Для проверки и под менеджером)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0535e2a6-e046-4cbc-9c79-76cf74917acf</testCaseGuid>
+</TestCaseEntity>

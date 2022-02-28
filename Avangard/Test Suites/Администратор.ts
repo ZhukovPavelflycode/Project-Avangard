@@ -69,7 +69,7 @@
       <guid>438e6f99-5fb4-4509-94aa-a04cfa25737c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Администратор/Направление</testCaseId>
+      <testCaseId>Test Cases/Администратор/дописать Вкладка Направление</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>28577e25-1973-4733-897c-c6a5dc1ae3a0</guid>

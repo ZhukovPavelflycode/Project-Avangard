@@ -6,12 +6,11 @@
    <elementGuidId>eadd4314-615f-407e-8d97-47a512c0951c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[(text() = 'Отчет психологического профиля' or . = 'Отчет психологического профиля')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

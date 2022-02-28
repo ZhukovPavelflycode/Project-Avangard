@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_task</name>
+   <tag></tag>
+   <elementGuidId>f70037c0-f2c9-43de-91dc-09ecec89ab51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div/div/div[2]/div[3]/div/div/div/div/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.Input-sc-rbewbw-0.cOHhWz</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Введите название задачи</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Input-sc-rbewbw-0 cOHhWz</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;RouterApp__Wrapper-sc-itp1b8-0 fGnCKq LayoutContainer&quot;]/div[@class=&quot;ChessTemplate__Wrapper-sc-o4z6mm-0 cMIiDp BodyMassEstimationApp ChessTemplate&quot;]/div[@class=&quot;ChessTemplate__Right-sc-o4z6mm-2 evkQso Right&quot;]/div[@class=&quot;BodyMassEstimationApp__Wrapper-sc-j5lbjt-0 ftnUuf&quot;]/div[@class=&quot;BodyMassEstimationReportPanel__Wrapper-sc-5pm30o-0 cZOrWY&quot;]/div[@class=&quot;BodyMassIndexEstimationForm__Wrapper-sc-1ntybl-1 hQAxe&quot;]/div[@class=&quot;BodyMassEstimationCreateModal__Wrapper-sc-5irtu2-0 ghOucq&quot;]/div[@class=&quot;ModalDefault__Wrapper-sc-i03ewb-0 jlJODk&quot;]/div[@class=&quot;popup-container popup-container_theme_alfa-on-white sidebar sidebar_visible sidebar_theme_alfa-on-white BodyMassIndexEstimationModal BodyMassIndexEstimationModal_create Sidebar&quot;]/div[@class=&quot;sidebar__inner&quot;]/div[@class=&quot;sidebar__content&quot;]/div[1]/div[@class=&quot;BodyMassEstimationCreateModal__BodyMassEstimationModal-sc-5irtu2-1 gqbaiO&quot;]/div[@class=&quot;BodyMassEstimationCreateModal__TrainingPlansWrapper-sc-5irtu2-8 cYBqig&quot;]/div[@class=&quot;BodyMassEstimationCreateModal__TrainingPlansContainer-sc-5irtu2-9 cHiFcS&quot;]/div[@class=&quot;TaskList__TrainingPlansWrapper-sc-z3oryj-0 loHCbO&quot;]/div[@class=&quot;TaskList__TrainingPlansContainer-sc-z3oryj-1 evamal&quot;]/div[@class=&quot;TrainingPlanItem__Plan-sc-c7ns6w-1 bLEQNO&quot;]/div[@class=&quot;TrainingPlanItem__PlanInfo-sc-c7ns6w-2 lhhmYg&quot;]/input[@class=&quot;Input-sc-rbewbw-0 cOHhWz&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div/div/div[2]/div[3]/div/div/div/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Введите название задачи']</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -20,65 +20,60 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Администратор/Отчет для тк'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Выбор отчета психофиз'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (проверка вкладки питание)/psyxofiz report'))
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/psyxofiz report'))
 
-'Проверка названия отчета'
-WebUI.verifyTextPresent('ОТЧЕТ ПСИХОЛОГИЧЕСКОГО ПРОФИЛЯ', true)
-
-'заполнение фильтров'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (проверка вкладки питание)/scool'))
+WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/header report'), 
+    'ОТЧЕТ ПСИХОЛОГИЧЕСКОГО ПРОФИЛЯ')
 
 'заполнение фильтров'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (проверка вкладки питание)/div_'))
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/scool'))
 
 'заполнение фильтров'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (проверка вкладки питание)/team'))
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/div_'))
 
 'заполнение фильтров'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (проверка вкладки питание)/oya'))
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/team'))
 
 'заполнение фильтров'
-WebUI.setText(findTestObject('Avangard New/Object (Доктор)/Case (проверка вкладки питание)/input__ganin'), GlobalVariable.player_for_test)
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/oya'))
+
+'заполнение фильтров'
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/input__ganin'), GlobalVariable.player_for_test)
 
 'заполнение фильтров'
 WebUI.sendKeys(findTestObject('Object Repository/admin/Global player'), Keys.chord(Keys.ENTER))
 
-'заполнение фильтров'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (проверка вкладки питание)/season'))
+'заполнение дата отчета'
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date'))
 
-'заполнение фильтров'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (проверка вкладки питание)/div_21-22'))
+'14.01.2021'
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date 14 01'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Администратор)/name (Реакция на сложный стимул)'), 
-    0)
+WebUI.scrollToElement(findTestObject('Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1'), 0)
 
-WebUI.verifyTextPresent('Реакция на сложный стимул', false)
+WebUI.verifyElementText(findTestObject('Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1'), 'Реакция на простой стимул')
 
-WebUI.verifyTextPresent('Реакция на простой стимул', false)
+WebUI.verifyElementText(findTestObject('Avangard New/Object (Администратор)/Case (Психофиз)/reaction hard1'), 'Реакция на сложный стимул')
 
-WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (проверка вкладки питание)/season (1)'), 
+WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)'), 
     0)
 
 'Нажать на вкладку индивидуально-тополигический'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (проверка вкладки питание)/topologic'))
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/topologic'))
 
 'Нажимаю на поле сезон'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (проверка вкладки питание)/season (1)'))
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)'))
 
 'Выбираю сезон'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (проверка вкладки питание)/20-21'))
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/21-22'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Администратор)/name (Спонтанность)'), 0)
+WebUI.scrollToElement(findTestObject('Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi'), 0)
 
-WebUI.verifyTextPresent('Спонтанность', false)
+WebUI.verifyElementText(findTestObject('Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi'), 'Экстраверсия')
 
-WebUI.verifyTextPresent('Стеничность', false)
+WebUI.verifyElementText(findTestObject('Avangard New/Object (Администратор)/Case (Психофиз)/spontannost'), 'Спонтанность')
 
-WebUI.verifyTextPresent('Экстраверсия', false)
-
-WebUI.takeFullPageScreenshot(('C:\\scr\\' + GlobalVariable.school) + '50.jpg')
-
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (проверка вкладки питание)/root'))
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/home'))
 
 WebUI.closeBrowser()
 
