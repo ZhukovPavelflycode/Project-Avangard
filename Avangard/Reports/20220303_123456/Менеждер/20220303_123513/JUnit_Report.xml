@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Менеждер" time="1445.203" tests="10" failures="0" errors="0">
+   <testsuite name="Менеждер" tests="10" failures="0" errors="0" time="1445.203" skipped="0" timestamp="2022-03-03 12:35:30" hostname="LENOVO - DESKTOP-KNHN0AA" id="Test Suites/Менеждер">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220303_123456\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220303_123513"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220303_123456\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220303_123513\\execution0.log"/>
+         <property name="attachments" value="C:\scr\Омские Ястребы43.jpg, C:\scr\Омские Ястребы44.jpg, C:\scr\Омские Ястребы45.jpg, C:\scr\Омские Ястребы47.jpg, C:\scr\Омские Ястребы48.jpg, C:\scr\Омские Ястребы34.jpg, C:\scr\Омские Ястребы37.jpg, C:\scr\Омские Ястребы39.jpg, C:\scr\Омские Ястребы40.jpg, C:\scr\Омские Ястребы38.jpg, C:\scr\Омские Ястребы29.jpg, C:\scr\Омские Ястребы30.jpg, C:\scr\Омские Ястребы10.jpg, C:\scr\Омские Ястребы11.jpg"/>
+         <property name="hostName" value="LENOVO - DESKTOP-KNHN0AA"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97.0.4692.71&quot;,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})&quot;,
+    &quot;userDataDir&quot;: &quot;/tmp/.com.google.Chrome.ztTtS4&quot;
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:36265&quot;
+  },
+  &quot;javascriptEnabled&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;LINUX&quot;,
+  &quot;platformName&quot;: &quot;LINUX&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;se:cdp&quot;: &quot;ws://172.48.36.37:4444/session/2fb4fc4d57c883107fb0a619d1517856/se/cdp&quot;,
+  &quot;se:cdpVersion&quot;: &quot;97.0.4692.71&quot;,
+  &quot;se:vnc&quot;: &quot;ws://172.48.36.37:4444/session/2fb4fc4d57c883107fb0a619d1517856/se/vnc&quot;,
+  &quot;se:vncEnabled&quot;: true,
+  &quot;se:vncLocalAddress&quot;: &quot;ws://172.48.36.37:7900&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Linux"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.2.113"/>
+         <property name="sessionId" value="2fb4fc4d57c883107fb0a619d1517856"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Администратор/Школы" time="239.174" classname="Test Cases/Администратор/Школы" status="PASSED">
+         <system-out><![CDATA[2022-03-03 12:35:33 - [TEST_CASE][PASSED] - Test Cases/Администратор/Школы: Test Cases/Администратор/Школы
+
+2022-03-03 12:35:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:35:37 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-03-03 12:35:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 12:35:39 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-03-03 12:35:39 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-03-03 12:35:39 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-03-03 12:35:39 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=575106, tunnelId=, usingTunnel=false}']
+
+2022-03-03 12:35:39 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-03-03 12:35:40 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-03-03 12:37:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 12:37:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 12:37:41 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 12:37:41 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:37:48 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:37:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:37:52 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:37:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:37:57 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:37:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:37:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/schools/schools")): Object: 'Object Repository/admin/school/schools/schools' is clicked on
+
+2022-03-03 12:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/schools/schools' is clicked on
+
+2022-03-03 12:38:19 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "43.jpg"): Taking screenshot successfully
+
+2022-03-03 12:38:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:38:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы43.jpg]]
+
+2022-03-03 12:38:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/Page_/div_")): Object: 'Object Repository/admin/school/Page_/div_' is clicked on
+
+2022-03-03 12:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/Page_/div_' is clicked on
+
+2022-03-03 12:38:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/admin/school/Page_/players"), 0): Scroll to object 'Object Repository/admin/school/Page_/players' successfully
+
+2022-03-03 12:38:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 12:38:35 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/admin/school/Page_/players' successfully
+
+2022-03-03 12:38:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/Page_/players")): Object: 'Object Repository/admin/school/Page_/players' is clicked on
+
+2022-03-03 12:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/Page_/players' is clicked on
+
+2022-03-03 12:38:38 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "44.jpg"): Taking screenshot successfully
+
+2022-03-03 12:38:46 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:38:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы44.jpg]]
+
+2022-03-03 12:38:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/Page_/team")): Object: 'Object Repository/admin/school/Page_/team' is clicked on
+
+2022-03-03 12:38:48 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/Page_/team' is clicked on
+
+2022-03-03 12:38:48 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "45.jpg"): Taking screenshot successfully
+
+2022-03-03 12:38:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:38:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы45.jpg]]
+
+2022-03-03 12:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/Page_/omsk")): Object: 'Object Repository/admin/school/Page_/omsk' is clicked on
+
+2022-03-03 12:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/Page_/omsk' is clicked on
+
+2022-03-03 12:38:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/Page_/edit")): Object: 'Object Repository/admin/school/Page_/edit' is clicked on
+
+2022-03-03 12:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/Page_/edit' is clicked on
+
+2022-03-03 12:39:02 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "47.jpg"): Taking screenshot successfully
+
+2022-03-03 12:39:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:39:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы47.jpg]]
+
+2022-03-03 12:39:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/Page_/allplayer")): Object: 'Object Repository/admin/school/Page_/allplayer' is clicked on
+
+2022-03-03 12:39:11 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/Page_/allplayer' is clicked on
+
+2022-03-03 12:39:11 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "48.jpg"): Taking screenshot successfully
+
+2022-03-03 12:39:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:39:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы48.jpg]]
+
+2022-03-03 12:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/Page_/groups")): Object: 'Object Repository/admin/school/Page_/groups' is clicked on
+
+2022-03-03 12:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/Page_/groups' is clicked on
+
+2022-03-03 12:39:20 - [TEST_STEP][PASSED] - click(findTestObject("manager/schools/overlay"), CONTINUE_ON_FAILURE): Object: 'Object Repository/manager/schools/overlay' is clicked on
+
+2022-03-03 12:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/manager/schools/overlay' is clicked on
+
+2022-03-03 12:39:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/Page_/root")): Object: 'Object Repository/admin/school/Page_/root' is clicked on
+
+2022-03-03 12:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/Page_/root' is clicked on
+
+2022-03-03 12:39:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 12:39:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/Рейтинг" time="252.184" classname="Test Cases/Администратор/Рейтинг" status="PASSED">
+         <system-out><![CDATA[2022-03-03 12:39:32 - [TEST_CASE][PASSED] - Test Cases/Администратор/Рейтинг: Test Cases/Администратор/Рейтинг
+
+2022-03-03 12:39:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:39:33 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-03-03 12:39:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 12:39:33 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-03-03 12:39:33 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-03-03 12:39:33 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-03-03 12:39:33 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=575106, tunnelId=, usingTunnel=false}']
+
+2022-03-03 12:39:33 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-03-03 12:39:33 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-03-03 12:41:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 12:41:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 12:41:40 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 12:41:40 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:41:47 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:41:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:41:51 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:41:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:41:56 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:41:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:41:59 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:41:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/rating/grating")): Object: 'Object Repository/admin/rating/grating' is clicked on
+
+2022-03-03 12:42:26 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/rating/grating' is clicked on
+
+2022-03-03 12:42:26 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "34.jpg"): Taking screenshot successfully
+
+2022-03-03 12:42:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:42:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы34.jpg]]
+
+2022-03-03 12:42:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/shkool")): Object: 'Object Repository/admin/Page_/shkool' is clicked on
+
+2022-03-03 12:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/shkool' is clicked on
+
+2022-03-03 12:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/div_ (2)")): Object: 'Object Repository/admin/Page_/div_ (2)' is clicked on
+
+2022-03-03 12:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/div_ (2)' is clicked on
+
+2022-03-03 12:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/team")): Object: 'Object Repository/admin/Page_/team' is clicked on
+
+2022-03-03 12:42:39 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/team' is clicked on
+
+2022-03-03 12:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/omsk")): Object: 'Object Repository/admin/Page_/omsk' is clicked on
+
+2022-03-03 12:42:42 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/omsk' is clicked on
+
+2022-03-03 12:42:42 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/admin/Page_/top1"), 0): Scroll to object 'Object Repository/admin/Page_/top1' successfully
+
+2022-03-03 12:42:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 12:42:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/admin/Page_/top1' successfully
+
+2022-03-03 12:42:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/top1")): Object: 'Object Repository/admin/Page_/top1' is clicked on
+
+2022-03-03 12:42:51 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/top1' is clicked on
+
+2022-03-03 12:42:52 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "37.jpg", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2022-03-03 12:42:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:42:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы37.jpg]]
+
+2022-03-03 12:42:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/skill")): Object: 'Object Repository/admin/Page_/skill' is clicked on
+
+2022-03-03 12:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/skill' is clicked on
+
+2022-03-03 12:43:04 - [TEST_STEP][PASSED] - verifyTextPresent("Ускорение", true): Text 'Ускорение' is present on page  using regular expression
+
+2022-03-03 12:43:07 - [MESSAGE][PASSED] - Text 'Ускорение' is present on page  using regular expression
+
+2022-03-03 12:43:07 - [TEST_STEP][PASSED] - verifyTextPresent("Скорость", true): Text 'Скорость' is present on page  using regular expression
+
+2022-03-03 12:43:10 - [MESSAGE][PASSED] - Text 'Скорость' is present on page  using regular expression
+
+2022-03-03 12:43:10 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "39.jpg", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2022-03-03 12:43:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:43:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы39.jpg]]
+
+2022-03-03 12:43:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/stat")): Object: 'Object Repository/admin/Page_/stat' is clicked on
+
+2022-03-03 12:43:18 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/stat' is clicked on
+
+2022-03-03 12:43:18 - [TEST_STEP][PASSED] - verifyTextPresent("Матчи", true, CONTINUE_ON_FAILURE): Text 'Матчи' is present on page  using regular expression
+
+2022-03-03 12:43:21 - [MESSAGE][PASSED] - Text 'Матчи' is present on page  using regular expression
+
+2022-03-03 12:43:21 - [TEST_STEP][PASSED] - verifyTextPresent("Ранг", true, CONTINUE_ON_FAILURE): Text 'Ранг' is present on page  using regular expression
+
+2022-03-03 12:43:23 - [MESSAGE][PASSED] - Text 'Ранг' is present on page  using regular expression
+
+2022-03-03 12:43:23 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "40.jpg", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2022-03-03 12:43:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:43:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы40.jpg]]
+
+2022-03-03 12:43:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/ptest")): Object: 'Object Repository/admin/Page_/ptest' is clicked on
+
+2022-03-03 12:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/ptest' is clicked on
+
+2022-03-03 12:43:31 - [TEST_STEP][PASSED] - verifyTextPresent("СРЕДНЯЯ ОЦЕНКА", true): Text 'СРЕДНЯЯ ОЦЕНКА' is present on page  using regular expression
+
+2022-03-03 12:43:34 - [MESSAGE][PASSED] - Text 'СРЕДНЯЯ ОЦЕНКА' is present on page  using regular expression
+
+2022-03-03 12:43:34 - [TEST_STEP][PASSED] - verifyTextPresent("Список навыков и характеристики", true): Text 'Список навыков и характеристики' is present on page  using regular expression
+
+2022-03-03 12:43:35 - [MESSAGE][PASSED] - Text 'Список навыков и характеристики' is present on page  using regular expression
+
+2022-03-03 12:43:35 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "38.jpg", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2022-03-03 12:43:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:43:42 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы38.jpg]]
+
+2022-03-03 12:43:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/root")): Object: 'Object Repository/admin/Page_/root' is clicked on
+
+2022-03-03 12:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/root' is clicked on
+
+2022-03-03 12:43:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 12:43:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Список участников без оценки" time="117.654" classname="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Список участников без оценки" status="PASSED">
+         <system-out><![CDATA[2022-03-03 12:43:44 - [TEST_CASE][PASSED] - Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Список участников без оценки: Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Список участников без оценки
+
+2022-03-03 12:43:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Отчет для тк"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Отчет для тк' successfully
+
+2022-03-03 12:43:45 - [TEST_CASE][PASSED] - Test Cases/Администратор/Отчет для тк: Test Cases/Администратор/Отчет для тк
+
+2022-03-03 12:43:46 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:43:46 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-03-03 12:43:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 12:43:46 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-03-03 12:43:46 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-03-03 12:43:46 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-03-03 12:43:46 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=575106, tunnelId=, usingTunnel=false}']
+
+2022-03-03 12:43:46 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-03-03 12:43:46 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-03-03 12:44:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 12:44:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 12:44:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 12:44:25 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:44:31 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:44:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:44:35 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:44:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:44:40 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:44:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:44:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:44:42 - [TEST_STEP][PASSED] - click(findTestObject("admin/reports/keys/reports/report")): Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-03-03 12:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-03-03 12:44:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Отчет для тк' successfully
+
+2022-03-03 12:44:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/not/Page_/not")): Object: 'Object Repository/admin/reports/not/Page_/not' is clicked on
+
+2022-03-03 12:44:56 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/not/Page_/not' is clicked on
+
+2022-03-03 12:44:56 - [TEST_STEP][PASSED] - verifyTextPresent("СПИСОК УЧАСТНИКОВ БЕЗ ОЦЕНКИ", true): Text 'СПИСОК УЧАСТНИКОВ БЕЗ ОЦЕНКИ' is present on page  using regular expression
+
+2022-03-03 12:45:07 - [MESSAGE][PASSED] - Text 'СПИСОК УЧАСТНИКОВ БЕЗ ОЦЕНКИ' is present on page  using regular expression
+
+2022-03-03 12:45:07 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "29.jpg"): Taking screenshot successfully
+
+2022-03-03 12:45:13 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:45:14 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы29.jpg]]
+
+2022-03-03 12:45:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/reports/not/Page_/input__react-select-2-input"), "ака"): Text 'ака' is set on object 'Object Repository/admin/reports/not/Page_/input__react-select-2-input'
+
+2022-03-03 12:45:18 - [MESSAGE][PASSED] - Text 'ака' is set on object 'Object Repository/admin/reports/not/Page_/input__react-select-2-input'
+
+2022-03-03 12:45:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/admin/reports/not/Page_/input__react-select-2-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/not/Page_/input__react-select-2-input'
+
+2022-03-03 12:45:20 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/not/Page_/input__react-select-2-input'
+
+2022-03-03 12:45:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/reports/not/Page_/input__react-select-3-input"), school): Text 'Омские Ястребы' is set on object 'Object Repository/admin/reports/not/Page_/input__react-select-3-input'
+
+2022-03-03 12:45:24 - [MESSAGE][PASSED] - Text 'Омские Ястребы' is set on object 'Object Repository/admin/reports/not/Page_/input__react-select-3-input'
+
+2022-03-03 12:45:24 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/admin/reports/not/Page_/input__react-select-3-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/not/Page_/input__react-select-3-input'
+
+2022-03-03 12:45:27 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/not/Page_/input__react-select-3-input'
+
+2022-03-03 12:45:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/reports/not/Page_/input__react-select-4-input"), "26.8"): Text '26.8' is set on object 'Object Repository/admin/reports/not/Page_/input__react-select-4-input'
+
+2022-03-03 12:45:31 - [MESSAGE][PASSED] - Text '26.8' is set on object 'Object Repository/admin/reports/not/Page_/input__react-select-4-input'
+
+2022-03-03 12:45:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/admin/reports/not/Page_/input__react-select-4-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/not/Page_/input__react-select-4-input'
+
+2022-03-03 12:45:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/not/Page_/input__react-select-4-input'
+
+2022-03-03 12:45:33 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "30.jpg"): Taking screenshot successfully
+
+2022-03-03 12:45:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:45:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы30.jpg]]
+
+2022-03-03 12:45:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/manager/kale/Page_/root")): Object: 'Object Repository/manager/kale/Page_/root' is clicked on
+
+2022-03-03 12:45:41 - [MESSAGE][PASSED] - Object: 'Object Repository/manager/kale/Page_/root' is clicked on
+
+2022-03-03 12:45:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 12:45:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет психофиз" time="178.321" classname="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет психофиз" status="PASSED">
+         <system-out><![CDATA[2022-03-03 12:45:42 - [TEST_CASE][PASSED] - Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет психофиз: Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет психофиз
+
+2022-03-03 12:45:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Отчет для тк"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Отчет для тк' successfully
+
+2022-03-03 12:45:43 - [TEST_CASE][PASSED] - Test Cases/Администратор/Отчет для тк: Test Cases/Администратор/Отчет для тк
+
+2022-03-03 12:45:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:45:43 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-03-03 12:45:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 12:45:43 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-03-03 12:45:43 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-03-03 12:45:43 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-03-03 12:45:43 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=575106, tunnelId=, usingTunnel=false}']
+
+2022-03-03 12:45:43 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-03-03 12:45:43 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-03-03 12:47:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 12:47:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 12:47:10 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 12:47:10 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:47:16 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:47:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:47:20 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:47:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:47:25 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:47:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:47:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:47:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:47:27 - [TEST_STEP][PASSED] - click(findTestObject("admin/reports/keys/reports/report")): Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-03-03 12:47:38 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-03-03 12:47:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Отчет для тк' successfully
+
+2022-03-03 12:47:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/psyxofiz report")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/psyxofiz report' is clicked on
+
+2022-03-03 12:47:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/psyxofiz report' is clicked on
+
+2022-03-03 12:47:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/header report"), "ОТЧЕТ ПСИХОЛОГИЧЕСКОГО ПРОФИЛЯ"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/header report' are matched.
+
+2022-03-03 12:47:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/header report' are matched.
+
+2022-03-03 12:47:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/scool")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/scool' is clicked on
+
+2022-03-03 12:47:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/scool' is clicked on
+
+2022-03-03 12:47:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/div_")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/div_' is clicked on
+
+2022-03-03 12:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/div_' is clicked on
+
+2022-03-03 12:47:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/team")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/team' is clicked on
+
+2022-03-03 12:47:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/team' is clicked on
+
+2022-03-03 12:47:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/oya")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/oya' is clicked on
+
+2022-03-03 12:47:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/oya' is clicked on
+
+2022-03-03 12:47:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/input__ganin"), player_for_test): Text 'Ганин Данила' is set on object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/input__ganin'
+
+2022-03-03 12:47:58 - [MESSAGE][PASSED] - Text 'Ганин Данила' is set on object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/input__ganin'
+
+2022-03-03 12:47:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/admin/Global player"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/admin/Global player'
+
+2022-03-03 12:48:00 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/admin/Global player'
+
+2022-03-03 12:48:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date' is clicked on
+
+2022-03-03 12:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date' is clicked on
+
+2022-03-03 12:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date 14 01")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date 14 01' is clicked on
+
+2022-03-03 12:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date 14 01' is clicked on
+
+2022-03-03 12:48:06 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1"), 0): Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1' successfully
+
+2022-03-03 12:48:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 12:48:13 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1' successfully
+
+2022-03-03 12:48:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1"), "Реакция на простой стимул"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1' are matched.
+
+2022-03-03 12:48:15 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1' are matched.
+
+2022-03-03 12:48:15 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Психофиз)/reaction hard1"), "Реакция на сложный стимул"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/reaction hard1' are matched.
+
+2022-03-03 12:48:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/reaction hard1' are matched.
+
+2022-03-03 12:48:17 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)"), 0): Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)' successfully
+
+2022-03-03 12:48:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 12:48:20 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)' successfully
+
+2022-03-03 12:48:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/topologic")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/topologic' is clicked on
+
+2022-03-03 12:48:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/topologic' is clicked on
+
+2022-03-03 12:48:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)' is clicked on
+
+2022-03-03 12:48:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)' is clicked on
+
+2022-03-03 12:48:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/21-22")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/21-22' is clicked on
+
+2022-03-03 12:48:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/21-22' is clicked on
+
+2022-03-03 12:48:28 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi"), 0): Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi' successfully
+
+2022-03-03 12:48:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 12:48:33 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi' successfully
+
+2022-03-03 12:48:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi"), "Экстраверсия"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi' are matched.
+
+2022-03-03 12:48:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi' are matched.
+
+2022-03-03 12:48:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Психофиз)/spontannost"), "Спонтанность"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/spontannost' are matched.
+
+2022-03-03 12:48:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/spontannost' are matched.
+
+2022-03-03 12:48:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/home")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/home' is clicked on
+
+2022-03-03 12:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/home' is clicked on
+
+2022-03-03 12:48:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 12:48:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет по играм за период" time="176.417" classname="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет по играм за период" status="PASSED">
+         <system-out><![CDATA[2022-03-03 12:48:40 - [TEST_CASE][PASSED] - Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет по играм за период: Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет по играм за период
+
+2022-03-03 12:48:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Отчет для тк"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Отчет для тк' successfully
+
+2022-03-03 12:48:41 - [TEST_CASE][PASSED] - Test Cases/Администратор/Отчет для тк: Test Cases/Администратор/Отчет для тк
+
+2022-03-03 12:48:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:48:41 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-03-03 12:48:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 12:48:41 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-03-03 12:48:41 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-03-03 12:48:41 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-03-03 12:48:41 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=575106, tunnelId=, usingTunnel=false}']
+
+2022-03-03 12:48:41 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-03-03 12:48:41 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-03-03 12:49:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 12:49:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 12:49:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 12:49:55 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:50:02 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:50:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:50:06 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:50:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:50:10 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:50:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:50:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:50:12 - [TEST_STEP][PASSED] - click(findTestObject("admin/reports/keys/reports/report")): Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-03-03 12:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-03-03 12:50:23 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Отчет для тк' successfully
+
+2022-03-03 12:50:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/period/Page_/div_")): Object: 'Object Repository/admin/reports/period/Page_/div_' is clicked on
+
+2022-03-03 12:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/period/Page_/div_' is clicked on
+
+2022-03-03 12:50:26 - [TEST_STEP][PASSED] - verifyTextPresent("ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД", true): Text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is present on page  using regular expression
+
+2022-03-03 12:50:27 - [MESSAGE][PASSED] - Text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is present on page  using regular expression
+
+2022-03-03 12:50:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/reports/period/Page_/input__react-select-2-input"), "академия"): Text 'академия' is set on object 'Object Repository/admin/reports/period/Page_/input__react-select-2-input'
+
+2022-03-03 12:50:31 - [MESSAGE][PASSED] - Text 'академия' is set on object 'Object Repository/admin/reports/period/Page_/input__react-select-2-input'
+
+2022-03-03 12:50:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/admin/reports/period/Page_/input__react-select-2-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/period/Page_/input__react-select-2-input'
+
+2022-03-03 12:50:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/period/Page_/input__react-select-2-input'
+
+2022-03-03 12:50:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/reports/period/Page_/input__react-select-3-input"), school): Text 'Омские Ястребы' is set on object 'Object Repository/admin/reports/period/Page_/input__react-select-3-input'
+
+2022-03-03 12:50:38 - [MESSAGE][PASSED] - Text 'Омские Ястребы' is set on object 'Object Repository/admin/reports/period/Page_/input__react-select-3-input'
+
+2022-03-03 12:50:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/admin/reports/period/Page_/input__react-select-3-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/period/Page_/input__react-select-3-input'
+
+2022-03-03 12:50:40 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/period/Page_/input__react-select-3-input'
+
+2022-03-03 12:50:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/reports/period/Page_/input_._year"), "2020"): Text '2020' is set on object 'Object Repository/admin/reports/period/Page_/input_._year'
+
+2022-03-03 12:50:47 - [MESSAGE][PASSED] - Text '2020' is set on object 'Object Repository/admin/reports/period/Page_/input_._year'
+
+2022-03-03 12:50:47 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Object Repository/admin/reports/period/Page_/img_ _sc-cMljjf KiCqS"), 0): Web element with id: 'Object Repository/admin/reports/period/Page_/img_ _sc-cMljjf KiCqS' located by 'By.xpath: //div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/img' is not present after '30' second(s)
+
+2022-03-03 12:50:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 12:51:05 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/admin/reports/period/Page_/img_ _sc-cMljjf KiCqS' located by 'By.xpath: //div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/img' is not present after '30' second(s)
+
+2022-03-03 12:51:05 - [TEST_STEP][PASSED] - verifyTextPresent("Управление командой со скамейки", true): Text 'Управление командой со скамейки' is present on page  using regular expression
+
+2022-03-03 12:51:09 - [MESSAGE][PASSED] - Text 'Управление командой со скамейки' is present on page  using regular expression
+
+2022-03-03 12:51:09 - [TEST_STEP][PASSED] - verifyTextPresent("Самоотверженность / воля к победе", true): Text 'Самоотверженность / воля к победе' is present on page  using regular expression
+
+2022-03-03 12:51:13 - [MESSAGE][PASSED] - Text 'Самоотверженность / воля к победе' is present on page  using regular expression
+
+2022-03-03 12:51:13 - [TEST_STEP][PASSED] - verifyTextPresent("СРЕДНЯЯ ОЦЕНКА", false): Text 'СРЕДНЯЯ ОЦЕНКА' is present on page 
+
+2022-03-03 12:51:17 - [MESSAGE][PASSED] - Text 'СРЕДНЯЯ ОЦЕНКА' is present on page 
+
+2022-03-03 12:51:17 - [TEST_STEP][PASSED] - verifyTextPresent("АТАКУЮЩИЕ ДЕЙСТВИЯ", false): Text 'АТАКУЮЩИЕ ДЕЙСТВИЯ' is present on page 
+
+2022-03-03 12:51:21 - [MESSAGE][PASSED] - Text 'АТАКУЮЩИЕ ДЕЙСТВИЯ' is present on page 
+
+2022-03-03 12:51:21 - [TEST_STEP][PASSED] - verifyTextPresent("ОБОРОНИТЕЛЬНЫЕ ДЕЙСТВИЯ", false): Text 'ОБОРОНИТЕЛЬНЫЕ ДЕЙСТВИЯ' is present on page 
+
+2022-03-03 12:51:26 - [MESSAGE][PASSED] - Text 'ОБОРОНИТЕЛЬНЫЕ ДЕЙСТВИЯ' is present on page 
+
+2022-03-03 12:51:26 - [TEST_STEP][PASSED] - verifyTextPresent("Защитник", false): Text 'Защитник' is present on page 
+
+2022-03-03 12:51:30 - [MESSAGE][PASSED] - Text 'Защитник' is present on page 
+
+2022-03-03 12:51:30 - [TEST_STEP][PASSED] - verifyTextPresent("Нападающий", false): Text 'Нападающий' is present on page 
+
+2022-03-03 12:51:34 - [MESSAGE][PASSED] - Text 'Нападающий' is present on page 
+
+2022-03-03 12:51:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/period/Page_/root")): Object: 'Object Repository/admin/reports/period/Page_/root' is clicked on
+
+2022-03-03 12:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/period/Page_/root' is clicked on
+
+2022-03-03 12:51:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 12:51:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика" time="154.356" classname="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика" status="PASSED">
+         <system-out><![CDATA[2022-03-03 12:51:37 - [TEST_CASE][PASSED] - Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика: Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика
+
+2022-03-03 12:51:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:51:37 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-03-03 12:51:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 12:51:37 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-03-03 12:51:37 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-03-03 12:51:37 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-03-03 12:51:37 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=575106, tunnelId=, usingTunnel=false}']
+
+2022-03-03 12:51:37 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-03-03 12:51:37 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-03-03 12:52:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 12:52:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 12:52:24 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 12:52:24 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:52:31 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:52:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:52:35 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:52:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:52:39 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:52:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:52:41 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:52:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/reports/report")): Object: 'Object Repository/admin/reports/gamestat/reports/report' is clicked on
+
+2022-03-03 12:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/reports/report' is clicked on
+
+2022-03-03 12:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/stats_report")): Object: 'Object Repository/admin/reports/gamestat/Page_/stats_report' is clicked on
+
+2022-03-03 12:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/stats_report' is clicked on
+
+2022-03-03 12:52:57 - [TEST_STEP][PASSED] - verifyTextPresent("ИГРОВАЯ СТАТИСТИКА", true): Text 'ИГРОВАЯ СТАТИСТИКА' is present on page  using regular expression
+
+2022-03-03 12:52:59 - [MESSAGE][PASSED] - Text 'ИГРОВАЯ СТАТИСТИКА' is present on page  using regular expression
+
+2022-03-03 12:52:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/school")): Object: 'Object Repository/admin/reports/gamestat/Page_/school' is clicked on
+
+2022-03-03 12:53:31 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'Школа' or . = 'Школа')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-03 12:53:31 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/reports/gamestat/Page_/school'. Try using Self-healing.
+
+2022-03-03 12:53:34 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/LENOVO/Katalon Studio/Avangard/Reports/Self-healing/Object Repository/admin/reports/gamestat/Page_/school_XPATH.png
+
+2022-03-03 12:53:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/reports/gamestat/Page_/school' was broken. Propose an alternative one: '//div[@id='root']/div/div/div[2]/div/div/div/div[2]/div/div/div/div'.
+
+2022-03-03 12:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/school' is clicked on
+
+2022-03-03 12:53:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/Academy")): Object: 'Object Repository/admin/reports/gamestat/Page_/Academy' is clicked on
+
+2022-03-03 12:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/Academy' is clicked on
+
+2022-03-03 12:53:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/team")): Object: 'Object Repository/admin/reports/gamestat/Page_/team' is clicked on
+
+2022-03-03 12:53:38 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/team' is clicked on
+
+2022-03-03 12:53:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/varteam")): Object: 'Object Repository/admin/reports/gamestat/Page_/varteam' is clicked on
+
+2022-03-03 12:53:41 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/varteam' is clicked on
+
+2022-03-03 12:53:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/choseSeason")): Object: 'Object Repository/admin/reports/gamestat/Page_/choseSeason' is clicked on
+
+2022-03-03 12:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/choseSeason' is clicked on
+
+2022-03-03 12:53:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/div_21-22_1")): Object: 'Object Repository/admin/reports/gamestat/Page_/div_21-22_1' is clicked on
+
+2022-03-03 12:53:46 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/div_21-22_1' is clicked on
+
+2022-03-03 12:53:46 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "10.jpg"): Taking screenshot successfully
+
+2022-03-03 12:53:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:53:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы10.jpg]]
+
+2022-03-03 12:53:53 - [TEST_STEP][PASSED] - verifyTextPresent("Матчи", true): Text 'Матчи' is present on page  using regular expression
+
+2022-03-03 12:53:56 - [MESSAGE][PASSED] - Text 'Матчи' is present on page  using regular expression
+
+2022-03-03 12:53:56 - [TEST_STEP][PASSED] - verifyTextPresent("Смены", true): Text 'Смены' is present on page  using regular expression
+
+2022-03-03 12:53:58 - [MESSAGE][PASSED] - Text 'Смены' is present on page  using regular expression
+
+2022-03-03 12:53:58 - [TEST_STEP][PASSED] - verifyTextPresent("Голы за", false): Text 'Голы за' is present on page 
+
+2022-03-03 12:54:00 - [MESSAGE][PASSED] - Text 'Голы за' is present on page 
+
+2022-03-03 12:54:00 - [TEST_STEP][PASSED] - verifyTextPresent("Голы против", false): Text 'Голы против' is present on page 
+
+2022-03-03 12:54:02 - [MESSAGE][PASSED] - Text 'Голы против' is present on page 
+
+2022-03-03 12:54:02 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "11.jpg"): Taking screenshot successfully
+
+2022-03-03 12:54:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-03-03 12:54:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы11.jpg]]
+
+2022-03-03 12:54:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/root")): Object: 'Object Repository/admin/reports/gamestat/Page_/root' is clicked on
+
+2022-03-03 12:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/root' is clicked on
+
+2022-03-03 12:54:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 12:54:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/Отчет для тк" time="53.32" classname="Test Cases/Администратор/Отчет для тк" status="PASSED">
+         <system-out><![CDATA[2022-03-03 12:54:11 - [TEST_CASE][PASSED] - Test Cases/Администратор/Отчет для тк: Test Cases/Администратор/Отчет для тк
+
+2022-03-03 12:54:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:54:11 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-03-03 12:54:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 12:54:11 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-03-03 12:54:11 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-03-03 12:54:11 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-03-03 12:54:11 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=575106, tunnelId=, usingTunnel=false}']
+
+2022-03-03 12:54:11 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-03-03 12:54:11 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-03-03 12:54:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 12:54:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 12:54:37 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 12:54:37 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:54:44 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:54:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:54:47 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:54:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:54:52 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:54:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:54:54 - [TEST_STEP][PASSED] - click(findTestObject("admin/reports/keys/reports/report")): Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-03-03 12:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Менеджер/Менеджер Документы" time="87.282" classname="Test Cases/Менеджер/Менеджер Документы" status="PASSED">
+         <system-out><![CDATA[2022-03-03 12:55:05 - [TEST_CASE][PASSED] - Test Cases/Менеджер/Менеджер Документы: Test Cases/Менеджер/Менеджер Документы
+
+2022-03-03 12:55:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:55:05 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-03-03 12:55:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 12:55:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-03 12:55:06 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-03-03 12:55:06 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-03-03 12:55:06 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-03-03 12:55:06 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=575106, tunnelId=, usingTunnel=false}']
+
+2022-03-03 12:55:06 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-03-03 12:55:06 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-03-03 12:55:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 12:55:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 12:55:38 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 12:55:38 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:55:46 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:55:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:55:50 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:55:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:55:53 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:55:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:55:55 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Менеджер)/documents (Вкладка)")): Object: 'Object Repository/Avangard New/Object (Менеджер)/documents (Вкладка)' is clicked on
+
+2022-03-03 12:56:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Менеджер)/documents (Вкладка)' is clicked on
+
+2022-03-03 12:56:20 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2022-03-03 12:56:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-03-03 12:56:20 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Менеджер)/document (Сам документ)")): Object: 'Object Repository/Avangard New/Object (Менеджер)/document (Сам документ)' is clicked on
+
+2022-03-03 12:56:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Менеджер)/document (Сам документ)' is clicked on
+
+2022-03-03 12:56:25 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Avangard New/Object (Менеджер)/button download")): Object 'Object Repository/Avangard New/Object (Менеджер)/button download' is clickable
+
+2022-03-03 12:56:27 - [MESSAGE][PASSED] - Object 'Object Repository/Avangard New/Object (Менеджер)/button download' is clickable
+
+2022-03-03 12:56:27 - [TEST_STEP][NOT_RUN] - sendKeys(findTestObject("Avangard New/Object (Менеджер)/button download"), Keys.chord(ESCAPE)): NOT_RUN: sendKeys(findTestObject("Avangard New/Object (Менеджер)/button download"), Keys.chord(ESCAPE))
+
+2022-03-03 12:56:27 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys(findTestObject("Avangard New/Object (Менеджер)/button download"), Keys.chord(ESCAPE))
+
+2022-03-03 12:56:27 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Менеджер)/exit (Выход с формы)")): Object: 'Object Repository/Avangard New/Object (Менеджер)/exit (Выход с формы)' is clicked on
+
+2022-03-03 12:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Менеджер)/exit (Выход с формы)' is clicked on
+
+2022-03-03 12:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Менеджер)/home (Главная)")): Object: 'Object Repository/Avangard New/Object (Менеджер)/home (Главная)' is clicked on
+
+2022-03-03 12:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Менеджер)/home (Главная)' is clicked on
+
+2022-03-03 12:56:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 12:56:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Менеджер/Профиль Менеджера" time="66.534" classname="Test Cases/Менеджер/Профиль Менеджера" status="PASSED">
+         <system-out><![CDATA[2022-03-03 12:56:32 - [TEST_CASE][PASSED] - Test Cases/Менеджер/Профиль Менеджера: Test Cases/Менеджер/Профиль Менеджера
+
+2022-03-03 12:56:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:56:32 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-03-03 12:56:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 12:56:32 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-03-03 12:56:32 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-03-03 12:56:32 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-03-03 12:56:32 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=575106, tunnelId=, usingTunnel=false}']
+
+2022-03-03 12:56:32 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-03-03 12:56:32 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-03-03 12:56:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 12:56:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 12:56:53 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 12:56:53 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:57:01 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:57:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:57:05 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:57:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:57:09 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:57:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:57:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:57:11 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Avangard New/Object (Менеджер)/Eronko"), 0): Scroll to object 'Object Repository/Avangard New/Object (Менеджер)/Eronko' successfully
+
+2022-03-03 12:57:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 12:57:26 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Менеджер)/Eronko' successfully
+
+2022-03-03 12:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Менеджер)/Eronko")): Object: 'Object Repository/Avangard New/Object (Менеджер)/Eronko' is clicked on
+
+2022-03-03 12:57:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Менеджер)/Eronko' is clicked on
+
+2022-03-03 12:57:28 - [TEST_STEP][PASSED] - verifyTextPresent("РЕДАКТИРОВАНИЕ ПРОФИЛЯ", true): Text 'РЕДАКТИРОВАНИЕ ПРОФИЛЯ' is present on page  using regular expression
+
+2022-03-03 12:57:30 - [MESSAGE][PASSED] - Text 'РЕДАКТИРОВАНИЕ ПРОФИЛЯ' is present on page  using regular expression
+
+2022-03-03 12:57:30 - [TEST_STEP][NOT_RUN] - takeFullPageScreenshot("C:\scr\" + school + "33.jpg"): NOT_RUN: takeFullPageScreenshot("C:\scr\" + school + "33.jpg")
+
+2022-03-03 12:57:30 - [MESSAGE][NOT_RUN] - NOT_RUN: takeFullPageScreenshot("C:\scr\" + school + "33.jpg")
+
+2022-03-03 12:57:30 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Менеджер)/save (кнопка)")): Object: 'Object Repository/Avangard New/Object (Менеджер)/save (кнопка)' is clicked on
+
+2022-03-03 12:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Менеджер)/save (кнопка)' is clicked on
+
+2022-03-03 12:57:32 - [TEST_STEP][PASSED] - verifyTextPresent("Пользователь сохранен", false): Text 'Пользователь сохранен' is present on page 
+
+2022-03-03 12:57:38 - [MESSAGE][PASSED] - Text 'Пользователь сохранен' is present on page 
+
+2022-03-03 12:57:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 12:57:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Менеджер/Менеджер Профиль игрока" time="117.026" classname="Test Cases/Менеджер/Менеджер Профиль игрока" status="PASSED">
+         <system-out><![CDATA[2022-03-03 12:57:38 - [TEST_CASE][PASSED] - Test Cases/Менеджер/Менеджер Профиль игрока: Test Cases/Менеджер/Менеджер Профиль игрока
+
+2022-03-03 12:57:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:57:39 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-03-03 12:57:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-03 12:57:39 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-03-03 12:57:39 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-03-03 12:57:39 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-03-03 12:57:39 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=575106, tunnelId=, usingTunnel=false}']
+
+2022-03-03 12:57:39 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-03-03 12:57:39 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-03-03 12:58:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-03 12:58:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-03 12:58:08 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-03 12:58:08 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:58:15 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-03 12:58:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:58:19 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-03 12:58:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:58:23 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-03 12:58:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:58:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-03-03 12:58:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-03-03 12:58:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/students/Page_/students")): Object: 'Object Repository/admin/students/Page_/students' is clicked on
+
+2022-03-03 12:58:36 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/students/Page_/students' is clicked on
+
+2022-03-03 12:58:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/students/input"), player_for_test_1): Text 'Ганин' is set on object 'Object Repository/admin/students/input'
+
+2022-03-03 12:58:41 - [MESSAGE][PASSED] - Text 'Ганин' is set on object 'Object Repository/admin/students/input'
+
+2022-03-03 12:58:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/students/Page_/artur")): Object: 'Object Repository/admin/students/Page_/artur' is clicked on
+
+2022-03-03 12:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/students/Page_/artur' is clicked on
+
+2022-03-03 12:58:45 - [TEST_STEP][PASSED] - num = getText(findTestObject("Object Repository/admin/students/Page_/player_num")): Text of object 'Object Repository/admin/students/Page_/player_num' is: '88'
+
+2022-03-03 12:58:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/admin/students/Page_/player_num' is: '88'
+
+2022-03-03 12:58:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/admin/students/Page_/player_num1"), num): Actual text and expected text of test object 'Object Repository/admin/students/Page_/player_num1' are matched.
+
+2022-03-03 12:58:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/admin/students/Page_/player_num1' are matched.
+
+2022-03-03 12:58:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/students/Page_/family")): Object: 'Object Repository/admin/students/Page_/family' is clicked on
+
+2022-03-03 12:58:52 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/students/Page_/family' is clicked on
+
+2022-03-03 12:58:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("admin/panel"), 0): Object 'Object Repository/admin/panel' is present
+
+2022-03-03 12:58:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 12:58:54 - [MESSAGE][PASSED] - Object 'Object Repository/admin/panel' is present
+
+2022-03-03 12:58:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/students/Page_/Status")): Object: 'Object Repository/admin/students/Page_/Status' is clicked on
+
+2022-03-03 12:58:56 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/students/Page_/Status' is clicked on
+
+2022-03-03 12:58:56 - [TEST_STEP][PASSED] - click(findTestObject("admin/zveno")): Object: 'Object Repository/admin/zveno' is clicked on
+
+2022-03-03 12:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/zveno' is clicked on
+
+2022-03-03 12:59:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/admin/students/Page_/zveno"), 0): Object 'Object Repository/admin/students/Page_/zveno' is present
+
+2022-03-03 12:59:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 12:59:04 - [MESSAGE][PASSED] - Object 'Object Repository/admin/students/Page_/zveno' is present
+
+2022-03-03 12:59:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/admin/students/Page_/zveno1"), 0): Object 'Object Repository/admin/students/Page_/zveno1' is present
+
+2022-03-03 12:59:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-03 12:59:06 - [MESSAGE][PASSED] - Object 'Object Repository/admin/students/Page_/zveno1' is present
+
+2022-03-03 12:59:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/students/Page_/button_stats")): Object: 'Object Repository/admin/students/Page_/button_stats' is clicked on
+
+2022-03-03 12:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/students/Page_/button_stats' is clicked on
+
+2022-03-03 12:59:08 - [TEST_STEP][PASSED] - verifyTextPresent("Матчи", false): Text 'Матчи' is present on page 
+
+2022-03-03 12:59:14 - [MESSAGE][PASSED] - Text 'Матчи' is present on page 
+
+2022-03-03 12:59:14 - [TEST_STEP][PASSED] - verifyTextPresent("Ранг", false): Text 'Ранг' is present on page 
+
+2022-03-03 12:59:15 - [MESSAGE][PASSED] - Text 'Ранг' is present on page 
+
+2022-03-03 12:59:15 - [TEST_STEP][PASSED] - verifyTextPresent("Игр. время", false): Text 'Игр. время' is present on page 
+
+2022-03-03 12:59:17 - [MESSAGE][PASSED] - Text 'Игр. время' is present on page 
+
+2022-03-03 12:59:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/students/Page_/button_estamition")): Object: 'Object Repository/admin/students/Page_/button_estamition' is clicked on
+
+2022-03-03 12:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/students/Page_/button_estamition' is clicked on
+
+2022-03-03 12:59:19 - [TEST_STEP][PASSED] - verifyTextPresent("АТАКУЮЩИЕ ДЕЙСТВИЯ", false): Text 'АТАКУЮЩИЕ ДЕЙСТВИЯ' is present on page 
+
+2022-03-03 12:59:21 - [MESSAGE][PASSED] - Text 'АТАКУЮЩИЕ ДЕЙСТВИЯ' is present on page 
+
+2022-03-03 12:59:21 - [TEST_STEP][PASSED] - verifyTextPresent("ОБОРОНИТЕЛЬНЫЕ ДЕЙСТВИЯ", false): Text 'ОБОРОНИТЕЛЬНЫЕ ДЕЙСТВИЯ' is present on page 
+
+2022-03-03 12:59:23 - [MESSAGE][PASSED] - Text 'ОБОРОНИТЕЛЬНЫЕ ДЕЙСТВИЯ' is present on page 
+
+2022-03-03 12:59:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/students/Page_/button_skill")): Object: 'Object Repository/admin/students/Page_/button_skill' is clicked on
+
+2022-03-03 12:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/students/Page_/button_skill' is clicked on
+
+2022-03-03 12:59:25 - [TEST_STEP][PASSED] - verifyTextPresent("Ускорение", false): Text 'Ускорение' is present on page 
+
+2022-03-03 12:59:28 - [MESSAGE][PASSED] - Text 'Ускорение' is present on page 
+
+2022-03-03 12:59:28 - [TEST_STEP][PASSED] - verifyTextPresent("Катание", false): Text 'Катание' is present on page 
+
+2022-03-03 12:59:31 - [MESSAGE][PASSED] - Text 'Катание' is present on page 
+
+2022-03-03 12:59:31 - [TEST_STEP][PASSED] - verifyTextPresent("Скорость", false): Text 'Скорость' is present on page 
+
+2022-03-03 12:59:33 - [MESSAGE][PASSED] - Text 'Скорость' is present on page 
+
+2022-03-03 12:59:33 - [TEST_STEP][PASSED] - verifyTextPresent("Баланс", false): Text 'Баланс' is present on page 
+
+2022-03-03 12:59:35 - [MESSAGE][PASSED] - Text 'Баланс' is present on page 
+
+2022-03-03 12:59:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-03 12:59:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-03 12:35:30 - [TEST_SUITE][PASSED] - Менеждер: Test Cases/Менеджер/Менеджер Профиль игрока]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

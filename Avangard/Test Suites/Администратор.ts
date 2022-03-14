@@ -95,4 +95,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Администратор/Авторизация</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fb10235b-1202-449f-bc71-41edfb61124c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Администратор/Пользователи</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>

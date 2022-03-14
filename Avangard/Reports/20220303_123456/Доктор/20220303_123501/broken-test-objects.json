@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_omsk",
+      "brokenLocator": "//div[@id\u003d\u0027react-select-11-option-0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Выберите команду\u0027])[1]/following::div[8]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220303_123456/Доктор/20220303_123501/Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_omsk_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Avangard New/Object (Доктор)/Case (Питание)/button_edit",
+      "brokenLocator": "//button[(text() \u003d \u0027Редактировать\u0027 or . \u003d \u0027Редактировать\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Команда\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

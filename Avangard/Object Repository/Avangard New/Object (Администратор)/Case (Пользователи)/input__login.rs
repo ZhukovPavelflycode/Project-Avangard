@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input__login</name>
+   <tag></tag>
+   <elementGuidId>6bc84bd2-ac8b-4a55-8c0e-a9c4ac771fde</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.UserForm__CellsContainer-sc-11tvuqc-8.hDJFxQ > div.UserForm__Cell-sc-11tvuqc-7.eZlHPZ > input.Input-sc-rbewbw-0.duYQbr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div/div[2]/form/div/div/div[2]/div[2]/div[2]/div[1]/input</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>new-login</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Input-sc-rbewbw-0 duYQbr</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;RouterApp__Wrapper-sc-itp1b8-0 fGnCKq LayoutContainer&quot;]/div[@class=&quot;ChessTemplate__Wrapper-sc-o4z6mm-0 cMIiDp ChessTemplate&quot;]/div[@class=&quot;ChessTemplate__Right-sc-o4z6mm-2 evkQso Right&quot;]/form[1]/div[@class=&quot;TableDefault__Wrapper-sc-t4zu4e-0 gAtJor TableDefaultContainer&quot;]/div[@class=&quot;TableDefault__Container-sc-t4zu4e-2 cWVTNO container&quot;]/div[@class=&quot;TableDefault__TableBody-sc-t4zu4e-9 bErBiJ TableBody&quot;]/div[@class=&quot;UserForm__Container-sc-11tvuqc-6 edNvtS&quot;]/div[@class=&quot;UserForm__CellsContainer-sc-11tvuqc-8 hDJFxQ&quot;]/div[@class=&quot;UserForm__Cell-sc-11tvuqc-7 eZlHPZ&quot;]/input[@class=&quot;Input-sc-rbewbw-0 duYQbr&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/form/div/div/div[2]/div[2]/div[2]/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/input</value>
+   </webElementXpaths>
+</WebElementEntity>

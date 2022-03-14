@@ -20,19 +20,19 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('Администратор/Авторизация'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'переход в меню "документы"\r\n\r\n'
-WebUI.click(findTestObject('Avangard New/Object (Администратор)/documents (вкладка документы)'))
+WebUI.click(findTestObject('Avangard New/Object (Администратор)/Case (Документы)/documents (вкладка документы)'))
 
 'ожидание загрузки страницы '
 WebUI.waitForPageLoad(10)
 
 'Нажимает на документ\r\n'
-WebUI.click(findTestObject('Avangard New/Object (Администратор)/document (нажать на документ)'))
+WebUI.click(findTestObject('Avangard New/Object (Администратор)/Case (Документы)/document (нажать на документ)'))
 
 'Проверяет кликабельность кнопки скачать\r\n'
-WebUI.verifyElementClickable(findTestObject('Avangard New/Object (Администратор)/button download'))
+WebUI.verifyElementClickable(findTestObject('Avangard New/Object (Администратор)/Case (Документы)/button download'))
 
 'Проверяет кликабельность кнопки скачать\r\n'
-WebUI.sendKeys(findTestObject('Avangard New/Object (Администратор)/button download'), Keys.chord(Keys.ESCAPE))
+WebUI.sendKeys(findTestObject('Avangard New/Object (Администратор)/Case (Документы)/button download'), Keys.chord(Keys.ESCAPE))
 
 WebUI.scrollToElement(findTestObject('admin/documents/documents (4)/add'), 0, FailureHandling.OPTIONAL)
 
@@ -50,7 +50,7 @@ while (WebUI.verifyElementVisible(findTestObject('admin/documents/Page_/add'), F
 }
 
 'Переход на главную страницу'
-WebUI.click(findTestObject('Avangard New/Object (Администратор)/home (вкладка главная)'))
+WebUI.click(findTestObject('Avangard New/Object (Администратор)/Case (Документы)/home (вкладка главная)'))
 
 'закрыть браузер'
 WebUI.closeBrowser()
