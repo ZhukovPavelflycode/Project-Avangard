@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Игрок" time="149.338" tests="2" failures="0" errors="0">
+   <testsuite name="Игрок" tests="2" failures="0" errors="0" time="149.338" skipped="0" timestamp="2022-03-15 00:32:31" hostname="LENOVO - DESKTOP-KNHN0AA" id="Test Suites/Игрок">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220315_003159\\\u0418\u0433\u0440\u043E\u043A\\20220315_003214"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220315_003159\\\u0418\u0433\u0440\u043E\u043A\\20220315_003214\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220315_003159\\\u0418\u0433\u0440\u043E\u043A\\20220315_003214\\1647293654175.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220315_003159\\\u0418\u0433\u0440\u043E\u043A\\20220315_003214\\1647293694734.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-KNHN0AA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 99.0.4844.51"/>
+         <property name="hostAddress" value="192.168.0.10"/>
+         <property name="sessionId" value="55512289a8d1e7642647baeba3bc5855"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Игрок/Авторизация" time="37.574" classname="Test Cases/Игрок/Авторизация" status="PASSED">
+         <system-out><![CDATA[2022-03-15 00:32:33 - [TEST_CASE][PASSED] - Test Cases/Игрок/Авторизация: Test Cases/Игрок/Авторизация
+
+2022-03-15 00:32:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-15 00:32:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 00:32:38 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-03-15 00:32:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 00:32:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-15 00:32:47 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-15 00:32:47 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-15 00:33:05 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-15 00:33:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/manager/Page_/input__sc-lnrBVv eqPACj"), player_login): Text 'dima.vlasenko18@mail.ru' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-15 00:33:07 - [MESSAGE][PASSED] - Text 'dima.vlasenko18@mail.ru' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-15 00:33:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1"), player_password): Text 'dima.vlasenko18' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-15 00:33:09 - [MESSAGE][PASSED] - Text 'dima.vlasenko18' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-15 00:33:09 - [TEST_STEP][PASSED] - click(findTestObject("manager/Page_/go")): Object: 'Object Repository/manager/Page_/go' is clicked on
+
+2022-03-15 00:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/manager/Page_/go' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Игрок/Отчеты" time="109.924" classname="Test Cases/Игрок/Отчеты" status="PASSED">
+         <system-out><![CDATA[2022-03-15 00:33:10 - [TEST_CASE][PASSED] - Test Cases/Игрок/Отчеты: Test Cases/Игрок/Отчеты
+
+2022-03-15 00:33:11 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Игрок/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Игрок/Авторизация' successfully
+
+2022-03-15 00:33:11 - [TEST_CASE][PASSED] - Test Cases/Игрок/Авторизация: Test Cases/Игрок/Авторизация
+
+2022-03-15 00:33:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-03-15 00:33:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-03-15 00:33:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-03-15 00:33:12 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-03-15 00:33:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-03-15 00:33:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-03-15 00:33:13 - [MESSAGE][PASSED] - Current window maximized
+
+2022-03-15 00:33:13 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-15 00:33:28 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-03-15 00:33:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/manager/Page_/input__sc-lnrBVv eqPACj"), player_login): Text 'dima.vlasenko18@mail.ru' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-15 00:33:29 - [MESSAGE][PASSED] - Text 'dima.vlasenko18@mail.ru' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj'
+
+2022-03-15 00:33:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1"), player_password): Text 'dima.vlasenko18' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-15 00:33:31 - [MESSAGE][PASSED] - Text 'dima.vlasenko18' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-03-15 00:33:31 - [TEST_STEP][PASSED] - click(findTestObject("manager/Page_/go")): Object: 'Object Repository/manager/Page_/go' is clicked on
+
+2022-03-15 00:33:32 - [MESSAGE][PASSED] - Object: 'Object Repository/manager/Page_/go' is clicked on
+
+2022-03-15 00:33:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Игрок/Авторизация' successfully
+
+2022-03-15 00:33:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/report")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/report' is clicked on
+
+2022-03-15 00:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/report' is clicked on
+
+2022-03-15 00:33:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/psixolog")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/psixolog' is clicked on
+
+2022-03-15 00:33:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/psixolog' is clicked on
+
+2022-03-15 00:33:41 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin"), "Ганин Данила", OPTIONAL) == true): Actual text 'Власенко Дмитрий' and expected text 'Ганин Данила' of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Власенко Дмитрий' and expected text 'Ганин Данила' of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4733)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at Отчеты.run(Отчеты:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647293534795.run(TempTestSuite1647293534795.groovy:36)
+)
+
+2022-03-15 00:34:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'Ганин Данила' or . = 'Ганин Данила')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-15 00:34:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin'. Try using Self-healing.
+
+2022-03-15 00:34:13 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='root']/div/div/div/div/div[2]/div/div[3]/div/div/div[2]/div/div/div/div'.
+
+2022-03-15 00:34:14 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/LENOVO/Katalon Studio/Avangard/Reports/Self-healing/Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin_idRelative.png
+
+2022-03-15 00:34:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin' was broken. Propose an alternative one: '//div[@id='root']/div/div/div/div/div[2]/div/div[3]/div/div/div[2]/div/div/div/div'.
+
+2022-03-15 00:34:14 - [MESSAGE][WARNING] - Actual text 'Власенко Дмитрий' and expected text 'Ганин Данила' of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Власенко Дмитрий' and expected text 'Ганин Данила' of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4733)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at Отчеты.run(Отчеты:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647293534795.run(TempTestSuite1647293534795.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220315_003159\\\u0418\u0433\u0440\u043E\u043A\\20220315_003214\\1647293654175.png]]
+
+2022-03-15 00:34:14 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_26.08.2021' is clicked on
+
+2022-03-15 00:34:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_date report")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_date report' is clicked on
+
+2022-03-15 00:34:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_date report' is clicked on
+
+2022-03-15 00:34:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_26.08.2021")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_26.08.2021' is clicked on
+
+2022-03-15 00:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_26.08.2021' is clicked on
+
+2022-03-15 00:34:16 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin"), "Ганин Данила"): NOT_RUN: verifyElementText(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin"), "Ганин Данила")
+
+2022-03-15 00:34:16 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin"), "Ганин Данила")
+
+2022-03-15 00:34:16 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction easy"), 0): Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction easy' successfully
+
+2022-03-15 00:34:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-15 00:34:21 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction easy' successfully
+
+2022-03-15 00:34:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction easy"), "Реакция на простой стимул"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction easy' are matched.
+
+2022-03-15 00:34:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction easy' are matched.
+
+2022-03-15 00:34:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction hard"), "Реакция на сложный стимул"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction hard' are matched.
+
+2022-03-15 00:34:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/reaction hard' are matched.
+
+2022-03-15 00:34:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/button burg date (1)"), 0): Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/button burg date (1)' successfully
+
+2022-03-15 00:34:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-15 00:34:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/button burg date (1)' successfully
+
+2022-03-15 00:34:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/tab")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/tab' is clicked on
+
+2022-03-15 00:34:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/tab' is clicked on
+
+2022-03-15 00:34:23 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin"), "Ганин Данила", OPTIONAL) == true): Actual text 'Власенко Дмитрий' and expected text 'Ганин Данила' of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Власенко Дмитрий' and expected text 'Ганин Данила' of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4733)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at Отчеты.run(Отчеты:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647293534795.run(TempTestSuite1647293534795.groovy:36)
+)
+
+2022-03-15 00:34:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'Ганин Данила' or . = 'Ганин Данила')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-03-15 00:34:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin'. Try using Self-healing.
+
+2022-03-15 00:34:54 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin' was broken. Propose an alternative one: '//div[@id='root']/div/div/div/div/div[2]/div/div[3]/div/div/div[2]/div/div/div/div'.
+
+2022-03-15 00:34:54 - [MESSAGE][WARNING] - Actual text 'Власенко Дмитрий' and expected text 'Ганин Данила' of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Власенко Дмитрий' and expected text 'Ганин Данила' of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_ganin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4733)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$4.call(Unknown Source)
+	at Отчеты.run(Отчеты:55)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1647293534795.run(TempTestSuite1647293534795.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220315_003159\\\u0418\u0433\u0440\u043E\u043A\\20220315_003214\\1647293694734.png]]
+
+2022-03-15 00:34:54 - [TEST_STEP][PASSED] - else: Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_20-21' is clicked on
+
+2022-03-15 00:34:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_sezon")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_sezon' is clicked on
+
+2022-03-15 00:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_sezon' is clicked on
+
+2022-03-15 00:34:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_20-21")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_20-21' is clicked on
+
+2022-03-15 00:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/div_20-21' is clicked on
+
+2022-03-15 00:34:56 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika"), 0): Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika' successfully
+
+2022-03-15 00:34:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-03-15 00:34:58 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika' successfully
+
+2022-03-15 00:34:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika"), "Экстраверсия"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika' are matched.
+
+2022-03-15 00:34:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika' are matched.
+
+2022-03-15 00:34:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika 2"), "Спонтанность"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika 2' are matched.
+
+2022-03-15 00:34:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/xarakteristika 2' are matched.
+
+2022-03-15 00:34:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/home g (1)")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/home g (1)' is clicked on
+
+2022-03-15 00:34:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (отчеты)/home g (1)' is clicked on
+
+2022-03-15 00:34:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-03-15 00:35:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-15 00:32:31 - [TEST_SUITE][PASSED] - Игрок: Test Cases/Игрок/Отчеты]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

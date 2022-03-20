@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Доктор,Chrome 99.0.4844.51,,,2022-03-15 00:32:26,2022-03-15 00:37:59,"5m - 32,757s",FAILED
+,,,,,,,
+Test Cases/Доктор/дописать проверку на игрока Проверка вкладки Питание,Chrome 99.0.4844.51,,,2022-03-15 00:32:28,2022-03-15 00:34:34,"2m - 6,399s",FAILED
+"callTestCase(findTestCase(""Доктор/Авторизация врач""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-15 00:32:31,2022-03-15 00:33:34,"1m - 2,388s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_pitanie""))",Chrome 99.0.4844.51,Вкладка Питание,,2022-03-15 00:33:34,2022-03-15 00:33:40,"6,347s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Доктор)/Case (Питание)/place_choose school""))",Chrome 99.0.4844.51,Поле введите школу,,2022-03-15 00:33:40,2022-03-15 00:33:41,"0,925s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_Avangard""))",Chrome 99.0.4844.51,Выбор Авангард,,2022-03-15 00:33:41,2022-03-15 00:33:42,"1,033s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Доктор)/Case (Питание)/place choose team""))",Chrome 99.0.4844.51,Поле ввода команды,,2022-03-15 00:33:42,2022-03-15 00:33:43,"1,001s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_omsk""))",Chrome 99.0.4844.51,Ввести Омские Ястребы,,2022-03-15 00:33:43,2022-03-15 00:33:44,"0,767s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Доктор)/Case (Питание)/button_edit""))",Chrome 99.0.4844.51,Нажать кнопку редактровать,,2022-03-15 00:33:44,2022-03-15 00:33:56,"12,045s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add""))",Chrome 99.0.4844.51,Добавить рацион Ганину,,2022-03-15 00:33:56,2022-03-15 00:34:32,"36,374s",FAILED
+,,,,,,,
+Test Cases/Доктор/Просмотр профиля,Chrome 99.0.4844.51,,,2022-03-15 00:34:34,2022-03-15 00:35:03,"28,600s",PASSED
+"callTestCase(findTestCase(""Доктор/Авторизация врач""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-15 00:34:35,2022-03-15 00:34:51,"15,789s",PASSED
+"click(findTestObject(""Object Repository/vrach/profile/Page_/span_TestDoctormail.ru""))",Chrome 99.0.4844.51,,,2022-03-15 00:34:51,2022-03-15 00:34:59,"8,579s",PASSED
+"click(findTestObject(""Object Repository/vrach/profile/Page_/save""))",Chrome 99.0.4844.51,,,2022-03-15 00:34:59,2022-03-15 00:35:00,"0,763s",PASSED
+"verifyTextPresent(""Пользователь сохранен"", true)",Chrome 99.0.4844.51,,,2022-03-15 00:35:00,2022-03-15 00:35:01,"0,854s",PASSED
+"click(findTestObject(""Object Repository/vrach/profile/Page_/exit""))",Chrome 99.0.4844.51,,,2022-03-15 00:35:01,2022-03-15 00:35:02,"0,693s",PASSED
+closeBrowser(),Chrome 99.0.4844.51,,,2022-03-15 00:35:02,2022-03-15 00:35:03,"1,114s",PASSED
+,,,,,,,
+Test Cases/Доктор/Психотест (психолог),Chrome 99.0.4844.51,,,2022-03-15 00:35:03,2022-03-15 00:36:09,"1m - 6,106s",FAILED
+"openBrowser("""")",Chrome 99.0.4844.51,,,2022-03-15 00:35:04,2022-03-15 00:35:05,"1,624s",PASSED
+maximizeWindow(),Chrome 99.0.4844.51,,,2022-03-15 00:35:05,2022-03-15 00:35:06,"0,190s",PASSED
+"navigateToUrl(""https://stars-stage.hawk.ru:8080/"")",Chrome 99.0.4844.51,адрес сайта ,,2022-03-15 00:35:06,2022-03-15 00:35:28,"22,546s",PASSED
+"setText(findTestObject(""Avangard New/Object (Психолог)/login (Логин Психолог)""), ""psychoTEST@mail.ru"")",Chrome 99.0.4844.51,,,2022-03-15 00:35:28,2022-03-15 00:35:29,"1,294s",PASSED
+"setText(findTestObject(""Avangard New/Object (Психолог)/password (Пароль Психолог)""), ""psychoTEST@mail.ru"", STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-15 00:35:29,2022-03-15 00:35:31,"1,100s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/go""))",Chrome 99.0.4844.51,,,2022-03-15 00:35:31,2022-03-15 00:35:31,"0,496s",PASSED
+"click(findTestObject(""Object Repository/vrach/psychotest/Page_/psychotest""))",Chrome 99.0.4844.51,,,2022-03-15 00:35:31,2022-03-15 00:36:09,"37,684s",FAILED
+,,,,,,,
+Test Cases/Доктор/создание карточки болезни,Chrome 99.0.4844.51,,,2022-03-15 00:36:09,2022-03-15 00:37:59,"1m - 50,140s",FAILED
+"callTestCase(findTestCase(""Доктор/Авторизация врач""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-15 00:36:09,2022-03-15 00:36:37,"27,986s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/button_add""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:37,2022-03-15 00:36:41,"4,020s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/school""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:41,2022-03-15 00:36:42,"0,681s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/avanguard""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:42,2022-03-15 00:36:43,"0,682s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/team""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:43,2022-03-15 00:36:43,"0,649s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/var_team""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:43,2022-03-15 00:36:44,"0,814s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/player""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:44,2022-03-15 00:36:45,"0,619s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/var_player""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:45,2022-03-15 00:36:45,"0,699s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/tip""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:45,2022-03-15 00:36:46,"0,655s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/travma""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:46,2022-03-15 00:36:47,"0,779s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/stady 1""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:47,2022-03-15 00:36:48,"0,656s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/choise_stady""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:48,2022-03-15 00:36:48,"0,669s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/tip travm""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:48,2022-03-15 00:36:49,"0,640s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/choise_travm""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:49,2022-03-15 00:36:50,"0,791s",PASSED
+"setText(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/dop opisanie""), ""автотестирование "")",Chrome 99.0.4844.51,,,2022-03-15 00:36:50,2022-03-15 00:36:51,"1,798s",PASSED
+"click(findTestObject(""Avangard New/Object (Доктор)/doctor case (создание карточки и удаление)/button_save""))",Chrome 99.0.4844.51,,,2022-03-15 00:36:51,2022-03-15 00:36:52,"0,718s",PASSED
+"verifyTextPresent(""Карточка успешно сохранена"", false)",Chrome 99.0.4844.51,,,2022-03-15 00:36:52,2022-03-15 00:36:58,"6,229s",PASSED
+"callTestCase(findTestCase(""Доктор/проверка в профиле статуса (переиспользуется)""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-15 00:36:58,2022-03-15 00:37:31,"32,822s",PASSED
+"callTestCase(findTestCase(""Доктор/вкладки удаление (переиспользуется)""), [:], STOP_ON_FAILURE)",Chrome 99.0.4844.51,,,2022-03-15 00:37:31,2022-03-15 00:37:59,"27,713s",FAILED

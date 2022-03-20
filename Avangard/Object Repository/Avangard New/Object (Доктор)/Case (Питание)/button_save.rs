@@ -6,12 +6,12 @@
    <elementGuidId>90efcc19-7214-449c-8ee0-78d45077b20e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div/div/div[3]/div/button[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.ModalDefault__Buttons-sc-i03ewb-3.chuVxe.Buttons > button.Button-sc-982myn-0.gMbqcs</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div/div/div[3]/div/button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

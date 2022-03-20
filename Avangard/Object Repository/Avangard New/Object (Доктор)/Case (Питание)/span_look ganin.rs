@@ -6,12 +6,12 @@
    <elementGuidId>d3289fa9-be4f-4752-813c-4c19603262be</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='BMIEditForm']/tbody/tr[4]/td[2]/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.BodyMassIndexEstimationForm__AddDiet-sc-1ntybl-15.BodyMassIndexEstimationForm__ViewDiet-sc-1ntybl-16.tGiov</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='BMIEditForm']/tbody/tr[4]/td[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

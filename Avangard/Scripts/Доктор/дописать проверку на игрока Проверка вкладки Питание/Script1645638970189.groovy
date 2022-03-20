@@ -45,7 +45,7 @@ WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)
 'Выбрать углеводы'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div__uglevodi1'))
 
-WebUI.setText(findTestObject('Page_/body_1'), 'автотест питания1')
+WebUI.setText(findTestObject('Avangard New/Object (Доктор)/Case (Питание)/body_opisaniee'), 'автотест питания1')
 
 'Кнопка добавить задачу'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/button_task'))
@@ -70,7 +70,7 @@ not_run: WebUI.callTestCase(findTestCase('Игрок/Авторизация'), [
 'КОГДА БУДЕТ ГОТОВ БЛОК РЕКОМЕНДАЦИЙ НА ДАШБОРДЕ НАДО ДОПИСАТЬ ТЕСТ ПРОВЕРКУ '
 not_run: WebUI.comment('')
 
-WebUI.callTestCase(findTestCase('Тренер/Рекомендации (переиспользуется в проверке Питания у доктора)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Тренер/будет переделываться Рекомендации (переиспользуется в проверке Питания у доктора)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Удаление рациона за врача'
 WebUI.callTestCase(findTestCase('Доктор/Авторизация врач'), [:], FailureHandling.STOP_ON_FAILURE)

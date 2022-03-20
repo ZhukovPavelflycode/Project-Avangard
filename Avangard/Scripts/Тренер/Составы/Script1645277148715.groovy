@@ -71,7 +71,7 @@ WebUI.click(findTestObject('Avangard New/Object (Тренер)/Case (Соста�
 WebUI.verifyTextPresent('Изменения в составе сохранены', false)
 
 'Проверки вкладки составы у игрока'
-WebUI.callTestCase(findTestCase('Тренер/Cоставы у игрока'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Тренер/Cоставы у игрока (переиспользуется в Составы)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Тренер/Авторизация'), [:], FailureHandling.STOP_ON_FAILURE)
 

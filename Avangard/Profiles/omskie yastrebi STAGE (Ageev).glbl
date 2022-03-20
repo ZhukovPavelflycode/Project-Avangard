@@ -5,7 +5,7 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
-      <description>Калачёв</description>
+      <description>Админ</description>
       <initValue>'TestAdmin@test.ru'</initValue>
       <name>admin_login</name>
    </GlobalVariableEntity>
@@ -25,7 +25,7 @@
       <name>coach_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Игрок для тестов</description>
+      <description>Ганин</description>
       <initValue>'danilaganin7218@icloud.com'</initValue>
       <name>player_login</name>
    </GlobalVariableEntity>
@@ -35,13 +35,13 @@
       <name>player_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Тест доктор</description>
+      <description>Доктор</description>
       <initValue>'TestDoctor@mail.ru'</initValue>
       <name>doktor_login</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'TestDoctor@mail.ru'</initValue>
+      <initValue>'testdoctor@mail.ru'</initValue>
       <name>doktor_password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -65,7 +65,7 @@
       <name>player_for_test</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Школа</description>
       <initValue>'Омские Ястребы'</initValue>
       <name>school</name>
    </GlobalVariableEntity>
@@ -78,5 +78,15 @@
       <description></description>
       <initValue>'Омские Ястребы'</initValue>
       <name>school_1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Тренер ОФП</description>
+      <initValue>'voityk.av@hc-avangard.com'</initValue>
+      <name>OFP_trainer_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Тренер ОФП</description>
+      <initValue>'voityk.av'</initValue>
+      <name>OFP_trainer_password</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

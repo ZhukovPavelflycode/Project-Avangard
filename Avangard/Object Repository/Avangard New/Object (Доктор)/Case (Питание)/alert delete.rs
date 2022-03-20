@@ -6,12 +6,12 @@
    <elementGuidId>acdb2412-14e5-4907-9fe4-f490ca0ea7de</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Успех'])[1]/following::p[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>p.ReactComponentNotification__NotificationText-sc-1wfzr6b-3.JWcOG</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Успех'])[1]/following::p[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -24,9 +24,9 @@ WebUI.maximizeWindow()
 'адрес сайта '
 WebUI.navigateToUrl('https://stars-stage.hawk.ru:8080/')
 
-WebUI.setText(findTestObject('Avangard New/Object (Психолог)/login (Логин Психолог)'), 'psychoTEST@mail.ru')
+WebUI.setText(findTestObject('Avangard New/Object (Психолог)/login (Логин Психолог)'), 'psychotest@test.ru')
 
-WebUI.setText(findTestObject('Avangard New/Object (Психолог)/password (Пароль Психолог)'), 'psychoTEST@mail.ru', FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Avangard New/Object (Психолог)/password (Пароль Психолог)'), 'psychotest@test.ru', FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/vrach/psychotest/Page_/go'))
 

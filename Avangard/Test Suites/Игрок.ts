@@ -21,6 +21,12 @@
       <guid>97cb3101-030c-4f21-983d-22fd9bfd3b03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Игрок/Отчеты</testCaseId>
+      <testCaseId>Test Cases/Игрок/Отчеты психофиз профиля</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d7e5be46-c2c5-4189-baf9-03e688db6871</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Игрок/Отчет по навыкам</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

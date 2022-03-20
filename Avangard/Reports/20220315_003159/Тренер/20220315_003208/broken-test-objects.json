@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Avangard New/Object (Тренер)/Case (Составы)/choice_player",
+      "brokenLocator": "//*[@data-player-name \u003d \u0027Ганин Данила\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027rc-tabs-0-panel-0\u0027]/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220315_003159/Тренер/20220315_003208/Object Repository/Avangard New/Object (Тренер)/Case (Составы)/choice_player_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Avangard New/Object (Тренер)/Case (Оценка по играм)/edit",
+      "brokenLocator": "//a[contains(text(),\u0027Редактировать\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//table[@id\u003d\u0027SchoolGameEstimationTable\u0027]/tbody/tr[7]/td[5]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220315_003159/Тренер/20220315_003208/Object Repository/Avangard New/Object (Тренер)/Case (Оценка по играм)/edit_idRelative.png"
+    }
+  ]
+}

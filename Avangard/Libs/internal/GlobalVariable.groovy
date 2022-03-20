@@ -10,8 +10,8 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p>Profile omskie yastrebi STAGE (Ageev) : &#1050;&#1072;&#1083;&#1072;&#1095;&#1105;&#1074;
-Profile 2005 team stage : &#1050;&#1072;&#1083;&#1072;&#1095;&#1105;&#1074;
+     * <p>Profile omskie yastrebi STAGE (Ageev) : &#1040;&#1076;&#1084;&#1080;&#1085;
+Profile 2005 team stage : &#1040;&#1076;&#1084;&#1080;&#1085;
 Profile Manager : &#1045;&#1088;&#1086;&#1085;&#1082;&#1086;</p>
      */
     public static Object admin_login
@@ -23,7 +23,7 @@ Profile Manager : &#1045;&#1088;&#1086;&#1085;&#1082;&#1086;</p>
      
     /**
      * <p>Profile omskie yastrebi STAGE (Ageev) : &#1040;&#1075;&#1077;&#1077;&#1074;
-Profile 2005 team stage : &#1058;&#1088;&#1077;&#1085;&#1077;&#1088;</p>
+Profile 2005 team stage : &#1051;&#1077;&#1074;&#1072;&#1096;&#1086;&#1074;</p>
      */
     public static Object coach_login
      
@@ -33,8 +33,8 @@ Profile 2005 team stage : &#1058;&#1088;&#1077;&#1085;&#1077;&#1088;</p>
     public static Object coach_password
      
     /**
-     * <p>Profile omskie yastrebi STAGE (Ageev) : &#1048;&#1075;&#1088;&#1086;&#1082; &#1076;&#1083;&#1103; &#1090;&#1077;&#1089;&#1090;&#1086;&#1074;
-Profile 2005 team stage : &#1048;&#1075;&#1088;&#1086;&#1082; &#1076;&#1083;&#1103; &#1090;&#1077;&#1089;&#1090;&#1086;&#1074;</p>
+     * <p>Profile omskie yastrebi STAGE (Ageev) : &#1043;&#1072;&#1085;&#1080;&#1085;
+Profile 2005 team stage : &#1042;&#1083;&#1072;&#1089;&#1077;&#1085;&#1082;&#1086;</p>
      */
     public static Object player_login
      
@@ -44,8 +44,8 @@ Profile 2005 team stage : &#1048;&#1075;&#1088;&#1086;&#1082; &#1076;&#1083;&#11
     public static Object player_password
      
     /**
-     * <p>Profile omskie yastrebi STAGE (Ageev) : &#1058;&#1077;&#1089;&#1090; &#1076;&#1086;&#1082;&#1090;&#1086;&#1088;
-Profile 2005 team stage : &#1058;&#1077;&#1089;&#1090; &#1076;&#1086;&#1082;&#1090;&#1086;&#1088;</p>
+     * <p>Profile omskie yastrebi STAGE (Ageev) : &#1044;&#1086;&#1082;&#1090;&#1086;&#1088;
+Profile 2005 team stage : &#1044;&#1086;&#1082;&#1090;&#1086;&#1088;</p>
      */
     public static Object doktor_login
      
@@ -76,7 +76,8 @@ Profile 2005 team stage : &#1045;&#1088;&#1086;&#1085;&#1082;&#1086;</p>
     public static Object player_for_test
      
     /**
-     * <p></p>
+     * <p>Profile omskie yastrebi STAGE (Ageev) : &#1064;&#1082;&#1086;&#1083;&#1072;
+Profile 2005 team stage : &#1064;&#1082;&#1086;&#1083;&#1072;</p>
      */
     public static Object school
      
@@ -89,6 +90,18 @@ Profile 2005 team stage : &#1045;&#1088;&#1086;&#1085;&#1082;&#1086;</p>
      * <p></p>
      */
     public static Object school_1
+     
+    /**
+     * <p>Profile omskie yastrebi STAGE (Ageev) : &#1058;&#1088;&#1077;&#1085;&#1077;&#1088; &#1054;&#1060;&#1055;
+Profile 2005 team stage : &#1058;&#1088;&#1077;&#1085;&#1077;&#1088; &#1054;&#1060;&#1055;</p>
+     */
+    public static Object OFP_trainer_login
+     
+    /**
+     * <p>Profile omskie yastrebi STAGE (Ageev) : &#1058;&#1088;&#1077;&#1085;&#1077;&#1088; &#1054;&#1060;&#1055;
+Profile 2005 team stage : &#1058;&#1088;&#1077;&#1085;&#1077;&#1088; &#1054;&#1060;&#1055;</p>
+     */
+    public static Object OFP_trainer_password
      
     /**
      * <p></p>
@@ -117,6 +130,8 @@ Profile 2005 team stage : &#1045;&#1088;&#1086;&#1085;&#1082;&#1086;</p>
             school = selectedVariables['school']
             player_for_test_1 = selectedVariables['player_for_test_1']
             school_1 = selectedVariables['school_1']
+            OFP_trainer_login = selectedVariables['OFP_trainer_login']
+            OFP_trainer_password = selectedVariables['OFP_trainer_password']
             event = selectedVariables['event']
             
         } catch (Exception e) {

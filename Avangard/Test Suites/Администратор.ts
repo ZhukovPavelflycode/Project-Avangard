@@ -36,12 +36,6 @@
       <testCaseId>Test Cases/Администратор/Профиль</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>0e15a9cb-87e4-4abf-b9e7-4398d8facb6f</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Физическое тестирование (Поменяется в спринте)</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>e5331311-09ec-420f-bae4-3adcb1229837</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -64,12 +58,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>438e6f99-5fb4-4509-94aa-a04cfa25737c</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/Администратор/дописать Вкладка Направление</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>28577e25-1973-4733-897c-c6a5dc1ae3a0</guid>

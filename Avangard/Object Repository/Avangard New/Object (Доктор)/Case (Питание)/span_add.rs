@@ -6,12 +6,11 @@
    <elementGuidId>a9541bcd-d577-4983-8d09-d16de18ccba4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//table[@id='BMIEditForm']/tbody/tr[4]/td[2]/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div/div[2]/div/div[3]/div/div[1]/div/div/div/div/table/tbody/tr[4]/td[6]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

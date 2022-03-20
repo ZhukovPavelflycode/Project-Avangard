@@ -1,0 +1,13 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/reports/gamestat/Page_/school",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div/div/div/div[2]/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220315_003159/Менеждер/20220315_003216/Object Repository/admin/reports/gamestat/Page_/school_XPATH.png"
+    }
+  ]
+}

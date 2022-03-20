@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='react-select-4-input']</value>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div[3]/div/div/div/div/div/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

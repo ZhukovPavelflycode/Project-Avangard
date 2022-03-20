@@ -57,6 +57,6 @@
       <guid>943c0bd0-dbe1-4c6b-8294-6e255f736cba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Доктор/создание карточки болезни</testCaseId>
+      <testCaseId>Test Cases/Доктор/Создание карточки болезни</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

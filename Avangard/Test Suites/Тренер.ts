@@ -50,8 +50,8 @@
    <testCaseLink>
       <guid>ba6998d2-535b-4446-8ac6-c1bd2972eee8</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Тренер/Рекомендации по ОФП</testCaseId>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Тренер/будет переделываться Рекомендации по ОФП</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -64,5 +64,11 @@
          <value></value>
          <variableId>fe569af2-589a-41b3-9df9-84972ddeb3ed</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>61043274-d60a-4116-9721-a54600a6d013</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Тренер/Физическое тестирование</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
