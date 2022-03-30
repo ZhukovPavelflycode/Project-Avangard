@@ -29,4 +29,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Игрок/Отчет по навыкам</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>4d6364f2-ce6f-4a7f-8fb3-9fa3bb3abb03</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Игрок/Оценка навыков</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
