@@ -6,12 +6,12 @@
    <elementGuidId>f09c512d-7b44-4f4e-98d8-e4f323b3e29a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.MySidebar__OptionItem-sc-1x14ih2-7.hxIYql</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[(text() = 'Главная' or . = 'Главная')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.MySidebar__OptionItem-sc-1x14ih2-7.hxIYql</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

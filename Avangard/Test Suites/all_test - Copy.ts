@@ -16,12 +16,12 @@
                <entry>
                   <key>testCloudEnvironment</key>
                   <value>{
-  &quot;id&quot;: 49,
+  &quot;id&quot;: 71,
   &quot;os&quot;: &quot;linux&quot;,
   &quot;osDisplayName&quot;: &quot;Linux&quot;,
   &quot;browserName&quot;: &quot;chrome&quot;,
   &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;browserVersion&quot;: &quot;99&quot;,
   &quot;usingTunnel&quot;: false,
   &quot;timeout&quot;: 15
 }</value>
@@ -41,12 +41,12 @@
                <entry>
                   <key>testCloudEnvironment</key>
                   <value>{
-  &quot;id&quot;: 49,
+  &quot;id&quot;: 71,
   &quot;os&quot;: &quot;linux&quot;,
   &quot;osDisplayName&quot;: &quot;Linux&quot;,
   &quot;browserName&quot;: &quot;chrome&quot;,
   &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;browserVersion&quot;: &quot;99&quot;,
   &quot;usingTunnel&quot;: false,
   &quot;timeout&quot;: 15
 }</value>
@@ -66,12 +66,12 @@
                <entry>
                   <key>testCloudEnvironment</key>
                   <value>{
-  &quot;id&quot;: 49,
+  &quot;id&quot;: 71,
   &quot;os&quot;: &quot;linux&quot;,
   &quot;osDisplayName&quot;: &quot;Linux&quot;,
   &quot;browserName&quot;: &quot;chrome&quot;,
   &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;browserVersion&quot;: &quot;99&quot;,
   &quot;usingTunnel&quot;: false,
   &quot;timeout&quot;: 15
 }</value>
@@ -91,12 +91,12 @@
                <entry>
                   <key>testCloudEnvironment</key>
                   <value>{
-  &quot;id&quot;: 49,
+  &quot;id&quot;: 71,
   &quot;os&quot;: &quot;linux&quot;,
   &quot;osDisplayName&quot;: &quot;Linux&quot;,
   &quot;browserName&quot;: &quot;chrome&quot;,
   &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;browserVersion&quot;: &quot;99&quot;,
   &quot;usingTunnel&quot;: false,
   &quot;timeout&quot;: 15
 }</value>
@@ -116,12 +116,12 @@
                <entry>
                   <key>testCloudEnvironment</key>
                   <value>{
-  &quot;id&quot;: 49,
+  &quot;id&quot;: 71,
   &quot;os&quot;: &quot;linux&quot;,
   &quot;osDisplayName&quot;: &quot;Linux&quot;,
   &quot;browserName&quot;: &quot;chrome&quot;,
   &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;browserVersion&quot;: &quot;99&quot;,
   &quot;usingTunnel&quot;: false,
   &quot;timeout&quot;: 15
 }</value>
@@ -141,12 +141,12 @@
                <entry>
                   <key>testCloudEnvironment</key>
                   <value>{
-  &quot;id&quot;: 49,
+  &quot;id&quot;: 71,
   &quot;os&quot;: &quot;linux&quot;,
   &quot;osDisplayName&quot;: &quot;Linux&quot;,
   &quot;browserName&quot;: &quot;chrome&quot;,
   &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;browserVersion&quot;: &quot;99&quot;,
   &quot;usingTunnel&quot;: false,
   &quot;timeout&quot;: 15
 }</value>
@@ -166,12 +166,12 @@
                <entry>
                   <key>testCloudEnvironment</key>
                   <value>{
-  &quot;id&quot;: 49,
+  &quot;id&quot;: 71,
   &quot;os&quot;: &quot;linux&quot;,
   &quot;osDisplayName&quot;: &quot;Linux&quot;,
   &quot;browserName&quot;: &quot;chrome&quot;,
   &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;browserVersion&quot;: &quot;99&quot;,
   &quot;usingTunnel&quot;: false,
   &quot;timeout&quot;: 15
 }</value>
@@ -191,12 +191,12 @@
                <entry>
                   <key>testCloudEnvironment</key>
                   <value>{
-  &quot;id&quot;: 49,
+  &quot;id&quot;: 71,
   &quot;os&quot;: &quot;linux&quot;,
   &quot;osDisplayName&quot;: &quot;Linux&quot;,
   &quot;browserName&quot;: &quot;chrome&quot;,
   &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;browserVersion&quot;: &quot;99&quot;,
   &quot;usingTunnel&quot;: false,
   &quot;timeout&quot;: 15
 }</value>
@@ -216,12 +216,12 @@
                <entry>
                   <key>testCloudEnvironment</key>
                   <value>{
-  &quot;id&quot;: 49,
+  &quot;id&quot;: 71,
   &quot;os&quot;: &quot;linux&quot;,
   &quot;osDisplayName&quot;: &quot;Linux&quot;,
   &quot;browserName&quot;: &quot;chrome&quot;,
   &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
-  &quot;browserVersion&quot;: &quot;97&quot;,
+  &quot;browserVersion&quot;: &quot;99&quot;,
   &quot;usingTunnel&quot;: false,
   &quot;timeout&quot;: 15
 }</value>
@@ -231,6 +231,31 @@
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Менеждер</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>omskie yastrebi STAGE (Ageev)</profileName>
+            <requireConfigurationData>true</requireConfigurationData>
+            <runConfigurationData>
+               <entry>
+                  <key>testCloudEnvironment</key>
+                  <value>{
+  &quot;id&quot;: 71,
+  &quot;os&quot;: &quot;linux&quot;,
+  &quot;osDisplayName&quot;: &quot;Linux&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserDisplayName&quot;: &quot;Chrome&quot;,
+  &quot;browserVersion&quot;: &quot;99&quot;,
+  &quot;usingTunnel&quot;: false,
+  &quot;timeout&quot;: 15
+}</value>
+               </entry>
+            </runConfigurationData>
+            <runConfigurationId>TestCloud</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Составы (Омские Ястребы)</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

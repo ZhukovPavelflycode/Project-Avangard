@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div/div[2]/div[3]/div</value>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div[4]/div/div/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.ui__Button-sc-1cni9v4-0.bHbUPs</value>
+         <value>div.css-1yd0fai-control > div.css-1hwfws3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,24 +28,87 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ui__Button-sc-1cni9v4-0 bHbUPs</value>
+      <value>css-1hwfws3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Войти</value>
+      <value>Выберите</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;RouterApp__Wrapper-sc-itp1b8-0 fGnCKq LayoutContainer&quot;]/div[@class=&quot;BrandedLoginApp__Wrapper-sc-1l8x99f-0 hjlysV&quot;]/div[@class=&quot;BrandedLoginApp__Inner-sc-1l8x99f-3 dMaUdW&quot;]/div[@class=&quot;BrandedLoginApp__LoginPanelPlaceholder-sc-1l8x99f-2 hXlMbH&quot;]/div[@class=&quot;TwoSectionedPanel__Wrapper-sc-z2rqwg-0 hoEqjD&quot;]/div[@class=&quot;TwoSectionedPanel__Right-sc-z2rqwg-2 doBgck&quot;]/div[@class=&quot;BrandedLoginApp__RightContentPlaceholder-sc-1l8x99f-1 itkZkL&quot;]/div[@class=&quot;StyledLoginForm__Wrapper-sc-4j6w6l-0 jIWKYz&quot;]/div[@class=&quot;StyledLoginForm__ContentPlaceholder-sc-4j6w6l-2 kmtXOt&quot;]/div[@class=&quot;StyledLoginForm__Field-sc-4j6w6l-4 gnlZRx&quot;]/div[@class=&quot;ui__Button-sc-1cni9v4-0 bHbUPs&quot;]</value>
+      <value>id(&quot;root&quot;)/div[@class=&quot;RouterApp__Wrapper-sc-itp1b8-0 fGnCKq LayoutContainer&quot;]/div[@class=&quot;ChessTemplate__Wrapper-sc-o4z6mm-0 cMIiDp ChessTemplate&quot;]/div[@class=&quot;ChessTemplate__Right-sc-o4z6mm-2 evkQso Right&quot;]/div[@class=&quot;sc-bdVaJa ithBqi&quot;]/div[@class=&quot;Filters__Wrapper-sc-1jr7lmg-1 dZpXQQ&quot;]/div[@class=&quot;Filters__Container-sc-1jr7lmg-0 kwUMwb&quot;]/div[@class=&quot;styles__FilterContainer-sc-1t822lr-0 dJwHmk&quot;]/div[@class=&quot;Select__SelectContainer-sc-d2163e-0 dIyxuE SelectContainer&quot;]/div[@class=&quot;css-1pcexqc-container Select&quot;]/div[@class=&quot;css-1yd0fai-control&quot;]/div[@class=&quot;css-1hwfws3&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div[4]/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Упражнения'])[1]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Омские Ястребы'])[1]/following::div[10]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FMS тест (баллы)'])[1]/preceding::div[7]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Выберите' or . = 'Выберите')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div[5]/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Этап №1'])[1]/following::div[10]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>

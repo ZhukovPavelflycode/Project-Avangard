@@ -56,3 +56,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (�
 
 WebUI.callTestCase(findTestCase('Администратор/Редактирование и удаление (переиспользуется в Пользователи)'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.closeBrowser()
+

@@ -6,14 +6,18 @@
    <elementGuidId>a9541bcd-d577-4983-8d09-d16de18ccba4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>/html/body/div/div[1]/div/div[2]/div/div[3]/div/div[1]/div/div/div/div/table/tbody/tr[4]/td[6]/span</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-player-last-name = '${GlobalVariable.player_for_test_1}']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -23,11 +27,11 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-player-last-name</name>
       <type>Main</type>
-      <value>Ганин</value>
+      <value>${GlobalVariable.player_for_test_1}</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <value>BodyMassIndexEstimationForm__AddDiet-sc-1ntybl-15 eVeZmT</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

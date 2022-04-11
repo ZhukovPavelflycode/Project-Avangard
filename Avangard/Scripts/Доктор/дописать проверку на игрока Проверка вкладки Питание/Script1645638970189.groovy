@@ -32,7 +32,12 @@ WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/place choose team'))
 
 'Ввести Омские Ястребы'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_omsk'))
+not_run: WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_omsk'))
+
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/input__team imt'), GlobalVariable.school)
+
+WebUI.sendKeys(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/input__team imt'), Keys.chord(
+        Keys.ENTER))
 
 'Нажать кнопку редактровать'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/button_edit'))
@@ -45,7 +50,7 @@ WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)
 'Выбрать углеводы'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div__uglevodi1'))
 
-WebUI.setText(findTestObject('Avangard New/Object (Доктор)/Case (Питание)/body_opisaniee'), 'автотест питания1')
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/body_opisaniee'), 'автотест питания1')
 
 'Кнопка добавить задачу'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/button_task'))
@@ -70,7 +75,8 @@ not_run: WebUI.callTestCase(findTestCase('Игрок/Авторизация'), [
 'КОГДА БУДЕТ ГОТОВ БЛОК РЕКОМЕНДАЦИЙ НА ДАШБОРДЕ НАДО ДОПИСАТЬ ТЕСТ ПРОВЕРКУ '
 not_run: WebUI.comment('')
 
-WebUI.callTestCase(findTestCase('Тренер/будет переделываться Рекомендации (переиспользуется в проверке Питания у доктора)'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Тренер/будет переделываться Рекомендации (переиспользуется в проверке Питания у доктора)'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 
 'Удаление рациона за врача'
 WebUI.callTestCase(findTestCase('Доктор/Авторизация врач'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -88,13 +94,18 @@ WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/place choose team'))
 
 'Ввести Омские Ястребы'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_omsk'))
+not_run: WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_omsk'))
+
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/input__team imt'), GlobalVariable.school)
+
+WebUI.sendKeys(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/input__team imt'), Keys.chord(
+        Keys.ENTER))
 
 'Нажать кнопку редактровать'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/button_edit'))
 
 'Кнопка посмотреть '
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_look ganin'))
+WebUI.click(findTestObject('Avangard New/Object (Доктор)/Case (Питание)/span_add'))
 
 WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/button_delete'), 0)
 
@@ -106,4 +117,6 @@ WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (�
 
 'Проверка, что пропала кнопка посмотреть рацон'
 WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add'), 'Добавить рацион')
+
+WebUI.closeBrowser()
 

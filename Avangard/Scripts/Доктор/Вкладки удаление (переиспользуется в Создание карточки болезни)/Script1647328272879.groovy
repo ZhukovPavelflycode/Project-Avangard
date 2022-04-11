@@ -19,22 +19,33 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Доктор/Авторизация врач'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Выбор школы\r\n'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/school'))
+'Поле ввода Школа'
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__school eat'), 
+    '"Авангард" Академия')
 
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_school'))
+'Выбор 1 позиции в школе'
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/1 posithion school eat'))
 
-'Выбор команды'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/team'))
+not_run: WebUI.sendKeys(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__school eat keys'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/Global school'))
+'Поле ввода Команда'
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__team eat'), 
+    GlobalVariable.school)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1'), 
+'Выбор 1 позиции в команде'
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/1 posithion team eat'))
+
+not_run: WebUI.sendKeys(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__school eat keys'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/card avtotestirovanie'), 
     0)
 
 'Нажать на карточку'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1'))
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/card avtotestirovanie'))
 
+'Выбор Стадии'
 WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__stady'), 
     'Допуск на игру')
 
@@ -42,22 +53,72 @@ WebUI.sendKeys(findTestObject('Object Repository/Avangard New/Object (Докто
     Keys.chord(Keys.ENTER))
 
 'Сохранение'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_save'))
-
-WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1'), 
+WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_save'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1'))
+'Сохранение'
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_save'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/verif eat alert'), 
+    'Карточка успешно сохранена')
+
+WebUI.callTestCase(findTestCase('Доктор/Проверка в профиле статуса Доступен (переиспользуется во Вкладке удаление)'), [:], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Доктор/Авторизация врач'), [:], FailureHandling.STOP_ON_FAILURE)
+
+'Поле ввода Школа'
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__school eat'), 
+    '"Авангард" Академия')
+
+'Выбор 1 позиции в школе'
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/1 posithion school eat'))
+
+not_run: WebUI.sendKeys(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__school eat keys'), 
+    Keys.chord(Keys.ENTER))
+
+'Поле ввода Команда'
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__team eat'), 
+    GlobalVariable.school)
+
+'Выбор 1 позиции в команде'
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/1 posithion team eat'))
+
+not_run: WebUI.sendKeys(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__team eat keys'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/card avtotestirovanie'), 
+    0)
+
+'Открывает карточку'
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/card avtotestirovanie'))
 
 'Проверка'
 WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/stady'), 
     'Допуск на игру')
 
+'Нажать  Удалить'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_delete'))
 
+'Подтверждение удаления'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/confirm'))
 
 WebUI.verifyTextPresent('Карточка успешно удалена', false)
 
 WebUI.closeBrowser()
+
+'Переход на главную'
+not_run: WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/span_home eat'))
+
+'Клик на поле Школа'
+not_run: WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/div_school click'))
+
+'Клик на поле Команда'
+not_run: WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/div__team click'))
+
+'Выбор 1 поз школа'
+not_run: WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/1 posithion school eat'))
+
+'Выбор 1 поз команда'
+not_run: WebUI.click(findTestObject('Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/1 posithion team eat'))
 

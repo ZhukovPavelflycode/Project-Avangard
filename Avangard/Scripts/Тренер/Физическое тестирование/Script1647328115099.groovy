@@ -35,35 +35,105 @@ WebUI.click(findTestObject('Object Repository/Avangard New/Object (Тренер)
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/buttom  fiz testing'))
 
 'Упражнения'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/div__exercises'))
-
-'FMS тест'
-WebUI.click(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/div_FMS'))
-
-'Ввод значений'
-WebUI.clearText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS1'), 
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/div__exercises'), 
     FailureHandling.STOP_ON_FAILURE)
 
-'Ввод значений'
-WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS1'), 
-    '50,8')
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input__exercise'), 
+    'FMS тест (баллы)')
 
-WebUI.scrollToElement(findTestObject('Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 3'), 0)
+WebUI.sendKeys(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input__exercise'), 
+    Keys.chord(Keys.ENTER))
 
+'Ананьин Егор'
+WebUI.clearText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 1'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Ананьин Егор'
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 1'), 
+    '21')
+
+'Бережной Станислав'
 WebUI.clearText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 2'), 
     FailureHandling.STOP_ON_FAILURE)
 
+'Бережной Станислав'
 WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 2'), 
+    '15')
+
+'Ганин Данила'
+WebUI.clearText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 3'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Ганин Данила'
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 3'), 
+    '7')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 6'), 
+    0)
+
+WebUI.clearText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 6'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Фигурин Александр'
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 6'), 
     '0')
 
-WebUI.clearText(findTestObject('Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 3'), FailureHandling.STOP_ON_FAILURE)
+'Холодилин Никита'
+WebUI.clearText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 4'), 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 3'), '1000')
+'Холодилин Никита'
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 4'), 
+    '3,7')
 
+'Ядыкин Егор'
+WebUI.clearText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 5'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Ядыкин Егор'
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 5'), 
+    '1000')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button_save'), 
+    0)
+
+'Кнопка Сохранить'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button_save'))
 
 'Проверка сохранения'
-WebUI.verifyElementText(findTestObject('Avangard New/Object (Тренер)/Case (Физическое тестирование)/alert fiz testing'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/alert fiz testing'), 
+    'Оценка сохранена')
+
+'Поле ввода этап'
+WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/stage 2'), 
+    0)
+
+'Поле ввода этап'
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/stage 2'))
+
+'Выбор 2 этапа'
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input__etapi'), 
+    'Этап №2')
+
+WebUI.sendKeys(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input__etapi'), 
+    Keys.chord(Keys.ENTER))
+
+'Ганин'
+WebUI.clearText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 3'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+'Ганин'
+WebUI.setText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 3'), 
+    '10,4')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button_save'), 
+    0)
+
+'Кнопка Сохранить'
+WebUI.click(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button_save'))
+
+'Проверка сохранения'
+WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/alert fiz testing'), 
     'Оценка сохранена')
 
 WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button_close fiz test'), 
@@ -72,5 +142,11 @@ WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Т�
 'Кнопка закрыть'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button_close fiz test'))
 
+'Кнопка закрыть 2'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button__close 2 fiz test'))
+
+WebUI.callTestCase(findTestCase('Тренер/Отчет физического тестирования (переиспользуется в Физ. тестировании)'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Игрок/У игрока Отчет физического тестирования (переиспользуется в физ. тестировании у тренера)'), 
+    [:], FailureHandling.STOP_ON_FAILURE)
 

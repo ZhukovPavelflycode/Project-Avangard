@@ -6,12 +6,16 @@
    <elementGuidId>9af7b758-6ea3-40e0-9f2b-9f7cfc01335e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//button[3]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.sc-cvbbAY.sc-brqgnP.eTOYFa</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[3]</value>
+         <key>BASIC</key>
+         <value>//button[(text() = 'Удалить' or . = 'Удалить')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

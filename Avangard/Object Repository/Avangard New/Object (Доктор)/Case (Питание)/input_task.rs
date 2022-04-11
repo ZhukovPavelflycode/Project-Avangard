@@ -6,12 +6,12 @@
    <elementGuidId>f70037c0-f2c9-43de-91dc-09ecec89ab51</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.Input-sc-rbewbw-0.cOHhWz</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div/div/div[2]/div[3]/div/div/div/div/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.Input-sc-rbewbw-0.cOHhWz</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>b8258286-3cd2-4dcb-8672-bc6cfa8d6f70</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.sc-fhIEwD.hrWKHd > button.sc-cvbbAY.iuFrkv</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>/html/body/div[1]/div[1]/div/div[2]/div/div[3]/div/div/div[2]/div/div[1]/div/div[3]/div/button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-fhIEwD.hrWKHd > button.sc-cvbbAY.iuFrkv</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,0 +1,32 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/reports/gamestat/Page_/school",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Школа\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220405_101904/Администратор/20220405_101908/Object Repository/admin/reports/gamestat/Page_/school_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/admin/reports/gamestat/Page_/team",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Команда\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220405_101904/Администратор/20220405_101908/Object Repository/admin/reports/gamestat/Page_/team_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/role exit",
+      "brokenLocator": "/html/body/div/div[1]/div/div[2]/form/div/div/div[2]/div[1]/div[3]/div[1]/div[2]/div/div/div[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/form/div/div/div[2]/div/div[3]/div/div[2]/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220405_101904/Администратор/20220405_101908/Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/role exit_idRelative.png"
+    }
+  ]
+}

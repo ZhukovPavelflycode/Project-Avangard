@@ -65,7 +65,7 @@
       <name>player_for_test</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Школа</description>
+      <description>Команда</description>
       <initValue>'Омские Ястребы'</initValue>
       <name>school</name>
    </GlobalVariableEntity>

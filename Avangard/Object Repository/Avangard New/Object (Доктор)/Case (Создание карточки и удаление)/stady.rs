@@ -10,15 +10,15 @@
          <value>/html/body/div[1]/div[1]/div/div[2]/div/form[2]/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div[1]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Выберите стадию' or . = 'Выберите стадию')]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.css-1yd0fai-control > div.css-18eoaig</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Выберите стадию' or . = 'Выберите стадию')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

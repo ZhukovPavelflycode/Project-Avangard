@@ -25,9 +25,11 @@ WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/C
 'Отчет по навыкам'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_report_skills'))
 
-'Видимость оценки'
-WebUI.verifyElementVisible(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_10'))
+WebUI.verifyElementText(findTestObject('Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_8'), '8')
 
 'Проверка имени'
-WebUI.verifyElementText(findTestObject('Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_name'), GlobalVariable.player_for_test)
+WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_name'), 
+    GlobalVariable.player_for_test)
+
+WebUI.verifyElementText(findTestObject('Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/speed'), 'Скорость')
 

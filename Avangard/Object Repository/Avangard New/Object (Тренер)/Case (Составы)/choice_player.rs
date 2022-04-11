@@ -6,16 +6,16 @@
    <elementGuidId>b670bac6-8954-4960-b82a-ebc3275939bb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@data-player-name = '${GlobalVariable.player_for_test}']</value>
+         <key>XPATH</key>
+         <value>//div[@id='rc-tabs-0-panel-0']/div/div/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.sc-hsLAjg.fPYCij</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='rc-tabs-0-panel-0']/div/div/div/div</value>
+         <key>BASIC</key>
+         <value>//*[@data-player-name = '${GlobalVariable.player_for_test}']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

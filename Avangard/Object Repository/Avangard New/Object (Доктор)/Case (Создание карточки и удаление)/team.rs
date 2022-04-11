@@ -6,12 +6,12 @@
    <elementGuidId>4698a681-3e3c-42c3-becf-755ed221cd38</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.css-1yd0fai-control > div.css-18eoaig</value>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div/div[2]/div/form[1]/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div/div/div[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div[1]/div/div[2]/div/form[1]/div[1]/div[2]/div/div/div/div[1]/div[1]</value>
+         <key>CSS</key>
+         <value>div.css-1yd0fai-control > div.css-18eoaig</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

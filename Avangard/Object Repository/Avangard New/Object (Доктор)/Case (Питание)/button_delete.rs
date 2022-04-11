@@ -6,12 +6,12 @@
    <elementGuidId>93a9be02-0b70-456c-9f7e-495dace197c0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.Button-sc-982myn-0.gMbqcs.BodyMassIndexEstimationModal__remove-button</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div/div/div[3]/div/button[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.Button-sc-982myn-0.gMbqcs.BodyMassIndexEstimationModal__remove-button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

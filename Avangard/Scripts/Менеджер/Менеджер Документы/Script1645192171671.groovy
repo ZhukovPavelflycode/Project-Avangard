@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Администратор/Авторизация'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Менеджер/Авторизация'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'переход в меню "документы"\r\n\r\n'
 WebUI.click(findTestObject('Avangard New/Object (Менеджер)/documents (Вкладка)'))

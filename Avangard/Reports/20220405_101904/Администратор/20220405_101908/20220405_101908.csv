@@ -1,0 +1,178 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Администратор,Linux - Chrome 97.0.4692.71,,,2022-04-05 10:19:32,2022-04-05 11:10:31,"50m - 59,167s",FAILED
+,,,,,,,
+Test Cases/Администратор/Тренеры,Linux - Chrome 97.0.4692.71,смоук + функциональный тест вкладки тренеров,,2022-04-05 10:19:33,2022-04-05 10:22:23,"2m - 49,992s",PASSED
+"callTestCase(findTestCase(""Администратор/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,"авторизация
+",,2022-04-05 10:19:36,2022-04-05 10:21:32,"1m - 55,366s",PASSED
+"click(findTestObject(""Object Repository/admin/teachers/Page_/teach""))",Linux - Chrome 97.0.4692.71,"переход на вкладку тренеры
+",,2022-04-05 10:21:32,2022-04-05 10:21:53,"21,307s",PASSED
+"click(findTestObject(""Object Repository/admin/teachers/Page_/span_""))",Linux - Chrome 97.0.4692.71,"профиль тренера , Шастин Егор ",,2022-04-05 10:21:53,2022-04-05 10:21:56,"2,512s",PASSED
+"verifyTextPresent(""ПРОФИЛЬ ПРЕПОДАВАТЕЛЯ"", false)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:21:56,2022-04-05 10:21:58,"1,999s",PASSED
+"takeFullPageScreenshot(""C:\scr\"" + school + ""41.jpg"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:21:58,2022-04-05 10:22:06,"8,779s",PASSED
+"click(findTestObject(""Object Repository/admin/teachers/Page_/career""))",Linux - Chrome 97.0.4692.71,переход на вклдку карьера ,,2022-04-05 10:22:06,2022-04-05 10:22:08,"2,015s",PASSED
+"verifyTextPresent(""КАРЬЕРА ТРЕНЕРА"", false)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:22:08,2022-04-05 10:22:10,"1,887s",PASSED
+"takeFullPageScreenshot(""C:\scr\"" + school + ""42.jpg"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:22:10,2022-04-05 10:22:16,"5,908s",PASSED
+"click(findTestObject(""Object Repository/admin/teachers/Page_/button_""))",Linux - Chrome 97.0.4692.71,кнопка сохранить ( без редактирования) ,,2022-04-05 10:22:16,2022-04-05 10:22:18,"2,116s",PASSED
+"verifyTextPresent(""Пользователь сохранен"", false)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:22:18,2022-04-05 10:22:21,"2,543s",PASSED
+"click(findTestObject(""Object Repository/admin/teachers/Page_/root""))",Linux - Chrome 97.0.4692.71,переход на главную ,,2022-04-05 10:22:21,2022-04-05 10:22:23,"1,974s",PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,"конец теста
+",,2022-04-05 10:22:23,2022-04-05 10:22:23,"0,543s",PASSED
+,,,,,,,
+Test Cases/Администратор/Рейтинг,Linux - Chrome 97.0.4692.71,смоук тест,,2022-04-05 10:22:23,2022-04-05 10:27:52,"5m - 28,448s",FAILED
+"callTestCase(findTestCase(""Администратор/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:22:24,2022-04-05 10:26:27,"4m - 3,112s",PASSED
+"click(findTestObject(""Object Repository/admin/rating/grating""))",Linux - Chrome 97.0.4692.71,переход на вкладку рейтинг игроков,,2022-04-05 10:26:27,2022-04-05 10:26:48,"21,198s",PASSED
+"takeFullPageScreenshot(""C:\scr\"" + school + ""34.jpg"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:26:48,2022-04-05 10:26:53,"4,910s",PASSED
+"click(findTestObject(""Object Repository/admin/Page_/shkool""))",Linux - Chrome 97.0.4692.71,выбор школы,,2022-04-05 10:26:53,2022-04-05 10:26:55,"1,936s",PASSED
+"click(findTestObject(""Object Repository/admin/Page_/div_ (2)""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:26:55,2022-04-05 10:26:57,"1,924s",PASSED
+"click(findTestObject(""Object Repository/admin/Page_/team""))",Linux - Chrome 97.0.4692.71,выбор команды,,2022-04-05 10:26:57,2022-04-05 10:26:59,"2,012s",PASSED
+"click(findTestObject(""Object Repository/admin/Page_/omsk""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:26:59,2022-04-05 10:27:01,"2,177s",PASSED
+"scrollToElement(findTestObject(""Object Repository/admin/Page_/top1""), 0)",Linux - Chrome 97.0.4692.71,выбор игрока (Давыдов Тимофей) ,,2022-04-05 10:27:01,2022-04-05 10:27:03,"2,351s",PASSED
+"click(findTestObject(""Object Repository/admin/Page_/top1""))",Linux - Chrome 97.0.4692.71,выбор игрока (Давыдов Тимофей) ,,2022-04-05 10:27:03,2022-04-05 10:27:06,"2,510s",PASSED
+"takeFullPageScreenshot(""C:\scr\"" + school + ""37.jpg"", CONTINUE_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:27:06,2022-04-05 10:27:11,"5,530s",PASSED
+"click(findTestObject(""Object Repository/admin/Page_/skill""))",Linux - Chrome 97.0.4692.71,просмотр владки оценка навыков,,2022-04-05 10:27:11,2022-04-05 10:27:13,"2,118s",PASSED
+"verifyTextPresent(""Ускорение"", true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:27:13,2022-04-05 10:27:19,"5,136s",PASSED
+"verifyTextPresent(""Скорость"", true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:27:19,2022-04-05 10:27:21,"2,345s",PASSED
+"takeFullPageScreenshot(""C:\scr\"" + school + ""39.jpg"", CONTINUE_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:27:21,2022-04-05 10:27:25,"4,570s",PASSED
+"click(findTestObject(""Object Repository/admin/Page_/stat""))",Linux - Chrome 97.0.4692.71,просмотр владки игровой статистики,,2022-04-05 10:27:25,2022-04-05 10:27:27,"2,022s",PASSED
+"verifyTextPresent(""Матчи"", true, CONTINUE_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:27:27,2022-04-05 10:27:30,"2,366s",FAILED
+"verifyTextPresent(""Ранг"", true, CONTINUE_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:27:30,2022-04-05 10:27:32,"1,744s",FAILED
+"takeFullPageScreenshot(""C:\scr\"" + school + ""40.jpg"", CONTINUE_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:27:32,2022-04-05 10:27:36,"4,346s",PASSED
+"click(findTestObject(""Object Repository/admin/Page_/ptest""))",Linux - Chrome 97.0.4692.71,просмотр владки физ тестирования ,,2022-04-05 10:27:36,2022-04-05 10:27:38,"1,971s",PASSED
+"verifyTextPresent(""СРЕДНЯЯ ОЦЕНКА"", true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:27:38,2022-04-05 10:27:40,"2,295s",PASSED
+"verifyTextPresent(""Список навыков и характеристики"", true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:27:40,2022-04-05 10:27:42,"1,940s",PASSED
+"takeFullPageScreenshot(""C:\scr\"" + school + ""38.jpg"", CONTINUE_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:27:42,2022-04-05 10:27:47,"4,753s",PASSED
+"click(findTestObject(""Object Repository/admin/Page_/root""))",Linux - Chrome 97.0.4692.71,переход в главное меню,,2022-04-05 10:27:47,2022-04-05 10:27:49,"2,142s",PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,конец теста,,2022-04-05 10:27:49,2022-04-05 10:27:50,"0,519s",PASSED
+,,,,,,,
+Test Cases/Администратор/Профиль,Linux - Chrome 97.0.4692.71,"смоук + функциональное тестирование профиля администратора
+",,2022-04-05 10:27:52,2022-04-05 10:33:02,"5m - 9,771s",PASSED
+"callTestCase(findTestCase(""Администратор/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:27:52,2022-04-05 10:32:27,"4m - 35,256s",PASSED
+"click(findTestObject(""Object Repository/admin/Page_/div_Admin Admin""))",Linux - Chrome 97.0.4692.71,просмотр профиля Администратора,,2022-04-05 10:32:27,2022-04-05 10:32:48,"20,288s",PASSED
+"verifyTextPresent(""РЕДАКТИРОВАНИЕ ПРОФИЛЯ"", true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:32:48,2022-04-05 10:32:50,"2,168s",PASSED
+"takeFullPageScreenshot(""C:\scr\"" + school + ""33.jpg"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:32:50,2022-04-05 10:32:56,"6,031s",PASSED
+"click(findTestObject(""Object Repository/admin/Page_/save""))",Linux - Chrome 97.0.4692.71,"кнопка сохранить
+",,2022-04-05 10:32:56,2022-04-05 10:32:58,"2,185s",PASSED
+"click(findTestObject(""admin/Page_/root""))",Linux - Chrome 97.0.4692.71,переход на главную,,2022-04-05 10:32:58,2022-04-05 10:33:01,"3,013s",PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,конец теста,,2022-04-05 10:33:01,2022-04-05 10:33:02,"0,530s",PASSED
+,,,,,,,
+Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Список участников без оценки,Linux - Chrome 97.0.4692.71,функцуиональное тестирование,,2022-04-05 10:33:02,2022-04-05 10:38:43,"5m - 40,999s",PASSED
+"callTestCase(findTestCase(""Администратор/Отчет для тк""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:33:02,2022-04-05 10:37:55,"4m - 52,550s",PASSED
+"click(findTestObject(""Object Repository/admin/reports/not/Page_/not""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:37:55,2022-04-05 10:37:57,"2,169s",PASSED
+"verifyTextPresent(""СПИСОК УЧАСТНИКОВ БЕЗ ОЦЕНКИ"", true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:37:57,2022-04-05 10:38:10,"13,427s",PASSED
+"takeFullPageScreenshot(""C:\scr\"" + school + ""29.jpg"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:38:10,2022-04-05 10:38:15,"5,229s",PASSED
+"setText(findTestObject(""Object Repository/admin/reports/not/Page_/input__react-select-2-input""), ""ака"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:38:15,2022-04-05 10:38:20,"4,340s",PASSED
+"sendKeys(findTestObject(""Object Repository/admin/reports/not/Page_/input__react-select-2-input""), Keys.chord(ENTER))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:38:20,2022-04-05 10:38:22,"2,122s",PASSED
+"setText(findTestObject(""Object Repository/admin/reports/not/Page_/input__react-select-3-input""), school)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:38:22,2022-04-05 10:38:26,"4,595s",PASSED
+"sendKeys(findTestObject(""Object Repository/admin/reports/not/Page_/input__react-select-3-input""), Keys.chord(ENTER))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:38:26,2022-04-05 10:38:29,"2,124s",PASSED
+"setText(findTestObject(""Object Repository/admin/reports/not/Page_/input__react-select-4-input""), ""26.8"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:38:29,2022-04-05 10:38:33,"4,594s",PASSED
+"sendKeys(findTestObject(""Object Repository/admin/reports/not/Page_/input__react-select-4-input""), Keys.chord(ENTER))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:38:33,2022-04-05 10:38:35,"1,904s",PASSED
+"takeFullPageScreenshot(""C:\scr\"" + school + ""30.jpg"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:38:35,2022-04-05 10:38:40,"4,741s",PASSED
+"click(findTestObject(""Object Repository/manager/kale/Page_/root""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:38:40,2022-04-05 10:38:42,"2,222s",PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,,,2022-04-05 10:38:42,2022-04-05 10:38:43,"0,495s",PASSED
+,,,,,,,
+Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет психофиз,Linux - Chrome 97.0.4692.71,,,2022-04-05 10:38:43,2022-04-05 10:45:40,"6m - 57,832s",FAILED
+"callTestCase(findTestCase(""Администратор/Отчет для тк""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:38:43,2022-04-05 10:43:58,"5m - 14,863s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/psyxofiz report""))",Linux - Chrome 97.0.4692.71,Выбор отчета психофиз,,2022-04-05 10:43:58,2022-04-05 10:44:01,"3,471s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/header report""), ""ОТЧЕТ ПСИХОЛОГИЧЕСКОГО ПРОФИЛЯ"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:44:01,2022-04-05 10:44:04,"2,295s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/scool""))",Linux - Chrome 97.0.4692.71,заполнение фильтров,,2022-04-05 10:44:04,2022-04-05 10:44:06,"2,614s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/div_""))",Linux - Chrome 97.0.4692.71,заполнение фильтров,,2022-04-05 10:44:06,2022-04-05 10:44:11,"4,557s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/team""))",Linux - Chrome 97.0.4692.71,заполнение фильтров,,2022-04-05 10:44:11,2022-04-05 10:44:13,"2,181s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/oya""))",Linux - Chrome 97.0.4692.71,заполнение фильтров,,2022-04-05 10:44:13,2022-04-05 10:44:16,"3,317s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/input__ganin""), player_for_test)",Linux - Chrome 97.0.4692.71,заполнение фильтров,,2022-04-05 10:44:16,2022-04-05 10:44:22,"6,057s",PASSED
+"sendKeys(findTestObject(""Object Repository/admin/Global player""), Keys.chord(ENTER))",Linux - Chrome 97.0.4692.71,заполнение фильтров,,2022-04-05 10:44:22,2022-04-05 10:44:26,"3,766s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date""))",Linux - Chrome 97.0.4692.71,заполнение дата отчета,,2022-04-05 10:44:26,2022-04-05 10:44:29,"3,083s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date 14 01""))",Linux - Chrome 97.0.4692.71,14.01.2021,,2022-04-05 10:44:29,2022-04-05 10:44:32,"2,897s",PASSED
+"scrollToElement(findTestObject(""Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1""), 0)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:44:32,2022-04-05 10:44:34,"2,470s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1""), ""Реакция на простой стимул"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:44:34,2022-04-05 10:44:37,"2,399s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Администратор)/Case (Психофиз)/reaction hard1""), ""Реакция на сложный стимул"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:44:37,2022-04-05 10:44:39,"2,320s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)""), 0)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:44:39,2022-04-05 10:44:41,"1,951s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/topologic""))",Linux - Chrome 97.0.4692.71,Нажать на вкладку индивидуально-тополигический,,2022-04-05 10:44:41,2022-04-05 10:44:43,"1,994s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)""))",Linux - Chrome 97.0.4692.71,Нажимаю на поле сезон,,2022-04-05 10:44:43,2022-04-05 10:44:45,"2,178s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/21-22""))",Linux - Chrome 97.0.4692.71,Выбираю сезон,,2022-04-05 10:44:45,2022-04-05 10:44:50,"4,283s",PASSED
+"scrollToElement(findTestObject(""Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi""), 0)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:44:50,2022-04-05 10:45:38,"48,735s",FAILED
+,,,,,,,
+Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет по играм за период,Linux - Chrome 97.0.4692.71,функциональный тест,,2022-04-05 10:45:40,2022-04-05 10:49:53,"4m - 12,117s",PASSED
+"callTestCase(findTestCase(""Администратор/Отчет для тк""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:45:41,2022-04-05 10:48:58,"3m - 17,053s",PASSED
+"click(findTestObject(""Object Repository/admin/reports/period/Page_/div_""))",Linux - Chrome 97.0.4692.71,выбор отчета ,,2022-04-05 10:48:58,2022-04-05 10:49:00,"2,400s",PASSED
+"verifyTextPresent(""ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД"", true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:49:00,2022-04-05 10:49:02,"1,773s",PASSED
+"setText(findTestObject(""Object Repository/admin/reports/period/Page_/input__react-select-2-input""), ""академия"")",Linux - Chrome 97.0.4692.71,заполнение фильтров,,2022-04-05 10:49:02,2022-04-05 10:49:06,"3,950s",PASSED
+"sendKeys(findTestObject(""Object Repository/admin/reports/period/Page_/input__react-select-2-input""), Keys.chord(ENTER))",Linux - Chrome 97.0.4692.71,заполнение фильтров,,2022-04-05 10:49:06,2022-04-05 10:49:08,"2,010s",PASSED
+"setText(findTestObject(""Object Repository/admin/reports/period/Page_/input__react-select-3-input""), school)",Linux - Chrome 97.0.4692.71,заполнение фильтров,,2022-04-05 10:49:08,2022-04-05 10:49:12,"4,066s",PASSED
+"sendKeys(findTestObject(""Object Repository/admin/reports/period/Page_/input__react-select-3-input""), Keys.chord(ENTER))",Linux - Chrome 97.0.4692.71,заполнение фильтров,,2022-04-05 10:49:12,2022-04-05 10:49:14,"2,136s",PASSED
+"setText(findTestObject(""Object Repository/admin/reports/period/Page_/input_._year""), ""2020"")",Linux - Chrome 97.0.4692.71,заполнение фильтров,,2022-04-05 10:49:14,2022-04-05 10:49:21,"6,855s",PASSED
+"waitForElementNotPresent(findTestObject(""Object Repository/admin/reports/period/Page_/img_ _sc-cMljjf KiCqS""), 0)",Linux - Chrome 97.0.4692.71,ожидание пока не пропадет лого прелоадера ,,2022-04-05 10:49:21,2022-04-05 10:49:28,"6,613s",PASSED
+"verifyTextPresent(""Управление командой со скамейки"", true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:49:28,2022-04-05 10:49:31,"3,113s",PASSED
+"verifyTextPresent(""Самоотверженность / воля к победе"", true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:49:31,2022-04-05 10:49:34,"3,091s",PASSED
+"verifyTextPresent(""СРЕДНЯЯ ОЦЕНКА"", false)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:49:34,2022-04-05 10:49:37,"3,049s",PASSED
+"verifyTextPresent(""АТАКУЮЩИЕ ДЕЙСТВИЯ"", false)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:49:37,2022-04-05 10:49:40,"3,067s",PASSED
+"verifyTextPresent(""ОБОРОНИТЕЛЬНЫЕ ДЕЙСТВИЯ"", false)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:49:40,2022-04-05 10:49:43,"3,489s",PASSED
+"verifyTextPresent(""Защитник"", false)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:49:43,2022-04-05 10:49:46,"2,949s",PASSED
+"verifyTextPresent(""Нападающий"", false)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:49:46,2022-04-05 10:49:50,"3,217s",PASSED
+"click(findTestObject(""Object Repository/admin/reports/period/Page_/root""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:49:50,2022-04-05 10:49:52,"2,330s",PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,,,2022-04-05 10:49:52,2022-04-05 10:49:53,"0,648s",PASSED
+,,,,,,,
+Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика,Linux - Chrome 97.0.4692.71,"функциональный тест
+",,2022-04-05 10:49:53,2022-04-05 10:54:36,"4m - 43,024s",FAILED
+"callTestCase(findTestCase(""Администратор/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:49:53,2022-04-05 10:52:29,"2m - 36,464s",PASSED
+"click(findTestObject(""Object Repository/admin/reports/gamestat/reports/report""))",Linux - Chrome 97.0.4692.71,переход в отчеты,,2022-04-05 10:52:29,2022-04-05 10:52:59,"29,791s",PASSED
+"click(findTestObject(""Object Repository/admin/reports/gamestat/Page_/stats_report""))",Linux - Chrome 97.0.4692.71,выбор отчета,,2022-04-05 10:52:59,2022-04-05 10:53:01,"2,298s",PASSED
+"verifyTextPresent(""ИГРОВАЯ СТАТИСТИКА"", true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:53:01,2022-04-05 10:53:04,"2,392s",PASSED
+"click(findTestObject(""Object Repository/admin/reports/gamestat/Page_/school""))",Linux - Chrome 97.0.4692.71,выбор школы,,2022-04-05 10:53:04,2022-04-05 10:53:37,"33,121s",PASSED
+"click(findTestObject(""Object Repository/admin/reports/gamestat/Page_/Academy""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:53:37,2022-04-05 10:53:39,"1,865s",PASSED
+"click(findTestObject(""Object Repository/admin/reports/gamestat/Page_/team""))",Linux - Chrome 97.0.4692.71,выбор команды ,,2022-04-05 10:53:39,2022-04-05 10:54:16,"37,658s",PASSED
+"click(findTestObject(""Object Repository/admin/reports/gamestat/Page_/varteam""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:54:16,2022-04-05 10:54:18,"1,938s",PASSED
+"click(findTestObject(""Object Repository/admin/reports/gamestat/Page_/choseSeason""))",Linux - Chrome 97.0.4692.71,выбор сезона,,2022-04-05 10:54:18,2022-04-05 10:54:22,"3,423s",PASSED
+"click(findTestObject(""Object Repository/admin/reports/gamestat/Page_/div_21-22_1""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:54:22,2022-04-05 10:54:24,"1,958s",PASSED
+"takeFullPageScreenshot(""C:\scr\"" + school + ""10.jpg"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:54:24,2022-04-05 10:54:30,"6,265s",PASSED
+"verifyTextPresent(""Матчи"", true)",Linux - Chrome 97.0.4692.71,проверки,,2022-04-05 10:54:30,2022-04-05 10:54:34,"3,538s",FAILED
+,,,,,,,
+Test Cases/Администратор/Отчет для тк,Linux - Chrome 97.0.4692.71,,,2022-04-05 10:54:36,2022-04-05 10:56:59,"2m - 23,517s",PASSED
+"callTestCase(findTestCase(""Администратор/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:54:36,2022-04-05 10:56:32,"1m - 56,346s",PASSED
+"click(findTestObject(""admin/reports/keys/reports/report""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:56:32,2022-04-05 10:56:59,"27,168s",PASSED
+,,,,,,,
+Test Cases/Администратор/Документы (возможна проверка и под аккаунтом Менеджера),Linux - Chrome 97.0.4692.71,просмотр вкладки документов и возможность добавления новых,,2022-04-05 10:56:59,2022-04-05 11:00:15,"3m - 16,347s",PASSED
+"callTestCase(findTestCase(""Администратор/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:56:59,2022-04-05 10:59:24,"2m - 24,618s",PASSED
+"click(findTestObject(""Avangard New/Object (Администратор)/Case (Документы)/documents (вкладка документы)""))",Linux - Chrome 97.0.4692.71,"переход в меню ""документы""
+
+",,2022-04-05 10:59:24,2022-04-05 10:59:51,"27,235s",PASSED
+waitForPageLoad(10),Linux - Chrome 97.0.4692.71,ожидание загрузки страницы ,,2022-04-05 10:59:51,2022-04-05 10:59:52,"0,708s",PASSED
+"click(findTestObject(""Avangard New/Object (Администратор)/Case (Документы)/document (нажать на документ)""))",Linux - Chrome 97.0.4692.71,"Нажимает на документ
+",,2022-04-05 10:59:52,2022-04-05 10:59:58,"6,487s",PASSED
+"verifyElementClickable(findTestObject(""Avangard New/Object (Администратор)/Case (Документы)/button download""))",Linux - Chrome 97.0.4692.71,"Проверяет кликабельность кнопки скачать
+",,2022-04-05 10:59:58,2022-04-05 11:00:00,"1,738s",PASSED
+"sendKeys(findTestObject(""Avangard New/Object (Администратор)/Case (Документы)/button download""), Keys.chord(ESCAPE))",Linux - Chrome 97.0.4692.71,"Проверяет кликабельность кнопки скачать
+",,2022-04-05 11:00:00,2022-04-05 11:00:03,"2,667s",PASSED
+"scrollToElement(findTestObject(""admin/documents/documents (4)/add""), 0, OPTIONAL)",Linux - Chrome 97.0.4692.71,,,2022-04-05 11:00:03,2022-04-05 11:00:05,"2,195s",PASSED
+"while (verifyElementVisible(findTestObject(""admin/documents/Page_/add""), OPTIONAL) == true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 11:00:05,2022-04-05 11:00:13,"7,896s",PASSED
+"click(findTestObject(""Avangard New/Object (Администратор)/Case (Документы)/home (вкладка главная)""))",Linux - Chrome 97.0.4692.71,Переход на главную страницу,,2022-04-05 11:00:13,2022-04-05 11:00:15,"1,949s",PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,закрыть браузер,,2022-04-05 11:00:15,2022-04-05 11:00:15,"0,538s",PASSED
+,,,,,,,
+Test Cases/Администратор/Авторизация,Linux - Chrome 97.0.4692.71,"авторизация ,используется в остальных тест кейсах
+",,2022-04-05 11:00:15,2022-04-05 11:02:25,"2m - 9,080s",PASSED
+"openBrowser("""")",Linux - Chrome 97.0.4692.71,,,2022-04-05 11:00:15,2022-04-05 11:02:08,"1m - 52,920s",PASSED
+maximizeWindow(),Linux - Chrome 97.0.4692.71,развернуть на полный экран,,2022-04-05 11:02:08,2022-04-05 11:02:09,"0,466s",PASSED
+navigateToUrl(url),Linux - Chrome 97.0.4692.71,"переход на сайт
+",,2022-04-05 11:02:09,2022-04-05 11:02:15,"5,708s",PASSED
+"setText(findTestObject(""Object Repository/Page_/input__sc-lnrBVv eqPACj""), admin_login)",Linux - Chrome 97.0.4692.71,"ввод логина
+",,2022-04-05 11:02:15,2022-04-05 11:02:18,"3,923s",PASSED
+"setText(findTestObject(""Object Repository/Page_/input__sc-lnrBVv eqPACj_1""), admin_password)",Linux - Chrome 97.0.4692.71,"ввод пароля
+",,2022-04-05 11:02:18,2022-04-05 11:02:23,"4,125s",PASSED
+"click(findTestObject(""Object Repository/Page_/go""))",Linux - Chrome 97.0.4692.71,войти,,2022-04-05 11:02:23,2022-04-05 11:02:25,"1,933s",PASSED
+,,,,,,,
+Test Cases/Администратор/Пользователи,Linux - Chrome 97.0.4692.71,,,2022-04-05 11:02:25,2022-04-05 11:10:31,"8m - 6,611s",PASSED
+"callTestCase(findTestCase(""Администратор/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 11:02:25,2022-04-05 11:04:26,"2m - 1,351s",PASSED
+"callTestCase(findTestCase(""Администратор/Создание пользователя (переиспользуется в Пользователи)""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 11:04:26,2022-04-05 11:06:34,"2m - 7,870s",PASSED
+"callTestCase(findTestCase(""Администратор/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 11:06:34,2022-04-05 11:08:26,"1m - 51,435s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/span users""))",Linux - Chrome 97.0.4692.71,Вкладка пользователи,,2022-04-05 11:08:26,2022-04-05 11:08:48,"22,052s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/div__scool""))",Linux - Chrome 97.0.4692.71,Поле ввода Школа,,2022-04-05 11:08:48,2022-04-05 11:08:51,"3,038s",PASSED
+"s = getText(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/div__academy avangard""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 11:08:51,2022-04-05 11:08:52,"1,801s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/div__academy avangard""))",Linux - Chrome 97.0.4692.71,Академия Авангард,,2022-04-05 11:08:52,2022-04-05 11:08:54,"2,038s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/place school""), s)",Linux - Chrome 97.0.4692.71,,,2022-04-05 11:08:54,2022-04-05 11:08:57,"2,474s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/div__role""))",Linux - Chrome 97.0.4692.71,Поле ввода Роль,,2022-04-05 11:08:57,2022-04-05 11:08:59,"2,154s",PASSED
+"r = getText(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/div__trainer""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 11:08:59,2022-04-05 11:09:01,"1,916s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/div__trainer""))",Linux - Chrome 97.0.4692.71,Роль тренер,,2022-04-05 11:09:01,2022-04-05 11:09:03,"1,964s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Администратор)/Case (Пользователи)/div__player""), r)",Linux - Chrome 97.0.4692.71,,,2022-04-05 11:09:03,2022-04-05 11:09:05,"2,515s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/input__Tarasov""), ""Test"")",Linux - Chrome 97.0.4692.71,Ввод в поиск Тарасов,,2022-04-05 11:09:05,2022-04-05 11:09:09,"3,757s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/div__name""), ""User Test"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 11:09:09,2022-04-05 11:09:12,"2,978s",PASSED
+"callTestCase(findTestCase(""Администратор/Редактирование и удаление (переиспользуется в Пользователи)""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 11:09:12,2022-04-05 11:10:31,"1m - 18,372s",PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,,,2022-04-05 11:10:31,2022-04-05 11:10:31,"0,535s",PASSED

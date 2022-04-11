@@ -6,12 +6,12 @@
    <elementGuidId>6d94386f-0315-424a-9d57-bc1f035677e9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>sc-cvbbAY iaoXyh DialogButton DialogButton_yes</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>/html/body/div[2]/div/div[2]/div/div[2]/div[2]/div/div/div/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>sc-cvbbAY iaoXyh DialogButton DialogButton_yes</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -29,14 +29,9 @@ not_run: WebUI.setText(findTestObject('Object Repository/Avangard New/Object (А
 
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/edit user'))
 
-t = WebUI.getText(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/role exit'))
-
 'Поле ввода Команда'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/team edit'))
 
-k = WebUI.getText(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/uxl team'))
-
-'ЮХЛ\r\n'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/uxl team'))
 
 'Изменить пароль'
@@ -55,14 +50,6 @@ WebUI.click(findTestObject('Object Repository/Avangard New/Object (Админи�
 
 WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/alert edit'), 
     'Пользователь сохранен')
-
-'Проверка изменения команды'
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/team osk'), 
-    k)
-
-'Проверка что роль тренер'
-not_run: WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/role 2 edit'), 
-    t)
 
 'Нажать кнопку редактирование'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/button_edit2'))
@@ -92,10 +79,4 @@ WebUI.click(findTestObject('Object Repository/Avangard New/Object (Админи�
 
 WebUI.verifyElementText(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/alert delete'), 
     'Пользователь удалён')
-
-'Нажатие на команда'
-not_run: WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/div_team55'))
-
-'Выбор ЮХЛ'
-not_run: WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Пользователи)/div_-uxl 33'))
 

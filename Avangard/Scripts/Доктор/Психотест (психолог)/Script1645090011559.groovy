@@ -34,9 +34,9 @@ WebUI.click(findTestObject('Object Repository/vrach/psychotest/Page_/psychotest'
 
 WebUI.verifyTextPresent('Психологический профиль', false)
 
-WebUI.click(findTestObject('Object Repository/vrach/psychotest/Page_/school'))
+not_run: WebUI.click(findTestObject('Object Repository/vrach/psychotest/Page_/school'))
 
-WebUI.click(findTestObject('Object Repository/vrach/psychotest/Page_/avanguard'))
+not_run: WebUI.click(findTestObject('Object Repository/vrach/psychotest/Page_/avanguard'))
 
 WebUI.click(findTestObject('Object Repository/vrach/psychotest/Page_/team'))
 
@@ -57,4 +57,6 @@ WebUI.scrollToElement(findTestObject('Object Repository/vrach/psychotest/Page_/t
 WebUI.setText(findTestObject('Object Repository/vrach/psychotest/Page_/thinking'), '9')
 
 WebUI.click(findTestObject('Object Repository/vrach/psychotest/Page_/button_save'))
+
+WebUI.closeBrowser()
 

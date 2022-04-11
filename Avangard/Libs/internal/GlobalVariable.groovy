@@ -76,8 +76,8 @@ Profile 2005 team stage : &#1045;&#1088;&#1086;&#1085;&#1082;&#1086;</p>
     public static Object player_for_test
      
     /**
-     * <p>Profile omskie yastrebi STAGE (Ageev) : &#1064;&#1082;&#1086;&#1083;&#1072;
-Profile 2005 team stage : &#1064;&#1082;&#1086;&#1083;&#1072;</p>
+     * <p>Profile omskie yastrebi STAGE (Ageev) : &#1050;&#1086;&#1084;&#1072;&#1085;&#1076;&#1072;
+Profile 2005 team stage : &#1050;&#1086;&#1084;&#1072;&#1085;&#1076;&#1072;</p>
      */
     public static Object school
      

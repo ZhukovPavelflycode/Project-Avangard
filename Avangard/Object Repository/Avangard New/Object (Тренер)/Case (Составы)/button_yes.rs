@@ -6,12 +6,12 @@
    <elementGuidId>fa9486f1-ee7f-4f5f-9f16-b2eb83ed2a82</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.sc-cvbbAY.iuFrkv.DialogButton.DialogButton_yes</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Отменить'])[1]/following::button[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.sc-cvbbAY.iuFrkv.DialogButton.DialogButton_yes</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

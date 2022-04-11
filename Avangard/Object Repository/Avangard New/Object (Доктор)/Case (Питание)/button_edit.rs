@@ -6,12 +6,12 @@
    <elementGuidId>83b037bf-ed3d-4101-bdff-d30378ace042</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.Button-sc-982myn-0.gMbqcs</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//button[(text() = 'Редактировать' or . = 'Редактировать')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.Button-sc-982myn-0.gMbqcs</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

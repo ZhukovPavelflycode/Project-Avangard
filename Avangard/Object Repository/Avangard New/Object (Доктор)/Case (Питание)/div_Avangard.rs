@@ -6,12 +6,12 @@
    <elementGuidId>a4a1f787-754c-4676-b3e7-52bbf1a1fcb6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#react-select-10-option-0</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='react-select-10-option-0']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-10-option-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

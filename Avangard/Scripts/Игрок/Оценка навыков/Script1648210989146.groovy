@@ -59,3 +59,5 @@ WebUI.click(findTestObject('Avangard New/Object (Игрок)/Case (Оценка 
 'Проверить алерт'
 WebUI.verifyElementText(findTestObject('Avangard New/Object (Игрок)/Case (Оценка навыков)/alert skill'), 'Оценки успешно сохранены.')
 
+WebUI.closeBrowser()
+

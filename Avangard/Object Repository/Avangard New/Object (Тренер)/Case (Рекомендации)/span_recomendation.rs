@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div[2]/div/a[10]/div/span</value>
+         <value>//span[(text() = 'Рекомендации' or . = 'Рекомендации')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

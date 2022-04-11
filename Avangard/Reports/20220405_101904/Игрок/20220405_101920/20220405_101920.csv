@@ -1,0 +1,55 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Игрок,Linux - Chrome 97.0.4692.71,,,2022-04-05 10:19:42,2022-04-05 10:41:19,"21m - 37,352s",PASSED
+,,,,,,,
+Test Cases/Игрок/Авторизация,Linux - Chrome 97.0.4692.71,,,2022-04-05 10:19:43,2022-04-05 10:23:28,"3m - 44,506s",PASSED
+"openBrowser("""")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:19:46,2022-04-05 10:23:11,"3m - 24,940s",PASSED
+maximizeWindow(),Linux - Chrome 97.0.4692.71,,,2022-04-05 10:23:11,2022-04-05 10:23:11,"0,511s",PASSED
+navigateToUrl(url),Linux - Chrome 97.0.4692.71,,,2022-04-05 10:23:11,2022-04-05 10:23:18,"6,250s",PASSED
+"setText(findTestObject(""Object Repository/manager/Page_/input__sc-lnrBVv eqPACj""), player_login)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:23:18,2022-04-05 10:23:22,"4,152s",PASSED
+"setText(findTestObject(""Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1""), player_password)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:23:22,2022-04-05 10:23:26,"4,120s",PASSED
+"click(findTestObject(""manager/Page_/go""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:23:26,2022-04-05 10:23:28,"2,002s",PASSED
+,,,,,,,
+Test Cases/Игрок/Отчеты психофиз профиля,Linux - Chrome 97.0.4692.71,,,2022-04-05 10:23:28,2022-04-05 10:30:39,"7m - 10,798s",PASSED
+"callTestCase(findTestCase(""Игрок/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:23:28,2022-04-05 10:28:28,"4m - 59,462s",PASSED
+"click(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/report""))",Linux - Chrome 97.0.4692.71,Вкладка отчеты,,2022-04-05 10:28:28,2022-04-05 10:28:55,"27,434s",PASSED
+"click(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/psixolog""))",Linux - Chrome 97.0.4692.71,Психологический отчет,,2022-04-05 10:28:55,2022-04-05 10:28:58,"2,596s",PASSED
+"if (verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/div_ganin""), ""Ганин Данила"", OPTIONAL) == true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:28:58,2022-04-05 10:29:35,"37,366s",PASSED
+else,Linux - Chrome 97.0.4692.71,,,2022-04-05 10:29:35,2022-04-05 10:29:39,"4,121s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/div_ganin""), ""Ганин Данила"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:29:39,2022-04-05 10:29:39,"0,002s",NOT_RUN
+"scrollToElement(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/reaction easy""), 0)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:29:39,2022-04-05 10:29:42,"3,172s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/reaction easy""), ""Реакция на простой стимул"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:29:42,2022-04-05 10:29:44,"1,798s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/reaction hard""), ""Реакция на сложный стимул"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:29:44,2022-04-05 10:29:46,"2,102s",PASSED
+"scrollToElement(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/button burg date (1)""), 0)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:29:46,2022-04-05 10:29:49,"2,450s",PASSED
+"click(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/tab""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:29:49,2022-04-05 10:29:51,"2,084s",PASSED
+"if (verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/div_ganin""), ""Ганин Данила"", OPTIONAL) == true)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:29:51,2022-04-05 10:30:26,"35,427s",PASSED
+else,Linux - Chrome 97.0.4692.71,,,2022-04-05 10:30:26,2022-04-05 10:30:30,"3,767s",PASSED
+"scrollToElement(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika""), 0)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:30:30,2022-04-05 10:30:32,"2,278s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika""), ""Экстраверсия"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:30:32,2022-04-05 10:30:34,"2,009s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika 2""), ""Спонтанность"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:30:34,2022-04-05 10:30:36,"1,794s",PASSED
+"click(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты)/home g (1)""))",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:30:36,2022-04-05 10:30:38,"2,118s",PASSED
+closeBrowser(),Linux - Chrome 97.0.4692.71,,,2022-04-05 10:30:38,2022-04-05 10:30:39,"0,511s",PASSED
+,,,,,,,
+Test Cases/Игрок/Отчет по навыкам,Linux - Chrome 97.0.4692.71,,,2022-04-05 10:30:39,2022-04-05 10:35:49,"5m - 10,192s",PASSED
+"callTestCase(findTestCase(""Игрок/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:30:39,2022-04-05 10:35:28,"4m - 48,537s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/span_reports""))",Linux - Chrome 97.0.4692.71,Вкладка отчеты,,2022-04-05 10:35:28,2022-04-05 10:35:42,"14,510s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_report_skills""))",Linux - Chrome 97.0.4692.71,Отчет по навыкам,,2022-04-05 10:35:42,2022-04-05 10:35:44,"2,100s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_10""))",Linux - Chrome 97.0.4692.71,Видимость оценки,,2022-04-05 10:35:44,2022-04-05 10:35:47,"2,837s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_name""), player_for_test)",Linux - Chrome 97.0.4692.71,Проверка имени,,2022-04-05 10:35:47,2022-04-05 10:35:49,"1,870s",PASSED
+,,,,,,,
+Test Cases/Игрок/Оценка навыков,Linux - Chrome 97.0.4692.71,,,2022-04-05 10:35:49,2022-04-05 10:41:19,"5m - 30,271s",PASSED
+"callTestCase(findTestCase(""Игрок/Авторизация""), [:], STOP_ON_FAILURE)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:35:50,2022-04-05 10:40:29,"4m - 39,206s",PASSED
+"click(findTestObject(""Avangard New/Object (Игрок)/Case (Оценка навыков)/skill""))",Linux - Chrome 97.0.4692.71,Вкладка оценка навыков,,2022-04-05 10:40:29,2022-04-05 10:40:42,"13,200s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/span_1""))",Linux - Chrome 97.0.4692.71,Установить оценку 1 в ускорении,,2022-04-05 10:40:42,2022-04-05 10:40:46,"4,065s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Оценка навыков)/fast fast""), ""Ускорение"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:40:46,2022-04-05 10:40:49,"2,409s",PASSED
+"scrollToElement(findTestObject(""Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save""), 0)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:40:49,2022-04-05 10:40:51,"2,106s",PASSED
+"click(findTestObject(""Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save""))",Linux - Chrome 97.0.4692.71,Сохранить,,2022-04-05 10:40:51,2022-04-05 10:40:53,"2,229s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Оценка навыков)/alert skill""), ""Оценки успешно сохранены."")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:40:53,2022-04-05 10:40:56,"2,886s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/report""))",Linux - Chrome 97.0.4692.71,Вкладка Отчеты,,2022-04-05 10:40:56,2022-04-05 10:40:58,"2,512s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/repor skill""))",Linux - Chrome 97.0.4692.71,Отчеты по навыкам,,2022-04-05 10:40:58,2022-04-05 10:41:01,"2,330s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Оценка навыков)/div_1""), ""1"")",Linux - Chrome 97.0.4692.71,Проверка оценки 1,,2022-04-05 10:41:01,2022-04-05 10:41:04,"3,080s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Оценка навыков)/div_katanie""), ""Катание"")",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:41:04,2022-04-05 10:41:06,"2,083s",PASSED
+"click(findTestObject(""Avangard New/Object (Игрок)/Case (Оценка навыков)/skill""))",Linux - Chrome 97.0.4692.71,Вкладка оценка навыков,,2022-04-05 10:41:06,2022-04-05 10:41:09,"3,101s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/span_8""))",Linux - Chrome 97.0.4692.71,Поставить оценку 8,,2022-04-05 10:41:09,2022-04-05 10:41:12,"2,829s",PASSED
+"scrollToElement(findTestObject(""Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save""), 0)",Linux - Chrome 97.0.4692.71,,,2022-04-05 10:41:12,2022-04-05 10:41:14,"1,962s",PASSED
+"click(findTestObject(""Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save""))",Linux - Chrome 97.0.4692.71,Сохранить,,2022-04-05 10:41:14,2022-04-05 10:41:16,"2,147s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Игрок)/Case (Оценка навыков)/alert skill""), ""Оценки успешно сохранены."")",Linux - Chrome 97.0.4692.71,Проверить алерт,,2022-04-05 10:41:16,2022-04-05 10:41:19,"3,247s",PASSED

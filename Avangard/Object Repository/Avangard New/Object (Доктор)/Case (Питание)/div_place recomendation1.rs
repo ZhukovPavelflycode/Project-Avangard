@@ -6,12 +6,12 @@
    <elementGuidId>35b02600-1236-4b3e-b498-f178ab7968ef</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.css-bcev1j-control > div.css-18eoaig</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div/div/div[2]/div/div/label/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-bcev1j-control > div.css-18eoaig</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

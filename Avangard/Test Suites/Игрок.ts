@@ -18,10 +18,10 @@
       <testCaseId>Test Cases/Игрок/Авторизация</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>97cb3101-030c-4f21-983d-22fd9bfd3b03</guid>
+      <guid>4d6364f2-ce6f-4a7f-8fb3-9fa3bb3abb03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Игрок/Отчеты психофиз профиля</testCaseId>
+      <testCaseId>Test Cases/Игрок/Оценка навыков</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>d7e5be46-c2c5-4189-baf9-03e688db6871</guid>
@@ -30,9 +30,9 @@
       <testCaseId>Test Cases/Игрок/Отчет по навыкам</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>4d6364f2-ce6f-4a7f-8fb3-9fa3bb3abb03</guid>
+      <guid>97cb3101-030c-4f21-983d-22fd9bfd3b03</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Игрок/Оценка навыков</testCaseId>
+      <testCaseId>Test Cases/Игрок/Отчеты психологического профиля</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

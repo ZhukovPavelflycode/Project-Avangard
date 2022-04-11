@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Игрок" time="1074.16" tests="4" failures="1" errors="0">
+   <testsuite name="Игрок" tests="4" failures="1" errors="0" time="1074.16" skipped="0" timestamp="2022-04-04 12:40:11" hostname="LENOVO - DESKTOP-KNHN0AA" id="Test Suites/Игрок">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220404_123939\\\u0418\u0433\u0440\u043E\u043A\\20220404_123954"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220404_123939\\\u0418\u0433\u0440\u043E\u043A\\20220404_123954\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220404_123939\\\u0418\u0433\u0440\u043E\u043A\\20220404_123954\\1649065655184.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-KNHN0AA"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97.0.4692.71&quot;,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})&quot;,
+    &quot;userDataDir&quot;: &quot;/tmp/.com.google.Chrome.atE69c&quot;
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:40421&quot;
+  },
+  &quot;javascriptEnabled&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;LINUX&quot;,
+  &quot;platformName&quot;: &quot;LINUX&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;se:cdp&quot;: &quot;ws://172.48.50.112:4444/session/b4f71014661a52d0077f920db8647723/se/cdp&quot;,
+  &quot;se:cdpVersion&quot;: &quot;97.0.4692.71&quot;,
+  &quot;se:vnc&quot;: &quot;ws://172.48.50.112:4444/session/b4f71014661a52d0077f920db8647723/se/vnc&quot;,
+  &quot;se:vncEnabled&quot;: true,
+  &quot;se:vncLocalAddress&quot;: &quot;ws://172.48.50.112:7900&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Linux"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.2.113"/>
+         <property name="sessionId" value="b4f71014661a52d0077f920db8647723"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Игрок/Авторизация" time="109.783" classname="Test Cases/Игрок/Авторизация" status="PASSED">
+         <system-out><![CDATA[2022-04-04 12:40:12 - [TEST_CASE][PASSED] - Test Cases/Игрок/Авторизация: Test Cases/Игрок/Авторизация
+
+2022-04-04 12:40:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-04 12:40:17 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-04 12:40:18 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-04 12:40:18 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-04 12:40:18 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-04 12:40:18 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-04 12:40:20 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-04 12:41:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-04 12:41:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-04 12:41:42 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-04 12:41:42 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-04 12:41:50 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-04 12:41:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/manager/Page_/input__sc-lnrBVv eqPACj"), player_login): Text 'danilaganin7218@icloud.com' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-04 12:41:55 - [MESSAGE][PASSED] - Text 'danilaganin7218@icloud.com' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-04 12:41:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1"), player_password): Text 'danilaganin7218' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-04 12:42:00 - [MESSAGE][PASSED] - Text 'danilaganin7218' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-04 12:42:00 - [TEST_STEP][PASSED] - click(findTestObject("manager/Page_/go")): Object: 'Object Repository/manager/Page_/go' is clicked on
+
+2022-04-04 12:42:02 - [MESSAGE][PASSED] - Object: 'Object Repository/manager/Page_/go' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Игрок/Отчеты психофиз профиля" time="336.184" classname="Test Cases/Игрок/Отчеты психофиз профиля" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Игрок/Отчеты психофиз профиля FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$5.call(Unknown Source)
+	at Отчеты психофиз профиля.run(Отчеты психофиз профиля:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649065194235.run(TempTestSuite1649065194235.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika' located by '//*/text()[normalize-space(.)='Экстраверсия']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-04-04 12:42:02 - [TEST_CASE][FAILED] - Test Cases/Игрок/Отчеты психофиз профиля: Test Cases/Игрок/Отчеты психофиз профиля FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$5.call(Unknown Source)
+	at Отчеты психофиз профиля.run(Отчеты психофиз профиля:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649065194235.run(TempTestSuite1649065194235.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika' located by '//*/text()[normalize-space(.)='Экстраверсия']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-04-04 12:42:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Игрок/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Игрок/Авторизация' successfully
+
+2022-04-04 12:42:02 - [TEST_CASE][PASSED] - Test Cases/Игрок/Авторизация: Test Cases/Игрок/Авторизация
+
+2022-04-04 12:42:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-04 12:42:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-04 12:42:03 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-04 12:42:03 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-04 12:42:03 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-04 12:42:03 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-04 12:42:03 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-04 12:42:03 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-04 12:45:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-04 12:45:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-04 12:45:44 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-04 12:45:44 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-04 12:45:54 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-04 12:45:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/manager/Page_/input__sc-lnrBVv eqPACj"), player_login): Text 'danilaganin7218@icloud.com' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-04 12:45:58 - [MESSAGE][PASSED] - Text 'danilaganin7218@icloud.com' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-04 12:45:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1"), player_password): Text 'danilaganin7218' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-04 12:46:02 - [MESSAGE][PASSED] - Text 'danilaganin7218' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-04 12:46:02 - [TEST_STEP][PASSED] - click(findTestObject("manager/Page_/go")): Object: 'Object Repository/manager/Page_/go' is clicked on
+
+2022-04-04 12:46:04 - [MESSAGE][PASSED] - Object: 'Object Repository/manager/Page_/go' is clicked on
+
+2022-04-04 12:46:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Игрок/Авторизация' successfully
+
+2022-04-04 12:46:04 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/report")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/report' is clicked on
+
+2022-04-04 12:46:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/report' is clicked on
+
+2022-04-04 12:46:22 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/psixolog")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/psixolog' is clicked on
+
+2022-04-04 12:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/psixolog' is clicked on
+
+2022-04-04 12:46:24 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/div_ganin"), "Ганин Данила", OPTIONAL) == true): null
+
+2022-04-04 12:46:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/div_ganin' are matched.
+
+2022-04-04 12:46:29 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/div_burger date")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/div_burger date' is clicked on
+
+2022-04-04 12:46:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/div_burger date' is clicked on
+
+2022-04-04 12:46:31 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/div_30.06.2021")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/div_30.06.2021' is clicked on
+
+2022-04-04 12:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/div_30.06.2021' is clicked on
+
+2022-04-04 12:46:33 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/div_ganin"), "Ганин Данила"): NOT_RUN: verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/div_ganin"), "Ганин Данила")
+
+2022-04-04 12:46:33 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/div_ganin"), "Ганин Данила")
+
+2022-04-04 12:46:33 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/reaction easy"), 0): Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/reaction easy' successfully
+
+2022-04-04 12:46:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-04 12:46:37 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/reaction easy' successfully
+
+2022-04-04 12:46:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/reaction easy"), "Реакция на простой стимул"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/reaction easy' are matched.
+
+2022-04-04 12:46:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/reaction easy' are matched.
+
+2022-04-04 12:46:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/reaction hard"), "Реакция на сложный стимул"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/reaction hard' are matched.
+
+2022-04-04 12:46:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/reaction hard' are matched.
+
+2022-04-04 12:46:41 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/button burg date (1)"), 0): Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/button burg date (1)' successfully
+
+2022-04-04 12:46:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-04 12:46:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/button burg date (1)' successfully
+
+2022-04-04 12:46:43 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/tab")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/tab' is clicked on
+
+2022-04-04 12:46:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/tab' is clicked on
+
+2022-04-04 12:46:45 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/div_ganin"), "Ганин Данила", OPTIONAL) == true): null
+
+2022-04-04 12:46:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/div_ganin' are matched.
+
+2022-04-04 12:46:47 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/div_sezon")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/div_sezon' is clicked on
+
+2022-04-04 12:46:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/div_sezon' is clicked on
+
+2022-04-04 12:46:49 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/div_21-22")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/div_21-22' is clicked on
+
+2022-04-04 12:46:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/div_21-22' is clicked on
+
+2022-04-04 12:46:51 - [TEST_STEP][FAILED] - scrollToElement(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika"), 0): Unable to scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$5.call(Unknown Source)
+	at Отчеты психофиз профиля.run(Отчеты психофиз профиля:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649065194235.run(TempTestSuite1649065194235.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika' located by '//*/text()[normalize-space(.)='Экстраверсия']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$5.call(Unknown Source)
+	at Script1647367632978.run(Script1647367632978.groovy:66)
+	... 13 more
+)
+
+2022-04-04 12:46:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-04 12:47:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='Экстраверсия']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 12:47:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika'. Try using Self-healing.
+
+2022-04-04 12:47:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='rc-tabs-1-panel-1']/div[2]/div[2]/div/div/div/div/div[2]/p[2]'.
+
+2022-04-04 12:47:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Индивидуально-типологический'])[1]/following::p[17]'.
+
+2022-04-04 12:47:26 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Психологический'])[1]/following::p[17]'.
+
+2022-04-04 12:47:28 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Редактирование профиля'])[1]/preceding::p[29]'.
+
+2022-04-04 12:47:29 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Экстраверсия']/parent::*'.
+
+2022-04-04 12:47:30 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[2]/div/div/div/div/div[2]/p[2]'.
+
+2022-04-04 12:47:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//p[(text() = 'Экстраверсия' or . = 'Экстраверсия')]'.
+
+2022-04-04 12:47:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Экстраверсия' or . = 'Экстраверсия')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 12:47:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: p.styles__SkillName-sc-8xsnvi-9.fxKVA'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-04 12:47:36 - [MESSAGE][FAILED] - Unable to scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$5.call(Unknown Source)
+	at Отчеты психофиз профиля.run(Отчеты психофиз профиля:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649065194235.run(TempTestSuite1649065194235.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika' located by '//*/text()[normalize-space(.)='Экстраверсия']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$5.call(Unknown Source)
+	at Script1647367632978.run(Script1647367632978.groovy:66)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220404_123939\\\u0418\u0433\u0440\u043E\u043A\\20220404_123954\\1649065655184.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-04 12:42:02 - [TEST_CASE][FAILED] - Test Cases/Игрок/Отчеты психофиз профиля: Test Cases/Игрок/Отчеты психофиз профиля FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$5.call(Unknown Source)
+	at Отчеты психофиз профиля.run(Отчеты психофиз профиля:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649065194235.run(TempTestSuite1649065194235.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika' located by '//*/text()[normalize-space(.)='Экстраверсия']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Игрок/Отчет по навыкам" time="293.821" classname="Test Cases/Игрок/Отчет по навыкам" status="PASSED">
+         <system-out><![CDATA[2022-04-04 12:47:38 - [TEST_CASE][PASSED] - Test Cases/Игрок/Отчет по навыкам: Test Cases/Игрок/Отчет по навыкам
+
+2022-04-04 12:47:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Игрок/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Игрок/Авторизация' successfully
+
+2022-04-04 12:47:38 - [TEST_CASE][PASSED] - Test Cases/Игрок/Авторизация: Test Cases/Игрок/Авторизация
+
+2022-04-04 12:47:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-04 12:47:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-04 12:47:39 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-04 12:47:39 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-04 12:47:39 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-04 12:47:39 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-04 12:47:39 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-04 12:47:39 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-04 12:51:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-04 12:51:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-04 12:51:47 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-04 12:51:47 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-04 12:51:55 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-04 12:51:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/manager/Page_/input__sc-lnrBVv eqPACj"), player_login): Text 'danilaganin7218@icloud.com' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-04 12:51:59 - [MESSAGE][PASSED] - Text 'danilaganin7218@icloud.com' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-04 12:51:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1"), player_password): Text 'danilaganin7218' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-04 12:52:03 - [MESSAGE][PASSED] - Text 'danilaganin7218' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-04 12:52:03 - [TEST_STEP][PASSED] - click(findTestObject("manager/Page_/go")): Object: 'Object Repository/manager/Page_/go' is clicked on
+
+2022-04-04 12:52:05 - [MESSAGE][PASSED] - Object: 'Object Repository/manager/Page_/go' is clicked on
+
+2022-04-04 12:52:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Игрок/Авторизация' successfully
+
+2022-04-04 12:52:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/span_reports")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/span_reports' is clicked on
+
+2022-04-04 12:52:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/span_reports' is clicked on
+
+2022-04-04 12:52:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_report_skills")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_report_skills' is clicked on
+
+2022-04-04 12:52:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_report_skills' is clicked on
+
+2022-04-04 12:52:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_10")): Object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_10' is visible
+
+2022-04-04 12:52:30 - [MESSAGE][PASSED] - Object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_10' is visible
+
+2022-04-04 12:52:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_name"), player_for_test): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_name' are matched.
+
+2022-04-04 12:52:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_name' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Игрок/Оценка навыков" time="332.983" classname="Test Cases/Игрок/Оценка навыков" status="PASSED">
+         <system-out><![CDATA[2022-04-04 12:52:32 - [TEST_CASE][PASSED] - Test Cases/Игрок/Оценка навыков: Test Cases/Игрок/Оценка навыков
+
+2022-04-04 12:52:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Игрок/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Игрок/Авторизация' successfully
+
+2022-04-04 12:52:32 - [TEST_CASE][PASSED] - Test Cases/Игрок/Авторизация: Test Cases/Игрок/Авторизация
+
+2022-04-04 12:52:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-04 12:52:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-04 12:52:33 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-04 12:52:33 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-04 12:52:33 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-04 12:52:33 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-04 12:52:33 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-04 12:52:33 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-04 12:56:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-04 12:56:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-04 12:56:51 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-04 12:56:51 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-04 12:56:57 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-04 12:56:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/manager/Page_/input__sc-lnrBVv eqPACj"), player_login): Text 'danilaganin7218@icloud.com' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-04 12:57:02 - [MESSAGE][PASSED] - Text 'danilaganin7218@icloud.com' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-04 12:57:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1"), player_password): Text 'danilaganin7218' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-04 12:57:06 - [MESSAGE][PASSED] - Text 'danilaganin7218' is set on object 'Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-04 12:57:06 - [TEST_STEP][PASSED] - click(findTestObject("manager/Page_/go")): Object: 'Object Repository/manager/Page_/go' is clicked on
+
+2022-04-04 12:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/manager/Page_/go' is clicked on
+
+2022-04-04 12:57:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Игрок/Авторизация' successfully
+
+2022-04-04 12:57:08 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Игрок)/Case (Оценка навыков)/skill")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/skill' is clicked on
+
+2022-04-04 12:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/skill' is clicked on
+
+2022-04-04 12:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/span_1")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/span_1' is clicked on
+
+2022-04-04 12:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/span_1' is clicked on
+
+2022-04-04 12:57:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Оценка навыков)/fast fast"), "Ускорение"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/fast fast' are matched.
+
+2022-04-04 12:57:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/fast fast' are matched.
+
+2022-04-04 12:57:32 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save"), 0): Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save' successfully
+
+2022-04-04 12:57:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-04 12:57:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save' successfully
+
+2022-04-04 12:57:34 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save' is clicked on
+
+2022-04-04 12:57:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save' is clicked on
+
+2022-04-04 12:57:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Оценка навыков)/alert skill"), "Оценки успешно сохранены."): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/alert skill' are matched.
+
+2022-04-04 12:57:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/alert skill' are matched.
+
+2022-04-04 12:57:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/report")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/report' is clicked on
+
+2022-04-04 12:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/report' is clicked on
+
+2022-04-04 12:57:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/repor skill")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/repor skill' is clicked on
+
+2022-04-04 12:57:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/repor skill' is clicked on
+
+2022-04-04 12:57:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Оценка навыков)/div_1"), "1"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/div_1' are matched.
+
+2022-04-04 12:57:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/div_1' are matched.
+
+2022-04-04 12:57:48 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Оценка навыков)/div_katanie"), "Катание"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/div_katanie' are matched.
+
+2022-04-04 12:57:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/div_katanie' are matched.
+
+2022-04-04 12:57:50 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Игрок)/Case (Оценка навыков)/skill")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/skill' is clicked on
+
+2022-04-04 12:57:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/skill' is clicked on
+
+2022-04-04 12:57:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/span_8")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/span_8' is clicked on
+
+2022-04-04 12:57:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/span_8' is clicked on
+
+2022-04-04 12:57:58 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save"), 0): Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save' successfully
+
+2022-04-04 12:57:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-04 12:57:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save' successfully
+
+2022-04-04 12:57:59 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save")): Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save' is clicked on
+
+2022-04-04 12:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/button_save' is clicked on
+
+2022-04-04 12:58:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Игрок)/Case (Оценка навыков)/alert skill"), "Оценки успешно сохранены."): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/alert skill' are matched.
+
+2022-04-04 12:58:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Игрок)/Case (Оценка навыков)/alert skill' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-04 12:40:11 - [TEST_SUITE][FAILED] - Игрок: Test Cases/Игрок/Отчеты психофиз профиля FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$5.call(Unknown Source)
+	at Отчеты психофиз профиля.run(Отчеты психофиз профиля:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649065194235.run(TempTestSuite1649065194235.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika' located by '//*/text()[normalize-space(.)='Экстраверсия']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-04-04 12:40:11 - [TEST_SUITE][FAILED] - Игрок: Test Cases/Игрок/Отчеты психофиз профиля FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to object 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.scrollToElement(ScrollToElementKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword.execute(ScrollToElementKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToElement(WebUiBuiltInKeywords.groovy:4061)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$scrollToElement$5.call(Unknown Source)
+	at Отчеты психофиз профиля.run(Отчеты психофиз профиля:66)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649065194235.run(TempTestSuite1649065194235.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Игрок)/Case (Отчеты)/xarakteristika' located by '//*/text()[normalize-space(.)='Экстраверсия']/parent::*' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.doCall(ScrollToElementKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToElementKeyword$_scrollToElement_closure1.call(ScrollToElementKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

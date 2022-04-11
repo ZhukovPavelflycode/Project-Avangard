@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Доктор" time="1834.898" tests="4" failures="3" errors="0">
+   <testsuite name="Доктор" tests="4" failures="3" errors="0" time="1834.898" skipped="0" timestamp="2022-04-05 10:19:33" hostname="LENOVO - DESKTOP-KNHN0AA" id="Test Suites/Доктор">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u0414\u043E\u043A\u0442\u043E\u0440\\20220405_101912"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u0414\u043E\u043A\u0442\u043E\u0440\\20220405_101912\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u0414\u043E\u043A\u0442\u043E\u0440\\20220405_101912\\1649143470800.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u0414\u043E\u043A\u0442\u043E\u0440\\20220405_101912\\1649144145693.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u0414\u043E\u043A\u0442\u043E\u0440\\20220405_101912\\1649145001121.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-KNHN0AA"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97.0.4692.71&quot;,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})&quot;,
+    &quot;userDataDir&quot;: &quot;/tmp/.com.google.Chrome.KOQyxm&quot;
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:39423&quot;
+  },
+  &quot;javascriptEnabled&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;LINUX&quot;,
+  &quot;platformName&quot;: &quot;LINUX&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;se:cdp&quot;: &quot;ws://172.48.59.218:4444/session/6811298b3d9ae765e8d84fe90143debf/se/cdp&quot;,
+  &quot;se:cdpVersion&quot;: &quot;97.0.4692.71&quot;,
+  &quot;se:vnc&quot;: &quot;ws://172.48.59.218:4444/session/6811298b3d9ae765e8d84fe90143debf/se/vnc&quot;,
+  &quot;se:vncEnabled&quot;: true,
+  &quot;se:vncLocalAddress&quot;: &quot;ws://172.48.59.218:7900&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Linux"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.2.114"/>
+         <property name="sessionId" value="6811298b3d9ae765e8d84fe90143debf"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Доктор/дописать проверку на игрока Проверка вкладки Питание" time="299.911" classname="Test Cases/Доктор/дописать проверку на игрока Проверка вкладки Питание" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Доктор/дописать проверку на игрока Проверка вкладки Питание FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at дописать проверку на игрока Проверка вкладки Питание.run(дописать проверку на игрока Проверка вкладки Питание:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add' located by '/html/body/div/div[1]/div/div[2]/div/div[3]/div/div[1]/div/div/div/div/table/tbody/tr[4]/td[6]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-04-05 10:19:35 - [TEST_CASE][FAILED] - Test Cases/Доктор/дописать проверку на игрока Проверка вкладки Питание: Test Cases/Доктор/дописать проверку на игрока Проверка вкладки Питание FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at дописать проверку на игрока Проверка вкладки Питание.run(дописать проверку на игрока Проверка вкладки Питание:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add' located by '/html/body/div/div[1]/div/div[2]/div/div[3]/div/div[1]/div/div/div/div/table/tbody/tr[4]/td[6]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-04-05 10:19:39 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Доктор/Авторизация врач"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Доктор/Авторизация врач' successfully
+
+2022-04-05 10:19:40 - [TEST_CASE][PASSED] - Test Cases/Доктор/Авторизация врач: Test Cases/Доктор/Авторизация врач
+
+2022-04-05 10:19:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 10:19:44 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 10:19:44 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 10:19:44 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 10:19:44 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 10:19:44 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 10:19:47 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 10:23:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 10:23:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 10:23:08 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 10:23:08 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:23:14 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:23:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/vra/Page_/input__sc-lnrBVv eqPACj"), doktor_login): Text 'TestDoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:23:19 - [MESSAGE][PASSED] - Text 'TestDoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:23:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1"), doktor_password, STOP_ON_FAILURE): Text 'testdoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:23:23 - [MESSAGE][PASSED] - Text 'testdoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:23:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/Page_/Page_/go")): Object: 'Object Repository/vrach/Page_/Page_/go' is clicked on
+
+2022-04-05 10:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/Page_/Page_/go' is clicked on
+
+2022-04-05 10:23:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Доктор/Авторизация врач' successfully
+
+2022-04-05 10:23:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_pitanie")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_pitanie' is clicked on
+
+2022-04-05 10:23:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_pitanie' is clicked on
+
+2022-04-05 10:23:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Питание)/place_choose school")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/place_choose school' is clicked on
+
+2022-04-05 10:23:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/place_choose school' is clicked on
+
+2022-04-05 10:23:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_Avangard")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_Avangard' is clicked on
+
+2022-04-05 10:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_Avangard' is clicked on
+
+2022-04-05 10:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Питание)/place choose team")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/place choose team' is clicked on
+
+2022-04-05 10:23:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/place choose team' is clicked on
+
+2022-04-05 10:23:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_omsk")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_omsk' is clicked on
+
+2022-04-05 10:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/div_omsk' is clicked on
+
+2022-04-05 10:23:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Питание)/button_edit")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/button_edit' is clicked on
+
+2022-04-05 10:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/button_edit' is clicked on
+
+2022-04-05 10:23:46 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add")): Unable to click on object 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at дописать проверку на игрока Проверка вкладки Питание.run(дописать проверку на игрока Проверка вкладки Питание:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add' located by '/html/body/div/div[1]/div/div[2]/div/div[3]/div/div[1]/div/div/div/div/table/tbody/tr[4]/td[6]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1645638970189.run(Script1645638970189.groovy:41)
+	... 13 more
+)
+
+2022-04-05 10:24:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div/div[1]/div/div[2]/div/div[3]/div/div[1]/div/div/div/div/table/tbody/tr[4]/td[6]/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:24:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add'. Try using Self-healing.
+
+2022-04-05 10:24:19 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//table[@id='BMIEditForm']/tbody/tr[4]/td[2]/span'.
+
+2022-04-05 10:24:21 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Добавить рацион'])[3]/following::span[1]'.
+
+2022-04-05 10:24:22 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Добавить рацион'])[2]/following::span[2]'.
+
+2022-04-05 10:24:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Добавить рацион'])[5]/preceding::span[1]'.
+
+2022-04-05 10:24:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Добавить рацион'])[6]/preceding::span[2]'.
+
+2022-04-05 10:24:26 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[4]/td[2]/span'.
+
+2022-04-05 10:24:28 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//span[(text() = 'Добавить рацион' or . = 'Добавить рацион')]'.
+
+2022-04-05 10:24:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Добавить рацион' or . = 'Добавить рацион')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:24:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:24:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at дописать проверку на игрока Проверка вкладки Питание.run(дописать проверку на игрока Проверка вкладки Питание:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add' located by '/html/body/div/div[1]/div/div[2]/div/div[3]/div/div[1]/div/div/div/div/table/tbody/tr[4]/td[6]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1645638970189.run(Script1645638970189.groovy:41)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u0414\u043E\u043A\u0442\u043E\u0440\\20220405_101912\\1649143470800.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-05 10:19:35 - [TEST_CASE][FAILED] - Test Cases/Доктор/дописать проверку на игрока Проверка вкладки Питание: Test Cases/Доктор/дописать проверку на игрока Проверка вкладки Питание FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at дописать проверку на игрока Проверка вкладки Питание.run(дописать проверку на игрока Проверка вкладки Питание:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add' located by '/html/body/div/div[1]/div/div[2]/div/div[3]/div/div[1]/div/div/div/div/table/tbody/tr[4]/td[6]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Доктор/Просмотр профиля" time="308.175" classname="Test Cases/Доктор/Просмотр профиля" status="PASSED">
+         <system-out><![CDATA[2022-04-05 10:24:35 - [TEST_CASE][PASSED] - Test Cases/Доктор/Просмотр профиля: Test Cases/Доктор/Просмотр профиля
+
+2022-04-05 10:24:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Доктор/Авторизация врач"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Доктор/Авторизация врач' successfully
+
+2022-04-05 10:24:35 - [TEST_CASE][PASSED] - Test Cases/Доктор/Авторизация врач: Test Cases/Доктор/Авторизация врач
+
+2022-04-05 10:24:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 10:24:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-05 10:24:36 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 10:24:36 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 10:24:36 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 10:24:36 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 10:24:36 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 10:24:36 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 10:29:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 10:29:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 10:29:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 10:29:11 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:29:17 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:29:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/vra/Page_/input__sc-lnrBVv eqPACj"), doktor_login): Text 'TestDoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:29:21 - [MESSAGE][PASSED] - Text 'TestDoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:29:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1"), doktor_password, STOP_ON_FAILURE): Text 'testdoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:29:26 - [MESSAGE][PASSED] - Text 'testdoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:29:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/Page_/Page_/go")): Object: 'Object Repository/vrach/Page_/Page_/go' is clicked on
+
+2022-04-05 10:29:28 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/Page_/Page_/go' is clicked on
+
+2022-04-05 10:29:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Доктор/Авторизация врач' successfully
+
+2022-04-05 10:29:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/profile/Page_/span_TestDoctormail.ru")): Object: 'Object Repository/vrach/profile/Page_/span_TestDoctormail.ru' is clicked on
+
+2022-04-05 10:29:36 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/profile/Page_/span_TestDoctormail.ru' is clicked on
+
+2022-04-05 10:29:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/profile/Page_/save")): Object: 'Object Repository/vrach/profile/Page_/save' is clicked on
+
+2022-04-05 10:29:38 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/profile/Page_/save' is clicked on
+
+2022-04-05 10:29:38 - [TEST_STEP][PASSED] - verifyTextPresent("Пользователь сохранен", true): Text 'Пользователь сохранен' is present on page  using regular expression
+
+2022-04-05 10:29:41 - [MESSAGE][PASSED] - Text 'Пользователь сохранен' is present on page  using regular expression
+
+2022-04-05 10:29:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/profile/Page_/exit")): Object: 'Object Repository/vrach/profile/Page_/exit' is clicked on
+
+2022-04-05 10:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/profile/Page_/exit' is clicked on
+
+2022-04-05 10:29:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-05 10:29:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Доктор/Психотест (психолог)" time="366.103" classname="Test Cases/Доктор/Психотест (психолог)" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Доктор/Психотест (психолог) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/vrach/psychotest/Page_/varplayer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Психотест (психолог).run(Психотест (психолог):47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/vrach/psychotest/Page_/varplayer' located by '//div[@id='react-select-4-option-3']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-04-05 10:29:43 - [TEST_CASE][FAILED] - Test Cases/Доктор/Психотест (психолог): Test Cases/Доктор/Психотест (психолог) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/vrach/psychotest/Page_/varplayer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Психотест (психолог).run(Психотест (психолог):47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/vrach/psychotest/Page_/varplayer' located by '//div[@id='react-select-4-option-3']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-04-05 10:29:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 10:29:44 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 10:29:44 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 10:29:44 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 10:29:44 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 10:29:44 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 10:29:44 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 10:33:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 10:33:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 10:33:10 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 10:33:10 - [TEST_STEP][PASSED] - navigateToUrl("https://stars-stage.hawk.ru:8080/"): Navigate to 'https://stars-stage.hawk.ru:8080/' successfully
+
+2022-04-05 10:33:16 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080/' successfully
+
+2022-04-05 10:33:16 - [TEST_STEP][PASSED] - setText(findTestObject("Avangard New/Object (Психолог)/login (Логин Психолог)"), "psychotest@test.ru"): Text 'psychotest@test.ru' is set on object 'Object Repository/Avangard New/Object (Психолог)/login (Логин Психолог)'
+
+2022-04-05 10:33:20 - [MESSAGE][PASSED] - Text 'psychotest@test.ru' is set on object 'Object Repository/Avangard New/Object (Психолог)/login (Логин Психолог)'
+
+2022-04-05 10:33:20 - [TEST_STEP][PASSED] - setText(findTestObject("Avangard New/Object (Психолог)/password (Пароль Психолог)"), "psychotest@test.ru", STOP_ON_FAILURE): Text 'psychotest@test.ru' is set on object 'Object Repository/Avangard New/Object (Психолог)/password (Пароль Психолог)'
+
+2022-04-05 10:33:24 - [MESSAGE][PASSED] - Text 'psychotest@test.ru' is set on object 'Object Repository/Avangard New/Object (Психолог)/password (Пароль Психолог)'
+
+2022-04-05 10:33:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/psychotest/Page_/go")): Object: 'Object Repository/vrach/psychotest/Page_/go' is clicked on
+
+2022-04-05 10:33:26 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/psychotest/Page_/go' is clicked on
+
+2022-04-05 10:33:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/psychotest/Page_/psychotest")): Object: 'Object Repository/vrach/psychotest/Page_/psychotest' is clicked on
+
+2022-04-05 10:33:35 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/psychotest/Page_/psychotest' is clicked on
+
+2022-04-05 10:33:35 - [TEST_STEP][PASSED] - verifyTextPresent("Психологический профиль", false): Text 'Психологический профиль' is present on page 
+
+2022-04-05 10:33:37 - [MESSAGE][PASSED] - Text 'Психологический профиль' is present on page 
+
+2022-04-05 10:33:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/psychotest/Page_/school")): Object: 'Object Repository/vrach/psychotest/Page_/school' is clicked on
+
+2022-04-05 10:33:39 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/psychotest/Page_/school' is clicked on
+
+2022-04-05 10:33:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/psychotest/Page_/avanguard")): Object: 'Object Repository/vrach/psychotest/Page_/avanguard' is clicked on
+
+2022-04-05 10:34:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='"Авангард" Академия']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:34:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/vrach/psychotest/Page_/avanguard'. Try using Self-healing.
+
+2022-04-05 10:34:13 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react-select-2-option-0']'.
+
+2022-04-05 10:34:14 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/div'.
+
+2022-04-05 10:34:16 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/LENOVO/Katalon Studio/Avangard/Reports/Self-healing/Object Repository/vrach/psychotest/Page_/avanguard_idRelative.png
+
+2022-04-05 10:34:16 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/vrach/psychotest/Page_/avanguard' was broken. Propose an alternative one: '//div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/div/div[2]/div/div'.
+
+2022-04-05 10:34:16 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/psychotest/Page_/avanguard' is clicked on
+
+2022-04-05 10:34:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/psychotest/Page_/team")): Object: 'Object Repository/vrach/psychotest/Page_/team' is clicked on
+
+2022-04-05 10:34:18 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/psychotest/Page_/team' is clicked on
+
+2022-04-05 10:34:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/psychotest/Page_/varteam")): Object: 'Object Repository/vrach/psychotest/Page_/varteam' is clicked on
+
+2022-04-05 10:34:50 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react-select-3-option-0']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:34:50 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/vrach/psychotest/Page_/varteam'. Try using Self-healing.
+
+2022-04-05 10:34:52 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react-select-3-option-0']'.
+
+2022-04-05 10:34:53 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//div[@id='root']/div/div/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div/div'.
+
+2022-04-05 10:34:55 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/LENOVO/Katalon Studio/Avangard/Reports/Self-healing/Object Repository/vrach/psychotest/Page_/varteam_idRelative.png
+
+2022-04-05 10:34:55 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/vrach/psychotest/Page_/varteam' was broken. Propose an alternative one: '//div[@id='root']/div/div/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div/div'.
+
+2022-04-05 10:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/psychotest/Page_/varteam' is clicked on
+
+2022-04-05 10:34:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/psychotest/Page_/player")): Object: 'Object Repository/vrach/psychotest/Page_/player' is clicked on
+
+2022-04-05 10:34:57 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/psychotest/Page_/player' is clicked on
+
+2022-04-05 10:34:57 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/vrach/psychotest/Page_/varplayer")): Unable to click on object 'Object Repository/vrach/psychotest/Page_/varplayer' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/vrach/psychotest/Page_/varplayer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Психотест (психолог).run(Психотест (психолог):47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/vrach/psychotest/Page_/varplayer' located by '//div[@id='react-select-4-option-3']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1645090011559.run(Script1645090011559.groovy:47)
+	... 13 more
+)
+
+2022-04-05 10:35:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='react-select-4-option-3']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:35:29 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/vrach/psychotest/Page_/varplayer'. Try using Self-healing.
+
+2022-04-05 10:35:31 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='react-select-4-option-3']'.
+
+2022-04-05 10:35:32 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div[2]/div/div[2]/div/div[3]/div/div/div[2]/div/div[4]'.
+
+2022-04-05 10:35:34 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Булавчук Оскар'])[1]/following::div[1]'.
+
+2022-04-05 10:35:35 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Бережной Станислав'])[1]/following::div[2]'.
+
+2022-04-05 10:35:36 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Гуляев Михаил'])[1]/preceding::div[1]'.
+
+2022-04-05 10:35:38 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Демидов Игорь'])[1]/preceding::div[2]'.
+
+2022-04-05 10:35:39 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Ганин Данила']/parent::*'.
+
+2022-04-05 10:35:40 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[4]'.
+
+2022-04-05 10:35:42 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id = 'react-select-4-option-3' and (text() = 'Ганин Данила' or . = 'Ганин Данила')]'.
+
+2022-04-05 10:35:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'react-select-4-option-3' and (text() = 'Ганин Данила' or . = 'Ганин Данила')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:35:45 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #react-select-4-option-3'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:35:47 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/vrach/psychotest/Page_/varplayer' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/vrach/psychotest/Page_/varplayer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Психотест (психолог).run(Психотест (психолог):47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/vrach/psychotest/Page_/varplayer' located by '//div[@id='react-select-4-option-3']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Script1645090011559.run(Script1645090011559.groovy:47)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u0414\u043E\u043A\u0442\u043E\u0440\\20220405_101912\\1649144145693.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-05 10:29:43 - [TEST_CASE][FAILED] - Test Cases/Доктор/Психотест (психолог): Test Cases/Доктор/Психотест (психолог) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/vrach/psychotest/Page_/varplayer'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at Психотест (психолог).run(Психотест (психолог):47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/vrach/psychotest/Page_/varplayer' located by '//div[@id='react-select-4-option-3']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Доктор/Создание карточки болезни" time="858.85" classname="Test Cases/Доктор/Создание карточки болезни" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Доктор/Создание карточки болезни FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Доктор/Вкладки удаление (переиспользуется в Создание карточки болезни)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Создание карточки болезни.run(Создание карточки болезни:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Карточка успешно удалена' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Вкладки удаление (переиспользуется в Создание карточки болезни).run(Вкладки удаление (переиспользуется в Создание карточки болезни):60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Карточка успешно удалена' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+"/>
+         <system-out><![CDATA[2022-04-05 10:35:49 - [TEST_CASE][FAILED] - Test Cases/Доктор/Создание карточки болезни: Test Cases/Доктор/Создание карточки болезни FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Доктор/Вкладки удаление (переиспользуется в Создание карточки болезни)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Создание карточки болезни.run(Создание карточки болезни:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Карточка успешно удалена' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Вкладки удаление (переиспользуется в Создание карточки болезни).run(Вкладки удаление (переиспользуется в Создание карточки болезни):60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Карточка успешно удалена' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2022-04-05 10:35:50 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Доктор/Авторизация врач"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Доктор/Авторизация врач' successfully
+
+2022-04-05 10:35:50 - [TEST_CASE][PASSED] - Test Cases/Доктор/Авторизация врач: Test Cases/Доктор/Авторизация врач
+
+2022-04-05 10:35:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 10:35:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-05 10:35:51 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 10:35:51 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 10:35:51 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 10:35:51 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 10:35:51 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 10:35:51 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 10:40:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 10:40:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 10:40:09 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 10:40:09 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:40:16 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:40:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/vra/Page_/input__sc-lnrBVv eqPACj"), doktor_login): Text 'TestDoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:40:20 - [MESSAGE][PASSED] - Text 'TestDoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:40:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1"), doktor_password, STOP_ON_FAILURE): Text 'testdoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:40:24 - [MESSAGE][PASSED] - Text 'testdoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/Page_/Page_/go")): Object: 'Object Repository/vrach/Page_/Page_/go' is clicked on
+
+2022-04-05 10:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/Page_/Page_/go' is clicked on
+
+2022-04-05 10:40:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Доктор/Авторизация врач' successfully
+
+2022-04-05 10:40:26 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_add")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_add' is clicked on
+
+2022-04-05 10:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_add' is clicked on
+
+2022-04-05 10:40:35 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/school")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/school' is clicked on
+
+2022-04-05 10:40:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/school' is clicked on
+
+2022-04-05 10:40:37 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/avanguard")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/avanguard' is clicked on
+
+2022-04-05 10:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/avanguard' is clicked on
+
+2022-04-05 10:40:39 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/team")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/team' is clicked on
+
+2022-04-05 10:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/team' is clicked on
+
+2022-04-05 10:40:40 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_team")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_team' is clicked on
+
+2022-04-05 10:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_team' is clicked on
+
+2022-04-05 10:40:43 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/player")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/player' is clicked on
+
+2022-04-05 10:40:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/player' is clicked on
+
+2022-04-05 10:40:44 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_player")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_player' is clicked on
+
+2022-04-05 10:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_player' is clicked on
+
+2022-04-05 10:40:46 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/tip")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/tip' is clicked on
+
+2022-04-05 10:40:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/tip' is clicked on
+
+2022-04-05 10:40:49 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/travma")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/travma' is clicked on
+
+2022-04-05 10:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/travma' is clicked on
+
+2022-04-05 10:40:51 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/stady 1")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/stady 1' is clicked on
+
+2022-04-05 10:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/stady 1' is clicked on
+
+2022-04-05 10:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/choise_stady")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/choise_stady' is clicked on
+
+2022-04-05 10:40:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/choise_stady' is clicked on
+
+2022-04-05 10:40:55 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/tip travm")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/tip travm' is clicked on
+
+2022-04-05 10:40:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/tip travm' is clicked on
+
+2022-04-05 10:40:57 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/choise_travm")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/choise_travm' is clicked on
+
+2022-04-05 10:40:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/choise_travm' is clicked on
+
+2022-04-05 10:40:59 - [TEST_STEP][PASSED] - setText(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/dop opisanie"), "автотестирование "): Text 'автотестирование ' is set on object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/dop opisanie'
+
+2022-04-05 10:41:03 - [MESSAGE][PASSED] - Text 'автотестирование ' is set on object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/dop opisanie'
+
+2022-04-05 10:41:03 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_save")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_save' is clicked on
+
+2022-04-05 10:41:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_save' is clicked on
+
+2022-04-05 10:41:06 - [TEST_STEP][PASSED] - verifyTextPresent("Карточка успешно сохранена", false): Text 'Карточка успешно сохранена' is present on page 
+
+2022-04-05 10:41:09 - [MESSAGE][PASSED] - Text 'Карточка успешно сохранена' is present on page 
+
+2022-04-05 10:41:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Доктор/Проверка в профиле статуса (переиспользуется в Создание карточки болезни)"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Доктор/Проверка в профиле статуса (переиспользуется в Создание карточки болезни)' successfully
+
+2022-04-05 10:41:09 - [TEST_CASE][PASSED] - Test Cases/Доктор/Проверка в профиле статуса (переиспользуется в Создание карточки болезни): Test Cases/Доктор/Проверка в профиле статуса (переиспользуется в Создание карточки болезни)
+
+2022-04-05 10:41:09 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Доктор/Авторизация врач"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Доктор/Авторизация врач' successfully
+
+2022-04-05 10:41:09 - [TEST_CASE][PASSED] - Test Cases/Доктор/Авторизация врач: Test Cases/Доктор/Авторизация врач
+
+2022-04-05 10:41:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 10:41:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-05 10:41:10 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 10:41:10 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 10:41:10 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 10:41:10 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 10:41:10 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 10:41:10 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 10:44:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 10:44:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 10:44:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 10:44:12 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:44:18 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:44:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/vra/Page_/input__sc-lnrBVv eqPACj"), doktor_login): Text 'TestDoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:44:25 - [MESSAGE][PASSED] - Text 'TestDoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:44:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1"), doktor_password, STOP_ON_FAILURE): Text 'testdoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:44:33 - [MESSAGE][PASSED] - Text 'testdoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:44:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/Page_/Page_/go")): Object: 'Object Repository/vrach/Page_/Page_/go' is clicked on
+
+2022-04-05 10:44:35 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/Page_/Page_/go' is clicked on
+
+2022-04-05 10:44:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Доктор/Авторизация врач' successfully
+
+2022-04-05 10:44:35 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/player_menu")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/player_menu' is clicked on
+
+2022-04-05 10:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/player_menu' is clicked on
+
+2022-04-05 10:44:43 - [TEST_STEP][PASSED] - setText(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__Search"), player_for_test_1): Text 'Власенко' is set on object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__Search'
+
+2022-04-05 10:44:51 - [MESSAGE][PASSED] - Text 'Власенко' is set on object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__Search'
+
+2022-04-05 10:44:51 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_player")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_player' is clicked on
+
+2022-04-05 10:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_player' is clicked on
+
+2022-04-05 10:44:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/chek_stat"), "Травмирован"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/chek_stat' are matched.
+
+2022-04-05 10:44:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/chek_stat' are matched.
+
+2022-04-05 10:44:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Доктор/Проверка в профиле статуса (переиспользуется в Создание карточки болезни)' successfully
+
+2022-04-05 10:44:57 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Доктор/Вкладки удаление (переиспользуется в Создание карточки болезни)"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Доктор/Вкладки удаление (переиспользуется в Создание карточки болезни)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Доктор/Вкладки удаление (переиспользуется в Создание карточки болезни)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Создание карточки болезни.run(Создание карточки болезни:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Карточка успешно удалена' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Вкладки удаление (переиспользуется в Создание карточки болезни).run(Вкладки удаление (переиспользуется в Создание карточки болезни):60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Карточка успешно удалена' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2022-04-05 10:44:57 - [TEST_CASE][FAILED] - Test Cases/Доктор/Вкладки удаление (переиспользуется в Создание карточки болезни): Test Cases/Доктор/Вкладки удаление (переиспользуется в Создание карточки болезни) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Карточка успешно удалена' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Вкладки удаление (переиспользуется в Создание карточки болезни).run(Вкладки удаление (переиспользуется в Создание карточки болезни):60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Создание карточки болезни.run(Создание карточки болезни:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Карточка успешно удалена' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+
+
+2022-04-05 10:44:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Доктор/Авторизация врач"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Доктор/Авторизация врач' successfully
+
+2022-04-05 10:44:58 - [TEST_CASE][PASSED] - Test Cases/Доктор/Авторизация врач: Test Cases/Доктор/Авторизация врач
+
+2022-04-05 10:44:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 10:44:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-05 10:44:58 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 10:44:58 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 10:44:58 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 10:44:58 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 10:44:58 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 10:44:58 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 10:47:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 10:47:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 10:47:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 10:47:11 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:47:17 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:47:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/vra/Page_/input__sc-lnrBVv eqPACj"), doktor_login): Text 'TestDoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:47:21 - [MESSAGE][PASSED] - Text 'TestDoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:47:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1"), doktor_password, STOP_ON_FAILURE): Text 'testdoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:47:25 - [MESSAGE][PASSED] - Text 'testdoctor@mail.ru' is set on object 'Object Repository/vra/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:47:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/vrach/Page_/Page_/go")): Object: 'Object Repository/vrach/Page_/Page_/go' is clicked on
+
+2022-04-05 10:47:28 - [MESSAGE][PASSED] - Object: 'Object Repository/vrach/Page_/Page_/go' is clicked on
+
+2022-04-05 10:47:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Доктор/Авторизация врач' successfully
+
+2022-04-05 10:47:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/school")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/school' is clicked on
+
+2022-04-05 10:47:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/div[2]/div/form/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:47:59 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/school'. Try using Self-healing.
+
+2022-04-05 10:48:01 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div[2]/div/div/div/div/div/div/div/div'.
+
+2022-04-05 10:48:02 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Школа'])[1]/following::div[4]'.
+
+2022-04-05 10:48:04 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/LENOVO/Katalon Studio/Avangard/Reports/Self-healing/Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/school_neighbor.png
+
+2022-04-05 10:48:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/school' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Школа'])[1]/following::div[4]'.
+
+2022-04-05 10:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/school' is clicked on
+
+2022-04-05 10:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_school")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_school' is clicked on
+
+2022-04-05 10:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/var_school' is clicked on
+
+2022-04-05 10:48:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/team")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/team' is clicked on
+
+2022-04-05 10:48:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[1]/div[1]/div/div[2]/div/form[1]/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[2]/div/div/div/div[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:48:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/team'. Try using Self-healing.
+
+2022-04-05 10:48:40 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='root']/div/div/div[2]/div/div/div/div[2]/div/div/div/div'.
+
+2022-04-05 10:48:41 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Команда'])[1]/following::div[4]'.
+
+2022-04-05 10:48:43 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/LENOVO/Katalon Studio/Avangard/Reports/Self-healing/Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/team_neighbor.png
+
+2022-04-05 10:48:43 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/team' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Команда'])[1]/following::div[4]'.
+
+2022-04-05 10:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/team' is clicked on
+
+2022-04-05 10:48:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/Global school")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/Global school' is clicked on
+
+2022-04-05 10:48:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/Global school' is clicked on
+
+2022-04-05 10:48:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1"), 0): Scroll to object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1' successfully
+
+2022-04-05 10:48:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-05 10:48:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1' successfully
+
+2022-04-05 10:48:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1' is clicked on
+
+2022-04-05 10:48:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1' is clicked on
+
+2022-04-05 10:48:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__stady"), "Допуск на игру"): Text 'Допуск на игру' is set on object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__stady'
+
+2022-04-05 10:49:00 - [MESSAGE][PASSED] - Text 'Допуск на игру' is set on object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__stady'
+
+2022-04-05 10:49:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__stady"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__stady'
+
+2022-04-05 10:49:03 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/input__stady'
+
+2022-04-05 10:49:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_save")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_save' is clicked on
+
+2022-04-05 10:49:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_save' is clicked on
+
+2022-04-05 10:49:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1"), 0): Scroll to object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1' successfully
+
+2022-04-05 10:49:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-05 10:49:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1' successfully
+
+2022-04-05 10:49:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1' is clicked on
+
+2022-04-05 10:49:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/p_1' is clicked on
+
+2022-04-05 10:49:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/stady"), "Допуск на игру"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/stady' are matched.
+
+2022-04-05 10:49:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Выберите стадию' or . = 'Выберите стадию')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:49:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/stady'. Try using Self-healing.
+
+2022-04-05 10:49:45 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/LENOVO/Katalon Studio/Avangard/Reports/Self-healing/Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/stady_XPATH.png
+
+2022-04-05 10:49:45 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/stady' was broken. Propose an alternative one: '/html/body/div[1]/div[1]/div/div[2]/div/form[2]/div[2]/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div[1]'.
+
+2022-04-05 10:49:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/stady' are matched.
+
+2022-04-05 10:49:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_delete")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_delete' is clicked on
+
+2022-04-05 10:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/button_delete' is clicked on
+
+2022-04-05 10:49:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/confirm")): Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/confirm' is clicked on
+
+2022-04-05 10:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Доктор)/Case (Создание карточки и удаление)/confirm' is clicked on
+
+2022-04-05 10:49:50 - [TEST_STEP][FAILED] - verifyTextPresent("Карточка успешно удалена", false): Unable to verify text 'Карточка успешно удалена' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Карточка успешно удалена' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Вкладки удаление (переиспользуется в Создание карточки болезни).run(Вкладки удаление (переиспользуется в Создание карточки болезни):60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Создание карточки болезни.run(Создание карточки болезни:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Карточка успешно удалена' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+
+2022-04-05 10:50:01 - [MESSAGE][FAILED] - Text 'Карточка успешно удалена' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Карточка успешно удалена' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Вкладки удаление (переиспользуется в Создание карточки болезни).run(Вкладки удаление (переиспользуется в Создание карточки болезни):60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Создание карточки болезни.run(Создание карточки болезни:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+)
+
+2022-04-05 10:50:04 - [MESSAGE][FAILED] - Unable to verify text 'Карточка успешно удалена' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Карточка успешно удалена' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Вкладки удаление (переиспользуется в Создание карточки болезни).run(Вкладки удаление (переиспользуется в Создание карточки болезни):60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Создание карточки болезни.run(Создание карточки болезни:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Карточка успешно удалена' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u0414\u043E\u043A\u0442\u043E\u0440\\20220405_101912\\1649145001121.png]]
+
+2022-04-05 10:50:06 - [MESSAGE][INFO] - 
+
+2022-04-05 10:50:06 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+2022-04-05 10:50:06 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+2022-04-05 10:50:06 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+2022-04-05 10:50:06 - [MESSAGE][INFO] - ==============================================================
+
+2022-04-05 10:50:06 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Доктор/Вкладки удаление (переиспользуется в Создание карточки болезни)' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Доктор/Вкладки удаление (переиспользуется в Создание карточки болезни)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Создание карточки болезни.run(Создание карточки болезни:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Карточка успешно удалена' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Вкладки удаление (переиспользуется в Создание карточки болезни).run(Вкладки удаление (переиспользуется в Создание карточки болезни):60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Карточка успешно удалена' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more
+)]]></system-out>
+         <system-err><![CDATA[2022-04-05 10:35:49 - [TEST_CASE][FAILED] - Test Cases/Доктор/Создание карточки болезни: Test Cases/Доктор/Создание карточки болезни FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Доктор/Вкладки удаление (переиспользуется в Создание карточки болезни)' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Создание карточки болезни.run(Создание карточки болезни:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Карточка успешно удалена' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Вкладки удаление (переиспользуется в Создание карточки болезни).run(Вкладки удаление (переиспользуется в Создание карточки болезни):60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 20 more
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Карточка успешно удалена' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 35 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-05 10:19:33 - [TEST_SUITE][FAILED] - Доктор: Test Cases/Доктор/дописать проверку на игрока Проверка вкладки Питание FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at дописать проверку на игрока Проверка вкладки Питание.run(дописать проверку на игрока Проверка вкладки Питание:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add' located by '/html/body/div/div[1]/div/div[2]/div/div[3]/div/div[1]/div/div/div/div/table/tbody/tr[4]/td[6]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-04-05 10:19:33 - [TEST_SUITE][FAILED] - Доктор: Test Cases/Доктор/дописать проверку на игрока Проверка вкладки Питание FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$4.call(Unknown Source)
+	at дописать проверку на игрока Проверка вкладки Питание.run(дописать проверку на игрока Проверка вкладки Питание:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143152685.run(TempTestSuite1649143152685.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Avangard New/Object (Доктор)/Case (Питание)/span_add' located by '/html/body/div/div[1]/div/div[2]/div/div[3]/div/div[1]/div/div/div/div/table/tbody/tr[4]/td[6]/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

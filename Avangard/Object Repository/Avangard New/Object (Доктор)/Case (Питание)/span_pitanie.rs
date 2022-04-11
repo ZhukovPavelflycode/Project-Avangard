@@ -6,11 +6,11 @@
    <elementGuidId>c79cd018-6506-4410-895c-af692244ebdc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[(text() = 'Питание' or . = 'Питание')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

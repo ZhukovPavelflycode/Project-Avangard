@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Avangard New/Object (Тренер)/Case (Составы)/ganin player",
+      "brokenLocator": "//span[(text() \u003d \u0027Ганин\u0027 or . \u003d \u0027Ганин\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div[2]/div/div[3]/div/div/div[2]/div/div/div/div/div/p/span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220404_123939/Тренер/20220404_123952/Object Repository/Avangard New/Object (Тренер)/Case (Составы)/ganin player_idRelative.png"
+    }
+  ]
+}

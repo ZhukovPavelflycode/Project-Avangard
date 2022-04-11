@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Администратор/Авторизация'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Менеджер/Авторизация'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (Менеджер)/Eronko'), 0)
 
@@ -25,8 +25,6 @@ WebUI.scrollToElement(findTestObject('Object Repository/Avangard New/Object (М�
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Менеджер)/Eronko'))
 
 WebUI.verifyTextPresent('РЕДАКТИРОВАНИЕ ПРОФИЛЯ', true)
-
-not_run: WebUI.takeFullPageScreenshot(('C:\\scr\\' + GlobalVariable.school) + '33.jpg')
 
 'кнопка сохранить\r\n'
 WebUI.click(findTestObject('Avangard New/Object (Менеджер)/save (кнопка)'))

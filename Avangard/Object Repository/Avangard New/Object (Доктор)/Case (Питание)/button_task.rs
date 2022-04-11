@@ -6,12 +6,12 @@
    <elementGuidId>24ad8061-aeac-4d70-9daa-2fa2bbeb3bdb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.Button__LightButton-sc-982myn-4.eiZWMG</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(//button[@type='button'])[17]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.Button__LightButton-sc-982myn-4.eiZWMG</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

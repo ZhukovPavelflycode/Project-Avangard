@@ -6,12 +6,12 @@
    <elementGuidId>8ce3015b-43b8-47b7-a088-0fd4a84fc068</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//span[(text() = 'Главная' or . = 'Главная')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

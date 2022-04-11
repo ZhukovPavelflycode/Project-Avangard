@@ -151,3 +151,5 @@ WebUI.click(findTestObject('Object Repository/Avangard New/Object (Тренер)
 'На главную'
 WebUI.click(findTestObject('Object Repository/Avangard New/Object (Тренер)/Case (Оценка навыков)/span_home home'))
 
+WebUI.closeBrowser()
+

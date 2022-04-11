@@ -23,19 +23,17 @@ WebUI.callTestCase(findTestCase('Администратор/Авторизаци
 'переход на вкладку тренеры\r\n'
 WebUI.click(findTestObject('Object Repository/admin/teachers/Page_/teach'))
 
-'профиль тренера , Шастин Егор '
+'профиль тренера Агеев '
 WebUI.click(findTestObject('Object Repository/admin/teachers/Page_/span_'))
 
 WebUI.verifyTextPresent('ПРОФИЛЬ ПРЕПОДАВАТЕЛЯ', false)
 
-WebUI.takeFullPageScreenshot(('C:\\scr\\' + GlobalVariable.school) + '41.jpg')
-
-'переход на вклдку карьера '
+'переход на вкладку карьера '
 WebUI.click(findTestObject('Object Repository/admin/teachers/Page_/career'))
 
 WebUI.verifyTextPresent('КАРЬЕРА ТРЕНЕРА', false)
 
-WebUI.takeFullPageScreenshot(('C:\\scr\\' + GlobalVariable.school) + '42.jpg')
+not_run: WebUI.takeFullPageScreenshot(('C:\\scr\\' + GlobalVariable.school) + '42.jpg')
 
 'кнопка сохранить ( без редактирования) '
 WebUI.click(findTestObject('Object Repository/admin/teachers/Page_/button_'))

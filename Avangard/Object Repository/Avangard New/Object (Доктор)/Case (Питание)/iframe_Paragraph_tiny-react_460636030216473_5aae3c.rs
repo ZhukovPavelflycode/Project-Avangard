@@ -6,12 +6,12 @@
    <elementGuidId>77d33d7c-8d01-4706-8837-6822ee62aec7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#tiny-react_46063603021647328966787_ifr</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='root']/div/div/div[2]/div/div[3]/div/div[2]/div/div/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div/iframe</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#tiny-react_46063603021647328966787_ifr</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

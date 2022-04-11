@@ -7,10 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div/div[2]/div[3]/div</value>
+         <value>//div[@id='printme']/div/div[4]/div/div/div/div/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value>div.TeacherHockeyLinesPlayerEmptyCard__EmptyCardContainer-sc-1fb11qi-2.lcKBsB.EmptyCardContainer</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,90 +28,69 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sc-hMqMXs iHAsrq</value>
+      <value>TeacherHockeyLinesPlayerEmptyCard__EmptyCardContainer-sc-1fb11qi-2 lcKBsB EmptyCardContainer</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Рейтинг игроков</value>
+      <value>лн</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;sc-dRZpzm cYndkm&quot;]/div[@class=&quot;sc-caSCKo hoPXgy ChessTemplate&quot;]/div[@class=&quot;sc-gisBJw jQGtAv Left&quot;]/div[@class=&quot;sc-kgoBCf gNWrkR&quot;]/div[@class=&quot;sc-eNQAEJ jDiYQq&quot;]/div[@class=&quot;sc-jKJlTe eOiHLv OptionsListContainerAdmin&quot;]/a[12]/div[@class=&quot;sc-hMqMXs iHAsrq&quot;]</value>
+      <value>id(&quot;printme&quot;)/div[@class=&quot;TeamPart__LinesTab-sc-jkenfl-1 llHIvc LinesTab&quot;]/div[@class=&quot;TeacherHockeyLinesPanel__LinesTabLines-sc-fka3iw-25 fdFDbX LinesTabLines&quot;]/div[@class=&quot;TeacherHockeyLinesPanel__LinesTabLineContainer-sc-fka3iw-26 gExWlq LinesTabLineContainer&quot;]/div[@class=&quot;style__LinesTabLine-sc-1p89q7k-0 lhlsAP LinesTabLine&quot;]/div[@class=&quot;style__LinesTabLineColumn-sc-1p89q7k-3 style__LinesTabLineColumnWingers-sc-1p89q7k-4 cbqkW LinesTabLineColumnWingers&quot;]/div[@class=&quot;style__TeacherHockeyLinesPlayerCards-sc-1p89q7k-2 eEejdB TeacherHockeyLinesPlayerCards&quot;]/div[@class=&quot;TeacherHockeyLinesPlayerEmptyCard__EmptyCard-sc-1fb11qi-1 eIxriQ EmptyCard&quot;]/div[@class=&quot;TeacherHockeyLinesPlayerEmptyCard__EmptyCardContainer-sc-1fb11qi-2 lcKBsB EmptyCardContainer&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div/div[2]/div/a[12]/div</value>
+      <value>//div[@id='printme']/div/div[4]/div/div/div/div/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='База знаний'])[1]/following::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Добавить в избранное'])[1]/following::div[17]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Курсы'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Очистить состав звеньев'])[1]/following::div[17]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Оценка командных действий'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Заикин'])[1]/preceding::div[10]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Андрей'])[1]/preceding::div[10]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[12]/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div/div[2]/div[3]/div</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Вход'])[1]/following::div[5]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Войти']/parent::*</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[3]/div</value>
+      <value>//div[4]/div/div/div/div/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Войти' or . = 'Войти')]</value>
+      <value>//div[(text() = 'лн' or . = 'лн')]</value>
    </webElementXpaths>
 </WebElementEntity>

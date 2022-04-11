@@ -6,12 +6,12 @@
    <elementGuidId>88c80640-8247-4551-af22-77fab7982d2c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.sc-cvbbAY.iuFrkv.ClearLineButton.hide-when-print</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='printme']/div/div/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.sc-cvbbAY.iuFrkv.ClearLineButton.hide-when-print</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

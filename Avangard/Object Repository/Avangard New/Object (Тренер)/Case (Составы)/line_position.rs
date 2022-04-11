@@ -6,16 +6,16 @@
    <elementGuidId>ecbefd46-5143-43dc-b0aa-775778f37b06</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.sc-jWojfa.bewitZ.EmptyCard</value>
+         <key>XPATH</key>
+         <value>//div[@id='printme']/div/div[4]/div/div/div/div/div</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@data-player-line-number = '1' and @data-player-position = 'лн']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='printme']/div/div[4]/div/div/div/div/div</value>
+         <key>CSS</key>
+         <value>div.sc-jWojfa.bewitZ.EmptyCard</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

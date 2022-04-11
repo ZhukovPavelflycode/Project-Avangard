@@ -6,12 +6,16 @@
    <elementGuidId>16d835a3-bd7d-45d9-81cb-5bc492172a9f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-select-5-option-0']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#react-select-5-option-0</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='react-select-5-option-0']</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '&quot;Авангард&quot; Академия ' or . = '&quot;Авангард&quot; Академия ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

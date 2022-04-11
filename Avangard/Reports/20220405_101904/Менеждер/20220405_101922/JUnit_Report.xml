@@ -1,0 +1,1804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Менеждер" time="4549.96" tests="10" failures="3" errors="0">
+   <testsuite name="Менеждер" tests="10" failures="3" errors="0" time="4549.96" skipped="0" timestamp="2022-04-05 10:19:43" hostname="LENOVO - DESKTOP-KNHN0AA" id="Test Suites/Менеждер">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\execution0.log"/>
+         <property name="attachments" value="C:\scr\Омские Ястребы43.jpg, C:\scr\Омские Ястребы44.jpg, C:\scr\Омские Ястребы45.jpg, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649143629832.png, C:\scr\Омские Ястребы43.jpg, C:\scr\Омские Ястребы44.jpg, C:\scr\Омские Ястребы45.jpg, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649143999874.png, C:\scr\Омские Ястребы43.jpg, C:\scr\Омские Ястребы44.jpg, C:\scr\Омские Ястребы45.jpg, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649144425827.png, C:\scr\Омские Ястребы43.jpg, C:\scr\Омские Ястребы44.jpg, C:\scr\Омские Ястребы45.jpg, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649144767839.png, C:\scr\Омские Ястребы34.jpg, C:\scr\Омские Ястребы37.jpg, C:\scr\Омские Ястребы39.jpg, C:\scr\Омские Ястребы40.jpg, C:\scr\Омские Ястребы38.jpg, C:\scr\Омские Ястребы29.jpg, C:\scr\Омские Ястребы30.jpg, C:\scr\Омские Ястребы10.jpg, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649145909195.png, C:\scr\Омские Ястребы10.jpg, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649146148513.png, C:\scr\Омские Ястребы10.jpg, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649146394439.png, C:\scr\Омские Ястребы10.jpg, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649146634513.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649147189483.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649147371453.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649147553018.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649147729739.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-KNHN0AA"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserVersion&quot;: &quot;97.0.4692.71&quot;,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247})&quot;,
+    &quot;userDataDir&quot;: &quot;/tmp/.com.google.Chrome.Gi2gTi&quot;
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:35113&quot;
+  },
+  &quot;javascriptEnabled&quot;: true,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;LINUX&quot;,
+  &quot;platformName&quot;: &quot;LINUX&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;se:cdp&quot;: &quot;ws://172.48.59.16:4444/session/c5ccf36a1333076b0aa33499d096009c/se/cdp&quot;,
+  &quot;se:cdpVersion&quot;: &quot;97.0.4692.71&quot;,
+  &quot;se:vnc&quot;: &quot;ws://172.48.59.16:4444/session/c5ccf36a1333076b0aa33499d096009c/se/vnc&quot;,
+  &quot;se:vncEnabled&quot;: true,
+  &quot;se:vncLocalAddress&quot;: &quot;ws://172.48.59.16:7900&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Linux"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 97.0.4692.71"/>
+         <property name="hostAddress" value="192.168.2.114"/>
+         <property name="sessionId" value="c5ccf36a1333076b0aa33499d096009c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Администратор/будет переделываться Школы" time="343.756" classname="Test Cases/Администратор/будет переделываться Школы" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Администратор/будет переделываться Школы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin/school/Page_/omsk'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at будет переделываться Школы.run(будет переделываться Школы:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-KNHN0AA', ip: '192.168.2.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.4mTG5t}, goog:chromeOptions: {debuggerAddress: localhost:35673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(direct), se:cdp: ws://172.48.49.75:4444/sess..., se:cdpVersion: 97.0.4692.71, se:vnc: ws://172.48.49.75:4444/sess..., se:vncEnabled: true, se:vncLocalAddress: ws://172.48.49.75:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a95924e6679cc2302fa5f1af7983732e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-04-05 10:40:28 - [TEST_CASE][FAILED] - Test Cases/Администратор/будет переделываться Школы: Test Cases/Администратор/будет переделываться Школы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin/school/Page_/omsk'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at будет переделываться Школы.run(будет переделываться Школы:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-KNHN0AA', ip: '192.168.2.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.4mTG5t}, goog:chromeOptions: {debuggerAddress: localhost:35673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(direct), se:cdp: ws://172.48.49.75:4444/sess..., se:cdpVersion: 97.0.4692.71, se:vnc: ws://172.48.49.75:4444/sess..., se:vncEnabled: true, se:vncLocalAddress: ws://172.48.49.75:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a95924e6679cc2302fa5f1af7983732e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2022-04-05 10:40:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 10:40:28 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-05 10:40:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 10:40:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-05 10:40:29 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 10:40:29 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 10:40:29 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 10:40:29 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 10:40:29 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 10:40:29 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 10:43:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 10:43:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 10:43:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 10:43:12 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:43:18 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:43:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:43:22 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:43:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:43:26 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:43:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 10:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 10:43:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 10:43:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/schools/schools")): Object: 'Object Repository/admin/school/schools/schools' is clicked on
+
+2022-04-05 10:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/schools/schools' is clicked on
+
+2022-04-05 10:44:01 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "43.jpg"): Taking screenshot successfully
+
+2022-04-05 10:44:15 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-05 10:44:15 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы43.jpg]]
+
+2022-04-05 10:44:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/Page_/div_")): Object: 'Object Repository/admin/school/Page_/div_' is clicked on
+
+2022-04-05 10:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/Page_/div_' is clicked on
+
+2022-04-05 10:44:18 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/admin/school/Page_/players"), 0): Scroll to object 'Object Repository/admin/school/Page_/players' successfully
+
+2022-04-05 10:44:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-05 10:44:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/admin/school/Page_/players' successfully
+
+2022-04-05 10:44:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/Page_/players")): Object: 'Object Repository/admin/school/Page_/players' is clicked on
+
+2022-04-05 10:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/Page_/players' is clicked on
+
+2022-04-05 10:44:28 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "44.jpg"): Taking screenshot successfully
+
+2022-04-05 10:44:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-05 10:44:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы44.jpg]]
+
+2022-04-05 10:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/school/Page_/team")): Object: 'Object Repository/admin/school/Page_/team' is clicked on
+
+2022-04-05 10:45:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="root"]/div[1]/div/div[2]/div/div[1]/div[2]/div[1]/div[2]/a[3]/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:45:22 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/school/Page_/team'. Try using Self-healing.
+
+2022-04-05 10:45:24 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/school/Page_/team' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Игроки'])[2]/following::div[1]'.
+
+2022-04-05 10:45:24 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/school/Page_/team' is clicked on
+
+2022-04-05 10:45:24 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "45.jpg"): Taking screenshot successfully
+
+2022-04-05 10:45:33 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-05 10:45:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы45.jpg]]
+
+2022-04-05 10:45:33 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/admin/school/Page_/omsk")): Unable to click on object 'Object Repository/admin/school/Page_/omsk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin/school/Page_/omsk'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at будет переделываться Школы.run(будет переделываться Школы:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-KNHN0AA', ip: '192.168.2.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.4mTG5t}, goog:chromeOptions: {debuggerAddress: localhost:35673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(direct), se:cdp: ws://172.48.49.75:4444/sess..., se:cdpVersion: 97.0.4692.71, se:vnc: ws://172.48.49.75:4444/sess..., se:vncEnabled: true, se:vncLocalAddress: ws://172.48.49.75:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a95924e6679cc2302fa5f1af7983732e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1649142188981.run(Script1649142188981.groovy:45)
+	... 16 more
+)
+
+2022-04-05 10:46:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='root']/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[3]/div/div/div/div[6]/div/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 10:46:05 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/school/Page_/omsk'. Try using Self-healing.
+
+2022-04-05 10:46:07 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/school/Page_/omsk' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Назад'])[1]/preceding::div[3]'.
+
+2022-04-05 10:46:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/admin/school/Page_/omsk' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin/school/Page_/omsk'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at будет переделываться Школы.run(будет переделываться Школы:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-KNHN0AA', ip: '192.168.2.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.4mTG5t}, goog:chromeOptions: {debuggerAddress: localhost:35673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(direct), se:cdp: ws://172.48.49.75:4444/sess..., se:cdpVersion: 97.0.4692.71, se:vnc: ws://172.48.49.75:4444/sess..., se:vncEnabled: true, se:vncLocalAddress: ws://172.48.49.75:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a95924e6679cc2302fa5f1af7983732e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1649142188981.run(Script1649142188981.groovy:45)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649144767839.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-05 10:40:28 - [TEST_CASE][FAILED] - Test Cases/Администратор/будет переделываться Школы: Test Cases/Администратор/будет переделываться Школы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin/school/Page_/omsk'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at будет переделываться Школы.run(будет переделываться Школы:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=97.0.4692.71)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-KNHN0AA', ip: '192.168.2.114', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CRemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 97.0.4692.71, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: /tmp/.com.google.Chrome.4mTG5t}, goog:chromeOptions: {debuggerAddress: localhost:35673}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(direct), se:cdp: ws://172.48.49.75:4444/sess..., se:cdpVersion: 97.0.4692.71, se:vnc: ws://172.48.49.75:4444/sess..., se:vncEnabled: true, se:vncLocalAddress: ws://172.48.49.75:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a95924e6679cc2302fa5f1af7983732e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CRemoteWebDriver.execute(CRemoteWebDriver.java:30)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/Рейтинг" time="281.842" classname="Test Cases/Администратор/Рейтинг" status="PASSED">
+         <system-out><![CDATA[2022-04-05 10:46:12 - [TEST_CASE][PASSED] - Test Cases/Администратор/Рейтинг: Test Cases/Администратор/Рейтинг
+
+2022-04-05 10:46:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 10:46:12 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-05 10:46:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 10:46:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-05 10:46:13 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 10:46:13 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 10:46:13 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 10:46:13 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 10:46:13 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 10:46:13 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 10:49:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 10:49:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 10:49:10 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 10:49:10 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:49:16 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:49:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:49:20 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:49:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:49:24 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:49:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 10:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 10:49:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 10:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/rating/grating")): Object: 'Object Repository/admin/rating/grating' is clicked on
+
+2022-04-05 10:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/rating/grating' is clicked on
+
+2022-04-05 10:49:38 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "34.jpg"): Taking screenshot successfully
+
+2022-04-05 10:49:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-05 10:49:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы34.jpg]]
+
+2022-04-05 10:49:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/shkool")): Object: 'Object Repository/admin/Page_/shkool' is clicked on
+
+2022-04-05 10:49:47 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/shkool' is clicked on
+
+2022-04-05 10:49:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/div_ (2)")): Object: 'Object Repository/admin/Page_/div_ (2)' is clicked on
+
+2022-04-05 10:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/div_ (2)' is clicked on
+
+2022-04-05 10:49:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/team")): Object: 'Object Repository/admin/Page_/team' is clicked on
+
+2022-04-05 10:49:52 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/team' is clicked on
+
+2022-04-05 10:49:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/omsk")): Object: 'Object Repository/admin/Page_/omsk' is clicked on
+
+2022-04-05 10:49:54 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/omsk' is clicked on
+
+2022-04-05 10:49:54 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/admin/Page_/top1"), 0): Scroll to object 'Object Repository/admin/Page_/top1' successfully
+
+2022-04-05 10:49:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-05 10:50:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/admin/Page_/top1' successfully
+
+2022-04-05 10:50:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/top1")): Object: 'Object Repository/admin/Page_/top1' is clicked on
+
+2022-04-05 10:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/top1' is clicked on
+
+2022-04-05 10:50:06 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "37.jpg", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2022-04-05 10:50:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-05 10:50:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы37.jpg]]
+
+2022-04-05 10:50:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/skill")): Object: 'Object Repository/admin/Page_/skill' is clicked on
+
+2022-04-05 10:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/skill' is clicked on
+
+2022-04-05 10:50:14 - [TEST_STEP][PASSED] - verifyTextPresent("Ускорение", true): Text 'Ускорение' is present on page  using regular expression
+
+2022-04-05 10:50:18 - [MESSAGE][PASSED] - Text 'Ускорение' is present on page  using regular expression
+
+2022-04-05 10:50:18 - [TEST_STEP][PASSED] - verifyTextPresent("Скорость", true): Text 'Скорость' is present on page  using regular expression
+
+2022-04-05 10:50:20 - [MESSAGE][PASSED] - Text 'Скорость' is present on page  using regular expression
+
+2022-04-05 10:50:20 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "39.jpg", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2022-04-05 10:50:26 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-05 10:50:26 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы39.jpg]]
+
+2022-04-05 10:50:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/stat")): Object: 'Object Repository/admin/Page_/stat' is clicked on
+
+2022-04-05 10:50:28 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/stat' is clicked on
+
+2022-04-05 10:50:28 - [TEST_STEP][PASSED] - verifyTextPresent("Матчи", true, CONTINUE_ON_FAILURE): Text 'Матчи' is present on page  using regular expression
+
+2022-04-05 10:50:31 - [MESSAGE][PASSED] - Text 'Матчи' is present on page  using regular expression
+
+2022-04-05 10:50:31 - [TEST_STEP][PASSED] - verifyTextPresent("Ранг", true, CONTINUE_ON_FAILURE): Text 'Ранг' is present on page  using regular expression
+
+2022-04-05 10:50:33 - [MESSAGE][PASSED] - Text 'Ранг' is present on page  using regular expression
+
+2022-04-05 10:50:33 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "40.jpg", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2022-04-05 10:50:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-05 10:50:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы40.jpg]]
+
+2022-04-05 10:50:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/ptest")): Object: 'Object Repository/admin/Page_/ptest' is clicked on
+
+2022-04-05 10:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/ptest' is clicked on
+
+2022-04-05 10:50:41 - [TEST_STEP][PASSED] - verifyTextPresent("СРЕДНЯЯ ОЦЕНКА", true): Text 'СРЕДНЯЯ ОЦЕНКА' is present on page  using regular expression
+
+2022-04-05 10:50:43 - [MESSAGE][PASSED] - Text 'СРЕДНЯЯ ОЦЕНКА' is present on page  using regular expression
+
+2022-04-05 10:50:43 - [TEST_STEP][PASSED] - verifyTextPresent("Список навыков и характеристики", true): Text 'Список навыков и характеристики' is present on page  using regular expression
+
+2022-04-05 10:50:45 - [MESSAGE][PASSED] - Text 'Список навыков и характеристики' is present on page  using regular expression
+
+2022-04-05 10:50:45 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "38.jpg", CONTINUE_ON_FAILURE): Taking screenshot successfully
+
+2022-04-05 10:50:51 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-05 10:50:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы38.jpg]]
+
+2022-04-05 10:50:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/Page_/root")): Object: 'Object Repository/admin/Page_/root' is clicked on
+
+2022-04-05 10:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/Page_/root' is clicked on
+
+2022-04-05 10:50:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-05 10:50:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Список участников без оценки" time="212.823" classname="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Список участников без оценки" status="PASSED">
+         <system-out><![CDATA[2022-04-05 10:50:54 - [TEST_CASE][PASSED] - Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Список участников без оценки: Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Список участников без оценки
+
+2022-04-05 10:50:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Отчет для тк"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Отчет для тк' successfully
+
+2022-04-05 10:50:54 - [TEST_CASE][PASSED] - Test Cases/Администратор/Отчет для тк: Test Cases/Администратор/Отчет для тк
+
+2022-04-05 10:50:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 10:50:54 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-05 10:50:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 10:50:54 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 10:50:54 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 10:50:54 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 10:50:54 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 10:50:54 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 10:50:54 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 10:53:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 10:53:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 10:53:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 10:53:12 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:53:18 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:53:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:53:23 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:53:27 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:53:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 10:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 10:53:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 10:53:29 - [TEST_STEP][PASSED] - click(findTestObject("admin/reports/keys/reports/report")): Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-04-05 10:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-04-05 10:53:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Отчет для тк' successfully
+
+2022-04-05 10:53:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/not/Page_/not")): Object: 'Object Repository/admin/reports/not/Page_/not' is clicked on
+
+2022-04-05 10:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/not/Page_/not' is clicked on
+
+2022-04-05 10:53:44 - [TEST_STEP][PASSED] - verifyTextPresent("СПИСОК УЧАСТНИКОВ БЕЗ ОЦЕНКИ", true): Text 'СПИСОК УЧАСТНИКОВ БЕЗ ОЦЕНКИ' is present on page  using regular expression
+
+2022-04-05 10:53:55 - [MESSAGE][PASSED] - Text 'СПИСОК УЧАСТНИКОВ БЕЗ ОЦЕНКИ' is present on page  using regular expression
+
+2022-04-05 10:53:55 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "29.jpg"): Taking screenshot successfully
+
+2022-04-05 10:54:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-05 10:54:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы29.jpg]]
+
+2022-04-05 10:54:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/reports/not/Page_/input__react-select-2-input"), "ака"): Text 'ака' is set on object 'Object Repository/admin/reports/not/Page_/input__react-select-2-input'
+
+2022-04-05 10:54:04 - [MESSAGE][PASSED] - Text 'ака' is set on object 'Object Repository/admin/reports/not/Page_/input__react-select-2-input'
+
+2022-04-05 10:54:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/admin/reports/not/Page_/input__react-select-2-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/not/Page_/input__react-select-2-input'
+
+2022-04-05 10:54:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/not/Page_/input__react-select-2-input'
+
+2022-04-05 10:54:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/reports/not/Page_/input__react-select-3-input"), school): Text 'Омские Ястребы' is set on object 'Object Repository/admin/reports/not/Page_/input__react-select-3-input'
+
+2022-04-05 10:54:11 - [MESSAGE][PASSED] - Text 'Омские Ястребы' is set on object 'Object Repository/admin/reports/not/Page_/input__react-select-3-input'
+
+2022-04-05 10:54:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/admin/reports/not/Page_/input__react-select-3-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/not/Page_/input__react-select-3-input'
+
+2022-04-05 10:54:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/not/Page_/input__react-select-3-input'
+
+2022-04-05 10:54:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/reports/not/Page_/input__react-select-4-input"), "26.8"): Text '26.8' is set on object 'Object Repository/admin/reports/not/Page_/input__react-select-4-input'
+
+2022-04-05 10:54:17 - [MESSAGE][PASSED] - Text '26.8' is set on object 'Object Repository/admin/reports/not/Page_/input__react-select-4-input'
+
+2022-04-05 10:54:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/admin/reports/not/Page_/input__react-select-4-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/not/Page_/input__react-select-4-input'
+
+2022-04-05 10:54:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/not/Page_/input__react-select-4-input'
+
+2022-04-05 10:54:18 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "30.jpg"): Taking screenshot successfully
+
+2022-04-05 10:54:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-05 10:54:24 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы30.jpg]]
+
+2022-04-05 10:54:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/manager/kale/Page_/root")): Object: 'Object Repository/manager/kale/Page_/root' is clicked on
+
+2022-04-05 10:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/manager/kale/Page_/root' is clicked on
+
+2022-04-05 10:54:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-05 10:54:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет психофиз" time="207.023" classname="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет психофиз" status="PASSED">
+         <system-out><![CDATA[2022-04-05 10:54:26 - [TEST_CASE][PASSED] - Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет психофиз: Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет психофиз
+
+2022-04-05 10:54:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Отчет для тк"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Отчет для тк' successfully
+
+2022-04-05 10:54:27 - [TEST_CASE][PASSED] - Test Cases/Администратор/Отчет для тк: Test Cases/Администратор/Отчет для тк
+
+2022-04-05 10:54:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 10:54:27 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-05 10:54:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 10:54:27 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 10:54:27 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 10:54:27 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 10:54:27 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 10:54:27 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 10:54:27 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 10:56:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 10:56:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 10:56:14 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 10:56:14 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:56:20 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:56:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:56:24 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:56:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:56:28 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:56:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 10:56:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 10:56:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 10:56:30 - [TEST_STEP][PASSED] - click(findTestObject("admin/reports/keys/reports/report")): Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-04-05 10:57:05 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-04-05 10:57:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Отчет для тк' successfully
+
+2022-04-05 10:57:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/psyxofiz report")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/psyxofiz report' is clicked on
+
+2022-04-05 10:57:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/psyxofiz report' is clicked on
+
+2022-04-05 10:57:07 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/header report"), "ОТЧЕТ ПСИХОЛОГИЧЕСКОГО ПРОФИЛЯ"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/header report' are matched.
+
+2022-04-05 10:57:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/header report' are matched.
+
+2022-04-05 10:57:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/scool")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/scool' is clicked on
+
+2022-04-05 10:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/scool' is clicked on
+
+2022-04-05 10:57:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/div_")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/div_' is clicked on
+
+2022-04-05 10:57:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/div_' is clicked on
+
+2022-04-05 10:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/team")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/team' is clicked on
+
+2022-04-05 10:57:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/team' is clicked on
+
+2022-04-05 10:57:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/oya")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/oya' is clicked on
+
+2022-04-05 10:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/oya' is clicked on
+
+2022-04-05 10:57:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/input__ganin"), player_for_test): Text 'Ганин Данила' is set on object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/input__ganin'
+
+2022-04-05 10:57:23 - [MESSAGE][PASSED] - Text 'Ганин Данила' is set on object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/input__ganin'
+
+2022-04-05 10:57:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/admin/Global player"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/admin/Global player'
+
+2022-04-05 10:57:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/admin/Global player'
+
+2022-04-05 10:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date' is clicked on
+
+2022-04-05 10:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date' is clicked on
+
+2022-04-05 10:57:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date 14 01")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date 14 01' is clicked on
+
+2022-04-05 10:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/date 14 01' is clicked on
+
+2022-04-05 10:57:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1"), 0): Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1' successfully
+
+2022-04-05 10:57:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-05 10:57:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1' successfully
+
+2022-04-05 10:57:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1"), "Реакция на простой стимул"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1' are matched.
+
+2022-04-05 10:57:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/reaction easy1' are matched.
+
+2022-04-05 10:57:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Психофиз)/reaction hard1"), "Реакция на сложный стимул"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/reaction hard1' are matched.
+
+2022-04-05 10:57:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/reaction hard1' are matched.
+
+2022-04-05 10:57:36 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)"), 0): Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)' successfully
+
+2022-04-05 10:57:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-05 10:57:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)' successfully
+
+2022-04-05 10:57:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/topologic")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/topologic' is clicked on
+
+2022-04-05 10:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/topologic' is clicked on
+
+2022-04-05 10:57:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)' is clicked on
+
+2022-04-05 10:57:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/season (1)' is clicked on
+
+2022-04-05 10:57:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/21-22")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/21-22' is clicked on
+
+2022-04-05 10:57:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/21-22' is clicked on
+
+2022-04-05 10:57:44 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi"), 0): Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi' successfully
+
+2022-04-05 10:57:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-05 10:57:47 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi' successfully
+
+2022-04-05 10:57:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi"), "Экстраверсия"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi' are matched.
+
+2022-04-05 10:57:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/exstraversi' are matched.
+
+2022-04-05 10:57:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Психофиз)/spontannost"), "Спонтанность"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/spontannost' are matched.
+
+2022-04-05 10:57:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/spontannost' are matched.
+
+2022-04-05 10:57:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/home")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/home' is clicked on
+
+2022-04-05 10:57:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Психофиз)/home' is clicked on
+
+2022-04-05 10:57:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-05 10:57:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет по играм за период" time="196.388" classname="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет по играм за период" status="PASSED">
+         <system-out><![CDATA[2022-04-05 10:57:53 - [TEST_CASE][PASSED] - Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет по играм за период: Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Отчет по играм за период
+
+2022-04-05 10:57:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Отчет для тк"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Отчет для тк' successfully
+
+2022-04-05 10:57:54 - [TEST_CASE][PASSED] - Test Cases/Администратор/Отчет для тк: Test Cases/Администратор/Отчет для тк
+
+2022-04-05 10:57:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 10:57:54 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-05 10:57:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 10:57:54 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 10:57:54 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 10:57:54 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 10:57:54 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 10:57:54 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 10:57:54 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 10:59:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 10:59:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 10:59:13 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 10:59:13 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:59:19 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 10:59:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:59:23 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 10:59:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:59:27 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 10:59:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 10:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 10:59:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 10:59:29 - [TEST_STEP][PASSED] - click(findTestObject("admin/reports/keys/reports/report")): Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-04-05 11:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-04-05 11:00:00 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Отчет для тк' successfully
+
+2022-04-05 11:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/period/Page_/div_")): Object: 'Object Repository/admin/reports/period/Page_/div_' is clicked on
+
+2022-04-05 11:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/period/Page_/div_' is clicked on
+
+2022-04-05 11:00:03 - [TEST_STEP][PASSED] - verifyTextPresent("ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД", true): Text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is present on page  using regular expression
+
+2022-04-05 11:00:05 - [MESSAGE][PASSED] - Text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is present on page  using regular expression
+
+2022-04-05 11:00:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/reports/period/Page_/input__react-select-2-input"), "академия"): Text 'академия' is set on object 'Object Repository/admin/reports/period/Page_/input__react-select-2-input'
+
+2022-04-05 11:00:09 - [MESSAGE][PASSED] - Text 'академия' is set on object 'Object Repository/admin/reports/period/Page_/input__react-select-2-input'
+
+2022-04-05 11:00:09 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/admin/reports/period/Page_/input__react-select-2-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/period/Page_/input__react-select-2-input'
+
+2022-04-05 11:00:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/period/Page_/input__react-select-2-input'
+
+2022-04-05 11:00:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/reports/period/Page_/input__react-select-3-input"), school): Text 'Омские Ястребы' is set on object 'Object Repository/admin/reports/period/Page_/input__react-select-3-input'
+
+2022-04-05 11:00:16 - [MESSAGE][PASSED] - Text 'Омские Ястребы' is set on object 'Object Repository/admin/reports/period/Page_/input__react-select-3-input'
+
+2022-04-05 11:00:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/admin/reports/period/Page_/input__react-select-3-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/period/Page_/input__react-select-3-input'
+
+2022-04-05 11:00:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/admin/reports/period/Page_/input__react-select-3-input'
+
+2022-04-05 11:00:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/reports/period/Page_/input_._year"), "2020"): Text '2020' is set on object 'Object Repository/admin/reports/period/Page_/input_._year'
+
+2022-04-05 11:00:34 - [MESSAGE][PASSED] - Text '2020' is set on object 'Object Repository/admin/reports/period/Page_/input_._year'
+
+2022-04-05 11:00:34 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Object Repository/admin/reports/period/Page_/img_ _sc-cMljjf KiCqS"), 0): Web element with id: 'Object Repository/admin/reports/period/Page_/img_ _sc-cMljjf KiCqS' located by 'By.xpath: //div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/img' is not present after '30' second(s)
+
+2022-04-05 11:00:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-05 11:00:42 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/admin/reports/period/Page_/img_ _sc-cMljjf KiCqS' located by 'By.xpath: //div[@id='root']/div/div/div[2]/div/div[2]/div/div/div/img' is not present after '30' second(s)
+
+2022-04-05 11:00:42 - [TEST_STEP][PASSED] - verifyTextPresent("Управление командой со скамейки", true): Text 'Управление командой со скамейки' is present on page  using regular expression
+
+2022-04-05 11:00:47 - [MESSAGE][PASSED] - Text 'Управление командой со скамейки' is present on page  using regular expression
+
+2022-04-05 11:00:47 - [TEST_STEP][PASSED] - verifyTextPresent("Самоотверженность / воля к победе", true): Text 'Самоотверженность / воля к победе' is present on page  using regular expression
+
+2022-04-05 11:00:50 - [MESSAGE][PASSED] - Text 'Самоотверженность / воля к победе' is present on page  using regular expression
+
+2022-04-05 11:00:50 - [TEST_STEP][PASSED] - verifyTextPresent("СРЕДНЯЯ ОЦЕНКА", false): Text 'СРЕДНЯЯ ОЦЕНКА' is present on page 
+
+2022-04-05 11:00:53 - [MESSAGE][PASSED] - Text 'СРЕДНЯЯ ОЦЕНКА' is present on page 
+
+2022-04-05 11:00:53 - [TEST_STEP][PASSED] - verifyTextPresent("АТАКУЮЩИЕ ДЕЙСТВИЯ", false): Text 'АТАКУЮЩИЕ ДЕЙСТВИЯ' is present on page 
+
+2022-04-05 11:00:57 - [MESSAGE][PASSED] - Text 'АТАКУЮЩИЕ ДЕЙСТВИЯ' is present on page 
+
+2022-04-05 11:00:57 - [TEST_STEP][PASSED] - verifyTextPresent("ОБОРОНИТЕЛЬНЫЕ ДЕЙСТВИЯ", false): Text 'ОБОРОНИТЕЛЬНЫЕ ДЕЙСТВИЯ' is present on page 
+
+2022-04-05 11:01:00 - [MESSAGE][PASSED] - Text 'ОБОРОНИТЕЛЬНЫЕ ДЕЙСТВИЯ' is present on page 
+
+2022-04-05 11:01:00 - [TEST_STEP][PASSED] - verifyTextPresent("Защитник", false): Text 'Защитник' is present on page 
+
+2022-04-05 11:01:04 - [MESSAGE][PASSED] - Text 'Защитник' is present on page 
+
+2022-04-05 11:01:04 - [TEST_STEP][PASSED] - verifyTextPresent("Нападающий", false): Text 'Нападающий' is present on page 
+
+2022-04-05 11:01:07 - [MESSAGE][PASSED] - Text 'Нападающий' is present on page 
+
+2022-04-05 11:01:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/period/Page_/root")): Object: 'Object Repository/admin/reports/period/Page_/root' is clicked on
+
+2022-04-05 11:01:09 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/period/Page_/root' is clicked on
+
+2022-04-05 11:01:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-05 11:01:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика" time="240.366" classname="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Матчи' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Игровая статистика.run(Игровая статистика:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Матчи' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-04-05 11:13:18 - [TEST_CASE][FAILED] - Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика: Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Матчи' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Игровая статистика.run(Игровая статистика:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Матчи' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2022-04-05 11:13:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 11:13:18 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-05 11:13:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 11:13:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-05 11:13:19 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 11:13:19 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 11:13:19 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 11:13:19 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 11:13:19 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 11:13:19 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 11:15:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 11:15:10 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 11:15:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 11:15:11 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 11:15:18 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 11:15:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 11:15:23 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 11:15:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 11:15:27 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 11:15:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 11:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 11:15:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 11:15:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/reports/report")): Object: 'Object Repository/admin/reports/gamestat/reports/report' is clicked on
+
+2022-04-05 11:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/reports/report' is clicked on
+
+2022-04-05 11:15:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/stats_report")): Object: 'Object Repository/admin/reports/gamestat/Page_/stats_report' is clicked on
+
+2022-04-05 11:15:43 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/stats_report' is clicked on
+
+2022-04-05 11:15:43 - [TEST_STEP][PASSED] - verifyTextPresent("ИГРОВАЯ СТАТИСТИКА", true): Text 'ИГРОВАЯ СТАТИСТИКА' is present on page  using regular expression
+
+2022-04-05 11:15:45 - [MESSAGE][PASSED] - Text 'ИГРОВАЯ СТАТИСТИКА' is present on page  using regular expression
+
+2022-04-05 11:15:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/school")): Object: 'Object Repository/admin/reports/gamestat/Page_/school' is clicked on
+
+2022-04-05 11:16:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'Школа' or . = 'Школа')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 11:16:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/reports/gamestat/Page_/school'. Try using Self-healing.
+
+2022-04-05 11:16:19 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/reports/gamestat/Page_/school' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Школа'])[1]/following::div[4]'.
+
+2022-04-05 11:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/school' is clicked on
+
+2022-04-05 11:16:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/Academy")): Object: 'Object Repository/admin/reports/gamestat/Page_/Academy' is clicked on
+
+2022-04-05 11:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/Academy' is clicked on
+
+2022-04-05 11:16:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/team")): Object: 'Object Repository/admin/reports/gamestat/Page_/team' is clicked on
+
+2022-04-05 11:16:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[(text() = 'Выберите команду' or . = 'Выберите команду')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 11:16:54 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/reports/gamestat/Page_/team'. Try using Self-healing.
+
+2022-04-05 11:16:56 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/reports/gamestat/Page_/team' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Команда'])[1]/following::div[4]'.
+
+2022-04-05 11:16:56 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/team' is clicked on
+
+2022-04-05 11:16:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/varteam")): Object: 'Object Repository/admin/reports/gamestat/Page_/varteam' is clicked on
+
+2022-04-05 11:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/varteam' is clicked on
+
+2022-04-05 11:16:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/choseSeason")): Object: 'Object Repository/admin/reports/gamestat/Page_/choseSeason' is clicked on
+
+2022-04-05 11:17:01 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/choseSeason' is clicked on
+
+2022-04-05 11:17:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/gamestat/Page_/div_21-22_1")): Object: 'Object Repository/admin/reports/gamestat/Page_/div_21-22_1' is clicked on
+
+2022-04-05 11:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/gamestat/Page_/div_21-22_1' is clicked on
+
+2022-04-05 11:17:04 - [TEST_STEP][PASSED] - takeFullPageScreenshot("C:\scr\" + school + "10.jpg"): Taking screenshot successfully
+
+2022-04-05 11:17:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-04-05 11:17:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\scr\Омские Ястребы10.jpg]]
+
+2022-04-05 11:17:12 - [TEST_STEP][FAILED] - verifyTextPresent("Матчи", true): Unable to verify text 'Матчи' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Матчи' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Игровая статистика.run(Игровая статистика:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Матчи' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2022-04-05 11:17:14 - [MESSAGE][FAILED] - Text 'Матчи' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Матчи' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Игровая статистика.run(Игровая статистика:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+)
+
+2022-04-05 11:17:16 - [MESSAGE][FAILED] - Unable to verify text 'Матчи' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Матчи' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Игровая статистика.run(Игровая статистика:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Матчи' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649146634513.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-05 11:13:18 - [TEST_CASE][FAILED] - Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика: Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Матчи' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$7.call(Unknown Source)
+	at Игровая статистика.run(Игровая статистика:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Матчи' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/Отчет для тк" time="145.846" classname="Test Cases/Администратор/Отчет для тк" status="PASSED">
+         <system-out><![CDATA[2022-04-05 11:17:18 - [TEST_CASE][PASSED] - Test Cases/Администратор/Отчет для тк: Test Cases/Администратор/Отчет для тк
+
+2022-04-05 11:17:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 11:17:18 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-05 11:17:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 11:17:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-05 11:17:19 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 11:17:19 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 11:17:19 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 11:17:19 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 11:17:19 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 11:17:19 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 11:19:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 11:19:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 11:19:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 11:19:12 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 11:19:19 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 11:19:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 11:19:25 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 11:19:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 11:19:29 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 11:19:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 11:19:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 11:19:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 11:19:31 - [TEST_STEP][PASSED] - click(findTestObject("admin/reports/keys/reports/report")): Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on
+
+2022-04-05 11:19:44 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/keys/reports/report' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Менеджер/Менеджер Документы" time="129.419" classname="Test Cases/Менеджер/Менеджер Документы" status="PASSED">
+         <system-out><![CDATA[2022-04-05 11:19:44 - [TEST_CASE][PASSED] - Test Cases/Менеджер/Менеджер Документы: Test Cases/Менеджер/Менеджер Документы
+
+2022-04-05 11:19:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 11:19:44 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-05 11:19:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 11:19:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-05 11:19:45 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 11:19:45 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 11:19:45 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 11:19:45 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 11:19:45 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 11:19:45 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 11:21:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 11:21:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 11:21:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 11:21:12 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 11:21:19 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 11:21:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 11:21:23 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 11:21:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 11:21:28 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 11:21:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 11:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 11:21:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 11:21:30 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Менеджер)/documents (Вкладка)")): Object: 'Object Repository/Avangard New/Object (Менеджер)/documents (Вкладка)' is clicked on
+
+2022-04-05 11:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Менеджер)/documents (Вкладка)' is clicked on
+
+2022-04-05 11:21:42 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2022-04-05 11:21:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2022-04-05 11:21:43 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Менеджер)/document (Сам документ)")): Object: 'Object Repository/Avangard New/Object (Менеджер)/document (Сам документ)' is clicked on
+
+2022-04-05 11:21:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Менеджер)/document (Сам документ)' is clicked on
+
+2022-04-05 11:21:46 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Avangard New/Object (Менеджер)/button download")): Object 'Object Repository/Avangard New/Object (Менеджер)/button download' is clickable
+
+2022-04-05 11:21:48 - [MESSAGE][PASSED] - Object 'Object Repository/Avangard New/Object (Менеджер)/button download' is clickable
+
+2022-04-05 11:21:48 - [TEST_STEP][NOT_RUN] - sendKeys(findTestObject("Avangard New/Object (Менеджер)/button download"), Keys.chord(ESCAPE)): NOT_RUN: sendKeys(findTestObject("Avangard New/Object (Менеджер)/button download"), Keys.chord(ESCAPE))
+
+2022-04-05 11:21:48 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys(findTestObject("Avangard New/Object (Менеджер)/button download"), Keys.chord(ESCAPE))
+
+2022-04-05 11:21:48 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Менеджер)/exit (Выход с формы)")): Object: 'Object Repository/Avangard New/Object (Менеджер)/exit (Выход с формы)' is clicked on
+
+2022-04-05 11:21:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Менеджер)/exit (Выход с формы)' is clicked on
+
+2022-04-05 11:21:51 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Менеджер)/home (Главная)")): Object: 'Object Repository/Avangard New/Object (Менеджер)/home (Главная)' is clicked on
+
+2022-04-05 11:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Менеджер)/home (Главная)' is clicked on
+
+2022-04-05 11:21:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-05 11:21:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Менеджер/Профиль Менеджера" time="121.214" classname="Test Cases/Менеджер/Профиль Менеджера" status="PASSED">
+         <system-out><![CDATA[2022-04-05 11:21:54 - [TEST_CASE][PASSED] - Test Cases/Менеджер/Профиль Менеджера: Test Cases/Менеджер/Профиль Менеджера
+
+2022-04-05 11:21:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 11:21:54 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-05 11:21:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 11:21:54 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 11:21:54 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 11:21:54 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 11:21:54 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 11:21:54 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 11:21:54 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 11:23:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 11:23:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 11:23:12 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 11:23:12 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 11:23:20 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 11:23:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 11:23:24 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 11:23:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 11:23:29 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 11:23:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 11:23:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 11:23:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 11:23:31 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Object Repository/Avangard New/Object (Менеджер)/Eronko"), 0): Scroll to object 'Object Repository/Avangard New/Object (Менеджер)/Eronko' successfully
+
+2022-04-05 11:23:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-05 11:23:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Менеджер)/Eronko' successfully
+
+2022-04-05 11:23:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Менеджер)/Eronko")): Object: 'Object Repository/Avangard New/Object (Менеджер)/Eronko' is clicked on
+
+2022-04-05 11:23:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Менеджер)/Eronko' is clicked on
+
+2022-04-05 11:23:46 - [TEST_STEP][PASSED] - verifyTextPresent("РЕДАКТИРОВАНИЕ ПРОФИЛЯ", true): Text 'РЕДАКТИРОВАНИЕ ПРОФИЛЯ' is present on page  using regular expression
+
+2022-04-05 11:23:49 - [MESSAGE][PASSED] - Text 'РЕДАКТИРОВАНИЕ ПРОФИЛЯ' is present on page  using regular expression
+
+2022-04-05 11:23:49 - [TEST_STEP][NOT_RUN] - takeFullPageScreenshot("C:\scr\" + school + "33.jpg"): NOT_RUN: takeFullPageScreenshot("C:\scr\" + school + "33.jpg")
+
+2022-04-05 11:23:49 - [MESSAGE][NOT_RUN] - NOT_RUN: takeFullPageScreenshot("C:\scr\" + school + "33.jpg")
+
+2022-04-05 11:23:49 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Менеджер)/save (кнопка)")): Object: 'Object Repository/Avangard New/Object (Менеджер)/save (кнопка)' is clicked on
+
+2022-04-05 11:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Менеджер)/save (кнопка)' is clicked on
+
+2022-04-05 11:23:51 - [TEST_STEP][PASSED] - verifyTextPresent("Пользователь сохранен", false): Text 'Пользователь сохранен' is present on page 
+
+2022-04-05 11:23:54 - [MESSAGE][PASSED] - Text 'Пользователь сохранен' is present on page 
+
+2022-04-05 11:23:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-05 11:23:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Менеджер/Менеджер Профиль игрока" time="176.732" classname="Test Cases/Менеджер/Менеджер Профиль игрока" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Менеджер/Менеджер Профиль игрока FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin/students/Page_/artur'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Менеджер Профиль игрока.run(Менеджер Профиль игрока:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin/students/Page_/artur' located by '//td[(text() = 'Ганин Данила' or . = 'Ганин Данила')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-04-05 11:32:36 - [TEST_CASE][FAILED] - Test Cases/Менеджер/Менеджер Профиль игрока: Test Cases/Менеджер/Менеджер Профиль игрока FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin/students/Page_/artur'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Менеджер Профиль игрока.run(Менеджер Профиль игрока:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin/students/Page_/artur' located by '//td[(text() = 'Ганин Данила' or . = 'Ганин Данила')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2022-04-05 11:32:36 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 11:32:36 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-05 11:32:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-05 11:32:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-05 11:32:37 - [MESSAGE][INFO] - User set preference: ['os', 'linux']
+
+2022-04-05 11:32:37 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-04-05 11:32:37 - [MESSAGE][INFO] - User set preference: ['browserVersion', '97']
+
+2022-04-05 11:32:37 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=632442, tunnelId=, usingTunnel=false}']
+
+2022-04-05 11:32:37 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-04-05 11:32:37 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-05 11:34:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-05 11:34:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-05 11:34:13 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-05 11:34:13 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 11:34:20 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-05 11:34:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 11:34:24 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-05 11:34:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 11:34:28 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-05 11:34:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 11:34:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-05 11:34:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-05 11:34:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/students/Page_/students")): Object: 'Object Repository/admin/students/Page_/students' is clicked on
+
+2022-04-05 11:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/students/Page_/students' is clicked on
+
+2022-04-05 11:34:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/admin/students/input"), player_for_test_1): Text 'Ганин' is set on object 'Object Repository/admin/students/input'
+
+2022-04-05 11:34:49 - [MESSAGE][PASSED] - Text 'Ганин' is set on object 'Object Repository/admin/students/input'
+
+2022-04-05 11:34:49 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/admin/students/Page_/artur")): Unable to click on object 'Object Repository/admin/students/Page_/artur' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin/students/Page_/artur'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Менеджер Профиль игрока.run(Менеджер Профиль игрока:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin/students/Page_/artur' located by '//td[(text() = 'Ганин Данила' or . = 'Ганин Данила')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1645271695615.run(Script1645271695615.groovy:29)
+	... 16 more
+)
+
+2022-04-05 11:35:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //td[(text() = 'Ганин Данила' or . = 'Ганин Данила')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 11:35:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/students/Page_/artur'. Try using Self-healing.
+
+2022-04-05 11:35:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="Students"]/tbody/tr/a/td'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 11:35:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//table[@id='Students']/tbody/tr[12]/td'.
+
+2022-04-05 11:35:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='гр. 2010'])[3]/following::td[1]'.
+
+2022-04-05 11:35:25 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='ДЮСШ ДХЦ'])[9]/following::td[2]'.
+
+2022-04-05 11:35:27 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Евгений Хацей'])[12]/preceding::td[1]'.
+
+2022-04-05 11:35:28 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//tr[12]/td'.
+
+2022-04-05 11:35:29 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: '. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-05 11:35:31 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/admin/students/Page_/artur' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin/students/Page_/artur'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Менеджер Профиль игрока.run(Менеджер Профиль игрока:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin/students/Page_/artur' located by '//td[(text() = 'Ганин Данила' or . = 'Ганин Данила')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1645271695615.run(Script1645271695615.groovy:29)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220405_101904\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220405_101922\\1649147729739.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-05 11:32:36 - [TEST_CASE][FAILED] - Test Cases/Менеджер/Менеджер Профиль игрока: Test Cases/Менеджер/Менеджер Профиль игрока FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin/students/Page_/artur'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Менеджер Профиль игрока.run(Менеджер Профиль игрока:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin/students/Page_/artur' located by '//td[(text() = 'Ганин Данила' or . = 'Ганин Данила')]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-05 10:19:43 - [TEST_SUITE][FAILED] - Менеждер: Test Cases/Администратор/будет переделываться Школы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin/school/Page_/edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at будет переделываться Школы.run(будет переделываться Школы:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin/school/Page_/edit' located by '//div[@id='root']/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-04-05 10:19:43 - [TEST_SUITE][FAILED] - Менеждер: Test Cases/Администратор/будет переделываться Школы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/admin/school/Page_/edit'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at будет переделываться Школы.run(будет переделываться Школы:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649143162219.run(TempTestSuite1649143162219.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/admin/school/Page_/edit' located by '//div[@id='root']/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div[5]/div[2]/div/div/div/div/div[2]' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
