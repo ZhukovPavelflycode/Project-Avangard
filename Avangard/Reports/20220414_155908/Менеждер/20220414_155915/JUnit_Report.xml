@@ -1,0 +1,1888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Менеждер" time="379.831" tests="7" failures="4" errors="0">
+   <testsuite name="Менеждер" tests="7" failures="4" errors="0" time="379.831" skipped="0" timestamp="2022-04-14 16:09:02" hostname="LENOVO - DESKTOP-KNHN0AA" id="Test Suites/Менеждер">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915"/>
+         <property name="logFiles" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941750112.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941757315.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941764024.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941771825.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941779476.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941786067.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941793270.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941799769.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941806459.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941814245.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941821679.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941828242.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941908117.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941957780.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649942007161.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649942056522.png, C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649942072265.png"/>
+         <property name="hostName" value="LENOVO - DESKTOP-KNHN0AA"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+         <property name="browser" value="Chrome 100.0.4896.75"/>
+         <property name="hostAddress" value="192.168.0.11"/>
+         <property name="sessionId" value="f6c478df51554ff3736aa9b802d4f133"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Менеджер/Авторизация" time="7.742" classname="Test Cases/Менеджер/Авторизация" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Менеджер/Авторизация FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-04-14 16:09:24 - [TEST_CASE][FAILED] - Test Cases/Менеджер/Авторизация: Test Cases/Менеджер/Авторизация FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2022-04-14 16:09:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-14 16:09:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-14 16:09:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-14 16:09:25 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-14 16:09:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-14 16:09:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-14 16:09:26 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-14 16:09:26 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:09:31 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:09:31 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), manager_login): Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1649230872447.run(Script1649230872447.groovy:29)
+	... 16 more
+)
+
+2022-04-14 16:09:32 - [MESSAGE][FAILED] - Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1649230872447.run(Script1649230872447.groovy:29)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941771825.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-14 16:09:24 - [TEST_CASE][FAILED] - Test Cases/Менеджер/Авторизация: Test Cases/Менеджер/Авторизация FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Менеджер/Профиль Менеджера" time="6.466" classname="Test Cases/Менеджер/Профиль Менеджера" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Менеджер/Профиль Менеджера FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Менеджер/Авторизация' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Профиль Менеджера.run(Профиль Менеджера:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 38 more
+"/>
+         <system-out><![CDATA[2022-04-14 16:09:53 - [TEST_CASE][FAILED] - Test Cases/Менеджер/Профиль Менеджера: Test Cases/Менеджер/Профиль Менеджера FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Менеджер/Авторизация' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Профиль Менеджера.run(Профиль Менеджера:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 38 more
+
+
+2022-04-14 16:09:53 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Менеджер/Авторизация"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Менеджер/Авторизация' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Менеджер/Авторизация' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Профиль Менеджера.run(Профиль Менеджера:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 38 more
+)
+
+2022-04-14 16:09:53 - [TEST_CASE][FAILED] - Test Cases/Менеджер/Авторизация: Test Cases/Менеджер/Авторизация FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Профиль Менеджера.run(Профиль Менеджера:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 38 more
+
+
+2022-04-14 16:09:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-14 16:09:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-14 16:09:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-14 16:09:54 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-14 16:09:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-14 16:09:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-14 16:09:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-14 16:09:55 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:09:59 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:09:59 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), manager_login): Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Профиль Менеджера.run(Профиль Менеджера:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1649230872447.run(Script1649230872447.groovy:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1645187953171.run(Script1645187953171.groovy:20)
+	... 16 more
+)
+
+2022-04-14 16:10:00 - [MESSAGE][FAILED] - Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Профиль Менеджера.run(Профиль Менеджера:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1649230872447.run(Script1649230872447.groovy:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1645187953171.run(Script1645187953171.groovy:20)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941799769.png]]
+
+2022-04-14 16:10:00 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Менеджер/Авторизация' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Менеджер/Авторизация' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Профиль Менеджера.run(Профиль Менеджера:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 38 more
+)]]></system-out>
+         <system-err><![CDATA[2022-04-14 16:09:53 - [TEST_CASE][FAILED] - Test Cases/Менеджер/Профиль Менеджера: Test Cases/Менеджер/Профиль Менеджера FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Менеджер/Авторизация' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Профиль Менеджера.run(Профиль Менеджера:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 38 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Менеджер/Менеджер Документы" time="6.489" classname="Test Cases/Менеджер/Менеджер Документы" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Менеджер/Менеджер Документы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Менеджер/Авторизация' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Менеджер Документы.run(Менеджер Документы:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 38 more
+"/>
+         <system-out><![CDATA[2022-04-14 16:10:22 - [TEST_CASE][FAILED] - Test Cases/Менеджер/Менеджер Документы: Test Cases/Менеджер/Менеджер Документы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Менеджер/Авторизация' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Менеджер Документы.run(Менеджер Документы:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 38 more
+
+
+2022-04-14 16:10:22 - [TEST_STEP][FAILED] - callTestCase(findTestCase("Менеджер/Авторизация"), [:], STOP_ON_FAILURE): Unable to call Test Case 'Test Cases/Менеджер/Авторизация' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Менеджер/Авторизация' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Менеджер Документы.run(Менеджер Документы:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 38 more
+)
+
+2022-04-14 16:10:22 - [TEST_CASE][FAILED] - Test Cases/Менеджер/Авторизация: Test Cases/Менеджер/Авторизация FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Менеджер Документы.run(Менеджер Документы:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 38 more
+
+
+2022-04-14 16:10:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-14 16:10:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-14 16:10:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-14 16:10:22 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-14 16:10:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-14 16:10:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-14 16:10:23 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-14 16:10:23 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:10:28 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:10:28 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), manager_login): Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Менеджер Документы.run(Менеджер Документы:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1649230872447.run(Script1649230872447.groovy:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1645192171671.run(Script1645192171671.groovy:20)
+	... 16 more
+)
+
+2022-04-14 16:10:28 - [MESSAGE][FAILED] - Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Менеджер Документы.run(Менеджер Документы:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Script1649230872447.run(Script1649230872447.groovy:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Script1645192171671.run(Script1645192171671.groovy:20)
+	... 16 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649941828242.png]]
+
+2022-04-14 16:10:28 - [MESSAGE][FAILED] - Unable to call Test Case 'Test Cases/Менеджер/Авторизация' (Root cause: com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Менеджер/Авторизация' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Менеджер Документы.run(Менеджер Документы:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 38 more
+)]]></system-out>
+         <system-err><![CDATA[2022-04-14 16:10:22 - [TEST_CASE][FAILED] - Test Cases/Менеджер/Менеджер Документы: Test Cases/Менеджер/Менеджер Документы FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/Менеджер/Авторизация' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:334)
+	at Менеджер Документы.run(Менеджер Документы:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:142)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 23 more
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 38 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика Админ" time="28.482" classname="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика Админ" status="PASSED">
+         <system-out><![CDATA[2022-04-14 16:10:28 - [TEST_CASE][PASSED] - Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика Админ: Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика Админ
+
+2022-04-14 16:10:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-14 16:10:28 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-14 16:10:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-14 16:10:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-14 16:10:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-14 16:10:29 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-14 16:10:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-14 16:10:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-14 16:10:31 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-14 16:10:31 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:10:36 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:10:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-14 16:10:37 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-14 16:10:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-14 16:10:38 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-14 16:10:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-14 16:10:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-14 16:10:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-14 16:10:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/report")): Object: 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/report' is clicked on
+
+2022-04-14 16:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/report' is clicked on
+
+2022-04-14 16:10:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/game stat")): Object: 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/game stat' is clicked on
+
+2022-04-14 16:10:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/game stat' is clicked on
+
+2022-04-14 16:10:48 - [TEST_STEP][PASSED] - setText(findTestObject("Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__school game stat"), "Академия"): Text 'Академия' is set on object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__school game stat'
+
+2022-04-14 16:10:49 - [MESSAGE][PASSED] - Text 'Академия' is set on object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__school game stat'
+
+2022-04-14 16:10:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__school game stat"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__school game stat'
+
+2022-04-14 16:10:50 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__school game stat'
+
+2022-04-14 16:10:50 - [TEST_STEP][PASSED] - setText(findTestObject("Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__team school game"), "Омские"): Text 'Омские' is set on object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__team school game'
+
+2022-04-14 16:10:51 - [MESSAGE][PASSED] - Text 'Омские' is set on object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__team school game'
+
+2022-04-14 16:10:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__team school game"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__team school game'
+
+2022-04-14 16:10:52 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__team school game'
+
+2022-04-14 16:10:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__amplua"), "Нападающий"): Text 'Нападающий' is set on object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__amplua'
+
+2022-04-14 16:10:53 - [MESSAGE][PASSED] - Text 'Нападающий' is set on object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__amplua'
+
+2022-04-14 16:10:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__amplua"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__amplua'
+
+2022-04-14 16:10:53 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__amplua'
+
+2022-04-14 16:10:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Сase (Игровая статистика)/match stat"), "Матчи"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/match stat' are matched.
+
+2022-04-14 16:10:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/match stat' are matched.
+
+2022-04-14 16:10:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Сase (Игровая статистика)/game stat time"), "Игр. время"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/game stat time' are matched.
+
+2022-04-14 16:10:55 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/game stat time' are matched.
+
+2022-04-14 16:10:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/stat mach number")): Object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/stat mach number' is visible
+
+2022-04-14 16:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/stat mach number' is visible
+
+2022-04-14 16:10:56 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/grade stat gamne")): Object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/grade stat gamne' is visible
+
+2022-04-14 16:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/grade stat gamne' is visible
+
+2022-04-14 16:10:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-14 16:10:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/будет переделываться Отчет по играм за период" time="49.295" classname="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/будет переделываться Отчет по играм за период" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/будет переделываться Отчет по играм за период FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at будет переделываться Отчет по играм за период.run(будет переделываться Отчет по играм за период:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2022-04-14 16:13:27 - [TEST_CASE][FAILED] - Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/будет переделываться Отчет по играм за период: Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/будет переделываться Отчет по играм за период FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at будет переделываться Отчет по играм за период.run(будет переделываться Отчет по играм за период:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2022-04-14 16:13:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-14 16:13:27 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-14 16:13:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-14 16:13:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-14 16:13:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-14 16:13:28 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-14 16:13:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-14 16:13:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-14 16:13:29 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-14 16:13:29 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:13:33 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:13:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-14 16:13:34 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-14 16:13:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-14 16:13:35 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-14 16:13:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-14 16:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-14 16:13:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-14 16:13:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/report")): Object: 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/report' is clicked on
+
+2022-04-14 16:13:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/report' is clicked on
+
+2022-04-14 16:13:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/admin/reports/period/Page_/div_")): Object: 'Object Repository/admin/reports/period/Page_/div_' is clicked on
+
+2022-04-14 16:14:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='Отчет по играм за период']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-04-14 16:14:13 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/admin/reports/period/Page_/div_'. Try using Self-healing.
+
+2022-04-14 16:14:14 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/admin/reports/period/Page_/div_' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Оценка навыков'])[1]/preceding::div[4]'.
+
+2022-04-14 16:14:14 - [MESSAGE][PASSED] - Object: 'Object Repository/admin/reports/period/Page_/div_' is clicked on
+
+2022-04-14 16:14:14 - [TEST_STEP][FAILED] - verifyTextPresent("ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД", true): Unable to verify text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at будет переделываться Отчет по играм за период.run(будет переделываться Отчет по играм за период:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+
+2022-04-14 16:14:16 - [MESSAGE][FAILED] - Text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is not present on page  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at будет переделываться Отчет по играм за период.run(будет переделываться Отчет по играм за период:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+)
+
+2022-04-14 16:14:16 - [MESSAGE][FAILED] - Unable to verify text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is present  using regular expression (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at будет переделываться Отчет по играм за период.run(будет переделываться Отчет по играм за период:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649942056522.png]]]]></system-out>
+         <system-err><![CDATA[2022-04-14 16:13:27 - [TEST_CASE][FAILED] - Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/будет переделываться Отчет по играм за период: Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/будет переделываться Отчет по играм за период FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is present  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1723)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$8.call(Unknown Source)
+	at будет переделываться Отчет по играм за период.run(будет переделываться Отчет по играм за период:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'ОТЧЕТ ПО ИГРАМ ЗА ПЕРИОД' is not present on page  using regular expression
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/Профиль игрока (Для проверки и под менеджером)" time="37.242" classname="Test Cases/Администратор/Профиль игрока (Для проверки и под менеджером)" status="PASSED">
+         <system-out><![CDATA[2022-04-14 16:14:16 - [TEST_CASE][PASSED] - Test Cases/Администратор/Профиль игрока (Для проверки и под менеджером): Test Cases/Администратор/Профиль игрока (Для проверки и под менеджером)
+
+2022-04-14 16:14:17 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/role admin"), "Администратор"): NOT_RUN: verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/role admin"), "Администратор")
+
+2022-04-14 16:14:17 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/role admin"), "Администратор")
+
+2022-04-14 16:14:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-14 16:14:17 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-14 16:14:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-14 16:14:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-04-14 16:14:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-14 16:14:17 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-14 16:14:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-14 16:14:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-14 16:14:19 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-14 16:14:19 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:14:23 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:14:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-14 16:14:24 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-14 16:14:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-14 16:14:25 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-14 16:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-14 16:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-14 16:14:25 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-14 16:14:25 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/role admin"), 0): Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/role admin' successfully
+
+2022-04-14 16:14:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-14 16:14:31 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/role admin' successfully
+
+2022-04-14 16:14:31 - [TEST_STEP][PASSED] - if (verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/role admin"), "Администратор", OPTIONAL) == true): Actual text 'Менеджер' and expected text 'Администратор' of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/role admin' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Менеджер' and expected text 'Администратор' of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/role admin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4733)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at Профиль игрока (Для проверки и под менеджером).run(Профиль игрока (Для проверки и под менеджером):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+)
+
+2022-04-14 16:14:32 - [MESSAGE][WARNING] - Actual text 'Менеджер' and expected text 'Администратор' of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/role admin' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'Менеджер' and expected text 'Администратор' of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/role admin' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4733)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$10.call(Unknown Source)
+	at Профиль игрока (Для проверки и под менеджером).run(Профиль игрока (Для проверки и под менеджером):28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\LENOVO\\Katalon Studio\\Avangard\\Reports\\20220414_155908\\\u041C\u0435\u043D\u0435\u0436\u0434\u0435\u0440\\20220414_155915\\1649942072265.png]]
+
+2022-04-14 16:14:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/students")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/students' is clicked on
+
+2022-04-14 16:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/students' is clicked on
+
+2022-04-14 16:14:33 - [TEST_STEP][PASSED] - setText(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/input__school"), ""Авангард" Академия"): Text '"Авангард" Академия' is set on object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/input__school'
+
+2022-04-14 16:14:34 - [MESSAGE][PASSED] - Text '"Авангард" Академия' is set on object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/input__school'
+
+2022-04-14 16:14:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/input__school"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/input__school'
+
+2022-04-14 16:14:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/input__school'
+
+2022-04-14 16:14:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/input"), player_for_test_1): Text 'Ганин' is set on object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/input'
+
+2022-04-14 16:14:36 - [MESSAGE][PASSED] - Text 'Ганин' is set on object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/input'
+
+2022-04-14 16:14:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/player profile")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/player profile' is clicked on
+
+2022-04-14 16:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/player profile' is clicked on
+
+2022-04-14 16:14:38 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/personal date"), "ЛИЧНЫЕ ДАННЫЕ"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/personal date' are matched.
+
+2022-04-14 16:14:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/personal date' are matched.
+
+2022-04-14 16:14:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_predstaviteli")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_predstaviteli' is clicked on
+
+2022-04-14 16:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_predstaviteli' is clicked on
+
+2022-04-14 16:14:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/string family"), "СЕМЬЯ"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/string family' are matched.
+
+2022-04-14 16:14:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/string family' are matched.
+
+2022-04-14 16:14:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_status")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_status' is clicked on
+
+2022-04-14 16:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_status' is clicked on
+
+2022-04-14 16:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_game")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_game' is clicked on
+
+2022-04-14 16:14:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_game' is clicked on
+
+2022-04-14 16:14:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/zveno 1 verif"), 0): Object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/zveno 1 verif' is present
+
+2022-04-14 16:14:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-14 16:14:43 - [MESSAGE][PASSED] - Object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/zveno 1 verif' is present
+
+2022-04-14 16:14:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/game spisok"), 0): Object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/game spisok' is present
+
+2022-04-14 16:14:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-14 16:14:43 - [MESSAGE][PASSED] - Object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/game spisok' is present
+
+2022-04-14 16:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_rank")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_rank' is clicked on
+
+2022-04-14 16:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_rank' is clicked on
+
+2022-04-14 16:14:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/canvas"), 0): Object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/canvas' is present
+
+2022-04-14 16:14:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-14 16:14:45 - [MESSAGE][PASSED] - Object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/canvas' is present
+
+2022-04-14 16:14:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_stat")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_stat' is clicked on
+
+2022-04-14 16:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_stat' is clicked on
+
+2022-04-14 16:14:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/div_math"), "Матчи"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/div_math' are matched.
+
+2022-04-14 16:14:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/div_math' are matched.
+
+2022-04-14 16:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_game grade")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_game grade' is clicked on
+
+2022-04-14 16:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_game grade' is clicked on
+
+2022-04-14 16:14:48 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/attack in grade"), 0): Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/attack in grade' successfully
+
+2022-04-14 16:14:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-14 16:14:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/attack in grade' successfully
+
+2022-04-14 16:14:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/attack in grade"), "АТАКУЮЩИЕ ДЕЙСТВИЯ"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/attack in grade' are matched.
+
+2022-04-14 16:14:50 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/attack in grade' are matched.
+
+2022-04-14 16:14:50 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/strelka"), 0): Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/strelka' successfully
+
+2022-04-14 16:14:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-14 16:14:50 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/strelka' successfully
+
+2022-04-14 16:14:50 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/strelka")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/strelka' is clicked on
+
+2022-04-14 16:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/strelka' is clicked on
+
+2022-04-14 16:14:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_grade naviki")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_grade naviki' is clicked on
+
+2022-04-14 16:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/button_grade naviki' is clicked on
+
+2022-04-14 16:14:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/div_1 etap1"), "Этап №1"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/div_1 etap1' are matched.
+
+2022-04-14 16:14:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/div_1 etap1' are matched.
+
+2022-04-14 16:14:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Профиль игрока)/div_speed"), "Ускорение"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/div_speed' are matched.
+
+2022-04-14 16:14:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/div_speed' are matched.
+
+2022-04-14 16:14:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-04-14 16:14:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Администратор/дописать физ. тест Рейтинг игроков" time="28.467" classname="Test Cases/Администратор/дописать физ. тест Рейтинг игроков" status="PASSED">
+         <system-out><![CDATA[2022-04-14 16:14:53 - [TEST_CASE][PASSED] - Test Cases/Администратор/дописать физ. тест Рейтинг игроков: Test Cases/Администратор/дописать физ. тест Рейтинг игроков
+
+2022-04-14 16:14:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Администратор/Авторизация"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-14 16:14:54 - [TEST_CASE][PASSED] - Test Cases/Администратор/Авторизация: Test Cases/Администратор/Авторизация
+
+2022-04-14 16:14:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-04-14 16:14:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-04-14 16:14:54 - [MESSAGE][INFO] - Action delay is set to 100 milliseconds
+
+2022-04-14 16:14:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-04-14 16:14:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-04-14 16:14:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-04-14 16:14:55 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:15:00 - [MESSAGE][PASSED] - Navigate to 'https://stars-stage.hawk.ru:8080' successfully
+
+2022-04-14 16:15:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj"), admin_login): Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-14 16:15:01 - [MESSAGE][PASSED] - Text 'eronko.i@hc-avangard.com' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+
+2022-04-14 16:15:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_/input__sc-lnrBVv eqPACj_1"), admin_password): Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-14 16:15:02 - [MESSAGE][PASSED] - Text 'eronko.i' is set on object 'Object Repository/Page_/input__sc-lnrBVv eqPACj_1'
+
+2022-04-14 16:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_/go")): Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-14 16:15:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_/go' is clicked on
+
+2022-04-14 16:15:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Администратор/Авторизация' successfully
+
+2022-04-14 16:15:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/rank palyer")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/rank palyer' is clicked on
+
+2022-04-14 16:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/rank palyer' is clicked on
+
+2022-04-14 16:15:09 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/school rank")): NOT_RUN: click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/school rank"))
+
+2022-04-14 16:15:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/school rank"))
+
+2022-04-14 16:15:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/input__rank"), ""Авангард" Академия"): Text '"Авангард" Академия' is set on object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/input__rank'
+
+2022-04-14 16:15:10 - [MESSAGE][PASSED] - Text '"Авангард" Академия' is set on object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/input__rank'
+
+2022-04-14 16:15:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/input__rank"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/input__rank'
+
+2022-04-14 16:15:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/input__rank'
+
+2022-04-14 16:15:11 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Администратор)/Case (Рейтинг игроков)/team rank")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/team rank' is clicked on
+
+2022-04-14 16:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/team rank' is clicked on
+
+2022-04-14 16:15:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/input__react-select-4-input"), school): Text 'Омские Ястребы' is set on object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/input__react-select-4-input'
+
+2022-04-14 16:15:13 - [MESSAGE][PASSED] - Text 'Омские Ястребы' is set on object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/input__react-select-4-input'
+
+2022-04-14 16:15:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/input__react-select-4-input"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/input__react-select-4-input'
+
+2022-04-14 16:15:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/input__react-select-4-input'
+
+2022-04-14 16:15:13 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Avangard New/Object (Администратор)/Case (Рейтинг игроков)/Univarsal player"), 0): Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/Univarsal player' successfully
+
+2022-04-14 16:15:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-04-14 16:15:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/Univarsal player' successfully
+
+2022-04-14 16:15:14 - [TEST_STEP][PASSED] - click(findTestObject("Avangard New/Object (Администратор)/Case (Рейтинг игроков)/Univarsal player")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/Univarsal player' is clicked on
+
+2022-04-14 16:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/Univarsal player' is clicked on
+
+2022-04-14 16:15:15 - [TEST_STEP][PASSED] - comment(""): 
+
+2022-04-14 16:15:15 - [MESSAGE][INFO] - 
+
+2022-04-14 16:15:15 - [TEST_STEP][NOT_RUN] - if (verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Рейтинг игроков)/team rank"), "Авангард-2005", OPTIONAL) == true): NOT_RUN: if (verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Рейтинг игроков)/team rank"), "Авангард-2005", OPTIONAL) == true)
+
+2022-04-14 16:15:15 - [MESSAGE][NOT_RUN] - NOT_RUN: if (verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Рейтинг игроков)/team rank"), "Авангард-2005", OPTIONAL) == true)
+
+2022-04-14 16:15:15 - [TEST_STEP][NOT_RUN] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Рейтинг игроков)/grade points rank"), point): NOT_RUN: verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Рейтинг игроков)/grade points rank"), point)
+
+2022-04-14 16:15:15 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Рейтинг игроков)/grade points rank"), point)
+
+2022-04-14 16:15:15 - [TEST_STEP][NOT_RUN] - comment(""): NOT_RUN: comment("")
+
+2022-04-14 16:15:15 - [MESSAGE][NOT_RUN] - NOT_RUN: comment("")
+
+2022-04-14 16:15:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/button grade skill rank")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/button grade skill rank' is clicked on
+
+2022-04-14 16:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/button grade skill rank' is clicked on
+
+2022-04-14 16:15:16 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/Etap 1 rank"), "Этап №1"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/Etap 1 rank' are matched.
+
+2022-04-14 16:15:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/Etap 1 rank' are matched.
+
+2022-04-14 16:15:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Рейтинг игроков)/speed rank"), "Ускорение"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/speed rank' are matched.
+
+2022-04-14 16:15:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/speed rank' are matched.
+
+2022-04-14 16:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/button game stat rank")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/button game stat rank' is clicked on
+
+2022-04-14 16:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/button game stat rank' is clicked on
+
+2022-04-14 16:15:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Рейтинг игроков)/math rank"), "Матчи"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/math rank' are matched.
+
+2022-04-14 16:15:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/math rank' are matched.
+
+2022-04-14 16:15:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/grade math rank")): Object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/grade math rank' is visible
+
+2022-04-14 16:15:19 - [MESSAGE][PASSED] - Object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/grade math rank' is visible
+
+2022-04-14 16:15:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/button grade game tank")): Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/button grade game tank' is clicked on
+
+2022-04-14 16:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/button grade game tank' is clicked on
+
+2022-04-14 16:15:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Avangard New/Object (Администратор)/Case (Рейтинг игроков)/average grade rank"), "СРЕДНЯЯ ОЦЕНКА"): Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/average grade rank' are matched.
+
+2022-04-14 16:15:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Avangard New/Object (Администратор)/Case (Рейтинг игроков)/average grade rank' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-04-14 16:09:02 - [TEST_SUITE][FAILED] - Менеждер: Test Cases/Менеджер/Авторизация FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-04-14 16:09:02 - [TEST_SUITE][FAILED] - Менеждер: Test Cases/Менеджер/Авторизация FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'null' of object 'Object Repository/Page_/input__sc-lnrBVv eqPACj'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$2.call(Unknown Source)
+	at Авторизация.run(Авторизация:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1649941155960.run(TempTestSuite1649941155960.groovy:36)
+Caused by: java.lang.IllegalArgumentException: Text is null
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:48)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

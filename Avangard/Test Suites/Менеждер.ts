@@ -36,12 +36,6 @@
       <testCaseId>Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/Игровая статистика Админ</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>11fddef8-33e0-4ae1-b3d0-b18e65018119</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Администратор/ОТЧЕТЫ функциональные тесты/будет переделываться Отчет по играм за период</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>ad763644-97a6-4e67-b4b2-fb0fe42d5734</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

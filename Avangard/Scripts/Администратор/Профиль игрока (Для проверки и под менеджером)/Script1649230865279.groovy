@@ -35,9 +35,13 @@ if (WebUI.verifyElementText(findTestObject('Avangard New/Object (Админис�
     'Выбор игрока'
     WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/player profile'))
 
+    WebUI.disableSmartWait()
+
     'Проверки для АДМИНА'
     while (WebUI.verifyElementVisible(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/editProfile'), 
         FailureHandling.OPTIONAL) == true) {
+        WebUI.enableSmartWait()
+
         'Редактирование профиля '
         WebUI.click(findTestObject('Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/editProfile'))
 

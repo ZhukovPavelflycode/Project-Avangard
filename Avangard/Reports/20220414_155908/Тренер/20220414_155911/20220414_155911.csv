@@ -1,0 +1,88 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Тренер,Chrome 100.0.4896.75,,,2022-04-14 16:03:38,2022-04-14 16:06:40,"3m - 1,944s",FAILED
+,,,,,,,
+Test Cases/Тренер/Авторизация,Chrome 100.0.4896.75,,,2022-04-14 16:03:38,2022-04-14 16:03:49,"10,861s",PASSED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-04-14 16:03:39,2022-04-14 16:03:41,"2,081s",PASSED
+maximizeWindow(),Chrome 100.0.4896.75,,,2022-04-14 16:03:41,2022-04-14 16:03:41,"0,138s",PASSED
+navigateToUrl(url),Chrome 100.0.4896.75,,,2022-04-14 16:03:41,2022-04-14 16:03:47,"5,652s",PASSED
+"setText(findTestObject(""Object Repository/manager/Page_/input__sc-lnrBVv eqPACj""), coach_login)",Chrome 100.0.4896.75,,,2022-04-14 16:03:47,2022-04-14 16:03:48,"1,204s",PASSED
+"setText(findTestObject(""Object Repository/manager/Page_/input__sc-lnrBVv eqPACj_1""), coach_password)",Chrome 100.0.4896.75,,,2022-04-14 16:03:48,2022-04-14 16:03:49,"0,914s",PASSED
+"click(findTestObject(""manager/Page_/go""))",Chrome 100.0.4896.75,,,2022-04-14 16:03:49,2022-04-14 16:03:49,"0,501s",PASSED
+,,,,,,,
+Test Cases/Тренер/Профиль Тренера,Chrome 100.0.4896.75,,,2022-04-14 16:03:49,2022-04-14 16:04:05,"16,110s",PASSED
+"callTestCase(findTestCase(""Тренер/Авторизация""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.75,,,2022-04-14 16:03:50,2022-04-14 16:03:58,"8,512s",PASSED
+"click(findTestObject(""Object Repository/ТРЕНЕР/reports/IMT/Page_/Page_/div_ (1)""))",Chrome 100.0.4896.75,"Открывает редактирование профиля
+",,2022-04-14 16:03:58,2022-04-14 16:04:02,"4,013s",PASSED
+"click(findTestObject(""Object Repository/ТРЕНЕР/reports/IMT/Page_/Page_/save""))",Chrome 100.0.4896.75,"Сохраняет
+",,2022-04-14 16:04:02,2022-04-14 16:04:03,"0,682s",PASSED
+"verifyTextPresent(""Пользователь сохранен"", false)",Chrome 100.0.4896.75,Проверка алерта,,2022-04-14 16:04:03,2022-04-14 16:04:04,"1,310s",PASSED
+"click(findTestObject(""Object Repository/ТРЕНЕР/reports/IMT/Page_/Page_/root""))",Chrome 100.0.4896.75,"Выход с модального окна
+",,2022-04-14 16:04:04,2022-04-14 16:04:05,"0,586s",PASSED
+closeBrowser(),Chrome 100.0.4896.75,,,2022-04-14 16:04:05,2022-04-14 16:04:05,"0,685s",PASSED
+,,,,,,,
+Test Cases/Тренер/Оценка навыков,Chrome 100.0.4896.75,,,2022-04-14 16:04:05,2022-04-14 16:04:59,"53,673s",FAILED
+"callTestCase(findTestCase(""Тренер/Авторизация""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.75,,,2022-04-14 16:04:06,2022-04-14 16:04:14,"8,151s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Оценка навыков)/span_home""))",Chrome 100.0.4896.75,Вкладка оценка навыков,,2022-04-14 16:04:14,2022-04-14 16:04:20,"5,750s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Оценка навыков)/edit home""))",Chrome 100.0.4896.75,Кнопка редактировать,,2022-04-14 16:04:20,2022-04-14 16:04:20,"0,829s",PASSED
+"scrollToElement(findTestObject(""Avangard New/Object (Тренер)/Case (Оценка навыков)/button_save_home""), 0)",Chrome 100.0.4896.75,Скрол к кнопке сохранить,,2022-04-14 16:04:20,2022-04-14 16:04:21,"0,873s",PASSED
+"click(findTestObject(""Avangard New/Object (Тренер)/Case (Оценка навыков)/button_save_home""))",Chrome 100.0.4896.75,Сохранить общая,,2022-04-14 16:04:21,2022-04-14 16:04:22,"0,760s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Тренер)/Case (Оценка навыков)/alert home add""), ""Добавьте от 1 до 7 навыков для развития."")",Chrome 100.0.4896.75,,,2022-04-14 16:04:22,2022-04-14 16:04:58,"36,241s",FAILED
+,,,,,,,
+Test Cases/Тренер/Физическое тестирование,Chrome 100.0.4896.75,,,2022-04-14 16:04:59,2022-04-14 16:06:20,"1m - 20,700s",PASSED
+"openBrowser("""")",Chrome 100.0.4896.75,,,2022-04-14 16:04:59,2022-04-14 16:05:01,"1,711s",PASSED
+maximizeWindow(),Chrome 100.0.4896.75,,,2022-04-14 16:05:01,2022-04-14 16:05:01,"0,126s",PASSED
+navigateToUrl(url),Chrome 100.0.4896.75,,,2022-04-14 16:05:01,2022-04-14 16:05:05,"3,569s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input__sc-lnrBVv eqPACj""), OFP_trainer_login)",Chrome 100.0.4896.75,,,2022-04-14 16:05:05,2022-04-14 16:05:06,"1,068s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input__sc-lnrBVv eqPACj_1""), OFP_trainer_password)",Chrome 100.0.4896.75,,,2022-04-14 16:05:06,2022-04-14 16:05:07,"0,909s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/go""))",Chrome 100.0.4896.75,,,2022-04-14 16:05:07,2022-04-14 16:05:07,"0,572s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/buttom  fiz testing""))",Chrome 100.0.4896.75,Вкладка физическое тестирование,,2022-04-14 16:05:07,2022-04-14 16:05:12,"4,540s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/div__exercises""), STOP_ON_FAILURE)",Chrome 100.0.4896.75,Упражнения,,2022-04-14 16:05:12,2022-04-14 16:05:13,"0,844s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input__exercise""), ""FMS тест (баллы)"")",Chrome 100.0.4896.75,,,2022-04-14 16:05:13,2022-04-14 16:05:14,"1,060s",PASSED
+"sendKeys(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input__exercise""), Keys.chord(ENTER))",Chrome 100.0.4896.75,,,2022-04-14 16:05:14,2022-04-14 16:05:14,"0,580s",PASSED
+"clearText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 1""), STOP_ON_FAILURE)",Chrome 100.0.4896.75,Ананьин Егор,,2022-04-14 16:05:14,2022-04-14 16:05:16,"1,161s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 1""), ""21"")",Chrome 100.0.4896.75,Ананьин Егор,,2022-04-14 16:05:16,2022-04-14 16:05:17,"1,005s",PASSED
+"clearText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 2""), STOP_ON_FAILURE)",Chrome 100.0.4896.75,Бережной Станислав,,2022-04-14 16:05:17,2022-04-14 16:05:17,"0,473s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 2""), ""15"")",Chrome 100.0.4896.75,Бережной Станислав,,2022-04-14 16:05:17,2022-04-14 16:05:18,"0,980s",PASSED
+"clearText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 3""), STOP_ON_FAILURE)",Chrome 100.0.4896.75,Ганин Данила,,2022-04-14 16:05:18,2022-04-14 16:05:19,"0,537s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 3""), ""7"")",Chrome 100.0.4896.75,Ганин Данила,,2022-04-14 16:05:19,2022-04-14 16:05:19,"0,866s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 6""), 0)",Chrome 100.0.4896.75,,,2022-04-14 16:05:19,2022-04-14 16:05:20,"0,327s",PASSED
+"clearText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 6""), STOP_ON_FAILURE)",Chrome 100.0.4896.75,,,2022-04-14 16:05:20,2022-04-14 16:05:20,"0,459s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 6""), ""0"")",Chrome 100.0.4896.75,Фигурин Александр,,2022-04-14 16:05:20,2022-04-14 16:05:21,"0,857s",PASSED
+"clearText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 4""), STOP_ON_FAILURE)",Chrome 100.0.4896.75,Холодилин Никита,,2022-04-14 16:05:21,2022-04-14 16:05:22,"0,454s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 4""), ""3,7"")",Chrome 100.0.4896.75,Холодилин Никита,,2022-04-14 16:05:22,2022-04-14 16:05:22,"0,870s",PASSED
+"clearText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 5""), STOP_ON_FAILURE)",Chrome 100.0.4896.75,Ядыкин Егор,,2022-04-14 16:05:22,2022-04-14 16:05:23,"0,451s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 5""), ""1000"")",Chrome 100.0.4896.75,Ядыкин Егор,,2022-04-14 16:05:23,2022-04-14 16:05:24,"0,872s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button_save""), 0)",Chrome 100.0.4896.75,,,2022-04-14 16:05:24,2022-04-14 16:05:24,"0,320s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button_save""))",Chrome 100.0.4896.75,Кнопка Сохранить,,2022-04-14 16:05:24,2022-04-14 16:05:25,"0,480s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/alert fiz testing""), ""Оценка сохранена"")",Chrome 100.0.4896.75,Проверка сохранения,,2022-04-14 16:05:25,2022-04-14 16:05:26,"1,749s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/stage 2""), 0)",Chrome 100.0.4896.75,Поле ввода этап,,2022-04-14 16:05:26,2022-04-14 16:05:27,"0,330s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/stage 2""))",Chrome 100.0.4896.75,Поле ввода этап,,2022-04-14 16:05:27,2022-04-14 16:05:27,"0,469s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input__etapi""), ""Этап №2"")",Chrome 100.0.4896.75,Выбор 2 этапа,,2022-04-14 16:05:27,2022-04-14 16:05:28,"1,193s",PASSED
+"sendKeys(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input__etapi""), Keys.chord(ENTER))",Chrome 100.0.4896.75,,,2022-04-14 16:05:28,2022-04-14 16:05:29,"0,578s",PASSED
+"clearText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 3""), STOP_ON_FAILURE)",Chrome 100.0.4896.75,Ганин,,2022-04-14 16:05:29,2022-04-14 16:05:30,"0,806s",PASSED
+"setText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/input_FMS 3""), ""10,4"")",Chrome 100.0.4896.75,Ганин,,2022-04-14 16:05:30,2022-04-14 16:05:31,"1,320s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button_save""), 0)",Chrome 100.0.4896.75,,,2022-04-14 16:05:31,2022-04-14 16:05:31,"0,319s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button_save""))",Chrome 100.0.4896.75,Кнопка Сохранить,,2022-04-14 16:05:31,2022-04-14 16:05:32,"0,477s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/alert fiz testing""), ""Оценка сохранена"")",Chrome 100.0.4896.75,Проверка сохранения,,2022-04-14 16:05:32,2022-04-14 16:05:33,"0,878s",PASSED
+"scrollToElement(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button_close fiz test""), 0)",Chrome 100.0.4896.75,,,2022-04-14 16:05:33,2022-04-14 16:05:33,"0,416s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button_close fiz test""))",Chrome 100.0.4896.75,Кнопка закрыть,,2022-04-14 16:05:33,2022-04-14 16:05:34,"0,475s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Тренер)/Case (Физическое тестирование)/button__close 2 fiz test""))",Chrome 100.0.4896.75,Кнопка закрыть 2,,2022-04-14 16:05:34,2022-04-14 16:05:34,"0,778s",PASSED
+"callTestCase(findTestCase(""Тренер/Отчет физического тестирования (переиспользуется в Физ. тестировании)""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.75,,,2022-04-14 16:05:34,2022-04-14 16:06:00,"25,889s",PASSED
+"callTestCase(findTestCase(""Игрок/У игрока Отчет физического тестирования (переиспользуется в физ. тестировании у тренера)""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.75,,,2022-04-14 16:06:00,2022-04-14 16:06:20,"19,614s",PASSED
+,,,,,,,
+Test Cases/Тренер/Игровая статистика Тренер,Chrome 100.0.4896.75,"функциональный тест
+",,2022-04-14 16:06:20,2022-04-14 16:06:40,"20,228s",PASSED
+"callTestCase(findTestCase(""Тренер/Авторизация""), [:], STOP_ON_FAILURE)",Chrome 100.0.4896.75,,,2022-04-14 16:06:20,2022-04-14 16:06:29,"8,607s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/report""))",Chrome 100.0.4896.75,Вкладка Отчеты,,2022-04-14 16:06:29,2022-04-14 16:06:33,"4,146s",PASSED
+"click(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/game stat""))",Chrome 100.0.4896.75,Игровая статистика,,2022-04-14 16:06:33,2022-04-14 16:06:34,"0,726s",PASSED
+"setText(findTestObject(""Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__school game stat""), ""Академия"")",Chrome 100.0.4896.75,Ввод фильтра,,2022-04-14 16:06:34,2022-04-14 16:06:34,"0,001s",NOT_RUN
+"sendKeys(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__school game stat""), Keys.chord(ENTER))",Chrome 100.0.4896.75,,,2022-04-14 16:06:34,2022-04-14 16:06:34,"0,000s",NOT_RUN
+"setText(findTestObject(""Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__team school game""), school)",Chrome 100.0.4896.75,Ввод фильтра 2,,2022-04-14 16:06:34,2022-04-14 16:06:34,"0,001s",NOT_RUN
+"sendKeys(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__team school game""), Keys.chord(ENTER))",Chrome 100.0.4896.75,,,2022-04-14 16:06:34,2022-04-14 16:06:34,"0,000s",NOT_RUN
+"setText(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__amplua""), ""Нападающий"")",Chrome 100.0.4896.75,Ввод фильтра 3,,2022-04-14 16:06:34,2022-04-14 16:06:35,"1,398s",PASSED
+"sendKeys(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/input__amplua""), Keys.chord(ENTER))",Chrome 100.0.4896.75,,,2022-04-14 16:06:35,2022-04-14 16:06:36,"0,581s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Администратор)/Сase (Игровая статистика)/match stat""), ""Матчи"")",Chrome 100.0.4896.75,Проверки ниже,,2022-04-14 16:06:36,2022-04-14 16:06:38,"2,691s",PASSED
+"verifyElementText(findTestObject(""Avangard New/Object (Администратор)/Сase (Игровая статистика)/game stat time""), ""Игр. время"")",Chrome 100.0.4896.75,,,2022-04-14 16:06:38,2022-04-14 16:06:39,"0,327s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/stat mach number""))",Chrome 100.0.4896.75,Проверка что баллы отображается,,2022-04-14 16:06:39,2022-04-14 16:06:39,"0,372s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/grade stat gamne""))",Chrome 100.0.4896.75,Проверка что оценка отображается,,2022-04-14 16:06:39,2022-04-14 16:06:39,"0,453s",PASSED
+closeBrowser(),Chrome 100.0.4896.75,,,2022-04-14 16:06:39,2022-04-14 16:06:40,"0,673s",PASSED

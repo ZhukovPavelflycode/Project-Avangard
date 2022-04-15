@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/arch_button",
+      "brokenLocator": "//*/text()[normalize-space(.)\u003d\u0027Архивировать\u0027]/parent::*",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220414_155908/Администратор/20220414_155919/Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/arch_button_attributes.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/confirm_arch_button",
+      "brokenLocator": "//button[@type \u003d \u0027submit\u0027 and (text() \u003d \u0027Архивировать\u0027 or . \u003d \u0027Архивировать\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/button[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20220414_155908/Администратор/20220414_155919/Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/confirm_arch_button_position.png"
+    }
+  ]
+}

@@ -2,53 +2,43 @@
   "brokenTestObjects": [
     {
       "approved": true,
-      "testObjectId": "Object Repository/vrach/psychotest/Page_/psychotest",
-      "brokenLocator": "//span[(text() \u003d \u0027Психологический профиль\u0027 or . \u003d \u0027Психологический профиль\u0027)]",
+      "testObjectId": "Object Repository/Avangard New/Object (Тренер)/Case (Оценка навыков)/alert home add",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Ошибка при заполнении\u0027])[1]/following::p[1]",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Главная\u0027])[1]/following::span[2]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/vrach/psychotest/Page_/psychotest_neighbor.png"
+      "proposedLocator": "p.ReactComponentNotification__NotificationText-sc-1wfzr6b-3.JWcOG",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Avangard New/Object (Тренер)/Case (Оценка навыков)/alert home add_CSS.png"
     },
     {
       "approved": true,
-      "testObjectId": "Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/span_reports",
-      "brokenLocator": "//span[(text() \u003d \u0027Отчеты\u0027 or . \u003d \u0027Отчеты\u0027)]",
+      "testObjectId": "Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/arch_button",
+      "brokenLocator": "//*/text()[normalize-space(.)\u003d\u0027Архивировать\u0027]/parent::*",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027≡\u0027])[1]/following::span[2]",
+      "proposedLocator": "//button[@type\u003d\u0027button\u0027]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/span_reports_neighbor.png"
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/arch_button_attributes.png"
     },
     {
       "approved": true,
-      "testObjectId": "Object Repository/Avangard New/Object (Игрок)/Case (Отчеты по навыкам)/div_report_skills",
-      "brokenLocator": "//div[(text() \u003d \u0027Отчет по навыкам\u0027 or . \u003d \u0027Отчет по навыкам\u0027)]",
+      "testObjectId": "Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/confirm_arch_button",
+      "brokenLocator": "//button[@type \u003d \u0027submit\u0027 and (text() \u003d \u0027Архивировать\u0027 or . \u003d \u0027Архивировать\u0027)]",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Редактирование профиля\u0027])[1]/preceding::div[6]",
+      "proposedLocator": "//div/div/div/button[2]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": ""
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Avangard New/Object (Администратор)/Case (Профиль игрока)/confirm_arch_button_position.png"
     },
     {
       "approved": true,
-      "testObjectId": "Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/report",
-      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div/div[2]/div/a[2]/div/span",
+      "testObjectId": "Object Repository/admin/reports/period/Page_/div_",
+      "brokenLocator": "//*/text()[normalize-space(.)\u003d\u0027Отчет по играм за период\u0027]/parent::*",
       "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Главная\u0027])[1]/following::span[1]",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Оценка навыков\u0027])[1]/preceding::div[4]",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": ""
-    },
-    {
-      "approved": true,
-      "testObjectId": "Object Repository/Avangard New/Object (Администратор)/Сase (Игровая статистика)/report",
-      "brokenLocator": "//div[@id\u003d\u0027root\u0027]/div/div/div/div/div[2]/div/a[2]/div/span",
-      "brokenLocatorMethod": "XPATH",
-      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027≡\u0027])[1]/following::span[2]",
-      "proposedLocatorMethod": "XPATH",
-      "recoveryMethod": "XPATH",
-      "pathToScreenshot": ""
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/admin/reports/period/Page_/div__neighbor.png"
     }
   ]
 }
