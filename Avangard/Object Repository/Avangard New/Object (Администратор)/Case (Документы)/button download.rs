@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button download</name>
+   <tag></tag>
+   <elementGuidId>85327a3c-ebcf-4cd5-8a06-b10e298f8e1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.DocumentView__DownPlaceholder-sc-1w4bokk-5.kXmyUi > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'скачать')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://stars.hawk.ru/api/storage/1d310fea-a21b-4d66-882f-5909c782079d.xlsx</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noopener noreferrer</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>скачать</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ant-scrolling-effect&quot;]/div[3]/div[@class=&quot;rc-dialog-root&quot;]/div[@class=&quot;rc-dialog-wrap&quot;]/div[@class=&quot;rc-dialog DocumentViewModal&quot;]/div[@class=&quot;rc-dialog-content&quot;]/div[@class=&quot;rc-dialog-body&quot;]/div[@class=&quot;ReactComponentModal__DialogContentWrapper-sc-qzxkgh-0 dNGAjL&quot;]/div[@class=&quot;ReactComponentModal__DialogContent-sc-qzxkgh-1 eVzPvS DialogContent&quot;]/div[1]/div[@class=&quot;DocumentView__Wrapper-sc-1w4bokk-0 keLyZG&quot;]/div[@class=&quot;DocumentView__AttachmentsList-sc-1w4bokk-3 jPkWnf&quot;]/div[@class=&quot;DocumentView__AttachmentItem-sc-1w4bokk-4 dQBFyc&quot;]/div[@class=&quot;DocumentView__DownPlaceholder-sc-1w4bokk-5 kXmyUi&quot;]/a[1]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'скачать')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Годовой план формирования навыков для детей 17 лет'])[4]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Годовой план 17 лет'])[4]/following::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='скачать']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://stars.hawk.ru/api/storage/1d310fea-a21b-4d66-882f-5909c782079d.xlsx')]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/a</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://stars.hawk.ru/api/storage/1d310fea-a21b-4d66-882f-5909c782079d.xlsx' and (text() = 'скачать' or . = 'скачать')]</value>
+   </webElementXpaths>
+</WebElementEntity>

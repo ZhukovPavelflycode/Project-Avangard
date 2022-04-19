@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_5</name>
+   <tag></tag>
+   <elementGuidId>fadd4c5c-eec5-448b-a6e9-1b26492b1e42</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[4]/div[2]/div/div/div/div[2]/div[2]/div/div/div[5]/div[26]/div/div[2]/div/div/div/div[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-cLxPOX gQOxzd</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-fhogAb cxpLrZ&quot;]/div[@class=&quot;sc-caSCKo hoPXgy ChessTemplate&quot;]/div[@class=&quot;sc-kjoXOD eUxBJX Right&quot;]/div[@class=&quot;sc-jHVyoh kGYsNF&quot;]/div[@class=&quot;sc-fEdkGK jsuPYU&quot;]/div[@class=&quot;sc-jojxEB hmFxjQ&quot;]/div[@class=&quot;sc-cGCqpu ibMlwu&quot;]/div[@class=&quot;sc-cdQEHs jVVimT&quot;]/div[@class=&quot;sc-rBLzX dfQkHP Wrapper&quot;]/div[@class=&quot;sc-hGoxap kaGTgg ContentPlaceholder&quot;]/div[@class=&quot;sc-ieSwJA jYiEZj&quot;]/div[@class=&quot;sc-TFwJa hNMqal Wrapper&quot;]/div[@class=&quot;Tab&quot;]/div[@class=&quot;sc-itybZL gaUzku ContentPlaceholder&quot;]/div[@class=&quot;sc-dWcDbm edYQnm SchoolLessonsPanel SchoolLessonsPanel_teacher&quot;]/div[@class=&quot;popup-container popup-container_theme_alfa-on-white sidebar sidebar_visible sidebar_theme_alfa-on-white&quot;]/div[@class=&quot;sidebar__inner&quot;]/div[@class=&quot;sidebar__content&quot;]/div[1]/div[@class=&quot;sc-TFwJa hNMqal Wrapper&quot;]/div[2]/div[@class=&quot;sc-itybZL gaUzku ContentPlaceholder&quot;]/div[@class=&quot;sc-gCKARq dbdGWQ&quot;]/div[@class=&quot;sc-ekHBYt fjgGjj&quot;]/div[@class=&quot;sc-bsVVwV hWBiPl&quot;]/div[@class=&quot;sc-kbGplQ cNKNeQ&quot;]/div[@class=&quot;sc-exdmVY bJLEIF&quot;]/div[@class=&quot;sc-idjmjb dFEdEk&quot;]/div[1]/div[@class=&quot;sc-gYtlsd buHLyR&quot;]/div[@class=&quot;sc-kDgGX hNMBqT&quot;]/div[@class=&quot;sc-cLxPOX gQOxzd&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div/div/div[4]/div[2]/div/div/div/div[2]/div[2]/div/div/div[5]/div[26]/div/div[2]/div/div/div/div[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Трикозов Глеб'])[2]/following::div[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Тетерин Олег'])[1]/following::div[13]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Трикозов Глеб'])[3]/preceding::div[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Фигурин Александр'])[1]/preceding::div[13]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='5']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[26]/div/div[2]/div/div/div/div[5]</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_concat( , , , ,   . )_sc-nUItV jdWfrq</name>
+   <tag></tag>
+   <elementGuidId>d10c9d02-34b9-4b2a-b2b7-60490ce9a1da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.sc-nUItV.jdWfrq</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='Students']/tbody/tr[13]/td/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.englishpatient.org/english-patient-files/3aa5b61a-1068-42e5-a361-d7b27569d5cd.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>avatar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-nUItV jdWfrq</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Students&quot;)/tbody[1]/tr[@class=&quot;sc-eXfwOT hzjyLd&quot;]/td[@class=&quot;sc-hBAMER ftghPt&quot;]/span[@class=&quot;sc-iipuKH heYLdi&quot;]/span[@class=&quot;sc-nUItV jdWfrq&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='Students']/tbody/tr[13]/td/span/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[13]/td/span/span</value>
+   </webElementXpaths>
+</WebElementEntity>

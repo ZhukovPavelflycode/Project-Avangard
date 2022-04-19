@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>editf</name>
+   <tag></tag>
+   <elementGuidId>eed391d3-e0be-4cad-91d2-ff4249d69f87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div[1]/div/div[2]/div/form/div[1]/table/tbody/tr[1]/td[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>SkillsEstimationForm__AddDescription-sc-14j86w1-6 gsnyMY</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Редактировать</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;RouterApp__Wrapper-sc-itp1b8-0 fGnCKq LayoutContainer&quot;]/div[@class=&quot;ChessTemplate__Wrapper-sc-o4z6mm-0 cMIiDp ChessTemplate&quot;]/div[@class=&quot;ChessTemplate__Right-sc-o4z6mm-2 evkQso Right&quot;]/div[@class=&quot;SkillsEstimationPanel__Wrapper-sc-1tgrngp-0 eOdETR&quot;]/form[@class=&quot;SkillsEstimationForm__EstimationForm-sc-14j86w1-1 bqzDXi toFind&quot;]/div[@class=&quot;style__TableBlockContainer-sc-151ipr8-0 ipFORJ&quot;]/table[@class=&quot;style__TableBlock-sc-151ipr8-2 dPZrZE&quot;]/tbody[@class=&quot;style__TableBlockBody-sc-151ipr8-6 lkHVIn&quot;]/tr[@class=&quot;style__TableBlockRow-sc-151ipr8-5 fvraKO&quot;]/td[@class=&quot;style__TableBlockColumn-sc-151ipr8-8 fenOUT&quot;]/span[@class=&quot;SkillsEstimationForm__AddDescription-sc-14j86w1-6 gsnyMY&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/form/div/table/tbody/tr[2]/td[3]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Редактировать'])[1]/following::span[12]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Фокус развития'])[1]/following::span[24]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Навыки'])[2]/preceding::span[12]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[3]/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Редактировать' or . = 'Редактировать')]</value>
+   </webElementXpaths>
+</WebElementEntity>

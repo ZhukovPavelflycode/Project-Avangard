@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>смоук + функциональный тест вкладки тренеров</description>
+   <name>Тренеры</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f89ec469-086a-41ae-8bec-98c5588201ea</testCaseGuid>
+</TestCaseEntity>

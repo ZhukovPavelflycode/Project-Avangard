@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_2</name>
+   <tag></tag>
+   <elementGuidId>880b1df7-9158-434d-aa74-7435e9e5d894</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div[1]/div/div[2]/div/table/tbody/tr[34]/th[2]/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7f066aa9-6d64-475b-9999-f3e73f341519</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>#E0B2B7</value>
+      <webElementGuid>9120c173-026e-4e3a-ace6-3487bc24c20f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Body__ValueBox-sc-9g1qh5-13 fCFwyd</value>
+      <webElementGuid>cf7c0e88-b429-4167-87fb-e1e40ef14ea2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2</value>
+      <webElementGuid>a758f56b-217d-485d-95e9-d391f1e92a2a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;RouterApp__Wrapper-sc-itp1b8-0 fGnCKq LayoutContainer&quot;]/div[@class=&quot;ChessTemplate__Wrapper-sc-o4z6mm-0 cMIiDp ChessTemplate&quot;]/div[@class=&quot;ChessTemplate__Right-sc-o4z6mm-2 evkQso Right&quot;]/div[@class=&quot;sc-bdVaJa ithBqi&quot;]/table[@class=&quot;Table__Container-sc-dbeq6n-0 WAIxD&quot;]/tbody[@class=&quot;Body__TBody-sc-9g1qh5-4 dylhCp&quot;]/tr[@class=&quot;Body__TRow-sc-9g1qh5-5 kzNKLJ&quot;]/th[@class=&quot;Body__TCell-sc-9g1qh5-6 leDPSu&quot;]/div[@class=&quot;Body__StageScoreContainer-sc-9g1qh5-14 dMoYDr&quot;]/div[@class=&quot;Body__StageScoreEstimation-sc-9g1qh5-16 cCSDIV&quot;]/div[@class=&quot;Body__ValueBox-sc-9g1qh5-13 fCFwyd&quot;]</value>
+      <webElementGuid>7960d717-b694-4829-a13b-efad4b86776c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/table/tbody/tr[33]/th[2]/div/div[2]/div</value>
+      <webElementGuid>00bc3af3-a86a-4f32-acef-020f88763dc5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Холодилин Никита'])[1]/following::div[6]</value>
+      <webElementGuid>9184cbd6-aac5-4c64-8889-41b5b9fcba13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[212]/following::div[11]</value>
+      <webElementGuid>282a6151-d048-4cbc-ac3a-761e3b1220fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Р.'])[1]/preceding::div[1]</value>
+      <webElementGuid>e57d0f32-819d-4b32-bfc2-dc3b3631e693</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Д.Р.'])[1]/preceding::div[5]</value>
+      <webElementGuid>c9e20683-c93d-465a-89dc-1ee9b220558b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[33]/th[2]/div/div[2]/div</value>
+      <webElementGuid>059f34de-73a1-4f8d-8912-d6a2f919c7c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '2' or . = '2')]</value>
+      <webElementGuid>77fde155-5b94-4497-b3b5-d64fd394618d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

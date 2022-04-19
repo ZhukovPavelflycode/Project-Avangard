@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ 5.  1__-_-src-modules-Training-cont_3b1de1</name>
+   <tag></tag>
+   <elementGuidId>731e1686-f2b0-49b4-a094-b107146f79b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layout']/div[3]/div/div[2]/div/div/div/div[2]/div/div[2]/div[3]/div/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button._-_-src-modules-Training-containers-TrainingExercise-___styles__video__control-btn___1TbNm._-_-src-modules-Training-containers-TrainingExercise-___styles__video__control-btnNext___3dZIO</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_-_-src-modules-Training-containers-TrainingExercise-___styles__video__control-btn___1TbNm _-_-src-modules-Training-containers-TrainingExercise-___styles__video__control-btnNext___3dZIO</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layout&quot;)/div[@class=&quot;_-_-src-components-componentKit2-___layout__layoutInner___3qSRs _-_-src-___index2__layout__inner___Mts3C undefined&quot;]/div[@class=&quot;_-_-src-components-componentKit2-___layout__grid___3tN4B _-_-src-___index2__grid___2FOUr&quot;]/div[@class=&quot;_-_-src-components-componentKit2-___layout__gridCellLayoutContentPocket34___3K3vW _-_-src-components-componentKit2-___layout__width75___dUSvB _-_-src-___index2__grid__cell___3sCh5&quot;]/div[@class=&quot;_-_-src-components-componentKit2-___layout__layoutWrap___I17Wy _-_-src-components-componentKit2-___layout__layoutWrapSmm___Rc2mr&quot;]/div[1]/div[@class=&quot;_-_-src-modules-Training-containers-TrainingExercise-___styles__content___3rEU4&quot;]/div[@class=&quot;_-_-src-modules-Training-containers-TrainingExercise-___styles__exercise___KntQo&quot;]/div[@class=&quot;_-_-src-modules-Training-containers-TrainingExercise-___styles__main___KNFRE&quot;]/div[@class=&quot;_-_-src-modules-Training-containers-TrainingExercise-___styles__main__container___3MelF&quot;]/div[@class=&quot;_-_-src-modules-Training-containers-TrainingExercise-___styles__rating___3q8Bf&quot;]/div[@class=&quot;_-_-src-modules-Training-containers-TrainingExercise-___styles__video__control___34ubk&quot;]/button[@class=&quot;_-_-src-modules-Training-containers-TrainingExercise-___styles__video__control-btn___1TbNm _-_-src-modules-Training-containers-TrainingExercise-___styles__video__control-btnNext___3dZIO&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layout']/div[3]/div/div[2]/div/div/div/div[2]/div/div[2]/div[3]/div/button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+   </webElementXpaths>
+</WebElementEntity>

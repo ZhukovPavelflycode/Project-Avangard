@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Вкладки удаление (переиспользуется в Создание карточки болезни)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9ca6fc0-085b-40e5-afcf-df5917d606aa</testCaseGuid>
+</TestCaseEntity>

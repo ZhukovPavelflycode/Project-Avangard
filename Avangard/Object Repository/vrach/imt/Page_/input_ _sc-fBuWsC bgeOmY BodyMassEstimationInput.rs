@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_ _sc-fBuWsC bgeOmY BodyMassEstimationInput</name>
+   <tag></tag>
+   <elementGuidId>b5bd3d40-2e64-4352-b1e9-34f15555e132</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@value=''])[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.sc-fBuWsC.bgeOmY.BodyMassEstimationInput</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>number</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-fBuWsC bgeOmY BodyMassEstimationInput</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-gUlDuu gaDAMP&quot;]/div[@class=&quot;sc-caSCKo hoPXgy BodyMassEstimationApp ChessTemplate&quot;]/div[@class=&quot;sc-kjoXOD eUxBJX Right&quot;]/div[@class=&quot;sc-fMIdLG ifjHUs&quot;]/div[@class=&quot;sc-eerKOB fSGywt TableDefaultContainer&quot;]/div[@class=&quot;sc-emmjRN bTNvq container&quot;]/div[@class=&quot;sc-gJWqzi jQYIDl TableBody&quot;]/div[@class=&quot;sc-iuSgBf ePbIoy&quot;]/div[@class=&quot;sc-ezYOhE zWABQ&quot;]/div[@class=&quot;sc-kNwkiS blZoGM&quot;]/div[@class=&quot;sc-buaoqJ iAjKur&quot;]/input[@class=&quot;sc-fBuWsC bgeOmY BodyMassEstimationInput&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@value=''])[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div/div[2]/div/div[2]/div[2]/div[2]/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/input</value>
+   </webElementXpaths>
+</WebElementEntity>

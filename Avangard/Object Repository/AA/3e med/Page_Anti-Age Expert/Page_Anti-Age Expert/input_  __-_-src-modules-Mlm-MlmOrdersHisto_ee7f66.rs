@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_  __-_-src-modules-Mlm-MlmOrdersHisto_ee7f66</name>
+   <tag></tag>
+   <elementGuidId>26c35736-c68b-4f5d-a2f9-0c7bf0de5e6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layout']/div[2]/div/div[2]/div/div[2]/div/div/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input._-_-src-modules-Mlm-MlmOrdersHistory-components-NameInput-___styles__input___2vs6m</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_-_-src-modules-Mlm-MlmOrdersHistory-components-NameInput-___styles__input___2vs6m</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Введите ФИО врача</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layout&quot;)/div[@class=&quot;_-_-src-components-componentKit2-___layout__layoutInner___3qSRs _-_-src-___index2__layout__inner___Mts3C&quot;]/div[@class=&quot;_-_-src-components-componentKit2-___layout__grid___3tN4B _-_-src-___index2__grid___2FOUr&quot;]/div[@class=&quot;_-_-src-components-componentKit2-___layout__gridCellLayoutContentPocket34___3K3vW _-_-src-components-componentKit2-___layout__width75___dUSvB _-_-src-___index2__grid__cell___3sCh5&quot;]/div[@class=&quot;_-_-src-components-componentKit2-___layout__layoutWrap___I17Wy&quot;]/div[@class=&quot;_-_-src-modules-Mlm-MlmOrdersHistory-___styles__mlmOrdersHistory___37NNO&quot;]/div[1]/div[@class=&quot;_-_-src-modules-Mlm-MlmOrdersHistory-components-NameInput-___styles__searchInputBox___u8ghS&quot;]/input[@class=&quot;_-_-src-modules-Mlm-MlmOrdersHistory-components-NameInput-___styles__input___2vs6m&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layout']/div[2]/div/div[2]/div/div[2]/div/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+   </webElementXpaths>
+</WebElementEntity>

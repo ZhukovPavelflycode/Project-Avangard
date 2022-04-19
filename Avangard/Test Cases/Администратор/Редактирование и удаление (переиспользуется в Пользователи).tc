@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Редактирование и удаление (переиспользуется в Пользователи)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>950c8416-2128-443d-9bdd-07e32e62d6e0</testCaseGuid>
+</TestCaseEntity>

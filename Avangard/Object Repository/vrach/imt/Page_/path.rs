@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>path</name>
+   <tag></tag>
+   <elementGuidId>e14523b4-6141-488e-835f-bfb3b6155c8f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M11.4076 10.469L9.43862 8.5L11.4076 6.53099C11.6669 6.27167 11.667 5.85122 11.4077 5.59187C11.1483 5.33252 10.7278 5.33256 10.4685 5.59187L8.49951 7.56089L6.53047 5.59187C6.27119 5.33252 5.85067 5.33252 5.59135 5.59187C5.33204 5.85122 5.33204 6.27167 5.59139 6.53099L7.56039 8.5L5.59139 10.469C5.33204 10.7284 5.332 11.1488 5.59135 11.4081C5.85077 11.6675 6.27122 11.6674 6.53047 11.4081L8.49951 9.43912L10.4685 11.4081C10.7278 11.6674 11.1483 11.6675 11.4077 11.4081C11.667 11.1488 11.667 10.7283 11.4076 10.469Z</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>#990011</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-keGeJD fILytY&quot;]/div[@class=&quot;sc-cHGsZl iheGMK BodyMassEstimationApp ChessTemplate&quot;]/div[@class=&quot;sc-kgAjT gLMBNJ Right&quot;]/div[@class=&quot;sc-cZDiaf edpHEd&quot;]/div[@class=&quot;sc-fwaxtS fhTKIg&quot;]/div[@class=&quot;sc-gpVXXk djIsxH&quot;]/div[@class=&quot;sc-SUndN kEZJNb&quot;]/div[@class=&quot;sc-gleUXh dNNBiM&quot;]/div[@class=&quot;popup-container popup-container_theme_alfa-on-white sidebar sidebar_visible sidebar_theme_alfa-on-white BodyMassIndexEstimationModal BodyMassIndexEstimationModal_create Sidebar&quot;]/div[@class=&quot;sidebar__inner&quot;]/div[@class=&quot;sidebar__content&quot;]/div[1]/div[@class=&quot;sc-LbWXR jyjXUX&quot;]/div[@class=&quot;sc-sLOAN ewZPPF&quot;]/div[@class=&quot;sc-ifPjwp htRzkM&quot;]/div[@class=&quot;sc-dQRrkI fMsFnE&quot;]/div[@class=&quot;sc-kJhCQv jREHbI&quot;]/div[@class=&quot;sc-cgOEUd jAVssU&quot;]/div[@class=&quot;sc-iVYKXj bRivTN&quot;]/button[@class=&quot;sc-jlyJG cgafQz delete-training-plan&quot;]/svg[1]/g[1]/path[2]</value>
+   </webElementProperties>
+</WebElementEntity>
