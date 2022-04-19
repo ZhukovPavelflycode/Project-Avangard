@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Составы (Омские Ястребы),,,,2022-04-11 11:39:16,2022-04-11 11:39:26,"9,976s",FAILED
-,,,,,,,
-Test Cases/Тренер/Составы,,,,2022-04-11 11:39:25,2022-04-11 11:39:26,"1,556s",FAILED
-"callTestCase(findTestCase(""Тренер/Авторизация""), [:], STOP_ON_FAILURE)",,,,2022-04-11 11:39:25,2022-04-11 11:39:26,"1,514s",FAILED

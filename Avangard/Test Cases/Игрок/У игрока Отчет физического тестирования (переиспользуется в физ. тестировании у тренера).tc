@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>У игрока Отчет физического тестирования (переиспользуется в физ. тестировании у тренера)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>0e83cdf9-0fb4-4376-9784-313b34a3a664</testCaseGuid>
-</TestCaseEntity>

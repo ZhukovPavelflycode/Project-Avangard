@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>проверка доступности игрока (переиспользуется)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>c0b186d6-9cea-4ce2-88db-4eb4b0edba70</testCaseGuid>
-</TestCaseEntity>

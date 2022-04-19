@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Игрок,,,,2022-03-14 22:10:37,2022-03-14 22:40:54,"30m - 16,374s",FAILED
-,,,,,,,
-Test Cases/Игрок/Авторизация,,,,2022-03-14 22:10:40,2022-03-14 22:25:49,"15m - 8,950s",FAILED
-"openBrowser("""")",,,,2022-03-14 22:10:42,2022-03-14 22:25:49,"15m - 6,185s",FAILED
-,,,,,,,
-Test Cases/Игрок/Отчеты,,,,2022-03-14 22:25:49,2022-03-14 22:40:54,"15m - 5,020s",FAILED
-"callTestCase(findTestCase(""Игрок/Авторизация""), [:], STOP_ON_FAILURE)",,,,2022-03-14 22:25:49,2022-03-14 22:40:54,"15m - 4,510s",FAILED

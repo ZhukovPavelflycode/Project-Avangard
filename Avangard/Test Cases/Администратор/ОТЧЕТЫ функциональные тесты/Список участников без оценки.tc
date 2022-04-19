@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>функцуиональное тестирование</description>
-   <name>Список участников без оценки</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a0207baf-ce0a-4aff-97a7-897870887ad5</testCaseGuid>
-</TestCaseEntity>

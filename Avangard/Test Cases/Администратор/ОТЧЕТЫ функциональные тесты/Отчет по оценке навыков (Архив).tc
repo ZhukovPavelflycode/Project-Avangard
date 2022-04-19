@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>функцуиональное тестирование</description>
-   <name>Отчет по оценке навыков (Архив)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>3f1fd9d5-2c67-485b-a96d-e23e5bfe9483</testCaseGuid>
-</TestCaseEntity>

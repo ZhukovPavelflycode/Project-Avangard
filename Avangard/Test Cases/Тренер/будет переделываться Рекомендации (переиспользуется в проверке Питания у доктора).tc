@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>будет переделываться Рекомендации (переиспользуется в проверке Питания у доктора)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>40e30273-ed1b-4351-866f-75d2285565a7</testCaseGuid>
-</TestCaseEntity>
