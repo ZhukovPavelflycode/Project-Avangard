@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Создание пользователя (переиспользуется в Пользователи)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ea894438-5fca-42ce-b86a-9a0632900995</testCaseGuid>
+</TestCaseEntity>

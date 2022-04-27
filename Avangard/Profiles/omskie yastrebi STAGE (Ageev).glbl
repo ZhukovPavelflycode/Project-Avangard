@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>omskie yastrebi STAGE (Ageev)</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Админ</description>
+      <initValue>'TestAdmin@test.ru'</initValue>
+      <name>admin_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TestAdmin@test.ru'</initValue>
+      <name>admin_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Агеев</description>
+      <initValue>'ageev.da@hc-avangard.com'</initValue>
+      <name>coach_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'zz4waxq6'</initValue>
+      <name>coach_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Ганин</description>
+      <initValue>'danilaganin7218@icloud.com'</initValue>
+      <name>player_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'danilaganin7218'</initValue>
+      <name>player_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Доктор</description>
+      <initValue>'TestDoctor@mail.ru'</initValue>
+      <name>doktor_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'testdoctor@mail.ru'</initValue>
+      <name>doktor_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Еронко</description>
+      <initValue>'eronko.i@hc-avangard.com'</initValue>
+      <name>manager_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eronko.i'</initValue>
+      <name>manager_password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://stars-stage.hawk.ru:8080'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ганин Данила'</initValue>
+      <name>player_for_test</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Команда</description>
+      <initValue>'Омские Ястребы'</initValue>
+      <name>school</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Ганин'</initValue>
+      <name>player_for_test_1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Омские Ястребы'</initValue>
+      <name>school_1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Тренер ОФП</description>
+      <initValue>'voityk.av@hc-avangard.com'</initValue>
+      <name>OFP_trainer_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Тренер ОФП</description>
+      <initValue>'voityk.av'</initValue>
+      <name>OFP_trainer_password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

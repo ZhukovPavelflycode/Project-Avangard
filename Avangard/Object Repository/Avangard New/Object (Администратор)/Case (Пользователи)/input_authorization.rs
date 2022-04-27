@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_authorization</name>
+   <tag></tag>
+   <elementGuidId>a006dd76-2e71-45be-b690-28992b98b3c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type = 'email' and @placeholder = 'Ваш E-Mail']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.ui__Input-sc-1cni9v4-1.jzzeSa</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>email</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Ваш E-Mail</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui__Input-sc-1cni9v4-1 jzzeSa</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>testuser@mail.ru</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;RouterApp__Wrapper-sc-itp1b8-0 fGnCKq LayoutContainer&quot;]/div[@class=&quot;BrandedLoginApp__Wrapper-sc-1l8x99f-0 hjlysV&quot;]/div[@class=&quot;BrandedLoginApp__Inner-sc-1l8x99f-3 dMaUdW&quot;]/div[@class=&quot;BrandedLoginApp__LoginPanelPlaceholder-sc-1l8x99f-2 hXlMbH&quot;]/div[@class=&quot;TwoSectionedPanel__Wrapper-sc-z2rqwg-0 hoEqjD&quot;]/div[@class=&quot;TwoSectionedPanel__Right-sc-z2rqwg-2 doBgck&quot;]/div[@class=&quot;BrandedLoginApp__RightContentPlaceholder-sc-1l8x99f-1 itkZkL&quot;]/div[@class=&quot;StyledLoginForm__Wrapper-sc-4j6w6l-0 jIWKYz&quot;]/div[@class=&quot;StyledLoginForm__ContentPlaceholder-sc-4j6w6l-2 kmtXOt&quot;]/div[@class=&quot;StyledLoginForm__Field-sc-4j6w6l-4 gnlZRx&quot;]/input[@class=&quot;ui__Input-sc-1cni9v4-1 jzzeSa&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='testuser@mail.ru']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div/div/div[2]/div/div/div[2]/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'email' and @placeholder = 'Ваш E-Mail']</value>
+   </webElementXpaths>
+</WebElementEntity>

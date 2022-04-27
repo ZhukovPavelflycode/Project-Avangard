@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>авторизация ,используется в остальных тест кейсах
+</description>
+   <name>Авторизация Менеджер</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f3e0ca75-fdd4-472a-a6a3-762dac36fa1c</testCaseGuid>
+</TestCaseEntity>

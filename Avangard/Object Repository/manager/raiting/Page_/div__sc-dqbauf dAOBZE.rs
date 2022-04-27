@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div__sc-dqbauf dAOBZE</name>
+   <tag></tag>
+   <elementGuidId>a5748621-0fde-4431-9291-e782c428bcff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div[2]/div[2]/div/div[7]/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-dqbauf.dAOBZE</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://www.englishpatient.org/english-patient-files/54308545-ab73-4d60-94b5-7865962a66ef.png</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>player avatar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-dqbauf dAOBZE</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-gUlDuu gaDAMP&quot;]/div[@class=&quot;sc-caSCKo hoPXgy undefined ChessTemplate&quot;]/div[@class=&quot;sc-kjoXOD eUxBJX Right&quot;]/div[@class=&quot;sc-wTvpg bvoQdo&quot;]/div[@class=&quot;sc-iruUXe pgRDg&quot;]/div[@class=&quot;sc-lbihag iBCEmf&quot;]/div[@class=&quot;sc-dNkdqv sc-iYscQK cUIxe&quot;]/div[@class=&quot;sc-jigBZP kDnFEW PlayersRatingListItemDefault&quot;]/div[@class=&quot;sc-hYQxRy kCHSeH&quot;]/div[@class=&quot;sc-hFHUSq cFhniW&quot;]/div[@class=&quot;sc-dPdMzh hoKtbo PlayersRatingListItemContentPartContainer&quot;]/div[@class=&quot;sc-gDrLyk jHRMas PlayersRatingListItemPlayerImgContainer&quot;]/div[@class=&quot;sc-dqbauf dAOBZE&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div[2]/div[2]/div/div[7]/div/div/div/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div/div/div</value>
+   </webElementXpaths>
+</WebElementEntity>

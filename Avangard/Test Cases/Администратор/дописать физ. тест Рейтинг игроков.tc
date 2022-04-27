@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>смоук тест</description>
+   <name>дописать физ. тест Рейтинг игроков</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cb2adff-9809-4749-97a7-2131356c2ae9</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5a8b148f-99d8-4cf4-8211-852313bb8b36</id>
+      <masked>false</masked>
+      <name>point</name>
+   </variable>
+</TestCaseEntity>

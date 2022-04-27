@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_()</name>
+   <tag></tag>
+   <elementGuidId>88fae24c-2b68-499d-b16d-5a91eca61d80</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/table/tbody/tr[2]/td[3]/div/p[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>p.custom-event__item.custom-event__title.custom-event__title_list</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-event__item custom-event__title custom-event__title_list</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Игры команды (выездная)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;sc-eNhtbY ibnHyQ LayoutContainer&quot;]/div[@class=&quot;sc-dVhcbM hiidKm ChessTemplate&quot;]/div[@class=&quot;sc-fAjcbJ eVflEW Right&quot;]/div[@class=&quot;sc-boSogY dSxlLr&quot;]/div[@class=&quot;sc-ekkqgF dUYUGv mainCalendar&quot;]/div[@class=&quot;mainCalendar__preloaderWrapper&quot;]/div[@class=&quot;fc fc-media-screen fc-direction-ltr fc-theme-standard&quot;]/div[@class=&quot;fc-view-harness fc-view-harness-passive&quot;]/div[@class=&quot;fc-list  fc-list-sticky fc-listDay-view fc-view&quot;]/div[@class=&quot;fc-scroller&quot;]/table[@class=&quot;fc-list-table&quot;]/tbody[1]/tr[@class=&quot;fc-list-event  fc-event fc-event-start fc-event-end fc-event-today fc-event-future&quot;]/td[@class=&quot;fc-list-event-title&quot;]/div[@class=&quot;custom-event-wrapper&quot;]/p[@class=&quot;custom-event__item custom-event__title custom-event__title_list&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div/div/div[2]/div/div[2]/div/div/table/tbody/tr[2]/td[3]/div/p[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ср'])[1]/following::p[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='среда'])[1]/following::p[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Редактирование профиля'])[1]/preceding::p[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Игры команды (выездная)']/parent::*</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[4]</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_ 19</name>
+   <tag></tag>
+   <elementGuidId>4ab51fda-66f7-4453-ae4c-17ef366ea15f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_-_-src-components-common-Button-___styles__btn___F81Ho _-_-src-components-common-Button-___styles__side___2JYM3</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Перейти к лекциям</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layout&quot;)/div[@class=&quot;_-_-src-components-componentKit2-___layout__layoutInner___3qSRs _-_-src-___index2__layout__inner___Mts3C&quot;]/div[@class=&quot;_-_-src-components-componentKit2-___layout__grid___3tN4B _-_-src-___index2__grid___2FOUr&quot;]/div[@class=&quot;_-_-src-components-componentKit2-___layout__gridCellLayoutContentPocket34___3K3vW _-_-src-components-componentKit2-___layout__width75___dUSvB _-_-src-___index2__grid__cell___3sCh5&quot;]/div[@class=&quot;_-_-src-components-componentKit2-___layout__layoutWrap___I17Wy&quot;]/div[@class=&quot;_-_-src-modules-Purchases-___styles__purchases___gEdFz&quot;]/div[@class=&quot;list&quot;]/div[@class=&quot;item _-_-src-modules-Purchases-___styles__product___3U3Y0&quot;]/div[@class=&quot;_-_-src-modules-Purchases-___styles__info___2mwpC&quot;]/div[@class=&quot;_-_-src-modules-Purchases-___styles__btn___PTpGS&quot;]/button[@class=&quot;_-_-src-components-common-Button-___styles__btn___F81Ho _-_-src-components-common-Button-___styles__side___2JYM3&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layout']/div[3]/div/div[2]/div/div/div/div[5]/div[2]/div[3]/button</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Осталось дней:'])[5]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Дата покупки:'])[5]/following::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Перейти к чату'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIP-чат'])[1]/preceding::button[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div[3]/button</value>
+   </webElementXpaths>
+</WebElementEntity>
