@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Отчет физического тестирования (переиспользуется в Физ. тестировании)</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>4a346f03-e7ca-40f7-84f1-12b20865b7cc</testCaseGuid>
-</TestCaseEntity>

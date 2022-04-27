@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>функциональный тест
-</description>
-   <name>Игровая статистика Тренер</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>76c7744b-3b6d-46a8-a72e-db1f50816414</testCaseGuid>
-</TestCaseEntity>
